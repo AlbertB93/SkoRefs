@@ -1,18 +1,23 @@
 :root{
     --color-main: rgb(57, 61, 114);
     --color-decorate: rgb(221, 210, 210);
+
+    --color-ground: #C5C5C5;
+    /*--color-header: #1f2232;*/
 }
 
 *{
     box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 0;
-
 }
 
 body{
-    background-color: var(--color-main);
+    background-color: var(--color-ground);
 }
+
 
 header{
     background-color: var(--color-main);
@@ -23,19 +28,18 @@ header{
 }
 
 .header--logo{
-    border: solid 5px var(--color-main);
-    border-radius: 50%;
     background-color: var(--color-decorate);
+    border: solid 5px var(--color-ground);
+    border-radius: 50%;
     max-height: 20vh;
-    min-width: 20vh;
     max-width: 20%;
+    min-width: 20vh;
+
 }
 .header--rest{
-    
     max-height: 20vh;
-    width: 87%;
     position: relative;
-
+    width: 87%;
 }
 
 
@@ -48,37 +52,93 @@ header{
 
 
 .header--title{
-    text-align: center;
-    font-size: 36px;
-    color: var(--color-decorate);
+    color: var(--color-ground);
     font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    padding-right: 150px;
     padding-top: 5px;
-  }
+    text-align: center;
+}
 
 .header--straps{
-
-    right: -5px;
+    bottom: -36px;
     position: absolute;
+    right: -34px;
 }
 
 nav{
     border-top: solid 5px var(--color-decorate);
-    border-spacing: 10px;
-    height: 10vh;
-    padding: 10px;
+    color: #1f2232;
+    display: flex;
+    font-size: 20px;
+    height: 8vh;
+    justify-content: center;
+    padding: 1rem 0.5 rem;
     width: 100%;
 }
 
+nav a {
+    align-items: center;
+    color: var(--color-main);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover{
+    color: green;;
+}
+
 main{
-    border: solid 3px yellow;
-    min-height: 70vh;
+    border-top: solid 5px var(--color-decorate);
+    display: flex;
+    justify-content: center;
+    min-height: 68vh;
     position: relative;
     width: 100%;
 }
 
+article{
+    border: solid 2px var(--color-main);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    
+    min-width: 25%;
+    min-height: 20vh;
+    max-height: 40vh;
+
+    position: relative;
+}
+
+.article--title{
+    background-color: yellow;
+    border-radius: 5px;
+    color: var(--color-main);
+    font-size: 18px;
+    height: 15%;
+    text-align: center;
+}
+
+.article--image{
+    height: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.article--image--file{
+    height: 80%;
+    width: 75%;
+}
+
+
 footer{
-
-    border: solid 3px red;
+    border-top: solid 1px var(--color-decorate);
+    color: var(--color-main);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
     width: 100%;
-
 }
