@@ -142,3 +142,57 @@ footer{
     padding-right: 10px;
     width: 100%;
 }
+
+
+/*********************************** REFS.HTML ********************************************/
+
+.main--refs{
+   border: solid 3px black;
+   min-width: 80vw;
+}
+
+.list--refs--title{
+    text-align: center;
+    color:var(--color-main);    
+    font-size: 20px;
+    height: 10vh;
+    padding-top: 24px;
+}
+
+.league--title{
+    color:var(--color-main);    
+    font-size: 16px;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.ref--person{
+    border: solid 1px black;
+    display: flex;
+    min-height: 20vh;
+    min-width: 70vh;
+
+}
+
+.ref--person--image{
+    border: solid 2px green;
+    height: 100%;
+    margin: 5px ;
+    display: flex;
+    justify-content: center;
+    width: 15vw;
+}
+
+.ref--person--image--file{
+    text-align: center;
+    max-height: 75%;
+    max-width: 75%;
+    padding-top: 10px;
+}
+
+.ref--person--description{
+    color:var(--color-main);    
+    font-size: 20px;
+    height: 10vh;
+    padding-top: 10px;
+}
