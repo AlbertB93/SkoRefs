@@ -161,9 +161,19 @@ footer{
 
 .league--title{
     color:var(--color-main);    
-    font-size: 16px;
+    cursor: pointer;
+    font-size: 18px;
     list-style-type: none;
     padding-left: 20px;
+}
+
+.ref--person--container{
+    border: solid 2px red;
+}
+
+.ref--person--container1{
+    border: solid 2px yellow;
+    display: block;
 }
 
 .ref--person{
