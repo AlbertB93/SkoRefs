@@ -1,10 +1,10 @@
 
 
 function toggle(idDiv) {
-    var oDiv = document.getElementsByClassName('ref--person--container1')[0];
-    oDiv.style.display = (oDiv.style.display == "none") ? "block" : "none";
-} 
+    var oDiv = document.getElementById(idDiv);
+    oDiv.style.display = (oDiv.style.display == "block") ? "none" : "block";
 
+} 
 
 
 
