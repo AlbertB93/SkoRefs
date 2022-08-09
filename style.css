@@ -155,7 +155,8 @@ footer{
 
 /*********************************** REFS.HTML ********************************************/
 
-.main--refs{
+.main--refs,
+.main--cast{
    min-width: 80vw;
 }
 
@@ -259,8 +260,9 @@ footer{
 .articles{
 /*     border: solid 3px black; */
     min-height: 50vh;
-    min-width: 80vw;
-    max-width: 90vw;
+   /*  min-width: 80vw;
+    max-width: 90vw; */
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -306,3 +308,60 @@ footer{
     color:black;
     text-decoration: none;
 }
+
+/*********************************** CAST.HTML ********************************************/
+
+.month--container{
+    border-top: solid 0.5px var(--color-main); 
+    color:var(--color-main);    
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+}
+
+#august{
+    border: solid 2px red;
+
+    display: none;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.week{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.august--week{
+/*     border: solid 2px greenyellow; */
+
+    border-left: solid 0.5px var(--color-main); 
+    border-right: solid 0.5px var(--color-main); 
+    display: inline-block;
+    padding: 0 30px;
+}
+
+#cast--table,
+#cast--table1{
+/*     border: solid 2px blue; */
+    display: none;
+}
+
+.table--title{
+    cursor:default;
+    text-align: center;
+    padding-top: 10px;
+}
+ 
+table, table *
+{
+    border: solid 1px black;
+    cursor:default;
+    margin-top: 20px;
+    padding: 5px;
+}
+
