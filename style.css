@@ -26,11 +26,11 @@ body {
 
 header {
     /*  background-color: var(--color-header); */
-    background-image: url(images/tlo-header-2.webp);
-    background-size: cover;
+    background-image: url(images/tlo-header-4.webp);
+    background-size: contain;
     display: flex;
     height: 20vh;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -58,16 +58,12 @@ h1 {
     font-size: 40px;
     letter-spacing: 0.5px;
     text-shadow: 2px 2px black;
+    transition: 2s;
 }
 
-.header--flags {
-    top: 20px;
-    position: absolute;
-    right: 10px;
-}
 
 nav {
-    /* border-top: solid 5px var(--color-decorate); */
+    border-top: solid 1px grey;
     background-image: url(images/tlo-header-2.webp);
     background-size: cover;
     color: #1f2232;
@@ -81,7 +77,6 @@ nav {
 
 nav a {
     align-items: center;
-    /*    color: var(--color-main); */
     color: orange;
     text-decoration: none;
     padding: 0.5rem;
@@ -93,32 +88,33 @@ nav a:hover {
 }
 
 main {
-    background: linear-gradient(to bottom, rgb(206, 202, 202), rgb(63, 61, 61));
-    /* border-top: solid 5px var(--color-decorate); */
+/*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(63, 61, 61)); */
+
+/*     background: linear-gradient(to top, rgb(206, 202, 206), rgba(235, 202, 15, 0.555)); */
+
+    background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
+}
+
+.section--articles{
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 68vh;
-    position: relative;
     width: 100%;
 }
 
 article {
-    /*     border: solid 2px orange; */
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     height: 300px;
-    position: relative;
     width: 300px;
 }
 
 .article--title {
     background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
     border-radius: 5px;
-    color: var(--color-main);
     font-size: 18px;
-    height: 20%;
+    height: 10%;
     text-align: center;
 }
 
@@ -133,24 +129,31 @@ article {
 }
 
 .article--image {
-    height: 100%;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+
+/*     background: linear-gradient(to bottom, rgb(206, 202, 202), rgb(63, 61, 61)); */
+    height: 88%;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 5px; 
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .article--image--file {
-    height: 100%;
-    width: 100%;
+    border-radius: 5px;
+    height: 80%;
+    width: 80%;
 }
 
 
 footer {
     border-top: solid 1px var(--color-decorate);
     color: grey;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 10px;
+    position: relative;
+    text-align: right;
+    padding-right: 5px;
     width: 100%;
 }
 
@@ -160,24 +163,36 @@ footer {
 
 .main--refs,
 .main--cast {
-    min-width: 80vw;
+/*     border: solid 3px yellow; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.list--refs--title {
+    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+    border-radius: 10px;
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    height: 80px;
+    width: 400px;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 .list--refs {
-    text-align: center;
-}
-
-.list--refs--title {
-    text-align: center;
-    color: darkblue;
-    font-size: 20px;
-    height: 10vh;
-    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .league--title {
-    border-top: solid 0.5px var(--color-main);
-    color: var(--color-main);
+    color: black;
     cursor: pointer;
     font-size: 18px;
     margin: 0 auto;
@@ -198,6 +213,8 @@ footer {
 
 
 .ref--person {
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));  
     display: flex;
     min-height: 20vh;
     min-width: 70vh;
@@ -230,33 +247,35 @@ footer {
     text-align: left;
     width: 75vw;
     position: relative;
+    margin-left: 15px;
 }
 
 .ref--person--description--name {
-    border-top: solid 0.5px var(--color-main);
-    color: darkblue;
+    color: orange;
+    text-shadow: 5px;
     font-size: 20px;
-    font-weight: 800;
+/*     font-weight: 600; */
     letter-spacing: 1px;
     padding-top: 5px;
 
 }
 
 .ref--person--description--shortDescritpion {
-    color: black;
+    color: orange;
     font-size: 16px;
     padding-top: 12px;
     text-align: left;
 }
 
 .ref--person--description--button {
-    border: solid 2px var(--color-main);
+    border: solid 2px orange;
+    color: orange;
     border-radius: 10px;
-    color: var(--color-main);
+    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
     cursor: pointer;
-    bottom: 0px;
+    bottom: 10px;
     font-size: 14px;
-    right: 0px;
+    right: 20px;
     padding: 5px;
     position: absolute;
     text-decoration: none;
@@ -331,7 +350,7 @@ footer {
 /*********************************** CAST.HTML ********************************************/
 
 .month--container {
-    border-top: solid 0.5px var(--color-main);
+/*     border-top: solid 0.5px var(--color-main); */
     color: var(--color-main);
     cursor: pointer;
     font-size: 18px;
@@ -362,9 +381,9 @@ footer {
 .august--week {
     /*     border: solid 2px greenyellow; */
 
-    border-left: solid 0.5px var(--color-main);
-    border-right: solid 0.5px var(--color-main);
-    color: darkblue;
+    border-left: solid 0.5px black;
+    border-right: solid 0.5px black;
+    color: black;
     display: inline-block;
     padding: 0 30px;
 }
@@ -385,7 +404,7 @@ footer {
 
 table, table * {
     border: solid 1px black;
-    color: darkblue;
+    color: black;
     cursor: default;
     /* margin-top: 20px; */
     padding: 5px;
@@ -399,32 +418,93 @@ table th {
 /*********************************** NEWSTEST.HTML ********************************************/
 
 .news--articles{
-    background: linear-gradient(to bottom, rgb(206, 202, 202), rgb(63, 61, 61));
+/* background: linear-gradient(to bottom, rgb(206, 202, 202), rgb(63, 61, 61)); */
+    background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
 display: grid;
-grid-template-columns: 10% 20% 10% 20% 10% 20% 10%;
-grid-template-rows: 10% 20% 10% 20% 10% 20% 10%;
+grid-template-columns: 10% 18% 16% 16% 16% 16% 10%;
+grid-template-rows: 10% 15% 10% 35% 10%;
 height: 100%;
 width: 100%;
 }
 
 #news--1{
-    grid-column: 4/5;
+    grid-column: 2/3;
     grid-row: 2/3;
 }
 
 #news--2{
 
-    grid-column: 6/7;
+    grid-column: 3/4;
     grid-row: 3/4;
 }
 
 #news--3{
 
     grid-column: 4/5;
-    grid-row: 6/7;
+    grid-row: 2/3;
 }
 #news--4{
 
-    grid-column: 2/3;
+    grid-column: 5/6;
     grid-row: 3/4;
+}
+
+#news--5{
+
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+
+/********************** MEDIA  *****************************************/
+
+
+@media screen and (max-width: 1000px) {
+    
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+h1{
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.header--logo{
+    margin-top: 45px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 30vh;
+}
+
+nav a{
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.section--articles{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 68vh;
+    width: 100%;
+}
+
+article{
+margin-top: 15px;
+/* height: 100px;
+width: 100px; */
+}
+
+
 }
