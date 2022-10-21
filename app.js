@@ -2,10 +2,17 @@
 
 function toggle(idDiv) {
     var oDiv = document.getElementById(idDiv);
+    oDiv.style.display = (oDiv.style.display == "flex") ? "none" : "flex";
+
+}
+
+
+
+function toggleBlock(idDiv) {
+    var oDiv = document.getElementById(idDiv);
     oDiv.style.display = (oDiv.style.display == "block") ? "none" : "block";
 
-} 
-
+}
 
 
 

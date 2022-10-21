@@ -49,7 +49,7 @@ header {
     max-height: 80%;
     max-width: 80%;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 h1 {
@@ -59,18 +59,23 @@ h1 {
     letter-spacing: 0.5px;
     text-shadow: 2px 2px black;
     transition: 2s;
+    margin-top: -20px;
 }
 
 
 nav {
     border-top: solid 1px grey;
-    background-image: url(images/tlo-header-2.webp);
-    background-size: cover;
+    background: linear-gradient(to left, rgb(28, 27, 27), rgb(40, 37, 37));
+/*     background-image: url(images/tlo-header-4.webp);
+    background-size: contain; */
     color: #1f2232;
     display: flex;
+    justify-content: right;
+/*     position: fixed;
+    bottom: 485px;
+    left: 900px; */
     font-size: 20px;
     height: 8vh;
-    justify-content: right;
     padding: 1rem 0.5 rem;
     width: 100%;
 }
@@ -93,6 +98,7 @@ main {
 /*     background: linear-gradient(to top, rgb(206, 202, 206), rgba(235, 202, 15, 0.555)); */
 
     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
+    min-height: 420px;
 }
 
 .section--articles{
@@ -161,8 +167,7 @@ footer {
 
 /*********************************** REFS.HTML ********************************************/
 
-.main--refs,
-.main--cast {
+.main--refs{
 /*     border: solid 3px yellow; */
     align-items: center;
     display: flex;
@@ -194,7 +199,8 @@ footer {
 .league--title {
     color: black;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 600;
     margin: 0 auto;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -218,6 +224,7 @@ footer {
     display: flex;
     min-height: 20vh;
     min-width: 70vh;
+    margin-top: 20px;
 
 }
 
@@ -349,6 +356,22 @@ footer {
 
 /*********************************** CAST.HTML ********************************************/
 
+.main--cast {
+    
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.empty--field{
+/*     background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37)); */
+    height: 250px;
+    width: 100%;
+}
+
 .month--container {
 /*     border-top: solid 0.5px var(--color-main); */
     color: var(--color-main);
@@ -358,34 +381,54 @@ footer {
     padding: 10px;
     text-align: center;
     width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.cast--title {
+    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+    border-radius: 10px;
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    height: 80px;
+    width: 400px;
+    padding-top: 20px;
+    margin-top: 50px;
 }
 
 .month {
-    color: black;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+    color: orange;
+    width: 200px;
+    margin: 10px auto;
+    padding: 4px 0;
 }
 
 #august {
     /*     border: solid 2px red; */
 
     display: none;
-    text-align: left;
+/*     text-align: left; */
     padding-top: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+    
 }
 
-.week {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 
 .august--week {
-    /*     border: solid 2px greenyellow; */
+/*         border: solid 2px greenyellow; */
 
-    border-left: solid 0.5px black;
-    border-right: solid 0.5px black;
-    color: black;
-    display: inline-block;
-    padding: 0 30px;
+/*     border-left: solid 0.5px black;
+    border-right: solid 0.5px black; */
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+    color: orange;
+    padding: 4px 30px;
 }
 
 #august_06_07,
@@ -398,6 +441,8 @@ footer {
 .table--title {
     color: black;
     cursor: default;
+    font-size: 20px;
+    font-weight: 600;
     text-align: center;
     padding-top: 30px;
 }
@@ -419,10 +464,10 @@ table th {
 
 .news--articles{
 /* background: linear-gradient(to bottom, rgb(206, 202, 202), rgb(63, 61, 61)); */
-    background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
+background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
 display: grid;
-grid-template-columns: 10% 18% 16% 16% 16% 16% 10%;
-grid-template-rows: 10% 15% 10% 35% 10%;
+grid-template-columns: 2% 20% 18% 18% 18% 16%;
+grid-template-rows: 10% 10% 10% 70%;
 height: 100%;
 width: 100%;
 }
