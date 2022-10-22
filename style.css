@@ -72,8 +72,8 @@ nav {
     display: flex;
     justify-content: right;
 /*     position: fixed;
-    bottom: 485px;
-    left: 900px; */
+    bottom: 600px;
+    left: 1050px; */
     font-size: 20px;
     height: 8vh;
     padding: 1rem 0.5 rem;
@@ -219,6 +219,7 @@ footer {
 
 
 .ref--person {
+
     border-radius: 10px;
     background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));  
     display: flex;
@@ -229,25 +230,22 @@ footer {
 }
 
 .ref--person--image {
-    /*  border: solid 2px green; */
+/*     border: solid 2px green; */
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
     max-width: 160px;
-    max-height: 180px;
+    max-height: 300px;
     margin: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 15vw;
-}
-
-.ref--person--image--file {
-    border-radius: 25px;
-    text-align: center;
-    max-height: 180px;
-    max-width: 160px;
-    padding-top: 10px;
+    color: black;
 }
 
 .ref--person--description {
-    color: var(--color-main);
+    color: orange;
     font-size: 20px;
     height: 30vh;
     padding-top: 10px;
@@ -256,6 +254,15 @@ footer {
     position: relative;
     margin-left: 15px;
 }
+
+.ref--person--image--file {
+    border-radius: 25px;
+    max-height: 150px;
+    max-width: 15   0px;
+    padding-top: 10px;
+}
+
+
 
 .ref--person--description--name {
     color: orange;
