@@ -101,58 +101,6 @@ main {
     min-height: 420px;
 }
 
-.section--articles{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 68vh;
-    width: 100%;
-}
-
-article {
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    width: 300px;
-}
-
-.article--title {
-    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
-    border-radius: 5px;
-    font-size: 18px;
-    height: 10%;
-    text-align: center;
-}
-
-.article--title a {
-    text-decoration: none;
-    /*     color: var(--color-main); */
-    color: orange;
-}
-
-.article--title a:hover {
-    color: grey;
-}
-
-.article--image {
-    border-radius: 5px;
-    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
-
-/*     background: linear-gradient(to bottom, rgb(206, 202, 202), rgb(63, 61, 61)); */
-    height: 88%;
-    width: 100%;
-    margin-top: 5px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.article--image--file {
-    border-radius: 5px;
-    height: 80%;
-    width: 80%;
-}
-
 
 footer {
     border-top: solid 1px var(--color-decorate);
@@ -162,6 +110,78 @@ footer {
     padding-right: 5px;
     width: 100%;
 }
+
+/************ STRONA GŁÓWNA *****************/
+
+.section--articles{
+    background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
+    display: grid;
+    grid-template-columns: 2% 17.8% 17.8% 17.8% 17.8% 17.8% ;
+    grid-template-rows: 10% 10% 10% 70%;
+    min-height: 520px;
+    width: 100%;
+}
+
+article {
+    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+}
+
+article a {
+    text-align: center;
+    text-decoration: none;
+    color: orange;
+    margin-top: 10px;
+}
+
+article a:hover {
+    color: grey;
+}
+
+.article--image {
+    margin: 10px auto;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.article--image--file {
+    margin: 10px auto;
+    border-radius: 5px;
+    height: 80%;
+    width: 90%;
+}
+
+
+
+#article--1{
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+
+#article--2{
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+
+#article--3{    
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+#article--4{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#article--5{
+    grid-column: 2/3;
+    grid-row: 2/3
+}
+
 
 
 
@@ -295,71 +315,7 @@ footer {
     text-decoration: none;
 }
 
-/*********************************** NEWS.HTML ********************************************/
 
-.articles {
-    /*     border: solid 3px black; */
-    /*   height: 300px; */
-    /*  min-width: 80vw;
-    max-width: 90vw; */
-    /*     width: 350px; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /*  justify-content: space-between; */
-    /*     display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(3, 300px) ;
-    grid-template-rows: 500px 100px 100px; */
-}
-
-
-.articles--news {
-    /*     border: solid 2px rgb(17, 27, 112);  */
-    border-radius: 10px;
-    height: 300px;
-    width: 350px;
-    margin: 50px 50px;
-    /*     text-align: center; */
-}
-
-/* article{
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    margin: 50px auto;
-    position: relative;
-    width: 350px;
-} */
-
-
-.buttons--container {
-    /*     border: solid 3px green;  */
-    height: 10vh;
-    margin: 0 auto;
-    max-width: 20vw;
-    display: flex;
-    flex-direction: row;
-    padding: 16px;
-    position: absolute;
-    bottom: 0;
-    /*     grid-column: 1 / -1;
-    margin-top: -100px; */
-}
-
-.buttons--container--button {
-    border: solid 2px rgb(17, 27, 112);
-    border-radius: 20px;
-    text-align: center;
-    height: 4vh;
-    width: 3vw;
-}
-
-.buttons--container a {
-    color: black;
-    text-decoration: none;
-}
 
 /*********************************** CAST.HTML ********************************************/
 
