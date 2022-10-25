@@ -19,7 +19,8 @@
 
 body {
     /*     background: linear-gradient(to right, grey, white); */
-    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+/*     background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37)); */
+    background-color: red;
     color: orange;
     width: 100%;
 }
@@ -91,7 +92,7 @@ main {
 /*     background: linear-gradient(to top, rgb(206, 202, 206), rgba(235, 202, 15, 0.555)); */
 
     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
-    max-height: 600px;
+    min-height: 600px;
 /*     min-height: 400px; */
 }
 
@@ -100,7 +101,8 @@ footer {
     border-top: solid 1px var(--color-decorate);
     color: grey;
     background: linear-gradient(to left, rgb(28, 27, 27), rgb(40, 37, 37));
-    position: absolute;
+    position: relative;
+
     text-align: right;
     max-height: 30px;
     padding-right: 5px;
