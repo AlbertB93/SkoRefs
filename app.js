@@ -29,3 +29,6 @@ function toggle(idDiv) {
  
 } 
  */
+
+const OBRAZ = document.querySelector(".list--refs--title");
+console.log(OBRAZ);

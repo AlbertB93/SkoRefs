@@ -19,9 +19,14 @@
 
 body {
     /*     background: linear-gradient(to right, grey, white); */
-/*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
-    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
-/*   */
+/*     background: linear-gradient(to bottom, rgb(28, 27, 28), rgb(255, 186, 57)); */
+/*   background: linear-gradient(to right bottom, rgba(28, 27, 27,0.9), rgba(40, 37, 37,0.7));  */
+/*  background: linear-gradient(to right bottom, rgb(238, 179, 106), rgba(40, 40, 37,0.8)); */
+  background: linear-gradient(to right bottom, rgb(28, 27, 27), rgb(40, 37, 37)); 
+
+
+    height: 100%;
+
     color: orange;
     width: 100%;
 }
@@ -94,8 +99,8 @@ main {
 /*     background: linear-gradient(to top, rgb(206, 202, 206), rgba(235, 202, 15, 0.555)); */
 
 /*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
-    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
-    min-height: 600px;
+/*     background: linear-gradient(to top, rgb(175, 98, 3), rgb(40, 37, 37)); */
+    height: 100%;
 /*     min-height: 400px; */
 }
 
@@ -109,6 +114,7 @@ footer {
     max-height: 30px;
     padding-right: 5px;
     width: 100%;
+    bottom: 0px;
 }
 
 /************ STRONA GŁÓWNA *****************/
@@ -200,12 +206,18 @@ article a:hover {
 
 
 .list--refs--title {
-    border: solid 3px orange;
-    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+/*     border-left: solid 5px black;
+    border-top: solid 5px black;
+    border-right: solid 5px orange;
+*/
+/*     background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37)); */
+
+border: solid 5px orange;
     border-radius: 10px;
     text-align: center;
     color: orange;
     font-size: 20px;
+    font-weight: 400;
     height: 80px;
     width: 400px;
     margin: 20px auto;
@@ -215,18 +227,20 @@ article a:hover {
 .main--refs{
 /*     border: solid 3px yellow; */
 /*     align-items: center; */
-    background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+ /*    background: linear-gradient(to top, rgb(175, 98, 3), rgb(40, 37, 37)); */
+/*     background: linear-gradient(to bottom, rgb(243, 109, 7), rgb(143, 77, 2)); */
     display: grid;
     grid-template-columns: 4% 20% 16% 20% 16% 20% 4% ;
-    grid-template-rows: 2% 20% 8% 20% 20% 10% ;
+    grid-template-rows: 2% 20% 16% 20% 20% 10% ;
     height: 800px;
     width: 100%;
 }
 
 .ref--person {
- /*    border: solid 3px orange; */
+    border: solid 3px orange;
     border-radius: 10px;
 /*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
+  background: linear-gradient(to right bottom, rgb(28, 27, 27), rgb(40, 37, 37)); 
     display: flex;
     flex-direction: column;
     height: 350px;
@@ -267,21 +281,29 @@ article a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: orange;
+    color: black;
+    transform: scale(1);
+    transition: transform 0.3s;
 }
 
+.ref--person--image:hover{
+    transform: scale(1.1);
+}
 
 .ref--person--description {
-    border: solid 3px orange;
+    border-left: solid 3px orange;
+    border-top: solid 3px orange;
+    border-right: solid 3px black;
+    border-bottom: solid 3px black;
 /*     background: linear-gradient(to top, rgb(36, 35, 36), rgb(255, 186, 57)); */
-    background: linear-gradient(to top, rgb(36, 35, 36), rgb(231, 130, 29));
+    background: linear-gradient(to left top, rgb(36, 35, 36), rgb(231, 130, 29));
     border-radius: 20px;
-    color: orange;
+    box-shadow: 0 0 16px 1px orange;
     font-size: 20px;
-    height: 200px;
+    margin-top: 30px;
     padding-top: 10px;
 /*     text-align: left; */
-    width: 300px;
+
     position: relative;
 /*     margin-left: 15px; */
 }
@@ -289,7 +311,7 @@ article a:hover {
 .ref--person--image--file {
     border: solid 3px orange;
     border-radius: 90px;
-    max-height: 150px;
+        max-height: 150px;
     max-width: 150px;
 /*     padding-top: 10px; */
 }
@@ -300,6 +322,7 @@ article a:hover {
     color: orange;
     text-shadow: 5px;
     font-size: 20px;
+    font-weight: 600;
 /*     font-weight: 600; */
     letter-spacing: 1px;
     padding-top: 5px;
@@ -307,10 +330,12 @@ article a:hover {
 }
 
 .ref--person--description--shortDescritpion {
+    
     color: black;
     font-size: 16px;
-    padding-top: 12px;
+    padding: 8px;
     text-align: left;
+    height: 150px;
 }
 
 .ref--person--description--button {
