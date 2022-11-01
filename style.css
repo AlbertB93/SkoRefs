@@ -20,7 +20,7 @@
 body {
     /*     background: linear-gradient(to right, grey, white); */
 /*     background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37)); */
-    background-color: red;
+     background: linear-gradient(to top, rgb(240, 224, 195), rgb(255, 186, 57));
     color: orange;
     width: 100%;
 }
@@ -64,8 +64,8 @@ h1 {
 
 
 nav {
-    border-top: solid 1px grey;
-    background: linear-gradient(to left, rgb(28, 27, 27), rgb(40, 37, 37));
+    border-top: solid 1px orange;
+    background: linear-gradient(to left, rgb(11, 10, 10), rgb(40, 37, 37));
     display: flex;
     justify-content: right;
     font-size: 20px;
@@ -87,11 +87,10 @@ nav a:hover {
 }
 
 main {
-/*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(63, 61, 61)); */
 
-/*     background: linear-gradient(to top, rgb(206, 202, 206), rgba(235, 202, 15, 0.555)); */
 
-    background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
+
+/*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
     min-height: 600px;
 /*     min-height: 400px; */
 }
@@ -112,7 +111,10 @@ footer {
 /************ STRONA GŁÓWNA *****************/
 
 .section--articles{
-    background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
+
+        background: linear-gradient(to top, rgb(240, 224, 195), rgb(255, 186, 57));
+/*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
+/*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(63, 61, 61)); */
     display: grid;
     grid-template-columns: 2% 17.8% 17.8% 17.8% 17.8% 17.8% ;
     grid-template-rows: 10% 10% 10% 70%;
