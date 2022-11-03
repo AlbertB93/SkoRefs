@@ -75,15 +75,18 @@ nav {
 }
 
 nav a {
+
     align-items: center;
     color: orange;
     text-decoration: none;
     padding: 0.5rem;
-    transition: 2s;
+    transition: 1s;
 }
 
 nav a:hover {
-    color: white;
+    border-radius: 30px;
+    background-color: orange;
+    color: black;
 }
 
 main {
@@ -112,7 +115,10 @@ footer {
 
 .section--articles{
 
-        background: linear-gradient(to top, rgb(240, 224, 195), rgb(255, 186, 57));
+ /*        background: linear-gradient(to top, rgb(240, 224, 195), rgb(255, 186, 57)); */
+  background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); 
+
+
 /*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
 /*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(63, 61, 61)); */
     display: grid;
@@ -123,8 +129,8 @@ footer {
 }
 
 article {
-    border: solid 3px black;
-    background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
+    border: solid 2px black;
+    background: linear-gradient(to bottom, rgb(58, 57, 58), rgb(255, 186, 57));
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -132,7 +138,15 @@ article {
     align-items: center;
     height: 300px;
     width: 300px;
+    box-shadow: 4px 4px  black;
+    transition: 0.5s;
+    transform: scale(1);
 }
+
+article:hover{
+    transform: scale(1.1);
+}
+
 
 article a {
     border: solid 2px black;
@@ -147,8 +161,8 @@ article a {
 }
 
 article a:hover {
-        background-color: black;
-    color: white;
+    background-color: black;
+    color: orange;
 }
 
 .article--image {
@@ -190,10 +204,8 @@ article a:hover {
 
 #article--5{
     grid-column: 2/3;
-    grid-row: 2/3
+    grid-row: 2/3;
 }
-
-
 
 
 /*********************************** REFS.HTML ********************************************/
