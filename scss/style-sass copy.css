@@ -80,7 +80,7 @@ main {
 }
 
 .toDownload--main {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -89,11 +89,12 @@ main {
 }
 
 .toDownload--main .toDownload--option {
-  border: solid 2px black;
-  background: linear-gradient(to top, #3a393a, #ffba39);
+  /*  border: solid 2px black;
+        background: linear-gradient(to top, rgb(58, 57, 58), rgb(255, 186, 57)); */
   border-radius: 20px;
-  height: 400px;
-  width: 300px;
+  height: 800px;
+  width: 500px;
+  margin-bottom: 20px;
 }
 
 .toDownload--main .toDownload--option .toDownload--option--title {
@@ -104,8 +105,9 @@ main {
 }
 
 .toDownload--main .toDownload--option .toDownload--option--list {
-  flex-direction: column;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .toDownload--main .toDownload--option .toDownload--option--list .option--list {
@@ -114,4 +116,25 @@ main {
   border: solid 1px black;
   background: linear-gradient(to left, #494545, #282525);
   color: orange;
+  height: 300px;
+  width: 200px;
+}
+
+.toDownload--main .toDownload--option .toDownload--option--list .option--list .option--list--file {
+  height: 250px;
+  width: 100%;
+  margin: auto a;
+}
+
+.toDownload--main .toDownload--option .toDownload--option--list .option--list .option--list--file .option--list--file--photo {
+  align-items: center;
+  margin-top: 10px;
+  max-width: 180px;
+  max-height: 240px;
+}
+
+.toDownload--main .toDownload--option .toDownload--option--list .option--list .option--list--title {
+  margin-top: 10px;
+  height: 50px;
+  width: 100%;
 }

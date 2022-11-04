@@ -6,6 +6,12 @@ function toggle(idDiv) {
 
 }
 
+function toggle2(idDiv) {
+    var oDiv = document.getElementsByClassName(idDiv)[0];
+    oDiv.style.display = (oDiv.style.display == "flex") ? "none" : "flex";
+
+}
+
 
 
 function toggleBlock(idDiv) {
