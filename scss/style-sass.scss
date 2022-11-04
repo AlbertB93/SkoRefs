@@ -1,0 +1,33 @@
+@import "_template.scss";
+
+.toDownload--main {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+
+    .toDownload--option--title {
+        border-bottom: solid 3px black;
+        font-size: 30px;
+        margin-bottom: 30px;
+        cursor: pointer;
+
+
+    }
+
+    .toDownload--option--list {
+
+
+        flex-direction: column;
+        display: flex;
+
+
+        .option--list {
+            margin: 10px;
+            font-size: 16px;
+            border: solid 1px black;
+        }
+    }
+}

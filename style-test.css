@@ -110,15 +110,13 @@ main {
 footer {
     border-top: solid 1px var(--color-decorate);
     color: grey;
-    background: linear-gradient(to left, rgb(28, 27, 27), rgb(40, 37, 37));
+    background: linear-gradient(to left, rgb(11, 10, 10), rgb(40, 37, 37));
     position: relative;
     text-align: right;
     max-height: 30px;
     padding-right: 5px;
     width: 100%;
-    bottom: 0px;
 }
-
 /************ STRONA GŁÓWNA *****************/
 
 .section--articles{

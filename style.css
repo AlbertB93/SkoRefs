@@ -90,9 +90,6 @@ nav a:hover {
 }
 
 main {
-
-
-
 /*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
     min-height: 600px;
 /*     min-height: 400px; */
@@ -104,7 +101,6 @@ footer {
     color: grey;
     background: linear-gradient(to left, rgb(28, 27, 27), rgb(40, 37, 37));
     position: relative;
-
     text-align: right;
     max-height: 30px;
     padding-right: 5px;
