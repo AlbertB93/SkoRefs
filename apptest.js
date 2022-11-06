@@ -11,18 +11,18 @@ function init(){
 
     openBtn.onclick = openPopup;
 
-    let closeBtn = document.getElementById("popup-btn");
+    let closeBtn = document.getElementById("popup--btn");
     closeBtn.onclick = closePopup;
 
 }
 
 function openPopup(){
-    document.getElementById("popup-main").style.display = "block";
+    document.getElementById("popup--main").style.display = "flex";
     document.getElementsByClassName("main--refs")[0].style.opacity = 0.3;
 }
 
 function closePopup(){
-    document.getElementById("popup-main").style.display = "none";
+    document.getElementById("popup--main").style.display = "none";
         document.getElementsByClassName("main--refs")[0].style.opacity = 1;
 }
 

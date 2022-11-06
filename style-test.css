@@ -59,9 +59,9 @@ header {
 }
 
 h1 {
-/*     color: orange; */
+    color: orange;
 /*     color:cornflowerblue; */
-    color: rgb(161,48,52);
+
     font-weight: 700;
     font-size: 40px;
     letter-spacing: 0.5px;
@@ -85,7 +85,7 @@ nav {
 
 nav a {
     align-items: center;
-    color:cornflowerblue;
+    color:orange;
     text-decoration: none;
     padding: 0.5rem;
     transition: 2s;
@@ -243,8 +243,9 @@ article a:hover {
     border-bottom: solid 3px black;
     border-radius: 10px;
 /*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
-    background: linear-gradient(to right bottom, rgb(36, 35, 36), rgb(231, 130, 29));
-      box-shadow: 0 0 16px 1px orange;
+/*     background: linear-gradient(to right bottom, rgb(36, 35, 36), rgb(231, 130, 29)); */
+         background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
+      box-shadow: 0 0 16px 1px black;
     display: flex;
     flex-direction: column;
     height: 350px;
@@ -280,7 +281,7 @@ article a:hover {
 /*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
     max-width: 160px;
     max-height: 300px;
-    margin: 5px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -291,7 +292,7 @@ article a:hover {
 }
 
 .ref--person--image:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .ref--person--description {
@@ -357,16 +358,71 @@ article a:hover {
     text-decoration: none;
 }
 
-#popup-main{
+#popup--main{
     display: none;
     position: fixed;
     border: solid 6px black;
-       background: linear-gradient(to right bottom, rgb(36, 35, 36), rgb(231, 130, 29));
+/*     background: linear-gradient(to right bottom, rgb(36, 35, 36), rgb(231, 130, 29)); */
+     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57));
     height: 400px;
-    width: 400px;
+    width: 1000px;
     z-index: 100;
-    left: 600px;
+    left: 200px;
+    top: 200;
+    flex-direction: row;
+}
 
+.popup--photo--field{
+    border: solid 2px black;
+    max-height: 200px;
+    max-width: 200px;
+    margin: 10px;
+ /*    overflow: hidden; */
+}
+
+.popup--photo{
+   
+    max-height: 196px;
+    max-width: 196px;
+
+}
+
+
+.popup--container{
+    display: flex;
+    height: 400px;
+    width: 1000px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup--name{
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.popup--description{
+
+    color:black;
+    margin: 20px;
+}
+
+#popup--btn{
+    width: 40px;
+    position: relative;
+    padding: 5px;
+    border: solid 1px orange;
+    background-color: black;
+    color:orange;
+    left: 360px;
+    bottom: 200px;
+    font-size: 16px;
 }
 
 
