@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TS Skarżysko</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../scss/style-sass.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap"
@@ -17,7 +17,7 @@
 
     <header>
         <div class="header--logo">
-            <a href="../index.html"> <img src="../images/whistle-logo.png" alt="WHISTLE" class="header--logo--img"></a>
+            <a href="../index.html"><img src="../images/whistle-logo.png" alt="WHISTLE" class="header--img"></a>
         </div>
         <h1>
             Skarżyskie Gwizdki - poznaj ich bliżej !
@@ -36,48 +36,78 @@
     </nav>
 
     <main>
-        <div class="news--articles">
-            <article id="news--1">
-<!--                 <div class="article--title">
-                    <a href="pages/news/news003.html">Rozkład jazdy na weekend</a>
-                </div> -->
-                <div class="article--image">
-                    <img src="../images/testObsada.jpg" alt="FELEK" class="article--image--file">
+        <div class="news--container">
+            <div class="news--title--box">
+                <h2>Archiwum wiadomości</h2>
+            </div>
+            <div class="news--box">
+                <div class="news">
+                    <div class="news--file">
+                        <img src="../images/testObsada.jpg" alt="FELEK" class="news--file--photo">
+                    </div>
+                    <div class="news--title"> Rozkład jazdy na weekend</div>
                 </div>
-            </article>
-            <article id="news--2">
-<!--                 <div class="article--title">
-                    <a href="pages/news/news003.html">II termin egzaminów</a>
-                </div> -->
-                <div class="article--image">
-                                        <img src="../images/egzaminyBoisko.jpg" alt="FELEK" class="article--image--file">
-                                        </div>
-                </article>
-                
-                <article id="news--3">
-<!--                     <div class="article--title">
-                        <a href="pages/news/news002.html"> I termin egzaminów </a>
-                </div> -->
-                <div class="article--image">
-                <img src="../images/egzaminySala.jpg" alt="FELEK" class="article--image--file">
+                <div class="news">
+                    <div class="news--file">
+                        <img src="../images/egzaminyBoisko.jpg" alt="FELEK" class="news--file--photo">
+                    </div>
+                    <div class="news--title"> II termin egzaminów</div>
                 </div>
-                </article>
-                <article id="news--4">
-<!--                    <div class="article--title">
-                        <a href="pages/news/news001.html">Witamy na stronie !</a>
-                    </div> -->
-                    <div class="article--image">
-                        <img src="../images/hand.png" alt="FELEK" class="article--image--file">
+                <div class="news">
+                    <div class="news--file">
+                        <img src="../images/felek.png" alt="FELEK" class="news--file--photo">
+                    </div>
+                    <div class="news--title"> NOWA OBSADA</div>
                 </div>
-                </article>
-                <article id="news--5">
-                    <!--                    <div class="article--title">
-                                                                                        <a href="pages/news/news001.html">Witamy na stronie !</a>
-                                                                                    </div> -->
-                                    <div class="article--image">
-                                        <img src="../images/hand.png" alt="FELEK" class="article--image--file">
-                                    </div>
-                                    </article>
+                <div class="news">
+                    <div class="news--file">
+                        <img src="../images//egzaminySala.jpg" alt=" FELEK" class="news--file--photo">
+                    </div>
+                    <div class="news--title"> EGZAMINY 1 TERMIN</div>
+                </div>
+                <div class="news">
+                    <div class="news--file">
+                        <img src="../images/OBSADA.png" alt="FELEK" class="news--file--photo">
+                    </div>
+                    <div class="news--title"> OBSADA 11-12.10.2023</div>
+                </div>
+                <div class="news">
+                    <div class="news--file">
+                        <img src="../images/testObsada.jpg" alt="FELEK" class="news--file--photo">
+                    </div>
+                    <div class="news--title"> Rozkład jazdy na weekend</div>
+                </div>
+                <div class="news">
+                    <div class="news--file">
+                        <img src="../images/egzaminyBoisko.jpg" alt="FELEK" class="news--file--photo">
+                    </div>
+                    <div class="news--title"> II termin egzaminów</div>
+                </div>
+                <div class="news">
+                    <div class="news--file">
+                        <img src="../images/felek.png" alt="FELEK" class="news--file--photo">
+                    </div>
+                    <div class="news--title"> NOWA OBSADA</div>
+                </div>
+                <div class="news">
+                    <div class="news--file">
+                        <img src="../images//egzaminySala.jpg" alt=" FELEK" class="news--file--photo">
+                    </div>
+                    <div class="news--title"> EGZAMINY 1 TERMIN</div>
+                </div>
+                <div class="news">
+                    <div class="news--file">
+                        <img src="../images/OBSADA.png" alt="FELEK" class="news--file--photo">
+                    </div>
+                    <div class="news--title"> OBSADA 11-12.10.2023</div>
+                </div>
+            </div>
+            <div class="news--buttons--box">
+                <button class="news--buttons">1</button>
+                <button class="news--buttons">2</button>
+                <button class="news--buttons">3</button>
+                <button class="news--buttons">...</button>
+            </div>
         </div>
     </main>
 

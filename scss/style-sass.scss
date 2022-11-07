@@ -9,7 +9,7 @@
     justify-content: space-around;
 
 
-    .toDownload--option{
+    .toDownload--option {
 
         border: solid 2px black;
         background: linear-gradient(to top, rgb(58, 57, 58), rgb(255, 186, 57));
@@ -27,59 +27,59 @@
 
         .toDownload--option--list {
 
-        flex-direction: column;
-        display: flex;
+            flex-direction: column;
+            display: flex;
 
             .option--list {
                 margin: 10px;
                 font-size: 20px;
                 border: solid 1px black;
                 background: linear-gradient(to left, rgb(73, 69, 69), rgb(40, 37, 37));
-                color:orange;
+                color: orange;
             }
-        }   
+        }
     }
 
 }
 
-.gallery--title{
+.gallery--title {
     display: flex;
     font-weight: 600;
     font-size: 32px;
     letter-spacing: 0.5px;
     text-shadow: 1px 0px black;
-    margin: 20px auto;  
+    margin: 20px auto;
     border-bottom: solid 3px black;
     text-align: center;
     width: 400px;
 
 }
 
-.gallery--main{
-    background: linear-gradient(60deg, rgba(255,255,255,0.3),rgba(255,255,255,0.5));
+.gallery--main {
+    background: linear-gradient(60deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5));
     border-radius: 12px;
-    width: 1400px;
+    width: 1200px;
     min-height: 700px;
-    margin: 20px;
+    margin: 20px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 
-    .gallery--photo--field{
+    .gallery--photo--field {
         display: flex;
-/*         border: solid 1px green; */
+        /*         border: solid 1px green; */
         padding: 12px;
         max-width: 220px;
         max-height: 180px;
         justify-content: center;
         align-items: center;
-        box-shadow: 10px 10px 50px black;
+        box-shadow: 10px 10px 20px black;
         margin-top: 20px;
-        
 
 
-            .gallery--photo{
+
+        .gallery--photo {
 
             display: block;
             max-width: 90%;
@@ -88,4 +88,105 @@
 
         }
     }
+}
+
+
+
+.news--container {
+
+    background: linear-gradient(60deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)); 
+ /*    background: linear-gradient(to top, rgb(22, 21, 22), rgb(255, 186, 57)); */
+    border-radius: 12px;
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .news--title--box {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        width: 1000px;
+
+        h2 {
+            color:rgb(40, 38, 38);
+            font-weight: 400;
+            font-size: 24px;
+            letter-spacing: 0.5px;
+            text-shadow: 1px 0px black;
+            text-decoration: underline;
+            text-align: center;
+            margin: 5px auto;
+            letter-spacing: 2px;
+        }
+    }
+
+    .news--box {
+        height: 320px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1100px;
+
+        .news {
+            
+            margin: 10px 10px;
+            border-radius: 4px;
+            background: linear-gradient(to top, rgb(22, 21, 22), rgb(255, 186, 57));
+            height: 150px;
+            width: 200px;
+            box-shadow: 4px 4px 20px black;
+            
+
+            .news--file{
+                border-radius: 4px 4px 0 0 ;
+                display: flex;
+                height: 80%;
+                width: 100%;
+                overflow: hidden;
+                align-items: center;
+                justify-content: center;
+
+                .news--file--photo{
+                    
+                    height: auto;
+                    width: 100%; 
+                }
+            }
+             .news--title{
+                color: orange;
+                text-align: center;
+                height: 20%;
+                width: 100%
+            }
+        }
+    }
+
+    .news--buttons--box {
+        display: flex;
+        justify-content: center;
+   
+        height: 80px;
+        width: 1000px;
+        align-items: center;
+
+        .news--buttons{
+            font-size: 16px;
+            border-radius: 4px;
+            border: solid 2px orange;
+            background: linear-gradient(to top, rgb(39, 38, 39), rgb(67, 66, 66));
+            color: orange;
+            margin: 0 10px;
+            height: 40px;
+            width: 40px;
+        }
+
+
+    }
+
+
 }
