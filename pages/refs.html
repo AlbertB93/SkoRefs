@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TS Skarżysko</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../scss/style-sass.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap"
@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="header--logo">
-            <a href="../index.html"><img src="../images/whistle-logo.png" alt="WHISTLE" class="header--logo--img"></a>
+            <a href="../index.html"><img src="../images/whistle-logo.png" alt="WHISTLE" class="header--img"></a>
         </div>
         <h1>
             Skarżyskie Gwizdki - poznaj ich bliżej !
@@ -32,309 +32,252 @@
         <a href="contact.html">Kontakt</a>
     </nav>
 
+
     <main>
-        <section class="main--refs">
+        <div id="popup--main">
+            <div class="popup--photo--field">
+                <img id="AnnaAdamska" src="../images/persons/AAnna.PNG " alt="zdjecie Ani" class="popup--photo">
+            </div>
+            <div class="popup--container">
+                <div class="popup--name">
+                    Anna Adamska
+                </div>
+                <div class="popup--description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quibusdam, dolor aliquid, quo
+                    similique rerum
+                    odio
+                    inventore iure suscipit, saepe labore praesentium provident ex ad eaque cumque. Iusto, error
+                    nesciunt. Lorem
+                    ipsum
+                    dolor sit amet consectetur adipisicing elit. Iure dolorem, minus illo nemo qui temporibus, ratione
+                    nihil minima
+                    natus magnam, iusto architecto ea hic rerum sunt harum? Unde, labore nobis!
+                </div>
+                <button id="popup--btn">X</button>
+            </div>
+        </div>
+        <div id="popup--main2">
+            <div class="popup--photo--field">
+                <img id="AnnaAdamska" src="../images/persons/BAlbert.PNG " alt="zdjecie Ani" class="popup--photo">
+            </div>
+            <div class="popup--container">
+                <div class="popup--name">
+                    Albert Bińkowski
+                </div>
+                <div class="popup--description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quibusdam, dolor aliquid, quo
+                    similique rerum
+                    odio
+                    inventore iure suscipit, saepe labore praesentium provident ex ad eaque cumque. Iusto, error
+                    nesciunt. Lorem
+                    ipsum
+                    dolor sit amet consectetur adipisicing elit. Iure dolorem, minus illo nemo qui temporibus, ratione
+                    nihil minima
+                    natus magnam, iusto architecto ea hic rerum sunt harum? Unde, labore nobis!
+                </div>
+                <button id="popup--btn">X</button>
+            </div>
+        </div>
+        <div class="refs--main">
             <div class="list--refs--title">
                 Lista sędziów sekcji Skarżysko - Kamienna
             </div>
             <div class="list--refs">
-                <div class="league--title" onclick="toggle('ref--person--league3')">
-                    3 liga
-                </div>
-                <div id="ref--person--league3">
-                                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/AAnna.PNG" alt="FELEK" class="ref--person--image--file">
-                            </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name">Anna Adamska </p>
-                            <p class="ref--person--description--shortDescritpion">
-                                Sędzia od .... roku </br>
-                                Do startu sezonu 2022/2023 poprowadziła jako arbiter główny: </br>
-                                3 liga - 20 meczów</br>
-                                4 liga - 45 meczów </br>
-                            </p>
-                            <button class="ref--person--description--button">
-                                Czytaj więcej !
-                            </button>
-                            </div>
-                        </div>
+                <div class="ref--person--container" id="AA">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/AAnna.PNG" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Anna Adamska </p>
+                    </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia Ekstraligi Kobiet </br>
+                            Sędzia 3 ligi </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
                     </div>
                 </div>
-                <div class="league--title" onclick="toggleBlock('ref--person--league4')">
-                    4 liga
-                </div>
-                <div id="ref--person--league4">
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/BAlbert.PNG" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name">Albert Bińkowski </p>
-                            <p class="ref--person--description--shortDescritpion"> Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Provident illum officiis tempore fugiat reiciendis veritatis facilis dolores nobis optio
-                                a! Perspiciatis odio eum
-                                ipsum ducimus earum minima doloribus adipisci cum.
-                                Odio minus sunt tempore blanditiis nisi nostrum, repellat magnam quaerat perspiciatis!
-                                Corrupti placeat rerum
-                                eligendi aliquid et, veritatis impedit aut molestias quibusdam commodi a repellat
-                                sapiente consequatur autem nam.
-                                Quibusdam.
-                            </p>
-                        </div>
+                <div class="ref--person--container" id="BA">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/BAlbert.PNG" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Albert Bińkowski</p>
                     </div>
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/CJakub.PNG" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name"> Jakub Chrzanowski </p>
-                            <p class="ref--person--description--shortDescritpion"> Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Provident illum officiis tempore fugiat reiciendis veritatis facilis dolores nobis optio
-                                a! Perspiciatis odio eum
-                                ipsum ducimus earum minima doloribus adipisci cum.
-                                Odio minus sunt tempore blanditiis nisi nostrum, repellat magnam quaerat perspiciatis!
-                                Corrupti placeat rerum
-                                eligendi aliquid et, veritatis impedit aut molestias quibusdam commodi a repellat
-                                sapiente consequatur autem nam.
-                                Quibusdam.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/MJakub.PNG" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name">Jakub Moskal </p>
-                            <p class="ref--person--description--shortDescritpion"> Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Provident illum officiis tempore fugiat reiciendis veritatis facilis dolores nobis optio
-                                a! Perspiciatis odio eum
-                                ipsum ducimus earum minima doloribus adipisci cum.
-                                Odio minus sunt tempore blanditiis nisi nostrum, repellat magnam quaerat perspiciatis!
-                                Corrupti placeat rerum
-                                eligendi aliquid et, veritatis impedit aut molestias quibusdam commodi a repellat
-                                sapiente consequatur autem nam.
-                                Quibusdam.
-                            </p>
-                        </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia 4 ligi </br>
+                            </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
                     </div>
                 </div>
-                <div class="league--title" onclick="toggleBlock('ref--person--leagueO')">
-                    Klasa "O"
-                </div>
-                <div id="ref--person--leagueO">
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/CKasia.PNG" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name">Katarzyna Chrzanowska </p>
-                            <p class="ref--person--description--shortDescritpion"> Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Provident illum officiis tempore fugiat reiciendis veritatis facilis dolores nobis optio
-                                a! Perspiciatis odio eum
-                                ipsum ducimus earum minima doloribus adipisci cum.
-                                Odio minus sunt tempore blanditiis nisi nostrum, repellat magnam quaerat perspiciatis!
-                                Corrupti placeat rerum
-                                eligendi aliquid et, veritatis impedit aut molestias quibusdam commodi a repellat
-                                sapiente consequatur autem nam.
-                                Quibusdam.
-                            </p>
-                        </div>
+                <div class="ref--person--container" id="CJ">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/CJakub.PNG" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Jakub Chrzanowski</p>
                     </div>
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/KEryk.PNG" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name">Eryk Kiliszek </p>
-                            <p class="ref--person--description--shortDescritpion"> Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Provident illum officiis tempore fugiat reiciendis veritatis facilis dolores nobis optio
-                                a! Perspiciatis odio eum
-                                ipsum ducimus earum minima doloribus adipisci cum.
-                                Odio minus sunt tempore blanditiis nisi nostrum, repellat magnam quaerat perspiciatis!
-                                Corrupti placeat rerum
-                                eligendi aliquid et, veritatis impedit aut molestias quibusdam commodi a repellat
-                                sapiente consequatur autem nam.
-                                Quibusdam.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/KPaweł.PNG" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name">Paweł Kocia</p>
-                            <p class="ref--person--description--shortDescritpion"> Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Provident illum officiis tempore fugiat reiciendis veritatis facilis dolores nobis optio
-                                a! Perspiciatis odio eum
-                                ipsum ducimus earum minima doloribus adipisci cum.
-                                Odio minus sunt tempore blanditiis nisi nostrum, repellat magnam quaerat perspiciatis!
-                                Corrupti placeat rerum
-                                eligendi aliquid et, veritatis impedit aut molestias quibusdam commodi a repellat
-                                sapiente consequatur autem nam.
-                                Quibusdam.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/PKarol.PNG" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name">Karol Purtak </p>
-                            <p class="ref--person--description--shortDescritpion"> Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Provident illum officiis tempore fugiat reiciendis veritatis facilis dolores nobis optio
-                                a! Perspiciatis odio eum
-                                ipsum ducimus earum minima doloribus adipisci cum.
-                                Odio minus sunt tempore blanditiis nisi nostrum, repellat magnam quaerat perspiciatis!
-                                Corrupti placeat rerum
-                                eligendi aliquid et, veritatis impedit aut molestias quibusdam commodi a repellat
-                                sapiente consequatur autem nam.
-                                Quibusdam.
-                            </p>
-                        </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia 4 ligi </br>
+                            </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
                     </div>
                 </div>
-                <div class="league--title" onclick="toggleBlock('ref--person--leagueA')">
-                    Klasa "A"
-                </div>
-                <div id="ref--person--leagueA">
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/FDariusz.PNG" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name">Dariusz Frydryk </p>
-                            <p class="ref--person--description--shortDescritpion"> Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Provident illum officiis tempore fugiat reiciendis veritatis facilis dolores nobis optio
-                                a! Perspiciatis odio eum
-                                ipsum ducimus earum minima doloribus adipisci cum.
-                                Odio minus sunt tempore blanditiis nisi nostrum, repellat magnam quaerat perspiciatis!
-                                Corrupti placeat rerum
-                                eligendi aliquid et, veritatis impedit aut molestias quibusdam commodi a repellat
-                                sapiente consequatur autem nam.
-                                Quibusdam.
-                            </p>
-                        </div>
+                <div class="ref--person--container" id="MJ">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/MJakub.PNG" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Jakub Moskal</p>
                     </div>
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/SRafał.PNG" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name"> Rafał Sokołowski </p>
-                            <p class="ref--person--description--shortDescritpion"> Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Provident illum officiis tempore fugiat reiciendis veritatis facilis dolores nobis optio
-                                a! Perspiciatis odio eum
-                                ipsum ducimus earum minima doloribus adipisci cum.
-                                Odio minus sunt tempore blanditiis nisi nostrum, repellat magnam quaerat perspiciatis!
-                                Corrupti placeat rerum
-                                eligendi aliquid et, veritatis impedit aut molestias quibusdam commodi a repellat
-                                sapiente consequatur autem nam.
-                                Quibusdam.
-                            </p>
-                        </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia 4 ligi </br>
+                            </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
                     </div>
                 </div>
-                <div class="league--title" onclick="toggleBlock('ref--person--leagueB')">
-                    Klasa "B"
-                </div>
-                <div id="ref--person--leagueB">
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/face.png" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name"> Adrian Dzięcioł </p>
-                            <p class="ref--person--description--shortDescritpion"> Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Provident illum officiis tempore fugiat reiciendis veritatis facilis dolores nobis optio
-                                a! Perspiciatis odio eum
-                                ipsum ducimus earum minima doloribus adipisci cum.
-                                Odio minus sunt tempore blanditiis nisi nostrum, repellat magnam quaerat perspiciatis!
-                                Corrupti placeat rerum
-                                eligendi aliquid et, veritatis impedit aut molestias quibusdam commodi a repellat
-                                sapiente consequatur autem nam.
-                                Quibusdam.
-                            </p>
-                        </div>
+                <div class="ref--person--container" id="CK">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/CKasia.PNG" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Katarzyna Chrzanowska</p>
                     </div>
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/persons/face.png" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p class="ref--person--description--name"> Błażej Turski </p>
-                            <p class="ref--person--description--shortDescritpion"> Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
-                                Provident illum officiis tempore fugiat reiciendis veritatis facilis dolores nobis optio
-                                a! Perspiciatis odio eum
-                                ipsum ducimus earum minima doloribus adipisci cum.
-                                Odio minus sunt tempore blanditiis nisi nostrum, repellat magnam quaerat perspiciatis!
-                                Corrupti placeat rerum
-                                eligendi aliquid et, veritatis impedit aut molestias quibusdam commodi a repellat
-                                sapiente consequatur autem nam.
-                                Quibusdam.
-                            </p>
-                        </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia klasy "O" </br>
+                            </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
                     </div>
                 </div>
-                <div class="league--title" onclick="toggle('ref--person--leagueP')">
-                    Sędziowie asystenci
+                <div class="ref--person--container" id="KE">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/KEryk.PNG" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Eryk Kiliszek</p>
+                    </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia klasy "O" </br>
+                            </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
+                    </div>
                 </div>
-                <div id="ref--person--leagueP">
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/face.png" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p>Maks Bator </p>
-                            <p>Jakiś tam tekst tytum pyrtum</p>
-                        </div>
+                <div class="ref--person--container" id="KP">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/KPaweł.PNG" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Paweł Kocia</p>
                     </div>
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/face.png" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p>Emil Czubak </p>
-                            <p>Jakiś tam tekst tytum pyrtum</p>
-                        </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia klasy "O" </br>
+                            </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
                     </div>
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/face.png" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p>Eryk Kupis </p>
-                            <p>Jakiś tam tekst tytum pyrtum</p>
-                        </div>
+                </div>
+                <div class="ref--person--container" id="PK">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/PKarol.PNG" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Karol Purtak</p>
                     </div>
-                    <div class="ref--person">
-                        <div class="ref--person--image">
-                            <img src="../images/face.png" alt="FELEK" class="ref--person--image--file">
-                        </div>
-                        <div class="ref--person--description">
-                            <p>Michał Szurek </p>
-                            <p>Jakiś tam tekst tytum pyrtum</p>
-                        </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia klasy "O" </br>
+                            </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
+                    </div>
+                </div>
+                <div class="ref--person--container" id="FD">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/FDariusz.PNG" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Dariusz Frydryk</p>
+                    </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia klasy "A" </br>
+                            </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
+                    </div>
+                </div>
+                <div class="ref--person--container" id="SR">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/SRafał.PNG" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Rafał Sokołowski</p>
+                    </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia klasy "A" </br>
+                            </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
+                    </div>
+                </div>
+                <div class="ref--person--container" id="DA">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/face.png" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Adrian Dzięcioł</p>
+                    </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia klasy "B" </br>
+                            </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
+                    </div>
+                </div>
+                <div class="ref--person--container" id="TB">
+                    <div class="ref--person--logo">
+                        <img src="../images/persons/face.png" alt="FELEK" class="ref--person--image">
+                        <p class="ref--person--name">Błażej Turski</p>
+                    </div>
+                    <div class="ref--person--description">
+                        <p class="ref--person--description--shortDescritpion">
+                            Sędzia klasy "B" </br>
+                            </br>
+                            </br>
+                        </p>
+                        <button class="ref--person--description--button">
+                            Czytaj więcej !
+                        </button>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
-
     <footer>
         <div class="footer-text">
             Copyright Albert

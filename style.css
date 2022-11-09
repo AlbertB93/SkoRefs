@@ -20,28 +20,47 @@
 body {
     /*     background: linear-gradient(to right, grey, white); */
 /*     background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37)); */
-     background: linear-gradient(to top, rgb(240, 224, 195), rgb(255, 186, 57));
+  background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); 
+/*         background: linear-gradient(to left bottom , rgb(23, 23, 23) , rgb(249, 176, 39)); */
     color: orange;
     width: 100%;
 }
 
+
 header {
     /*  background-color: var(--color-header); */
-    background-image: url(images/tlo-header-4.webp);
-    background-size: contain;
+ /*    background-image: url(images/tlo-header-5.webp); */
+
+    background: linear-gradient(to left bottom , rgb(23, 23, 23) , rgb(43, 42, 42)); 
+    background-size: cover; 
+    border-radius: 12px;
+
     display: flex;
     height: 120px;
-    width: 100%;
+    width: 95%;
     justify-content: center;
     align-items: center;
+    margin: 20px auto;
 }
 
-.header--logo {
+.header--logo {/* 
+    border: solid 5px orange;
+    border-radius: 120px; */
     height: 120px;
     width: 160px;
     position: absolute;
-    top: 10px;
-    left: 12px;
+    top: 30px;
+    left: 40px;
+}
+
+.header--logo2 {/* 
+    border: solid 5px orange;
+    border-radius: 120px; */
+    height: 120px;
+    width: 160px;
+    position: absolute;
+    top: 30px;
+    right: 40px;
 }
 
 .header--logo--img {
@@ -50,7 +69,20 @@ header {
     max-width: 80%;
     margin: 0 auto;
     margin-top: 5px;
+
 }
+
+.header--title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+/*     border: solid 3px red; */
+    height: 120px;
+    color: orange;
+    transition: 2s;
+    width: 800px;
+}
+
 
 h1 {
     color: orange;
@@ -60,18 +92,40 @@ h1 {
     text-shadow: 2px 2px black;
     transition: 2s;
     margin-top: -20px;
+    margin-left: 250px;
+}
+
+h3{
+    color: orange;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-shadow: 2px 2px black;
+    transition: 2s;
+    margin-top: -10px;
+    margin-left: 500px;
 }
 
 
 nav {
     border-top: solid 1px orange;
-    background: linear-gradient(to left, rgb(11, 10, 10), rgb(40, 37, 37));
+    border-radius: 12px;
+/*     background: linear-gradient(to left, rgb(11, 10, 10), rgb(40, 37, 37)); */
+/*         background: linear-gradient(to left, rgb(23, 23, 23), rgb(255, 186, 57)); */
+            background: linear-gradient(to left bottom , rgb(23, 23, 23) , rgb(43, 42, 42));
+            
     display: flex;
-    justify-content: right;
+    justify-content: space-around;
     font-size: 20px;
     height: 50px;
     padding: 1rem 0.5 rem;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
+}
+.nav--box{
+        display: flex;
+    justify-content: space-around;
+    width: 60%;
 }
 
 nav a {
@@ -93,6 +147,7 @@ main {
 /*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
     min-height: 600px;
 /*     min-height: 400px; */
+
 }
 
 
@@ -112,11 +167,17 @@ footer {
 .section--articles{
 
  /*        background: linear-gradient(to top, rgb(240, 224, 195), rgb(255, 186, 57)); */
-  background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); 
+/*   background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57));  */
+
+/*SPRAWDZIĆ CIEMNĄ WERJSĘ*/
+/*           background: linear-gradient(to top, rgb(46, 46, 45), rgb(42, 41, 41));  */
 
 
 /*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
 /*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(63, 61, 61)); */
+
+
+
     display: grid;
     grid-template-columns: 2% 17.8% 17.8% 17.8% 17.8% 17.8% ;
     grid-template-rows: 10% 10% 10% 70%;
@@ -126,7 +187,7 @@ footer {
 
 article {
     border: solid 2px black;
-    background: linear-gradient(to bottom, rgb(58, 57, 58), rgb(255, 186, 57));
+    background: linear-gradient(to bottom, rgb(23, 23, 23), rgb(255, 186, 57));
     border-radius: 20px;
     display: flex;
     flex-direction: column;

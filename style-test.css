@@ -206,13 +206,6 @@ article a:hover {
 
 
 .list--refs--title {
-/*     border-left: solid 5px black;
-    border-top: solid 5px black;
-    border-right: solid 5px orange;
-*/
-/*     background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37)); */
-
-/*     border: solid 5px black; */
     border-radius: 10px;
     text-align: center;
     color: black;

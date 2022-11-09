@@ -7,7 +7,8 @@
 }
 
 body {
-  background: linear-gradient(to top, #f0e0c3, #ffba39);
+  background: linear-gradient(to top, #f1c779, #ffba39);
+  /*     background: linear-gradient(to top, rgb(81, 81, 80), rgb(56, 55, 55));  */
   width: 100%;
 }
 
@@ -77,4 +78,5 @@ footer {
 
 main {
   min-height: 600px;
+  background: linear-gradient(to top, #f1c779, #ffba39);
 }

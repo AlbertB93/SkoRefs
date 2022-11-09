@@ -1,4 +1,5 @@
 
+/* FUNKCJA DO WYŚWIETLANIA OBSADY*/
 
 function toggle(idDiv) {
     var oDiv = document.getElementById(idDiv);
@@ -21,20 +22,27 @@ function toggleBlock(idDiv) {
 }
 
 
+/*  FUNKCJE DO REFS.HTML */
 
+function init() {
+    let openBtn = document.getElementsByClassName("ref--person--description--button"
+    )[0];
 
-/* NIE DZIAŁA
+    openBtn.onclick = openPopup;
 
-function toggle(idDiv) {
-    var oDiv = document.getElementsByClassName('ref--person--container1');
+    let closeBtn = document.getElementById("popup--btn");
+    closeBtn.onclick = closePopup;
 
-    oDiv.forEach( (e) => {
-           e.style.display = (e.style.display == "none") ? "block" : "none";
-    });
+}
 
- 
-} 
- */
+function openPopup() {
+    document.getElementById("popup--main").style.display = "flex";
+    document.getElementsByClassName("refs--main")[0].style.opacity = 0.3;
+}
 
-const OBRAZ = document.querySelector(".list--refs--title");
-console.log(OBRAZ);
+function closePopup() {
+    document.getElementById("popup--main").style.display = "none";
+    document.getElementsByClassName("refs--main")[0].style.opacity = 1;
+}
+
+document.addEventListener("DOMContentLoaded", init);
