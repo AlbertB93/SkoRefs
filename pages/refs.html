@@ -17,24 +17,35 @@
 <body>
     <header>
         <div class="header--logo">
-            <a href="../index.html"><img src="../images/whistle-logo.png" alt="WHISTLE" class="header--img"></a>
+            <a href="../index.html"><img src="../images/whistle-logo.png" alt="WHISTLE" class="header--logo--img"></a>
         </div>
-        <h1>
-            Skarżyskie Gwizdki - poznaj ich bliżej !
-        </h1>
+        <div class="header--title">
+            <h1>
+                Skarżyskie Gwizdki
+            </h1>
+            <h3>
+                poznaj ich bliżej...
+            </h3>
+        </div>
+        <div class="header--logo2">
+            <img src="../images/cards.png" alt="WHISTLE" class="header--logo--img">
+        </div>
     </header>
-
     <nav>
-        <a href="news.html">Aktualności</a>
-        <a href="refs.html">Sędziowie</a>
-        <a href="cast.html">Obsada</a>
-        <a href="toDownload.html">Do pobrania</a>
-        <a href="contact.html">Kontakt</a>
+        <div class="nav--box">
+            <a href="pages/news.html">Aktualności</a>
+            <a href="pages/refs.html">Sędziowie</a>
+            <a href="pages/cast.html">Obsada</a>
+            <a href="pages/gallery.html">Galeria</a>
+            <a href="pages/toDownload.html">Do pobrania</a>
+            <a href="pages/contact.html">Kontakt</a>
+        </div>
     </nav>
 
-
     <main>
-        <div id="popup--main">
+
+    <section class="popups">
+        <div class="popup--main">
             <div class="popup--photo--field">
                 <img id="AnnaAdamska" src="../images/persons/AAnna.PNG " alt="zdjecie Ani" class="popup--photo">
             </div>
@@ -53,10 +64,10 @@
                     nihil minima
                     natus magnam, iusto architecto ea hic rerum sunt harum? Unde, labore nobis!
                 </div>
-                <button id="popup--btn">X</button>
+                <button class="popup--btn">X</button>
             </div>
         </div>
-        <div id="popup--main2">
+        <div class="popup--main">
             <div class="popup--photo--field">
                 <img id="AnnaAdamska" src="../images/persons/BAlbert.PNG " alt="zdjecie Ani" class="popup--photo">
             </div>
@@ -75,9 +86,33 @@
                     nihil minima
                     natus magnam, iusto architecto ea hic rerum sunt harum? Unde, labore nobis!
                 </div>
-                <button id="popup--btn">X</button>
+                <button class="popup--btn">X</button>
             </div>
         </div>
+        <div class="popup--main">
+            <div class="popup--photo--field">
+                <img id="AnnaAdamska" src="../images/persons/CJakub.PNG " alt="zdjecie Ani" class="popup--photo">
+            </div>
+            <div class="popup--container">
+                <div class="popup--name">
+                    Jakub Chrzanowski
+                </div>
+                <div class="popup--description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quibusdam, dolor aliquid, quo
+                    similique rerum
+                    odio
+                    inventore iure suscipit, saepe labore praesentium provident ex ad eaque cumque. Iusto, error
+                    nesciunt. Lorem
+                    ipsum
+                    dolor sit amet consectetur adipisicing elit. Iure dolorem, minus illo nemo qui temporibus, ratione
+                    nihil minima
+                    natus magnam, iusto architecto ea hic rerum sunt harum? Unde, labore nobis!
+                </div>
+                <button class="popup--btn">X</button>
+            </div>
+        </div>
+    </section>
+
         <div class="refs--main">
             <div class="list--refs--title">
                 Lista sędziów sekcji Skarżysko - Kamienna
@@ -100,52 +135,29 @@
                     </div>
                 </div>
                 <div class="ref--person--container" id="BA">
+                    <div class="ref--person--league">
+                        4 liga
+                    </div>
                     <div class="ref--person--logo">
                         <img src="../images/persons/BAlbert.PNG" alt="FELEK" class="ref--person--image">
                         <p class="ref--person--name">Albert Bińkowski</p>
                     </div>
-                    <div class="ref--person--description">
-                        <p class="ref--person--description--shortDescritpion">
-                            Sędzia 4 ligi </br>
-                            </br>
-                            </br>
-                        </p>
-                        <button class="ref--person--description--button">
-                            Czytaj więcej !
-                        </button>
-                    </div>
+
                 </div>
                 <div class="ref--person--container" id="CJ">
                     <div class="ref--person--logo">
                         <img src="../images/persons/CJakub.PNG" alt="FELEK" class="ref--person--image">
                         <p class="ref--person--name">Jakub Chrzanowski</p>
-                    </div>
-                    <div class="ref--person--description">
-                        <p class="ref--person--description--shortDescritpion">
-                            Sędzia 4 ligi </br>
-                            </br>
-                            </br>
-                        </p>
-                        <button class="ref--person--description--button">
-                            Czytaj więcej !
-                        </button>
+                        Sędzia 4 ligi </br>
                     </div>
                 </div>
                 <div class="ref--person--container" id="MJ">
                     <div class="ref--person--logo">
                         <img src="../images/persons/MJakub.PNG" alt="FELEK" class="ref--person--image">
                         <p class="ref--person--name">Jakub Moskal</p>
+                        4 liga </br>
                     </div>
-                    <div class="ref--person--description">
-                        <p class="ref--person--description--shortDescritpion">
-                            Sędzia 4 ligi </br>
-                            </br>
-                            </br>
-                        </p>
-                        <button class="ref--person--description--button">
-                            Czytaj więcej !
-                        </button>
-                    </div>
+         
                 </div>
                 <div class="ref--person--container" id="CK">
                     <div class="ref--person--logo">

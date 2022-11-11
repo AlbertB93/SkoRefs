@@ -18,18 +18,19 @@
 }
 
 body {
-    /*     background: linear-gradient(to right, grey, white); */
-/*     background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37)); */
+
   background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); 
 /*         background: linear-gradient(to left bottom , rgb(23, 23, 23) , rgb(249, 176, 39)); */
     color: orange;
     width: 100%;
+/*          background-image: url(images/test-tlo-6.webp); 
+         background-size: cover; */
 }
 
 
 header {
     /*  background-color: var(--color-header); */
- /*    background-image: url(images/tlo-header-5.webp); */
+/*     background-image: url(images/tlo-header-4.webp); */
 
     background: linear-gradient(to left bottom , rgb(23, 23, 23) , rgb(43, 42, 42)); 
     background-size: cover; 
@@ -108,7 +109,7 @@ h3{
 
 
 nav {
-    border-top: solid 1px orange;
+
     border-radius: 12px;
 /*     background: linear-gradient(to left, rgb(11, 10, 10), rgb(40, 37, 37)); */
 /*         background: linear-gradient(to left, rgb(23, 23, 23), rgb(255, 186, 57)); */
@@ -122,8 +123,10 @@ nav {
     width: 95%;
     margin: 0 auto;
 }
+
+
 .nav--box{
-        display: flex;
+    display: flex;
     justify-content: space-around;
     width: 60%;
 }
@@ -165,19 +168,6 @@ footer {
 /************ STRONA GŁÓWNA *****************/
 
 .section--articles{
-
- /*        background: linear-gradient(to top, rgb(240, 224, 195), rgb(255, 186, 57)); */
-/*   background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57));  */
-
-/*SPRAWDZIĆ CIEMNĄ WERJSĘ*/
-/*           background: linear-gradient(to top, rgb(46, 46, 45), rgb(42, 41, 41));  */
-
-
-/*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
-/*     background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(63, 61, 61)); */
-
-
-
     display: grid;
     grid-template-columns: 2% 17.8% 17.8% 17.8% 17.8% 17.8% ;
     grid-template-rows: 10% 10% 10% 70%;

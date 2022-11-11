@@ -9,66 +9,134 @@ $bg-color: linear-gradient(to top, rgb(240, 224, 195), rgb(255, 186, 57));
 }
 
 body {
-  background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); 
-/*     background: linear-gradient(to top, rgb(81, 81, 80), rgb(56, 55, 55));  */
+/*     background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); */
+    /*     background: linear-gradient(to top, rgb(81, 81, 80), rgb(56, 55, 55));  */
+    background: linear-gradient(to top, rgb(76, 64, 35), rgb(255, 186, 57));
+
     width: 100%;
 
 }
 
 header {
-    background-image: url(../images/tlo-header-4.webp);
-    background-size: contain;
+    /*  background-color: var(--color-header); */
+    /*     background-image: url(images/tlo-header-4.webp); */
+
+    background: linear-gradient(to left bottom, rgb(23, 23, 23), rgb(43, 42, 42));
+    background-size: cover;
+    border-radius: 12px;
+
     display: flex;
     height: 120px;
-    width: 100%;
+    width: 95%;
     justify-content: center;
     align-items: center;
+    margin: 20px auto;
 
-    h1 {
-        color: orange;
-        font-weight: 700;
-        font-size: 40px;
-        letter-spacing: 0.5px;
-        text-shadow: 2px 2px black;
-        transition: 2s;
-        margin-top: -20px;
+    .header--logo {
+        /* 
+        border: solid 5px orange;
+        border-radius: 120px; */
+        height: 120px;
+        width: 160px;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+
+        &--img {
+            display: block;
+            max-height: 80%;
+            max-width: 80%;
+            margin: 0 auto;
+            margin-top: 5px;
+
+        }
+
     }
 
-    .header--img {
-        height: 100px;
-        width: 100px;
+    .header--logo2 {
+        /* 
+        border: solid 5px orange;
+        border-radius: 120px; */
+        height: 120px;
+        width: 160px;
         position: absolute;
-        top: 15px;
-        left: 40px;
+        top: 30px;
+        right: 40px;
+    }
+
+    .header--title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /*     border: solid 3px red; */
+        height: 120px;
+        color: orange;
+        transition: 2s;
+        width: 800px;
+
+        h1 {
+            color: orange;
+            font-weight: 700;
+            font-size: 40px;
+            letter-spacing: 0.5px;
+            text-shadow: 2px 2px black;
+            transition: 2s;
+            margin-top: -20px;
+            margin-left: 250px;
+        }
+
+        h3 {
+            color: orange;
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: 0.5px;
+            text-shadow: 2px 2px black;
+            transition: 2s;
+            margin-top: -10px;
+            margin-left: 500px;
+        }
     }
 }
 
 
 nav {
-    border-top: solid 1px orange;
-    background: linear-gradient(to left, rgb(11, 10, 10), rgb(40, 37, 37));
+
+    border-radius: 12px;
+    /*     background: linear-gradient(to left, rgb(11, 10, 10), rgb(40, 37, 37)); */
+    /*         background: linear-gradient(to left, rgb(23, 23, 23), rgb(255, 186, 57)); */
+    background: linear-gradient(to left bottom, rgb(23, 23, 23), rgb(43, 42, 42));
+
     display: flex;
-    justify-content: right;
+    justify-content: space-around;
     font-size: 20px;
     height: 50px;
     padding: 1rem 0.5 rem;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
 
-    a {
-        align-items: center;
-        color: orange;
-        text-decoration: none;
-        padding: 0.5rem;
-        transition: 1s;
+    .nav--box {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
 
-        &:hover {
+        & a {
+            align-items: center;
+            color: orange;
+            text-decoration: none;
+            padding: 0.5rem;
+            transition: 1s;
+        }
+
+        & a:hover {
             border-radius: 30px;
             background-color: orange;
             color: black;
         }
+
     }
 
 }
+
 
 
 footer {
@@ -84,5 +152,5 @@ footer {
 
 main {
     min-height: 600px;
-      background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); 
+
 }

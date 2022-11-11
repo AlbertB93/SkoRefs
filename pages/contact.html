@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TS Skarżysko</title>
-    <link rel="stylesheet" href="../style-test.css">
+    <link rel="stylesheet" href="../scss/style-sass.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap"
@@ -17,109 +17,29 @@
 <body>
     <header>
         <div class="header--logo">
-            <a href="../index.html"><img src="../images/whistle-logo.png" alt="WHISTLE" class="header--logo--img"></a>
+            <a href="../index.html"><img src="../images/whistle-logo.png" alt="WHISTLE" class="header--logo--img" /></a>
         </div>
-        <h1>
-            Skarżyskie Gwizdki - poznaj ich bliżej !
-        </h1>
+        <div class="header--title">
+            <h1>Skarżyskie Gwizdki</h1>
+            <h3>poznaj ich bliżej...</h3>
+        </div>
+        <div class="header--logo2">
+            <img src="../images/cards.png" alt="WHISTLE" class="header--logo--img" />
+        </div>
     </header>
-
     <nav>
-        <a href="news.html">Aktualności</a>
-        <a href="refs.html">Sędziowie</a>
-        <a href="cast.html">Obsada</a>
-        <a href="toDownload.html">Do pobrania</a>
-        <a href="contact.html">Kontakt</a>
+        <div class="nav--box">
+            <a href="pages/news.html">Aktualności</a>
+            <a href="pages/refs.html">Sędziowie</a>
+            <a href="pages/cast.html">Obsada</a>
+            <a href="pages/gallery.html">Galeria</a>
+            <a href="pages/toDownload.html">Do pobrania</a>
+            <a href="pages/contact.html">Kontakt</a>
+        </div>
     </nav>
 
     <main>
-        <div class="list--refs--title">
-            Lista sędziów sekcji Skarżysko - Kamienna
-        </div>
-                    <div id="popup--main">
-                        <div class="popup--photo--field">
-                            <img id="AnnaAdamska" src="../images/persons/AAnna.PNG " alt="zdjecie Ani" class="popup--photo">
-                        </div>
-                        <div class="popup--container">
-                            <div class="popup--name">
-                                Anna Adamska
-                            </div>
-                            <div class="popup--description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quibusdam, dolor aliquid, quo similique rerum
-                                odio
-                                inventore iure suscipit, saepe labore praesentium provident ex ad eaque cumque. Iusto, error nesciunt. Lorem
-                                ipsum
-                                dolor sit amet consectetur adipisicing elit. Iure dolorem, minus illo nemo qui temporibus, ratione nihil minima
-                                natus magnam, iusto architecto ea hic rerum sunt harum? Unde, labore nobis!
-                            </div>
-                            <button id="popup--btn">X</button>
-                        </div>
-                    </div>
-        <section class="main--refs">
-
-            <div class="ref--person" id="AA">
-                <div class="ref--person--image">
-                    <img src="../images/persons/AAnna.PNG" alt="FELEK" class="ref--person--image--file">
-                    <p class="ref--person--description--name">Anna Adamska </p>
-                </div>
-                <div class="ref--person--description">
-                    <p class="ref--person--description--shortDescritpion">
-                        Sędzia Ekstraligi Kobiet </br>
-                        Sędzia 3 ligi </br>
-                        </br>
-                    </p>
-                    <button class="ref--person--description--button">
-                        Czytaj więcej !
-                    </button>
-                </div>
-            </div>
-    <div class="ref--person" id="BA">
-                <div class="ref--person--image">
-                    <img src="../images/persons/BAlbert.PNG" alt="FELEK" class="ref--person--image--file">
-                </div>
-                                    <p class="ref--person--description--name">Albert Bińkowski </p>
-                <div class="ref--person--description">
-
-                    <p class="ref--person--description--shortDescritpion">
-                        Sędzia od .... roku </br>
-                        Sędzia 4 ligi </br>
-                        3 liga - 20 meczów</br>
-                        4 liga - 45 meczów </br>
-                    </p>
-                </div>
-            </div>
-                    <div class="ref--person" id="CJ">
-                <div class="ref--person--image">
-                    <img src="../images/persons/CJakub.PNG" alt="FELEK" class="ref--person--image--file">
-                                        <p class="ref--person--description--name"> Jakub Chrzanowski </p>
-                </div>
-                <div class="ref--person--description">
-
-                    <p class="ref--person--description--shortDescritpion">
-                        Sędzia od .... roku </br>
-                        Do startu sezonu 2022/2023 poprowadziła jako arbiter główny: </br>
-                        3 liga - 20 meczów</br>
-                        4 liga - 45 meczów </br>
-                    </p>
-                </div>
-            </div>
-            <div class="ref--person" id="MJ">
-                <div class="ref--person--image">
-                    <img src="../images/persons/MJakub.PNG" alt="FELEK" class="ref--person--image--file">
-                                        <p class="ref--person--description--name">Jakub Moskal </p>
-                </div>
-                <div class="ref--person--description">
-
-                    <p class="ref--person--description--shortDescritpion">
-                        Sędzia od .... roku </br>
-                        Do startu sezonu 2022/2023 poprowadziła jako arbiter główny: </br>
-                        3 liga - 20 meczów</br>
-                        4 liga - 45 meczów </br>
-                    </p>
-                </div>
-            </div>
-
-        </section>
+            KONTAKT
     </main>
 
     <footer>
