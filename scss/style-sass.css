@@ -7,22 +7,68 @@
 }
 
 body {
-  background: linear-gradient(to top, #f1c779, #ffba39);
+  /*     background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); */
   /*     background: linear-gradient(to top, rgb(81, 81, 80), rgb(56, 55, 55));  */
+  background: linear-gradient(to top, #4c4023, #ffba39);
   width: 100%;
 }
 
 header {
-  background-image: url(../images/tlo-header-4.webp);
-  background-size: contain;
+  /*  background-color: var(--color-header); */
+  /*     background-image: url(images/tlo-header-4.webp); */
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  background-size: cover;
+  border-radius: 12px;
   display: flex;
   height: 120px;
-  width: 100%;
+  width: 95%;
   justify-content: center;
   align-items: center;
+  margin: 20px auto;
 }
 
-header h1 {
+header .header--logo {
+  /* 
+        border: solid 5px orange;
+        border-radius: 120px; */
+  height: 120px;
+  width: 160px;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+header .header--logo--img {
+  display: block;
+  max-height: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+header .header--logo2 {
+  /* 
+        border: solid 5px orange;
+        border-radius: 120px; */
+  height: 120px;
+  width: 160px;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+header .header--title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /*     border: solid 3px red; */
+  height: 120px;
+  color: orange;
+  transition: 2s;
+  width: 800px;
+}
+
+header .header--title h1 {
   color: orange;
   font-weight: 700;
   font-size: 40px;
@@ -30,28 +76,41 @@ header h1 {
   text-shadow: 2px 2px black;
   transition: 2s;
   margin-top: -20px;
+  margin-left: 250px;
 }
 
-header .header--img {
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  top: 15px;
-  left: 40px;
+header .header--title h3 {
+  color: orange;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px black;
+  transition: 2s;
+  margin-top: -10px;
+  margin-left: 500px;
 }
 
 nav {
-  border-top: solid 1px orange;
-  background: linear-gradient(to left, #0b0a0a, #282525);
+  border-radius: 12px;
+  /*     background: linear-gradient(to left, rgb(11, 10, 10), rgb(40, 37, 37)); */
+  /*         background: linear-gradient(to left, rgb(23, 23, 23), rgb(255, 186, 57)); */
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
   display: flex;
-  justify-content: right;
+  justify-content: space-around;
   font-size: 20px;
   height: 50px;
   padding: 1rem 0.5 rem;
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
 }
 
-nav a {
+nav .nav--box {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+nav .nav--box a {
   align-items: center;
   color: orange;
   text-decoration: none;
@@ -59,7 +118,7 @@ nav a {
   transition: 1s;
 }
 
-nav a:hover {
+nav .nav--box a:hover {
   border-radius: 30px;
   background-color: orange;
   color: black;
@@ -78,7 +137,6 @@ footer {
 
 main {
   min-height: 600px;
-  background: linear-gradient(to top, #f1c779, #ffba39);
 }
 
 .toDownload--main {
@@ -497,4 +555,86 @@ main {
   left: 360px;
   bottom: 200px;
   font-size: 20px;
+}
+
+.section--articles {
+  display: grid;
+  grid-template-columns: 2% 17.8% 17.8% 17.8% 17.8% 17.8%;
+  grid-template-rows: 10% 10% 10% 70%;
+  min-height: 520px;
+  width: 100%;
+}
+
+article {
+  border: solid 2px black;
+  background: linear-gradient(to bottom, #171717, #ffba39);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  box-shadow: 4px 4px  black;
+  transition: 0.5s;
+  transform: scale(1);
+}
+
+article:hover {
+  transform: scale(1.1);
+}
+
+article a {
+  border: solid 2px black;
+  background-color: orange;
+  border-radius: 20px;
+  height: 30px;
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+
+article a:hover {
+  background-color: black;
+  color: orange;
+}
+
+.article--image {
+  margin: 15px 10px;
+  border-radius: 5px;
+  max-height: 240px;
+  max-width: 280px;
+}
+
+.article--image--file {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+#article--1 {
+  grid-column: 6/7;
+  grid-row: 2/3;
+}
+
+#article--2 {
+  grid-column: 5/6;
+  grid-row: 3/4;
+}
+
+#article--3 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+#article--4 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+#article--5 {
+  grid-column: 2/3;
+  grid-row: 2/3;
 }

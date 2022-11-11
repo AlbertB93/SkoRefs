@@ -56,9 +56,9 @@
 }
 
 .gallery--main {
-/*     background: linear-gradient(60deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)); */
+    /*     background: linear-gradient(60deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)); */
     background: linear-gradient(to bottom, rgb(58, 57, 58), rgb(255, 186, 57));
-/*         background: linear-gradient(60deg, rgba(27, 27, 27, 0.3), rgba(39, 38, 38, 0.5)); */
+    /*         background: linear-gradient(60deg, rgba(27, 27, 27, 0.3), rgba(39, 38, 38, 0.5)); */
     border-radius: 12px;
     width: 1200px;
     min-height: 700px;
@@ -69,7 +69,7 @@
     justify-content: space-around;
 
     .gallery--photo--field {
-          background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); 
+        background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57));
         display: flex;
         /*         border: solid 1px green; */
         padding: 12px;
@@ -96,7 +96,7 @@
 .news--container {
 
     background: linear-gradient(60deg, rgb(47, 47, 47), rgb(39, 38, 38));
-/*     background: linear-gradient(60deg, rgba(27, 27, 27, 0.3), rgba(39, 38, 38, 0.5)); */
+    /*     background: linear-gradient(60deg, rgba(27, 27, 27, 0.3), rgba(39, 38, 38, 0.5)); */
     /*    background: linear-gradient(to top, rgb(22, 21, 22), rgb(255, 186, 57)); */
     border-radius: 12px;
     display: flex;
@@ -109,18 +109,18 @@
     justify-content: space-around;
 
     .news--title--box {
-/*         border: solid 1px orange; */
-                border: solid 1px black;
+        /*         border: solid 1px orange; */
+        border: solid 1px black;
         border-radius: 8px;
         display: flex;
         height: 50px;
         width: 240px;
-/*         background: linear-gradient(to top, rgb(39, 38, 39), rgb(67, 66, 66)); */
-          background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); 
+        /*         background: linear-gradient(to top, rgb(39, 38, 39), rgb(67, 66, 66)); */
+        background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57));
 
         h2 {
-/*             color: orange; */
-            color:black;
+            /*             color: orange; */
+            color: black;
             font-weight: 300;
             font-size: 24px;
 
@@ -138,12 +138,12 @@
         width: 1100px;
 
         .news {
-/*             border: solid 1px orange; */
-                        border: solid 1px black;
+            /*             border: solid 1px orange; */
+            border: solid 1px black;
             margin: 10px 10px;
             border-radius: 4px;
-/*             background: linear-gradient(to top, rgb(22, 21, 22), rgb(255, 186, 57)); */
-              background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); 
+            /*             background: linear-gradient(to top, rgb(22, 21, 22), rgb(255, 186, 57)); */
+            background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57));
             height: 150px;
             width: 200px;
             box-shadow: 4px 4px 20px black;
@@ -166,8 +166,8 @@
             }
 
             .news--title {
-/*                 color: orange; */
-                color:black;
+                /*                 color: orange; */
+                color: black;
                 text-align: center;
                 height: 20%;
                 width: 100%
@@ -186,12 +186,12 @@
         .news--buttons {
             font-size: 16px;
             border-radius: 4px;
-/*             border: solid 2px orange;
+            /*             border: solid 2px orange;
             background: linear-gradient(to top, rgb(39, 38, 39), rgb(67, 66, 66));
             color: orange; */
 
             border: solid 2px black;
-              background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); 
+            background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57));
             color: black;
             margin: 0 10px;
             height: 40px;
@@ -236,8 +236,8 @@
             border-right: solid 3px black;
             border-bottom: solid 3px black;
             border-radius: 10px;
-/*             background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
-                background: linear-gradient(to bottom, rgb(58, 57, 58), rgb(255, 186, 57));
+            /*             background: linear-gradient(to bottom, rgb(206, 202, 206), rgb(255, 186, 57)); */
+            background: linear-gradient(to bottom, rgb(58, 57, 58), rgb(255, 186, 57));
             box-shadow: 0 0 16px 1px black;
             display: flex;
             flex-direction: column;
@@ -454,4 +454,92 @@
     left: 360px;
     bottom: 200px;
     font-size: 20px;
+}
+
+
+.section--articles{
+    display: grid;
+    grid-template-columns: 2% 17.8% 17.8% 17.8% 17.8% 17.8% ;
+    grid-template-rows: 10% 10% 10% 70%;
+    min-height: 520px;
+    width: 100%;
+}
+
+article {
+    border: solid 2px black;
+    background: linear-gradient(to bottom, rgb(23, 23, 23), rgb(255, 186, 57));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    box-shadow: 4px 4px  black;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+article:hover{
+    transform: scale(1.1);
+}
+
+
+article a {
+    border: solid 2px black;
+    background-color: orange;
+    border-radius: 20px;
+    height: 30px;
+    width: 60%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+article a:hover {
+    background-color: black;
+    color: orange;
+}
+
+.article--image {
+    margin: 15px 10px;
+    border-radius: 5px;
+    max-height: 240px;
+    max-width: 280px;   
+
+}
+
+.article--image--file {
+
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#article--1{
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+
+#article--2{
+
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+
+#article--3{    
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+#article--4{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#article--5{
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
