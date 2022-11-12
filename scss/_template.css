@@ -7,17 +7,14 @@
 }
 
 body {
-  /*     background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); */
-  /*     background: linear-gradient(to top, rgb(81, 81, 80), rgb(56, 55, 55));  */
   background: linear-gradient(to top, #4c4023, #ffba39);
   width: 100%;
 }
 
 header {
-  /*  background-color: var(--color-header); */
   /*     background-image: url(images/tlo-header-4.webp); */
+  /* background-size: cover; */
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
-  background-size: cover;
   border-radius: 12px;
   display: flex;
   height: 120px;

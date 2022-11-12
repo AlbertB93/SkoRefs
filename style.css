@@ -390,8 +390,6 @@ article a:hover {
 /*********************************** CAST.HTML ********************************************/
 
 .main--cast {
-    
-
     align-items: center;
     display: flex;
     justify-content: center;
@@ -399,11 +397,6 @@ article a:hover {
     width: 100%;
 }
 
-.empty--field{
-/*     background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37)); */
-    height: 250px;
-    width: 100%;
-}
 
 .month--container {
 /*     border-top: solid 0.5px var(--color-main); */

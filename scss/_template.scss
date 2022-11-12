@@ -1,4 +1,4 @@
-$bg-color: linear-gradient(to top, rgb(240, 224, 195), rgb(255, 186, 57));
+@import "_variables.scss";
 
 * {
     box-sizing: border-box;
@@ -9,22 +9,16 @@ $bg-color: linear-gradient(to top, rgb(240, 224, 195), rgb(255, 186, 57));
 }
 
 body {
-/*     background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57)); */
-    /*     background: linear-gradient(to top, rgb(81, 81, 80), rgb(56, 55, 55));  */
-    background: linear-gradient(to top, rgb(76, 64, 35), rgb(255, 186, 57));
-
+    background: $bg-color;
     width: 100%;
-
 }
 
 header {
-    /*  background-color: var(--color-header); */
     /*     background-image: url(images/tlo-header-4.webp); */
+    /* background-size: cover; */
 
-    background: linear-gradient(to left bottom, rgb(23, 23, 23), rgb(43, 42, 42));
-    background-size: cover;
+    background: $bg-color-black;
     border-radius: 12px;
-
     display: flex;
     height: 120px;
     width: 95%;
@@ -104,7 +98,7 @@ nav {
     border-radius: 12px;
     /*     background: linear-gradient(to left, rgb(11, 10, 10), rgb(40, 37, 37)); */
     /*         background: linear-gradient(to left, rgb(23, 23, 23), rgb(255, 186, 57)); */
-    background: linear-gradient(to left bottom, rgb(23, 23, 23), rgb(43, 42, 42));
+    background: $bg-color-black;
 
     display: flex;
     justify-content: space-around;

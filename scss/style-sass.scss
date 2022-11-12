@@ -1,4 +1,5 @@
 @import "_template.scss";
+@import "_variables.scss";
 
 .toDownload--main {
     margin-top: 30px;
@@ -95,9 +96,9 @@
 
 .news--container {
 
-    background: linear-gradient(60deg, rgb(47, 47, 47), rgb(39, 38, 38));
+/*     background: linear-gradient(60deg, rgb(47, 47, 47), rgb(39, 38, 38)); */
     /*     background: linear-gradient(60deg, rgba(27, 27, 27, 0.3), rgba(39, 38, 38, 0.5)); */
-    /*    background: linear-gradient(to top, rgb(22, 21, 22), rgb(255, 186, 57)); */
+    background: $bg-color-orange;
     border-radius: 12px;
     display: flex;
     height: 500px;
@@ -115,14 +116,14 @@
         display: flex;
         height: 50px;
         width: 240px;
-        /*         background: linear-gradient(to top, rgb(39, 38, 39), rgb(67, 66, 66)); */
-        background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57));
+        background: $bg-color-black;
+            /*   background: linear-gradient(60deg, rgb(47, 47, 47), rgb(39, 38, 38)); */
 
         h2 {
             /*             color: orange; */
-            color: black;
+            color: orange;
             font-weight: 300;
-            font-size: 24px;
+            font-size: 20px;
 
             text-shadow: 1px 0px black;
             margin: 5px auto;
@@ -143,7 +144,7 @@
             margin: 10px 10px;
             border-radius: 4px;
             /*             background: linear-gradient(to top, rgb(22, 21, 22), rgb(255, 186, 57)); */
-            background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57));
+            background: $bg-color-black;
             height: 150px;
             width: 200px;
             box-shadow: 4px 4px 20px black;
@@ -166,8 +167,8 @@
             }
 
             .news--title {
-                /*                 color: orange; */
-                color: black;
+                font-size: 16px;
+                    color: orange;
                 text-align: center;
                 height: 20%;
                 width: 100%
@@ -191,8 +192,8 @@
             color: orange; */
 
             border: solid 2px black;
-            background: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57));
-            color: black;
+            background: $bg-color-black;
+                color: orange;
             margin: 0 10px;
             height: 40px;
             width: 40px;
@@ -210,15 +211,19 @@
     height: 1300px;
 
     .list--refs--title {
+        background: linear-gradient(to left bottom, rgb(23, 23, 23), rgb(43, 42, 42));
         border-radius: 10px;
         text-align: center;
-        color: black;
+        color: orange;
         font-size: 24px;
-        font-weight: 600;
-        height: 80px;
+        font-weight: 400;
+            height: 50px;
         width: 500px;
-        margin: 10px auto;
-        padding: 20px;
+        margin: 20px auto;
+        
+            padding: 5px;
+            border: solid 1px black;
+            letter-spacing: 1px;
     }
 
     .list--refs {
@@ -383,6 +388,114 @@
 }
 
 
+.main--refs {
+    /*     border: solid 3px yellow; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cast--container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+    .cast--title {
+        background: $bg-color-black;
+        border-radius: 8px;
+        text-align: center;
+        color: orange;
+        font-size: 20px;
+        height: 50px;
+        width: 240px;
+        padding-top: 10px;
+        margin-top: 20px;
+    }
+
+    .month--container {
+        /*     border-top: solid 0.5px var(--color-main); */
+        color: var(--color-main);
+        cursor: pointer;
+        font-size: 18px;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+
+        .month {
+            border-radius: 10px;
+            background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+            color: orange;
+            width: 200px;
+            margin: 10px auto;
+            padding: 4px 0;
+        }
+    }
+
+    #august {
+        /*     border: solid 2px red; */
+
+        display: none;
+        /*     text-align: left; */
+        padding-top: 20px;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 80%;
+
+        .august--week {
+            border-radius: 10px;
+            background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+            color: orange;
+            padding: 4px 30px;
+            cursor: pointer;
+        }
+    }
+
+    #august_06_07,
+    #august_13_14 {
+        /*     border: solid 2px blue; */
+        border-radius: 12px;
+        display: none;
+        background: $bg-color-orange-dark;
+        width: 1000px;
+        margin: 20px;
+
+        .table--title {
+            color: black;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            padding-top: 30px;
+            letter-spacing: 1px;
+            ;
+        }
+
+        table,
+        table * {
+            border: solid 1px black;
+            color: black;
+            cursor: pointer;
+            /* margin-top: 20px; */
+            padding: 5px;
+            margin: 20px auto;
+
+        }
+
+        table th {
+            text-align: center;
+        }
+
+    }
+
+
+}
 .popup--main {
     border-radius: 12px;
     display: none;
