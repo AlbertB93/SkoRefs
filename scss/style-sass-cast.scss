@@ -1,0 +1,113 @@
+@import "_template.scss";
+@import "_variables.scss";
+
+.cast--container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+
+    .cast--title {
+        background: $bg-color-black;
+        border-radius: 8px;
+        text-align: center;
+        color: orange;
+        font-size: 20px;
+        height: 50px;
+        width: 240px;
+        padding-top: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .month--container {
+        /*     border-top: solid 0.5px var(--color-main); */
+        color: var(--color-main);
+        cursor: pointer;
+        font-size: 18px;
+        margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .month {
+
+            background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+            color: orange;
+            width: 600px;
+            margin: 10px auto;
+            padding: 4px 0;
+        }
+
+        #august,
+        #september {
+            /*     border: solid 2px red; */
+
+            display: none;
+            /*     text-align: left; */
+            padding: 20px;
+            margin: 0 auto;
+            justify-content: space-between;
+            width: 80%;
+
+            .august--week {
+                /*         border: solid 2px greenyellow; */
+
+                /*     border-left: solid 0.5px black;
+                    border-right: solid 0.5px black; */
+                border-radius: 10px;
+                background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
+                color: orange;
+                padding: 4px 30px;
+                font-size: 14px;
+            }
+
+        }
+
+        #august_06_07,
+        #august_13_14,
+        #sept_13_14 {
+            /*     border: solid 2px blue; */
+            border-radius: 12px;
+            display: none;
+            /*   background: $bg-color-orange-dark; */
+            background: linear-gradient(to right, rgb(44, 44, 44), rgb(32, 31, 31));
+            ;
+            width: 1000px;
+            margin: 20px;
+
+
+            .table--title {
+                color: orange;
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+                padding-top: 30px;
+                letter-spacing: 1px;
+            }
+
+            table,
+            table * {
+                border: solid 1px black;
+                color: orange;
+                cursor: pointer;
+                /* margin-top: 20px; */
+                padding: 5px;
+                margin: 20px auto;
+                font-size: 16px;
+            }
+
+            table th {
+                text-align: center;
+                font-weight: 100;
+            }
+
+        }
+    }
+}

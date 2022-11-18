@@ -1,0 +1,93 @@
+@import "_template.scss";
+@import "_variables.scss";
+
+.gallery--title {
+    display: flex;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-shadow: 1px 0px black;
+    margin: 20px auto;
+    /*     border-bottom: solid 3px orange; */
+    text-align: center;
+    width: 420px;
+    color: orange;
+    text-align: center;
+
+}
+
+.gallery--main {
+    /*     background: linear-gradient(60deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)); */
+    background: $bg-color-orange-dark;
+    /*         background: linear-gradient(60deg, rgba(27, 27, 27, 0.3), rgba(39, 38, 38, 0.5)); */
+    border-radius: 12px;
+    width: 1200px;
+    min-height: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .gallery--photo--field {
+        background: $bg-color-black;
+        display: flex;
+        /*         border: solid 1px green; */
+        border-radius: 4px;
+        padding: 12px;
+        max-width: 220px;
+        max-height: 180px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 10px 10px 20px black;
+        margin: 10px 10px;
+
+
+
+        .gallery--photo {
+            cursor: pointer;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+            margin: 0 auto;
+
+        }
+    }
+
+}
+
+.popupGallery {
+    align-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+
+    &.hidden {
+        display: none;
+    }
+
+    .popupGallery__image {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .popupCloseBtn {
+        background: $bg-color-orange-dark;
+        color: $bg-color-black;
+        position: absolute;
+        font-size: 24px;
+        top: 30px;
+        right: 50px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+
+    }
+}

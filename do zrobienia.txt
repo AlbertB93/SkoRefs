@@ -1,2 +1,5 @@
 1. pliki php
 2. Mixiny na tytuły podstron
+
+
+1. Header o tych samych rozmiarach jak na podstronach to w indexie.

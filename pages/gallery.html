@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TS Skarżysko</title>
-    <link rel="stylesheet" href="../scss/style-sass.css">
+    <link rel="stylesheet" href="../scss/style-sass-gallery.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap"
         rel="stylesheet">
-    <script src="../app.js"></script>
+
 </head>
 
 <body>
@@ -44,7 +44,7 @@
         </div>
         <div class="gallery--main">
             <div class="gallery--photo--field">
-                <img src="../images/gallery/g1.jpg" alt="zdjecie" class="gallery--photo">
+                <img src="../images/gallery/g1.jpg" alt="zdjecie" class="gallery--photo" onclick="resizePhoto()">
             </div>
             <div class="gallery--photo--field">
                 <img src="../images/gallery/g2.jpg" alt="zdjecie" class="gallery--photo">
@@ -92,7 +92,10 @@
                 <img src="../images/gallery/g8.jpg" alt="zdjecie" class="gallery--photo">
             </div>
         </div>
-
+        <div class="popupGallery hidden">
+            <button class="popupCloseBtn">X</button>
+            <img src="../images/gallery/g8.jpg" alt="" class="popupGallery__img">
+        </div>
     </main>
 
     <footer>
@@ -100,7 +103,7 @@
             Copyright Albert
         </div>
     </footer>
-
+    <script src="../app.js"></script>
 </body>
 
 </html>
