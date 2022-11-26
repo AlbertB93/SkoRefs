@@ -71,6 +71,8 @@
 
     &.hidden {
         display: none;
+
+
     }
 
     .popupGallery__image {
@@ -90,4 +92,29 @@
         cursor: pointer;
 
     }
+
+    .popupArrow--right {
+        background: $bg-color-orange-dark;
+        color: $bg-color-black;
+        position: absolute;
+        top: 50%;
+        font-size: 24px;
+        height: 50px;
+        width: 50px;
+        right: 200px;
+    }
+
+    .popupArrow--left {
+        background: $bg-color-orange-dark;
+        color: $bg-color-black;
+        position: absolute;
+        top: 50%;
+        font-size: 24px;
+        height: 50px;
+        width: 50px;
+        left: 200px;
+    }
+
+
+
 }

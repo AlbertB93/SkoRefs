@@ -207,7 +207,7 @@ main {
   justify-content: center;
   align-items: center;
   animation-name: testAnimation;
-  animation-duration: 5s;
+  animation-duration: 3s;
 }
 
 .refs--main .list--refs .ref--person--container .ref--person--logo {
@@ -424,7 +424,7 @@ main {
   width: 1000px;
   z-index: 100;
   left: 200px;
-  top: 200;
+  top: 150px;
   flex-direction: row;
 }
 
@@ -522,7 +522,7 @@ main {
 }
 
 .popup--main .popup--static .static--table table th {
-  padding: 4px;
+  padding: 6px;
   font-size: 14px;
 }
 
@@ -532,11 +532,10 @@ main {
 }
 
 .popup--main .popup--static .static--table table td {
-  padding: 4px;
-  border-bottom: solid 1px black;
+  padding: 6px;
   font-size: 12px;
 }
 
-.popup--main .popup--static .static--table table tr {
-  border: solid 1px black;
+.popup--main .popup--static .static--table table .dark {
+  background-color: #d29422;
 }

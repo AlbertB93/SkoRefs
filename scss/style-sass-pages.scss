@@ -1,0 +1,537 @@
+@import "_template.scss";
+@import "_variables.scss";
+@import "_mixins.scss";
+
+@keyframes testAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@mixin simple--container {
+    border-radius: 8px;
+    background: $bg-color-black;
+    box-shadow: 8px 8px black;
+    width: 1000px;
+    height: 500px;
+    margin: 30px auto;
+
+    &--header {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 900px;
+        height: 100px;
+        padding-top: 10px;
+
+        h1 {
+            color: orange;
+            letter-spacing: 1px;
+            height: 80px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .btn--back {
+            background: $bg-color-black;
+            border: solid 2px orange;
+            font-size: 16px;
+            max-height: 30px;
+            width: 80px;
+            color: orange;
+            cursor: pointer;
+            position: relative;
+            left: 40px;
+
+            a {
+                color: orange;
+                text-decoration: none;
+            }
+
+        }
+    }
+}
+
+
+main {
+    height: 600px;
+}
+
+
+
+.news--simple {
+    @include simple--container();
+
+    &--container {
+        /*         border: solid 1px orange; */
+        height: 450px;
+        margin: 0 auto;
+        width: 900px;
+
+        &--text {
+            border: solid 2px green;
+        }
+
+        h3 {
+            color: orange;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            text-align: center;
+        }
+
+        p {
+            color: orange;
+            padding: 8px;
+        }
+
+        &--image {
+
+            margin: 50px auto;
+            max-width: 500px;
+            max-height: 300px;
+            display: flex;
+            justify-content: center;
+
+            &--file {
+
+                max-height: 90%;
+                max-width: 90%;
+            }
+        }
+
+    }
+
+    .news--simple--container--002 {
+        /*         border: solid 1px orange; */
+        min-height: 450px;
+        margin: 0 auto;
+        width: 900px;
+        display: flex;
+
+        &--text {}
+
+        h3 {
+            color: orange;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            text-align: center;
+        }
+
+        p {
+            color: orange;
+            padding: 8px;
+        }
+
+        &--image {
+            margin: 0 auto;
+            max-width: 800px;
+            max-height: 400px;
+            display: flex;
+            justify-content: center;
+            transform: scale(1);
+            transition-duration: 3s;
+
+            .image--file {
+
+                max-height: 90%;
+                max-width: 90%;
+            }
+        }
+
+        &--image:hover {
+
+            transform: scale(1.13);
+            left: 200px;
+
+        }
+
+    }
+
+}
+
+
+.news--simple--long {
+
+    @include simple--container();
+    height: 1000px;
+
+    &--container {
+        color: orange;
+        height: 900px;
+        margin: 0 auto;
+        width: 900px;
+
+        h3 {
+            color: orange;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .news-003--table {
+            font-size: 20px;
+            height: 300px;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            color: black;
+
+            table {
+
+                max-width: 800px;
+                margin: 0 auto;
+
+                th {
+                    padding: 6px;
+                    font-size: 14px;
+                    color: orange;
+                    letter-spacing: 1px;
+
+                    .col--image {
+                        max-width: 50px;
+                        max-height: 50px;
+                    }
+
+                    .table--image {
+                        max-width: 30px;
+                        max-height: 30px;
+                    }
+
+                }
+
+                td {
+                    padding: 6px;
+
+                    font-size: 12px;
+                }
+
+                tr {}
+
+                .tr--title {
+                    background-color: rgb(69, 68, 68);
+                    color: rgb(210, 148, 34);
+                }
+
+                .dark {
+                    background-color: rgb(101, 100, 99);
+
+                    th {
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: black;
+                    }
+
+                }
+
+                .light {
+                    background-color: rgb(210, 148, 34);
+
+
+                    th {
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}
+
+.news--simple--xlong {
+
+    @include simple--container();
+    height: 1400px;
+
+    &--container {
+
+        color: orange;
+        height: 900px;
+        margin: 0 auto;
+        width: 900px;
+
+        h3 {
+            border-bottom: solid 2px orange;
+            color: orange;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .news004--refBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            &--person--container {
+
+                border: solid 3px black;
+                border-radius: 10px;
+                background: $bg-color-black;
+                box-shadow: 0 0 16px 1px black;
+                display: flex;
+                /*  flex-direction: row; */
+                /*    min-height: 200px; */
+                min-height: 200px;
+                width: 800px;
+                margin-top: 10px;
+                color: orange;
+                justify-content: left;
+                animation-name: testAnimation;
+                animation-duration: 3s;
+                /*                 position: relative;
+                z-index: 1; */
+
+                &--logo {
+
+                    max-width: 160px;
+                    max-height: 200px;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: orange;
+                    /*                     align-self: center; */
+
+                    &--image {
+                        border: solid 1px black;
+                        border-radius: 4px;
+                        max-height: 150px;
+                        max-width: 150px;
+                        overflow: hidden;
+                        text-align: center;
+                    }
+
+                    &--name {
+                        color: orange;
+                        text-shadow: 5px;
+                        font-size: 16px;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                        text-align: center;
+                        padding-top: 5px;
+                        width: 200px;
+                    }
+                }
+
+                &--text {
+                    min-height: 180px;
+                    margin: 5px;
+                    padding: 5px;
+                    width: 600px;
+
+                    h4 {
+                        border-bottom: solid 1px orange;
+                        color: orange;
+                        letter-spacing: 1px;
+                        padding: 2px;
+                        text-align: center;
+                        margin-bottom: 10px;
+
+                    }
+
+                    &--img {
+                        margin-left: 10px;
+                        max-height: 40px;
+                        max-width: 40px;
+                        position: relative;
+                        top: 16px;
+                    }
+
+                    p {
+                        padding: 3px;
+                        color: orange;
+                        font-size: 16px;
+                        text-align: center;
+
+                    }
+                }
+            }
+
+            /*             &--person--container::before {
+                content: url(../images/persons/AAnna.PNG);
+                position: absolute;
+                z-index: -1;
+                opacity: 0.75;
+            } */
+        }
+
+        &--news005 {
+            height: 900px;
+            margin: 0 auto;
+            width: 900px;
+            color: rgb(190, 189, 187);
+
+            &--part1 {
+                height: 540px;
+                margin: 0 auto;
+                width: 900px;
+
+                &--box {
+
+                    border-radius: 12px;
+                    height: 250px;
+                    margin: 10px auto;
+                    width: 900px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    &--logo--left {
+                        max-height: 240px;
+                        width: auto;
+                        display: flex;
+                        justify-content: left;
+                        object-fit: cover;
+
+                        .--img {
+                            border-radius: 12px;
+                            max-height: 100%;
+                            max-width: 100%;
+                        }
+                    }
+
+                    &--logo--right {
+                        height: 240px;
+                        width: 450px;
+                        display: flex;
+                        justify-content: right;
+                        object-fit: cover;
+
+                        .--img {
+                            border-radius: 12px;
+                            max-height: 100%;
+                                max-width: 100%;
+                        }
+                    }
+
+                    &--text {
+
+                        margin: auto auto;
+                        height: 210px;
+                        width: 460px;
+
+                        h4 {
+                            margin-bottom: 8px;
+                            margin-left: 8px;
+                            letter-spacing: 0.5px;
+                            font-weight: 400;
+                            font-size: 20px;
+                            text-align: center;
+                        }
+
+                        p {
+                            text-align: center;
+                            padding: 2px;
+                        }
+                        li{
+                            text-align: center;
+                        }
+                    }
+                }
+
+            }
+
+            &--part2 {
+                /*                 background: url(../images/ANIA-KASIA-3.png) center no-repeat; */
+                background-size: auto;
+                height: 600px;
+                margin: 2px auto;
+                width: 98%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                &--person {
+                    border: solid 3px orange;
+                    border-radius: 12px;
+                    height: 500px;
+                    width: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    color: orange;
+
+                    &--header {
+                        font-size: 24px;
+                        height: 40px;
+                        text-align: center;
+                        width: 360px;
+                    }
+
+                    &--logo {
+                        height: 200px;
+                        margin-left: 10px;
+                        width: 200px;
+                        display: flex;
+                        align-items: center;
+
+                        &--img {
+
+                            max-height: 100%;
+                            max-width: 100%;
+                        }
+                    }
+
+                    &--text {
+                        height: 400px;
+                        margin: 10px auto;
+                        text-align: center;
+                        width: 90%;
+
+                        h4 {
+
+                            color: orange;
+                            margin-bottom: 30px;
+                            margin-top: 10px;
+                            letter-spacing: 1px;
+                            text-align: center;
+                        }
+
+                        h5 {
+                            border-bottom: solid 1px orange;
+                            font-size: 16px;
+                            letter-spacing: 1px;
+
+                        }
+
+                        &--img {
+                            margin-left: 10px;
+                            margin-right: 10px;
+                            max-height: 40px;
+                            max-width: 40px;
+                            position: relative;
+                            top: 16px;
+                        }
+
+                        p {
+                            margin: 10px auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@include breakPoint(small) {
+    .single--news--container {
+        background: $bg-color-orange;
+    }
+}

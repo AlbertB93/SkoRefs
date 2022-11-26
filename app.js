@@ -50,21 +50,67 @@ function init() {
 
 document.addEventListener("DOMContentLoaded", init); 
 
-const Photos = document.querySelectorAll(".gallery--photo");
+const PHOTOS = document.querySelectorAll(".gallery--photo");
 const POPUP = document.querySelector(".popupGallery");
 const POPUP_CLOSE = document.querySelector(".popupCloseBtn");
 const POPUP_IMG = document.querySelector(".popupGallery__img");
+const ARROW_LEFT = document.querySelector(".popupArrow--left");
+const ARROW_RIGHT = document.querySelector(".popupArrow--right");
 
-Photos.forEach( (photo) => {
+
+let currentImgIndex;
+
+const showNextImg = () => {
+    if(currentImgIndex === PHOTOS.length - 1){
+        currentImgIndex = 0;
+    } else {
+        currentImgIndex++;
+    }
+        POPUP_IMG.src = PHOTOS[currentImgIndex].src
+};
+
+
+const showPreviousImg = () => {
+    if(currentImgIndex === 0){
+        currentImgIndex = PHOTOS.length - 1;
+    } else {
+        currentImgIndex--;
+    }
+        POPUP_IMG.src = PHOTOS[currentImgIndex].src
+};
+
+
+const exitPopup = ()=> {
+        POPUP.classList.add("hidden");
+}
+
+PHOTOS.forEach( (photo, index) => {
     photo.addEventListener("click", (e)=> {
         POPUP.classList.remove("hidden");
         POPUP_IMG.src = e.target.src;
+        currentImgIndex = index;
     });
 });
 
-POPUP_CLOSE.addEventListener("click", ()=>{
-    POPUP.classList.add("hidden");
-})
-/* function resizePhoto(){
-    document.getElementsByClassName("gallery--photo").style.display.
-} */
+POPUP_CLOSE.addEventListener("click", exitPopup);
+
+
+ARROW_RIGHT.addEventListener("click", showNextImg);
+ARROW_LEFT.addEventListener("click", showPreviousImg); 
+
+document.addEventListener("keydown", (e) => {
+    if( !POPUP.classList.contains("hidden")){
+    if (e.code === "ArrowRight" || e.keyCode === 39){
+        showNextImg();
+    }
+    if (e.code === "ArrowLeft" || e.keyCode === 37){
+        showPreviousImg();
+    }
+
+    if (e.code === "Escape" || e.keycode === 27){
+        exitPopup();
+    }
+}
+});
+
+

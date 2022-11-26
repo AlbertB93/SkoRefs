@@ -15,8 +15,11 @@
   }
 }
 
-body {
+body,
+html {
   background: linear-gradient(to top, #352e1f, #31291b);
+  min-height: 100vh;
+  position: relative;
   width: 100%;
 }
 
@@ -41,7 +44,7 @@ header .header--logo {
   height: 120px;
   width: 160px;
   position: absolute;
-  top: 30px;
+  top: 10px;
   left: 40px;
 }
 
@@ -60,7 +63,7 @@ header .header--logo2 {
   height: 120px;
   width: 160px;
   position: absolute;
-  top: 30px;
+  top: 10px;
   right: 40px;
 }
 
@@ -144,6 +147,7 @@ footer {
   color: grey;
   background: linear-gradient(to left, #1c1b1b, #282525);
   position: relative;
+  bottom: 0;
   text-align: right;
   max-height: 30px;
   padding-right: 5px;
@@ -151,7 +155,13 @@ footer {
 }
 
 main {
-  min-height: 600px;
+  min-height: 100vh;
+}
+
+@media (max-width: 550px) {
+  header {
+    background-color: red;
+  }
 }
 
 .cast--container {
@@ -165,6 +175,7 @@ main {
 
 .cast--container .cast--title {
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  border: solid 1px black;
   border-radius: 8px;
   text-align: center;
   color: orange;
@@ -192,6 +203,7 @@ main {
 
 .cast--container .month--container .month {
   background: linear-gradient(to right, #1c1b1b, #282525);
+  border: solid 1px black;
   color: orange;
   width: 600px;
   margin: 10px auto;
@@ -214,6 +226,7 @@ main {
   /*         border: solid 2px greenyellow; */
   /*     border-left: solid 0.5px black;
                     border-right: solid 0.5px black; */
+  border: solid 1px black;
   border-radius: 10px;
   background: linear-gradient(to right, #1c1b1b, #282525);
   color: orange;

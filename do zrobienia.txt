@@ -1,5 +1,8 @@
-1. pliki php
-2. Mixiny na tytuły podstron
 
+2. Mixiny na tytuły podstron
+3. Mixiny do newsów
+	Standard do newsa, a później ewentualnie rozszerzenia jak np. długość itp.
+4. Porządek w pliku css
+5. Rozdzielczość na telefonie.
 
 1. Header o tych samych rozmiarach jak na podstronach to w indexie.
