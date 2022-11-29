@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TS Skarżysko</title>
-  <link rel="stylesheet" href="../scss/style-sass-cast.css" />
+  <link rel="stylesheet" href="../scss/style-cast.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet" />
@@ -14,7 +14,8 @@
 </head>
 
 <body>
-  <?php include("header.php"); ?>
+  <?php include("../php/header--pages.php"); ?>
+  <?php include("../php/nav--pages.php"); ?>
   <main>
     <div class="cast--container">
       <div class="cast--title" onclick="toggleClear('august')">
@@ -232,7 +233,7 @@
     </div>
   </main>
 
-  <?php include("footer.php"); ?>
+  <?php include("../footer.php"); ?>
 </body>
 
 </html>

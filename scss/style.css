@@ -154,10 +154,16 @@ footer {
   width: 100%;
 }
 
-/* main {
-    min-height: 600px;
+main {
+  min-height: 100vh;
+}
 
-} */
+@media (max-width: 550px) {
+  header {
+    background-color: red;
+  }
+}
+
 @keyframes testAnimation {
   from {
     opacity: 0;

@@ -6,41 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TS Skarżysko</title>
-    <link rel="stylesheet" href="../scss/style-sass-refs.css">
+    <link rel="stylesheet" href="../scss/style-refs.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet">
     <script src="../app.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="header--logo">
-            <a href="../index.html"><img src="../images/whistle-logo.png" alt="WHISTLE" class="header--logo--img"></a>
-        </div>
-        <div class="header--title">
-            <h1>
-                Skarżyskie Gwizdki
-            </h1>
-            <h3>
-                poznaj ich bliżej...
-            </h3>
-        </div>
-        <div class="header--logo2">
-            <img src="../images/cards.png" alt="WHISTLE" class="header--logo--img">
-        </div>
-    </header>
-    <nav>
-        <div class="nav--box">
-            <a href="pages/news.html">Aktualności</a>
-            <a href="pages/refs.html">Sędziowie</a>
-            <a href="pages/cast.html">Obsada</a>
-            <a href="pages/gallery.html">Galeria</a>
-            <a href="pages/toDownload.html">Do pobrania</a>
-            <a href="pages/contact.html">Kontakt</a>
-        </div>
-    </nav>
+    <?php include("../php/header--pages.php"); ?>
+    <?php include("../php/nav--pages.php"); ?>
 
     <main>
 
@@ -71,66 +46,66 @@
                         <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
                     </div>
                     <button class="popup--btn2" onclick="closePopup(0)">X</button>
+                </div>
+
+                <div class="popup--static">
+                    <div class="static--title">Liczba meczów</div>
+                    <div class="static--table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                                    <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                                    <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="dark">
+                                    <td>2 liga</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>3 liga</td>
+                                    <td>8</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="dark">
+                                    <td>4 liga</td>
+                                    <td>5</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>Kl. "O"</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="dark">
+                                    <td>Kl. "A"</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>Kl. "B"</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="dark">
+                                    <td>Młodzież</td>
+                                    <td>8</td>
+                                    <td>7</td>
+                                    <td>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    
-                    <div class="popup--static">
-                        <div class="static--title">Liczba meczów</div>
-                        <div class="static--table">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th scope="col"></th>
-                                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="dark">
-                                        <td>2 liga</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3 liga</td>
-                                        <td>8</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr class="dark">
-                                        <td>4 liga</td>
-                                        <td>5</td>
-                                        <td>2</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Kl. "O"</td>
-                                        <td>2</td>
-                                        <td>2</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr class="dark">
-                                        <td>Kl. "A"</td>
-                                        <td>2</td>
-                                        <td>2</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Kl. "B"</td>
-                                        <td>2</td>
-                                        <td>2</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr class="dark">
-                                        <td>Młodzież</td>
-                                        <td>8</td>
-                                        <td>7</td>
-                                        <td>0</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
                 </div>
             </div>
             <div class="popup--main">

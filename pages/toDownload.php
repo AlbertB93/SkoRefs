@@ -6,38 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TS Skarżysko</title>
-    <link rel="stylesheet" href="../scss/style-sass-toDownload.css">
+    <link rel="stylesheet" href="../scss/style-toDownload.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet">
     <script src="../app.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="header--logo">
-            <a href="../index.html"><img src="../images/whistle-logo.png" alt="WHISTLE" class="header--logo--img" /></a>
-        </div>
-        <div class="header--title">
-            <h1>Skarżyskie Gwizdki</h1>
-            <h3>poznaj ich bliżej...</h3>
-        </div>
-        <div class="header--logo2">
-            <img src="../images/cards.png" alt="WHISTLE" class="header--logo--img" />
-        </div>
-    </header>
-    <nav>
-        <div class="nav--box">
-            <a href="pages/news.html">Aktualności</a>
-            <a href="pages/refs.html">Sędziowie</a>
-            <a href="pages/cast.html">Obsada</a>
-            <a href="pages/gallery.html">Galeria</a>
-            <a href="pages/toDownload.html">Do pobrania</a>
-            <a href="pages/contact.html">Kontakt</a>
-        </div>
-    </nav>
-
+    <?php include("../php/header--pages.php"); ?>
+    <?php include("../php/nav--pages.php"); ?>
     <main>
 
         <div class="toDownload--main">
@@ -47,9 +25,7 @@
                 </div>
                 <div class="toDownload--option--list">
                     <div class="option--list">
-                        <a href="../files/regulamin_rozgrywek_iv_liga_i_nizsze_sezon_2022-2023_oraz_wytyczne_w_zakresie_organizacji_meczow.pdf"
-                            download="regulamin_rozgrywek_iv_liga_i_nizsze_sezon_2022-2023_oraz_wytyczne_w_zakresie_organizacji_meczow.pdf"
-                            target="_blank">Regulamin
+                        <a href="../files/regulamin_rozgrywek_iv_liga_i_nizsze_sezon_2022-2023_oraz_wytyczne_w_zakresie_organizacji_meczow.pdf" download="regulamin_rozgrywek_iv_liga_i_nizsze_sezon_2022-2023_oraz_wytyczne_w_zakresie_organizacji_meczow.pdf" target="_blank">Regulamin
                             ligi</a>
 
                     </div>
