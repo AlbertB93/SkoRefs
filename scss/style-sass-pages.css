@@ -232,7 +232,8 @@ main {
 }
 
 .news--simple--container h3 {
-  color: orange;
+  border-bottom: solid 2px bisque;
+  color: bisque;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
   text-align: center;
@@ -348,7 +349,8 @@ main {
 }
 
 .news--simple--long--container h3 {
-  color: orange;
+  border-bottom: solid 2px bisque;
+  color: bisque;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
   text-align: center;
@@ -393,12 +395,12 @@ main {
 }
 
 .news--simple--long--container .news-003--table table .tr--title {
-  background-color: #454444;
+  background-color: #414140;
   color: #d29422;
 }
 
 .news--simple--long--container .news-003--table table .dark {
-  background-color: #656463;
+  background-color: #8a8a89;
 }
 
 .news--simple--long--container .news-003--table table .dark th {
@@ -424,7 +426,7 @@ main {
   width: 1000px;
   height: 500px;
   margin: 30px auto;
-  height: 1400px;
+  height: 1450px;
 }
 
 .news--simple--xlong--header {
@@ -469,8 +471,9 @@ main {
 }
 
 .news--simple--xlong--container h3 {
-  border-bottom: solid 2px orange;
-  color: orange;
+  border-bottom: solid 2px bisque;
+  color: bisque;
+  /*             color: orange; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
   text-align: center;
@@ -572,11 +575,16 @@ main {
   text-align: center;
 }
 
+.news--simple--xlong--container .news004--refBox--person--container--text li {
+  text-align: center;
+}
+
 .news--simple--xlong--container--news005 {
   height: 900px;
   margin: 0 auto;
   width: 900px;
-  color: #bebdbb;
+  /*             color: rgb(190, 189, 187); */
+  color: oranges;
 }
 
 .news--simple--xlong--container--news005--part1 {

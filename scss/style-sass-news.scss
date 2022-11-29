@@ -22,7 +22,7 @@
     border-radius: 12px;
     display: flex;
     height: 500px;
-    width: 1400px;
+    width: 1300px;
     margin: 20px auto;
     flex-wrap: wrap;
     flex-direction: column;
@@ -37,11 +37,10 @@
         height: 50px;
         width: 240px;
 
-
         h2 {
             color: orange;
             font-weight: 300;
-/*             font-size: 24px; */
+            /*             font-size: 24px; */
             text-shadow: 1px 0px black;
             margin: 5px auto;
             letter-spacing: 1px;
@@ -95,6 +94,59 @@
                 overflow: hidden;
             }
         }
+
+        article {
+            border: solid 2px black;
+            background: linear-gradient(to bottom, rgb(23, 23, 23), rgb(255, 186, 57));
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 300px;
+            width: 280px;
+            box-shadow: 4px 4px black;
+            transition: 0.5s;
+            transform: scale(1);
+
+            .article--image {
+                margin: 15px 10px;
+                border-radius: 5px;
+                max-height: 200px;
+                max-width: 280px;
+
+                .article--image--file {
+                    border-radius: 5px;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        article:hover {
+            transform: scale(1.1);
+            z-index: 100;
+        }
+
+        article a {
+            display: flex;
+            border: solid 2px black;
+            background-color: orange;
+            border-radius: 12px;
+            min-height: 50px;
+            width: 80%;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        article a:hover {
+            background-color: black;
+            color: orange;
+        }
     }
 
     .news--buttons--box {
@@ -119,6 +171,17 @@
         & a {
             color: orange;
             text-decoration: none;
+        }
+
+        &--number {
+            height: 30px;
+            width: 80px;
+            position: absolute;
+            right: 100px;
+            border: solid 2px black;
+            background: $bg-color-black;
+            color: orange;
+            text-align: center;
         }
 
 

@@ -71,8 +71,6 @@
 
     &.hidden {
         display: none;
-
-
     }
 
     .popupGallery__image {
@@ -81,8 +79,9 @@
     }
 
     .popupCloseBtn {
-        background: $bg-color-orange-dark;
-        color: $bg-color-black;
+        border: solid 3px orange;
+        background: $bg-color-black;
+        color: orange;
         position: absolute;
         font-size: 24px;
         top: 30px;
@@ -94,14 +93,21 @@
     }
 
     .popupArrow--right {
-        background: $bg-color-orange-dark;
-        color: $bg-color-black;
+        border: solid 3px orange;
+        background: $bg-color-black;
+        color: orange;
         position: absolute;
         top: 50%;
-        font-size: 24px;
+        font-size: 50px;
         height: 50px;
         width: 50px;
         right: 200px;
+
+        .text {
+            position: absolute;
+            bottom: -6px;
+            right: 12px;
+        }
     }
 
     .popupArrow--left {
