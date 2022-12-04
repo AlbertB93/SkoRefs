@@ -21,40 +21,41 @@
         <h2>Archiwum wiadomości</h2>
       </div>
       <div class="news--box">
-        <div class="news">
-          <div class="news--file">
-            <img src="../images/testObsada.jpg" alt="FELEK" class="news--file--photo" />
+        <article id="article--1">
+          <a href="pages/news/news001.html">Witamy na stronie !</a>
+          <div class="article--image">
+            <img src="../images/index/hand.png" alt="ręka" class="article--image--file" />
           </div>
-          <div class="news--title">Rozkład jazdy na weekend</div>
-        </div>
-        <div class="news">
-          <div class="news--file">
-            <img src="../images/felek.png" alt="FELEK" class="news--file--photo" />
+        </article>
+        <article id="article--1">
+          <a href="pages/news/news001.html">Witamy na stronie !</a>
+          <div class="article--image">
+            <img src="../images/index/hand.png" alt="ręka" class="article--image--file" />
           </div>
-          <div class="news--title">
-            Podsumowanie rundy jesiennej </br> sezonu 2022 / 2023 ŚZPN
+        </article>
+        <article id="article--4">
+          <a href="pages/news/news004.html">Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</a>
+          <div class="article--image">
+            <img src="../images/klip-spalony.png" alt="sędzia-asystent-chorągiewka" class="article--image--file" />
           </div>
-        </div>
-        <div class="news">
-          <div class="news--file">
-            <img src="../images//egzaminySala.jpg" alt=" FELEK" class="news--file--photo" />
+        </article>
+        <article id="article--1">
+          <a href="pages/news/news001.html">Witamy na stronie !</a>
+          <div class="article--image">
+            <img src="../images/index/hand.png" alt="ręka" class="article--image--file" />
           </div>
-          <div class="news--title">EGZAMINY 1 TERMIN</div>
-        </div>
-        <div class="news">
-          <div class="news--file">
-            <img src="../images/OBSADA.png" alt="FELEK" class="news--file--photo" />
-          </div>
-          <div class="news--title">OBSADA 11-12.10.2023</div>
-        </div>
+        </article>
       </div>
       <div class="news--buttons--box">
-        <button class="news--buttons">1</button>
-        <button class="news--buttons">
-          <a href="../pages/news/news--page--002.php">2</a>
+        <button class="news--buttons--active" >
+          <a href="news.php">1</a>
         </button>
         <button class="news--buttons">
-          <a href="../pages/news/news--page--003.php">3</a></button>
+          <a href="news/news--page--002.php">2</a>
+        </button>
+        <button class="news--buttons">
+          <a href="news/news--page--003.php">3</a>
+        </button>
         <button class="news--buttons">...</button>
       </div>
     </div>
@@ -63,6 +64,7 @@
   <footer>
     <div class="footer-text">Copyright Albert</div>
   </footer>
+  <script src="../test.js"></script>
 </body>
 
 </html>

@@ -19,7 +19,7 @@
   <main>
     <div class="news--container">
       <div class="news--title--box">
-        <h2>Archiwum wiadomości</h2>
+        <h2>Archiwum wiadomości 2</h2>
       </div>
       <div class="news--box">
         <article id="article--1">
@@ -49,9 +49,11 @@
       </div>
       <div class="news--buttons--box">
         <button class="news--buttons">
-          <a href="../pages/news.php">1</a>
+          <a href="../news.php">1</a>
         </button>
-        <button class="news--buttons">2</button>
+        <button class="news--buttons--active">
+          <a href=" news--page--002.php" style="background-color: orange; color:black;">2</a>
+        </button>
         <button class="news--buttons">
           <a href="news--page--003.php">3</a>
         </button>
@@ -63,6 +65,7 @@
   <footer>
     <div class="footer-text">Copyright Albert</div>
   </footer>
+  <script src="../../test.js"></script>
 </body>
 
 </html>

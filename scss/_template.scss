@@ -24,155 +24,281 @@ html {
     background: $bg-color-test2;
     min-height: 100vh;
     position: relative;
-    width: 100%;
-}
+    width: 98vw;
 
-header {
-    /*     background-image: url(images/tlo-header-4.webp); */
-    /* background-size: cover; */
-    border: solid 1px orange;
-    background: $bg-color-black;
-    border-radius: 12px;
-    display: flex;
-    height: 120px;
-    width: 95%;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
-
-    .header--logo {
-        /* 
-        border: solid 5px orange;
-        border-radius: 120px; */
-        height: 120px;
-        width: 160px;
-        position: absolute;
-        top: 10px;
-        left: 40px;
-
-        &--img {
-            display: block;
-            max-height: 80%;
-            max-width: 80%;
-            margin: 0 auto;
-            margin-top: 5px;
-
-        }
-
-    }
-
-    .header--logo2 {
-        /* 
-        border: solid 5px orange;
-        border-radius: 120px; */
-        height: 120px;
-        width: 160px;
-        position: absolute;
-        top: 10px;
-        right: 40px;
-    }
-
-    .header--title {
+    header {
+        border: solid 1px orange;
+        background: $bg-color-black;
+        border-radius: 12px;
         display: flex;
+        height: 16vh;
+        width: 92vw;
         justify-content: center;
-        flex-direction: column;
-        /*     border: solid 3px red; */
-        height: 120px;
-        color: orange;
-        transition: 2s;
-        width: 800px;
+        align-items: center;
+        margin: 20px auto;
 
-        h1 {
-            color: orange;
-            font-weight: 700;
-            font-size: 40px;
-            letter-spacing: 2px;
-            text-shadow: 2px 2px black;
-            transition: 2s;
-            margin-top: -20px;
-            margin-left: 250px;
-            animation-name: animationHeader;
-            animation-duration: 5s;
+        .header--logo {
+            height: 16vh;
+            width: 12vw;
+            position: absolute;
+            top: 10px;
+            left: 40px;
+
+            &--img {
+                display: block;
+                max-height: 80%;
+                max-width: 80%;
+                margin: 0 auto;
+                margin-top: 5px;
+
+            }
+
         }
 
-        h3 {
-            opacity: 0;
+        .header--logo2 {
+            height: 120px;
+            width: 160px;
+            position: absolute;
+            top: 10px;
+            right: 40px;
+        }
+
+        .header--title {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 120px;
             color: orange;
-            font-weight: 700;
-            font-size: 20px;
-            letter-spacing: 0.5px;
-            text-shadow: 2px 2px black;
             transition: 2s;
-            margin-top: -10px;
-            margin-left: 500px;
-            animation-name: animationHeader;
-            animation-duration: 5s;
-            animation-delay: 1s;
-            animation-fill-mode: forwards;
+            width: 800px;
+
+            h1 {
+                color: orange;
+                font-weight: 700;
+                font-size: 40px;
+                letter-spacing: 2px;
+                text-shadow: 2px 2px black;
+                transition: 2s;
+                margin-top: -20px;
+                margin-left: 250px;
+                animation-name: animationHeader;
+                animation-duration: 5s;
+            }
+
+            h3 {
+                opacity: 0;
+                color: orange;
+                font-weight: 700;
+                font-size: 20px;
+                letter-spacing: 0.5px;
+                text-shadow: 2px 2px black;
+                transition: 2s;
+                margin-top: -10px;
+                margin-left: 500px;
+                animation-name: animationHeader;
+                animation-duration: 5s;
+                animation-delay: 1s;
+                animation-fill-mode: forwards;
+            }
         }
     }
-}
 
 
-nav {
+    nav {
 
-    border-radius: 12px;
-    /*     background: linear-gradient(to left, rgb(11, 10, 10), rgb(40, 37, 37)); */
-    /*         background: linear-gradient(to left, rgb(23, 23, 23), rgb(255, 186, 57)); */
-    background: $bg-color-black;
-    border: solid 1px orange;
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-    height: 50px;
-    padding: 1rem 0.5 rem;
-    width: 95%;
-    margin: 0 auto;
-
-    .nav--box {
+        border-radius: 12px;
+        background: $bg-color-black;
+        border: solid 1px orange;
         display: flex;
         justify-content: space-around;
-        width: 60%;
+        font-size: 20px;
+        height: 50px;
+        padding: 1rem 0.5 rem;
+        width: 95%;
+        margin: 0 auto;
 
-        & a {
-            align-items: center;
-            color: orange;
-            text-decoration: none;
-            padding: 0.5rem;
-            transition: 1s;
-        }
+        .nav--box {
+            display: flex;
+            justify-content: space-around;
+            width: 60%;
 
-        & a:hover {
-            border-radius: 30px;
-            background-color: orange;
-            color: black;
+            & a {
+                align-items: center;
+                color: orange;
+                text-decoration: none;
+                padding: 0.5rem;
+                transition: 1s;
+            }
+
+            & a:hover {
+                border-radius: 30px;
+                background-color: orange;
+                color: black;
+            }
+
         }
 
     }
 
+
+
+    footer {
+        border-top: solid 1px var(--color-decorate);
+        color: grey;
+        background: linear-gradient(to left, rgb(28, 27, 27), rgb(40, 37, 37));
+        position: relative;
+        bottom: 0;
+        text-align: right;
+        max-height: 30px;
+        padding-right: 5px;
+        width: 100%;
+    }
+
+    main {
+        min-height: 100vh;
+    }
 }
 
 
 
-footer {
-    border-top: solid 1px var(--color-decorate);
-    color: grey;
-    background: linear-gradient(to left, rgb(28, 27, 27), rgb(40, 37, 37));
-    position: relative;
-    bottom: 0;
-    text-align: right;
-    max-height: 30px;
-    padding-right: 5px;
-    width: 100%;
-}
+@include breakPoint(small) {
 
-main {
-    min-height: 100vh;
-}
+    body,
+    html {
+        background: $bg-color-test2;
+        min-height: 100vh;
+        position: relative;
+        width: 100%;
+
+        header {
+            border: solid 1px orange;
+            background: $bg-color-black;
+            border-radius: 12px;
+            display: flex;
+            height: 60px;
+            width: 95%;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+
+            .header--logo {
+                height: 60px;
+                width: 20%;
+                position: absolute;
+                top: 10px;
+                left: 40px;
+
+                &--img {
+                    display: block;
+                    max-height: 80%;
+                    max-width: 80%;
+                    margin: 0 auto;
+                    margin-top: 5px;
+
+                }
+
+            }
+
+            .header--logo2 {
+                height: 100%;
+                width: 20%;
+                position: absolute;
+                top: 10px;
+                right: 40px;
+            }
+
+            .header--title {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                height: 60px;
+                color: orange;
+                transition: 2s;
+                width: 200px;
+
+                h1 {
+                    color: orange;
+                    font-weight: 700;
+                    font-size: clamp(1.5rem, 5vw, 5rem);
+                    letter-spacing: 2px;
+                    text-shadow: 2px 2px black;
+                    transition: 2s;
+                    margin-left: 50px;
+                    animation-name: animationHeader;
+                    animation-duration: 5s;
+                }
+
+                h3 {
+                    opacity: 0;
+                    color: orange;
+                    font-weight: 700;
+                    font-size: 20px;
+                    letter-spacing: 0.5px;
+                    text-shadow: 2px 2px black;
+                    transition: 2s;
+                    margin-top: -10px;
+                    margin-left: 500px;
+                    animation-name: animationHeader;
+                    animation-duration: 5s;
+                    animation-delay: 1s;
+                    animation-fill-mode: forwards;
+                }
+            }
+        }
 
 
-@include breakPoint(small){
-    header{
-        background-color: red;
+        nav {
+
+            border-radius: 12px;
+            background: $bg-color-black;
+            border: solid 1px orange;
+            display: flex;
+            justify-content: space-around;
+            font-size: 20px;
+            height: 50px;
+            padding: 1rem 0.5 rem;
+            width: 95%;
+            margin: 0 auto;
+
+            .nav--box {
+                display: flex;
+                justify-content: space-around;
+                width: 60%;
+
+                & a {
+                    align-items: center;
+                    color: orange;
+                    text-decoration: none;
+                    padding: 0.5rem;
+                    transition: 1s;
+                }
+
+                & a:hover {
+                    border-radius: 30px;
+                    background-color: orange;
+                    color: black;
+                }
+
+            }
+
+        }
+
+
+
+        footer {
+            border-top: solid 1px var(--color-decorate);
+            color: grey;
+            background: linear-gradient(to left, rgb(28, 27, 27), rgb(40, 37, 37));
+            position: relative;
+            bottom: 0;
+            text-align: right;
+            max-height: 30px;
+            padding-right: 5px;
+            width: 100%;
+        }
+
+        main {
+            min-height: 100vh;
+        }
     }
 }

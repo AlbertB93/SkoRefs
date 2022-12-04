@@ -1,4 +1,4 @@
-    <link rel="stylesheet" href="scss/style-sass.css" />
+
     <header>
         <div class="header--logo">
             <a href="../index.php"><img src="../images/whistle-logo.png" alt="WHISTLE" class="header--logo--img" /></a>
