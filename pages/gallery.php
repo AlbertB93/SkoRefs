@@ -17,8 +17,8 @@
   <?php include("../php/nav--pages.php"); ?>
 
   <main>
-    <div class="gallery--title">Skarżyskie Gwizdki w obiektywie</div>
-    <div class="gallery--main">
+    <div class="container--title">Skarżyskie Gwizdki w obiektywie</div>
+    <div class="gallery--container">
       <div class="gallery--photo--field">
         <img src="../images/gallery/g1.jpg" alt="zdjecie" class="gallery--photo" />
       </div>
@@ -75,13 +75,13 @@
         <div class="text">></div>
       </button>
       <button class="popupArrow--left">
-        << /button>
-    </div>
+        <div class="text">
+          << /div>
+        </div>
   </main>
-  <footer>
-    <div class="footer-text">Copyright Albert</div>
-  </footer>
+  <?php include("../php/footer.php"); ?>
   <script src="../app.js"></script>
 </body>
+
 
 </html>

@@ -88,7 +88,7 @@
 
                 <h5>Sędzia asystent <img src="../../images/table-flag.png" alt="WHISTLE" class="news--simple--xlong--container--news005--part2--person--text--img" style="top: 12px;" />
                 </h5>
-                <p>Ekstrliga Kobiet</p>
+                <p>Ekstraliga Kobiet</p>
                 <p>POGOŃ Gościniec nad Wisłą II Tczew - UKS SMS II Łódź</p>
               </div>
             </div>

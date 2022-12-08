@@ -3,7 +3,11 @@
 
 
 
-.toDownload--main {
+.container--title {
+    @include title;
+}
+
+.toDownload--container {
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -11,33 +15,27 @@
     width: 100%;
     justify-content: space-around;
 
-
     .toDownload--option {
-
         border: solid 2px black;
-/*         background: linear-gradient(to bottom, rgb(58, 57, 58), rgb(255, 186, 57)); */
-                background: $bg-color-black-orange-bottom;
+        background: $bg-color-black-orange-bottom;
         border-radius: 20px;
         height: 400px;
         width: 300px;
 
-
         .toDownload--option--title {
             border-bottom: solid 3px black;
-            font-size: 30px;
+            font-size: 2rem;
             margin-bottom: 30px;
-            color:orange;
-            cursor: pointer;
+            color: orange;
         }
 
         .toDownload--option--list {
-
             flex-direction: column;
             display: flex;
 
             .option--list {
                 margin: 10px;
-                font-size: 20px;
+                font-size: 1.5rem;
                 border: solid 1px black;
                 background: $bg-color-black;
                 color: orange;
@@ -46,7 +44,35 @@
                     color: orange;
                     text-decoration: none;
                 }
+            }
+        }
+    }
+}
 
+
+@include breakPoint(small) {
+
+    .toDownload--title {
+        width: 96vw;
+    }
+
+    .toDownload--main {
+        flex-direction: column;
+        width: 96vw;
+        align-items: center;
+        margin: 20px auto;
+
+        .toDownload--option {
+            width: 90vw;
+            margin: 10px auto;
+
+            .toDownload--option--title {}
+
+            .toDownload--option--list {
+
+                .option--list {
+                    & a {}
+                }
             }
         }
     }

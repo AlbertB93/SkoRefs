@@ -20,35 +20,38 @@ html {
   background: linear-gradient(to top, #352e1f, #31291b);
   min-height: 100vh;
   position: relative;
-  width: 100%;
+  max-width: 100%;
+  width: 100vw;
 }
 
-header {
-  /*     background-image: url(images/tlo-header-4.webp); */
-  /* background-size: cover; */
+body main,
+html main {
+  min-height: 100vh;
+}
+
+body header,
+html header {
   border: solid 1px orange;
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
   border-radius: 12px;
   display: flex;
-  height: 120px;
-  width: 95%;
-  justify-content: center;
+  height: 16vh;
+  width: 92vw;
+  justify-content: space-around;
   align-items: center;
   margin: 20px auto;
 }
 
-header .header--logo {
-  /* 
-        border: solid 5px orange;
-        border-radius: 120px; */
-  height: 120px;
-  width: 160px;
-  position: absolute;
-  top: 10px;
-  left: 40px;
+body header .header--logo,
+html header .header--logo {
+  position: relative;
+  height: 16vh;
+  width: 12vw;
+  top: 1vh;
 }
 
-header .header--logo--img {
+body header .header--logo--img,
+html header .header--logo--img {
   display: block;
   max-height: 80%;
   max-width: 80%;
@@ -56,79 +59,78 @@ header .header--logo--img {
   margin-top: 5px;
 }
 
-header .header--logo2 {
-  /* 
-        border: solid 5px orange;
-        border-radius: 120px; */
-  height: 120px;
-  width: 160px;
-  position: absolute;
-  top: 10px;
-  right: 40px;
+body header .header--logo2,
+html header .header--logo2 {
+  position: relative;
+  height: 16vh;
+  width: 12vw;
+  top: 1vh;
 }
 
-header .header--title {
+body header .header--title,
+html header .header--title {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /*     border: solid 3px red; */
-  height: 120px;
+  height: 16vh;
   color: orange;
   transition: 2s;
-  width: 800px;
+  width: 60vw;
 }
 
-header .header--title h1 {
+body header .header--title h1,
+html header .header--title h1 {
   color: orange;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5em;
   letter-spacing: 2px;
   text-shadow: 2px 2px black;
   transition: 2s;
-  margin-top: -20px;
-  margin-left: 250px;
   animation-name: animationHeader;
   animation-duration: 5s;
+  text-align: center;
 }
 
-header .header--title h3 {
+body header .header--title h3,
+html header .header--title h3 {
   opacity: 0;
   color: orange;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25em;
   letter-spacing: 0.5px;
   text-shadow: 2px 2px black;
   transition: 2s;
-  margin-top: -10px;
-  margin-left: 500px;
   animation-name: animationHeader;
   animation-duration: 5s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+  text-align: center;
+  margin-left: 30vw;
 }
 
-nav {
+body nav,
+html nav {
   border-radius: 12px;
-  /*     background: linear-gradient(to left, rgb(11, 10, 10), rgb(40, 37, 37)); */
-  /*         background: linear-gradient(to left, rgb(23, 23, 23), rgb(255, 186, 57)); */
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
   border: solid 1px orange;
   display: flex;
   justify-content: space-around;
-  font-size: 20px;
-  height: 50px;
+  font-size: 1.25em;
+  height: 8vh;
   padding: 1rem 0.5 rem;
-  width: 95%;
+  width: 92vw;
   margin: 0 auto;
 }
 
-nav .nav--box {
+body nav .nav--box,
+html nav .nav--box {
   display: flex;
   justify-content: space-around;
   width: 60%;
 }
 
-nav .nav--box a {
+body nav .nav--box a,
+html nav .nav--box a {
   align-items: center;
   color: orange;
   text-decoration: none;
@@ -136,13 +138,15 @@ nav .nav--box a {
   transition: 1s;
 }
 
-nav .nav--box a:hover {
+body nav .nav--box a:hover,
+html nav .nav--box a:hover {
   border-radius: 30px;
   background-color: orange;
   color: black;
 }
 
-footer {
+body footer,
+html footer {
   border-top: solid 1px var(--color-decorate);
   color: grey;
   background: linear-gradient(to left, #1c1b1b, #282525);
@@ -154,34 +158,153 @@ footer {
   width: 100%;
 }
 
-main {
-  min-height: 100vh;
-}
-
 @media (max-width: 550px) {
-  header {
-    background-color: red;
+  body,
+  html {
+    min-height: 100vh;
+    position: relative;
+    max-width: 100%;
+    width: 100vw;
+  }
+  body main,
+  html main {
+    min-height: 100vh;
+  }
+  body header,
+  html header {
+    border: solid 1px orange;
+    border-radius: 12px;
+    display: flex;
+    height: 16vh;
+    width: 92vw;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+  }
+  body header .header--logo,
+  html header .header--logo {
+    height: 16vh;
+    width: 12vw;
+    top: 1vh;
+    left: 4vw;
+  }
+  body header .header--logo--img,
+  html header .header--logo--img {
+    display: block;
+    max-height: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  body header .header--logo2,
+  html header .header--logo2 {
+    height: 16vh;
+    width: 12vw;
+    top: 1vh;
+    right: 4vw;
+  }
+  body header .header--title,
+  html header .header--title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 16vh;
+    color: orange;
+    transition: 2s;
+    width: 60vw;
+  }
+  body header .header--title h1,
+  html header .header--title h1 {
+    color: orange;
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px black;
+    transition: 2s;
+    animation-name: animationHeader;
+    animation-duration: 5s;
+    text-align: center;
+  }
+  body header .header--title h3,
+  html header .header--title h3 {
+    opacity: 0;
+    color: orange;
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    text-shadow: 2px 2px black;
+    transition: 2s;
+    animation-name: animationHeader;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    text-align: center;
+    margin-left: 30vw;
+  }
+  body nav,
+  html nav {
+    border-radius: 12px;
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    border: solid 1px orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.25em;
+    height: 42vh;
+    padding: 1rem 0.5rem;
+    width: 80vw;
+    margin: 0 auto;
+    align-items: center;
+  }
+  body nav .nav--box,
+  html nav .nav--box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+  }
+  body nav .nav--box a,
+  html nav .nav--box a {
+    color: orange;
+    text-decoration: none;
+    transition: 1s;
+  }
+  body nav .nav--box a:hover,
+  html nav .nav--box a:hover {
+    border-radius: 30px;
+    background-color: orange;
+    color: black;
+  }
+  body footer,
+  html footer {
+    border-top: solid 1px var(--color-decorate);
+    color: grey;
+    background: linear-gradient(to left, #1c1b1b, #282525);
+    position: relative;
+    bottom: 0;
+    text-align: right;
+    max-height: 30px;
+    padding-right: 5px;
+    width: 100%;
   }
 }
 
-.gallery--title {
-  display: flex;
-  font-weight: 600;
-  font-size: 32px;
-  letter-spacing: 1px;
-  text-shadow: 1px 0px black;
-  margin: 20px auto;
-  /*     border-bottom: solid 3px orange; */
+.container--title {
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  border: solid 1px black;
+  border-radius: 8px;
   text-align: center;
-  width: 420px;
   color: orange;
-  text-align: center;
+  font-size: 1.5rem;
+  height: 50px;
+  width: 400px;
+  padding-top: 5px;
+  margin: 20px auto;
 }
 
-.gallery--main {
-  /*     background: linear-gradient(60deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)); */
+.gallery--container {
   background: linear-gradient(to top, #f1b951, #d29422);
-  /*         background: linear-gradient(60deg, rgba(27, 27, 27, 0.3), rgba(39, 38, 38, 0.5)); */
   border-radius: 12px;
   width: 1200px;
   min-height: 800px;
@@ -192,10 +315,9 @@ main {
   justify-content: space-between;
 }
 
-.gallery--main .gallery--photo--field {
+.gallery--container .gallery--photo--field {
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
   display: flex;
-  /*         border: solid 1px green; */
   border-radius: 4px;
   padding: 12px;
   max-width: 220px;
@@ -206,7 +328,7 @@ main {
   margin: 10px 10px;
 }
 
-.gallery--main .gallery--photo--field .gallery--photo {
+.gallery--container .gallery--photo--field .gallery--photo {
   cursor: pointer;
   display: block;
   max-width: 90%;
@@ -269,12 +391,41 @@ main {
 }
 
 .popupGallery .popupArrow--left {
-  background: linear-gradient(to top, #f1b951, #d29422);
-  color: linear-gradient(to left bottom, #171717, #2b2a2a);
+  border: solid 3px orange;
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  color: orange;
   position: absolute;
   top: 50%;
-  font-size: 24px;
+  font-size: 50px;
   height: 50px;
   width: 50px;
   left: 200px;
+}
+
+.popupGallery .popupArrow--left .text {
+  position: absolute;
+  bottom: -6px;
+  right: 12px;
+}
+
+@media (max-width: 550px) {
+  .gallery--title {
+    width: 96vw;
+  }
+  .gallery--main {
+    width: 96vw;
+    min-height: 1600px;
+    justify-content: space-around;
+  }
+  .gallery--main .gallery--photo--field {
+    padding: 8px;
+    max-width: 42vw;
+    max-height: 42vw;
+    margin: 5px 5px;
+  }
+  .gallery--main .gallery--photo--field .gallery--photo {
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
+  }
 }

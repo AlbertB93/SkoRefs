@@ -20,7 +20,13 @@ html {
   background: linear-gradient(to top, #352e1f, #31291b);
   min-height: 100vh;
   position: relative;
-  width: 98vw;
+  max-width: 100%;
+  width: 100vw;
+}
+
+body main,
+html main {
+  min-height: 100vh;
 }
 
 body header,
@@ -31,18 +37,17 @@ html header {
   display: flex;
   height: 16vh;
   width: 92vw;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 20px auto;
 }
 
 body header .header--logo,
 html header .header--logo {
+  position: relative;
   height: 16vh;
   width: 12vw;
-  position: absolute;
-  top: 10px;
-  left: 40px;
+  top: 1vh;
 }
 
 body header .header--logo--img,
@@ -56,11 +61,10 @@ html header .header--logo--img {
 
 body header .header--logo2,
 html header .header--logo2 {
-  height: 120px;
-  width: 160px;
-  position: absolute;
-  top: 10px;
-  right: 40px;
+  position: relative;
+  height: 16vh;
+  width: 12vw;
+  top: 1vh;
 }
 
 body header .header--title,
@@ -68,24 +72,23 @@ html header .header--title {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 120px;
+  height: 16vh;
   color: orange;
   transition: 2s;
-  width: 800px;
+  width: 60vw;
 }
 
 body header .header--title h1,
 html header .header--title h1 {
   color: orange;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5em;
   letter-spacing: 2px;
   text-shadow: 2px 2px black;
   transition: 2s;
-  margin-top: -20px;
-  margin-left: 250px;
   animation-name: animationHeader;
   animation-duration: 5s;
+  text-align: center;
 }
 
 body header .header--title h3,
@@ -93,16 +96,16 @@ html header .header--title h3 {
   opacity: 0;
   color: orange;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25em;
   letter-spacing: 0.5px;
   text-shadow: 2px 2px black;
   transition: 2s;
-  margin-top: -10px;
-  margin-left: 500px;
   animation-name: animationHeader;
   animation-duration: 5s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+  text-align: center;
+  margin-left: 30vw;
 }
 
 body nav,
@@ -112,10 +115,10 @@ html nav {
   border: solid 1px orange;
   display: flex;
   justify-content: space-around;
-  font-size: 20px;
-  height: 50px;
+  font-size: 1.25em;
+  height: 8vh;
   padding: 1rem 0.5 rem;
-  width: 95%;
+  width: 92vw;
   margin: 0 auto;
 }
 
@@ -155,38 +158,35 @@ html footer {
   width: 100%;
 }
 
-body main,
-html main {
-  min-height: 100vh;
-}
-
 @media (max-width: 550px) {
   body,
   html {
-    background: linear-gradient(to top, #352e1f, #31291b);
     min-height: 100vh;
     position: relative;
-    width: 100%;
+    max-width: 100%;
+    width: 100vw;
+  }
+  body main,
+  html main {
+    min-height: 100vh;
   }
   body header,
   html header {
     border: solid 1px orange;
-    background: linear-gradient(to left bottom, #171717, #2b2a2a);
     border-radius: 12px;
     display: flex;
-    height: 60px;
-    width: 95%;
-    justify-content: center;
+    height: 16vh;
+    width: 92vw;
+    justify-content: space-around;
     align-items: center;
     margin: 20px auto;
   }
   body header .header--logo,
   html header .header--logo {
-    height: 60px;
-    width: 20%;
-    position: absolute;
-    top: 10px;
-    left: 40px;
+    height: 16vh;
+    width: 12vw;
+    top: 1vh;
+    left: 4vw;
   }
   body header .header--logo--img,
   html header .header--logo--img {
@@ -198,49 +198,48 @@ html main {
   }
   body header .header--logo2,
   html header .header--logo2 {
-    height: 100%;
-    width: 20%;
-    position: absolute;
-    top: 10px;
-    right: 40px;
+    height: 16vh;
+    width: 12vw;
+    top: 1vh;
+    right: 4vw;
   }
   body header .header--title,
   html header .header--title {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 60px;
+    height: 16vh;
     color: orange;
     transition: 2s;
-    width: 200px;
+    width: 60vw;
   }
   body header .header--title h1,
   html header .header--title h1 {
     color: orange;
     font-weight: 700;
-    font-size: clamp(1.5rem, 5vw, 5rem);
+    font-size: 1.5em;
     letter-spacing: 2px;
     text-shadow: 2px 2px black;
     transition: 2s;
-    margin-left: 50px;
     animation-name: animationHeader;
     animation-duration: 5s;
+    text-align: center;
   }
   body header .header--title h3,
   html header .header--title h3 {
     opacity: 0;
     color: orange;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1em;
     letter-spacing: 0.5px;
     text-shadow: 2px 2px black;
     transition: 2s;
-    margin-top: -10px;
-    margin-left: 500px;
     animation-name: animationHeader;
     animation-duration: 5s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
+    text-align: center;
+    margin-left: 30vw;
   }
   body nav,
   html nav {
@@ -248,25 +247,27 @@ html main {
     background: linear-gradient(to left bottom, #171717, #2b2a2a);
     border: solid 1px orange;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    font-size: 20px;
-    height: 50px;
-    padding: 1rem 0.5 rem;
-    width: 95%;
+    font-size: 1.25em;
+    height: 42vh;
+    padding: 1rem 0.5rem;
+    width: 80vw;
     margin: 0 auto;
+    align-items: center;
   }
   body nav .nav--box,
   html nav .nav--box {
     display: flex;
     justify-content: space-around;
-    width: 60%;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
   }
   body nav .nav--box a,
   html nav .nav--box a {
-    align-items: center;
     color: orange;
     text-decoration: none;
-    padding: 0.5rem;
     transition: 1s;
   }
   body nav .nav--box a:hover,
@@ -286,10 +287,6 @@ html main {
     max-height: 30px;
     padding-right: 5px;
     width: 100%;
-  }
-  body main,
-  html main {
-    min-height: 100vh;
   }
 }
 
@@ -319,8 +316,8 @@ html main {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 40vh;
-  width: 20vw;
+  height: 320px;
+  width: 280px;
   box-shadow: 4px 4px black;
   transition: 0.5s;
   transform: scale(1);
@@ -329,7 +326,7 @@ html main {
 .index--container article .article--image {
   margin: 15px 10px;
   border-radius: 5px;
-  max-height: 30vh;
+  max-height: 25vh;
   max-width: 20vw;
 }
 
@@ -389,22 +386,26 @@ html main {
   grid-row: 2/3;
 }
 
+.container--title {
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  border: solid 1px black;
+  border-radius: 8px;
+  text-align: center;
+  color: orange;
+  font-size: 1.5rem;
+  height: 50px;
+  width: 400px;
+  padding-top: 5px;
+  margin: 20px auto;
+}
+
 .contact--container {
   border-radius: 8px;
   border: solid 1px orange;
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
   width: 1000px;
-  min-height: 600px;
+  min-height: 500px;
   margin: 30px auto;
-}
-
-.contact--container h1 {
-  color: orange;
-  height: 100px;
-  margin: 0 auto;
-  padding-top: 4px;
-  text-align: center;
-  width: 900px;
 }
 
 .contact--container .contact--container--box {
@@ -414,7 +415,8 @@ html main {
   margin: 0 auto;
   min-height: 800px;
   width: 1000px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .contact--container .contact--container--box .contact--container--person--left {
@@ -511,4 +513,168 @@ html main {
   height: 140px;
   width: 460px;
   text-align: right;
+}
+
+@media (max-width: 550px) {
+  .index--container {
+    display: flex;
+    flex-direction: column;
+    height: 240vh;
+    width: 92vw;
+    margin: 4vh auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .index--container article {
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 280px;
+    box-shadow: 4px 4px black;
+    transition: 0.5s;
+    transform: scale(1);
+  }
+  .index--container article .article--image {
+    margin: 15px 10px;
+    border-radius: 5px;
+    max-height: 90vh;
+    max-width: 80vw;
+    overflow: hidden;
+  }
+  .index--container article .article--image .article--image--file {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+  }
+  .index--container article:hover {
+    transform: scale(1.1);
+    z-index: 100;
+  }
+  .index--container article a {
+    display: flex;
+    border-radius: 12px;
+    min-height: 50px;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+  .index--container article a:hover {
+    background-color: black;
+    color: orange;
+  }
+}
+
+@media (max-width: 550px) {
+  .contact--container {
+    border-radius: 8px;
+    border: solid 1px orange;
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    width: 90vw;
+    min-height: 600px;
+    margin: 30px auto;
+  }
+  .contact--container h1 {
+    color: orange;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 4px;
+    text-align: center;
+    width: 92vw;
+  }
+  .contact--container .contact--container--box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    min-height: 800px;
+    width: 90vw;
+    margin-bottom: 40px;
+  }
+  .contact--container .contact--container--box .contact--container--person--left {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top: solid 1px orange;
+    border-bottom: solid 1px orange;
+    border-right: none;
+    border-radius: 0;
+    color: orange;
+    width: 89vw;
+    height: 180px;
+    text-align: center;
+  }
+  .contact--container .contact--container--box .contact--container--person--left--title {
+    border-bottom: solid 1px orange;
+    margin: 0 auto;
+    max-height: 140px;
+    max-width: 30vw;
+  }
+  .contact--container .contact--container--box .contact--container--person--left--box {
+    display: flex;
+    height: 140px;
+    max-width: 86vw;
+  }
+  .contact--container .contact--container--box .contact--container--person--left--box--photo {
+    display: flex;
+    height: 140px;
+    width: 120px;
+  }
+  .contact--container .contact--container--box .contact--container--person--left--box--photo--file {
+    border: solid 1px orange;
+    border-radius: 4px;
+    margin: auto auto;
+    max-height: 90%;
+    max-width: 90%;
+  }
+  .contact--container .contact--container--box .contact--container--person--left--box--text {
+    text-align: right;
+    margin-top: 30px;
+    height: 140px;
+    width: 360px;
+  }
+  .contact--container .contact--container--box .contact--container--person--right {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top: solid 1px orange;
+    border-bottom: solid 1px orange;
+    border-left: none;
+    border-radius: 0;
+    color: orange;
+    width: 89vw;
+    height: 180px;
+    text-align: center;
+    margin: 0;
+  }
+  .contact--container .contact--container--box .contact--container--person--right--title {
+    border-bottom: solid 1px orange;
+    margin: 0 auto;
+    max-height: 140px;
+    max-width: 30vw;
+  }
+  .contact--container .contact--container--box .contact--container--person--right--box {
+    display: flex;
+    height: 140px;
+    max-width: 86vw;
+  }
+  .contact--container .contact--container--box .contact--container--person--right--box--photo {
+    display: flex;
+    height: 140px;
+    width: 120px;
+  }
+  .contact--container .contact--container--box .contact--container--person--right--box--photo--file {
+    border: solid 1px orange;
+    border-radius: 4px;
+    margin: auto auto;
+    max-height: 90%;
+    max-width: 90%;
+  }
+  .contact--container .contact--container--box .contact--container--person--right--box--text {
+    margin-top: 10px;
+    height: 140px;
+    width: 80vw;
+  }
 }

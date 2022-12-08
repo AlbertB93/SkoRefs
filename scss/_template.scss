@@ -24,7 +24,12 @@ html {
     background: $bg-color-test2;
     min-height: 100vh;
     position: relative;
-    width: 98vw;
+    max-width: 100%;
+    width: 100vw;
+
+    main {
+        min-height: 100vh;
+    }
 
     header {
         border: solid 1px orange;
@@ -33,16 +38,16 @@ html {
         display: flex;
         height: 16vh;
         width: 92vw;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         margin: 20px auto;
 
         .header--logo {
+
+            position: relative;
             height: 16vh;
             width: 12vw;
-            position: absolute;
-            top: 10px;
-            left: 40px;
+            top: 1vh;
 
             &--img {
                 display: block;
@@ -56,53 +61,51 @@ html {
         }
 
         .header--logo2 {
-            height: 120px;
-            width: 160px;
-            position: absolute;
-            top: 10px;
-            right: 40px;
+
+            position: relative;
+            height: 16vh;
+            width: 12vw;
+            top: 1vh;
         }
 
         .header--title {
             display: flex;
             justify-content: center;
             flex-direction: column;
-            height: 120px;
+            height: 16vh;
             color: orange;
             transition: 2s;
-            width: 800px;
+            width: 60vw;
 
             h1 {
                 color: orange;
                 font-weight: 700;
-                font-size: 40px;
+                font-size: 2.5em;
                 letter-spacing: 2px;
                 text-shadow: 2px 2px black;
                 transition: 2s;
-                margin-top: -20px;
-                margin-left: 250px;
                 animation-name: animationHeader;
                 animation-duration: 5s;
+                text-align: center;
             }
 
             h3 {
                 opacity: 0;
                 color: orange;
                 font-weight: 700;
-                font-size: 20px;
+                font-size: 1.25em;
                 letter-spacing: 0.5px;
                 text-shadow: 2px 2px black;
                 transition: 2s;
-                margin-top: -10px;
-                margin-left: 500px;
                 animation-name: animationHeader;
                 animation-duration: 5s;
                 animation-delay: 1s;
                 animation-fill-mode: forwards;
+                text-align: center;
+                margin-left: 30vw;
             }
         }
     }
-
 
     nav {
 
@@ -111,10 +114,10 @@ html {
         border: solid 1px orange;
         display: flex;
         justify-content: space-around;
-        font-size: 20px;
-        height: 50px;
+        font-size: 1.25em;
+        height: 8vh;
         padding: 1rem 0.5 rem;
-        width: 95%;
+        width: 92vw;
         margin: 0 auto;
 
         .nav--box {
@@ -140,8 +143,6 @@ html {
 
     }
 
-
-
     footer {
         border-top: solid 1px var(--color-decorate);
         color: grey;
@@ -153,10 +154,6 @@ html {
         padding-right: 5px;
         width: 100%;
     }
-
-    main {
-        min-height: 100vh;
-    }
 }
 
 
@@ -165,28 +162,30 @@ html {
 
     body,
     html {
-        background: $bg-color-test2;
         min-height: 100vh;
         position: relative;
-        width: 100%;
+        max-width: 100%;
+        width: 100vw;
+
+        main {
+            min-height: 100vh;
+        }
 
         header {
             border: solid 1px orange;
-            background: $bg-color-black;
             border-radius: 12px;
             display: flex;
-            height: 60px;
-            width: 95%;
-            justify-content: center;
+            height: 16vh;
+            width: 92vw;
+            justify-content: space-around;
             align-items: center;
             margin: 20px auto;
 
             .header--logo {
-                height: 60px;
-                width: 20%;
-                position: absolute;
-                top: 10px;
-                left: 40px;
+                height: 16vh;
+                width: 12vw;
+                top: 1vh;
+                left: 4vw;
 
                 &--img {
                     display: block;
@@ -196,56 +195,53 @@ html {
                     margin-top: 5px;
 
                 }
-
             }
 
             .header--logo2 {
-                height: 100%;
-                width: 20%;
-                position: absolute;
-                top: 10px;
-                right: 40px;
+                height: 16vh;
+                width: 12vw;
+                top: 1vh;
+                right: 4vw;
             }
 
             .header--title {
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
-                height: 60px;
+                height: 16vh;
                 color: orange;
                 transition: 2s;
-                width: 200px;
+                width: 60vw;
 
                 h1 {
                     color: orange;
                     font-weight: 700;
-                    font-size: clamp(1.5rem, 5vw, 5rem);
+                    font-size: 1.5em;
                     letter-spacing: 2px;
                     text-shadow: 2px 2px black;
                     transition: 2s;
-                    margin-left: 50px;
                     animation-name: animationHeader;
                     animation-duration: 5s;
+                    text-align: center;
                 }
 
                 h3 {
                     opacity: 0;
                     color: orange;
                     font-weight: 700;
-                    font-size: 20px;
+                    font-size: 1em;
                     letter-spacing: 0.5px;
                     text-shadow: 2px 2px black;
                     transition: 2s;
-                    margin-top: -10px;
-                    margin-left: 500px;
                     animation-name: animationHeader;
                     animation-duration: 5s;
                     animation-delay: 1s;
                     animation-fill-mode: forwards;
+                    text-align: center;
+                    margin-left: 30vw;
                 }
             }
         }
-
 
         nav {
 
@@ -253,23 +249,25 @@ html {
             background: $bg-color-black;
             border: solid 1px orange;
             display: flex;
+            flex-direction: column;
             justify-content: space-around;
-            font-size: 20px;
-            height: 50px;
-            padding: 1rem 0.5 rem;
-            width: 95%;
+            font-size: 1.25em;
+            height: 42vh;
+            padding: 1rem 0.5rem;
+            width: 80vw;
             margin: 0 auto;
+            align-items: center;
 
             .nav--box {
                 display: flex;
                 justify-content: space-around;
-                width: 60%;
+                flex-direction: column;
+                width: 90%;
+                align-items: center;
 
                 & a {
-                    align-items: center;
                     color: orange;
                     text-decoration: none;
-                    padding: 0.5rem;
                     transition: 1s;
                 }
 
@@ -283,8 +281,6 @@ html {
 
         }
 
-
-
         footer {
             border-top: solid 1px var(--color-decorate);
             color: grey;
@@ -296,9 +292,6 @@ html {
             padding-right: 5px;
             width: 100%;
         }
-
-        main {
-            min-height: 100vh;
-        }
     }
+
 }

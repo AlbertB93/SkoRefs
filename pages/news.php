@@ -16,10 +16,10 @@
   <?php include("../php/header--pages.php"); ?>
   <?php include("../php/nav--pages.php"); ?>
   <main>
+    <div class="container--title">
+      Archiwum wiadomości
+    </div>
     <div class="news--container">
-      <div class="news--title--box">
-        <h2>Archiwum wiadomości</h2>
-      </div>
       <div class="news--box">
         <article id="article--1">
           <a href="pages/news/news001.html">Witamy na stronie !</a>
@@ -47,7 +47,7 @@
         </article>
       </div>
       <div class="news--buttons--box">
-        <button class="news--buttons--active" >
+        <button class="news--buttons--active">
           <a href="news.php">1</a>
         </button>
         <button class="news--buttons">
@@ -60,11 +60,7 @@
       </div>
     </div>
   </main>
-
-  <footer>
-    <div class="footer-text">Copyright Albert</div>
-  </footer>
-  <script src="../test.js"></script>
+  <?php include("../php/footer.php"); ?>
 </body>
 
 </html>

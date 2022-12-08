@@ -27,8 +27,8 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 40vh;
-        width: 20vw;
+        height: 320px;
+        width: 280px;
         box-shadow: 4px 4px black;
         transition: 0.5s;
         transform: scale(1);
@@ -36,7 +36,7 @@
         .article--image {
             margin: 15px 10px;
             border-radius: 5px;
-            max-height: 30vh;
+            max-height: 25vh;
             max-width: 20vw;
 
             .article--image--file {
@@ -100,7 +100,9 @@
 }
 
 
-
+.container--title {
+    @include title;
+}
 
 .contact--container {
 
@@ -108,17 +110,8 @@
     border: solid 1px orange;
     background: $bg-color-black;
     width: 1000px;
-    min-height: 600px;
+    min-height: 500px;
     margin: 30px auto;
-
-    h1 {
-        color: orange;
-        height: 100px;
-        margin: 0 auto;
-        padding-top: 4px;
-        text-align: center;
-        width: 900px;
-    }
 
     .contact--container--box {
 
@@ -128,7 +121,8 @@
         margin: 0 auto;
         min-height: 800px;
         width: 1000px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
+        margin-top: 20px;
 
 
         .contact--container--person--left {
@@ -143,6 +137,7 @@
             width: 500px;
             height: 180px;
             text-align: center;
+
 
             &--title {
                 border-bottom: solid 1px orange;
@@ -233,5 +228,206 @@
             }
 
         }
+    }
+}
+
+@include breakPoint(small) {
+
+    .index--container {
+        display: flex;
+        flex-direction: column;
+        height: 240vh;
+        width: 92vw;
+        margin: 4vh auto;
+        justify-content: space-between;
+        align-items: center;
+
+        article {
+            border: solid 2px black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 300px;
+            width: 280px;
+            box-shadow: 4px 4px black;
+            transition: 0.5s;
+            transform: scale(1);
+
+            .article--image {
+                margin: 15px 10px;
+                border-radius: 5px;
+                max-height: 90vh;
+                max-width: 80vw;
+                overflow: hidden;
+
+                .article--image--file {
+                    border-radius: 5px;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        article:hover {
+            transform: scale(1.1);
+            z-index: 100;
+        }
+
+        article a {
+            display: flex;
+
+            border-radius: 12px;
+            min-height: 50px;
+            width: 80%;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        article a:hover {
+            background-color: black;
+            color: orange;
+        }
+
+    }
+
+}
+
+@include breakPoint(small) {
+
+    .contact--container {
+
+        border-radius: 8px;
+        border: solid 1px orange;
+        background: $bg-color-black;
+        width: 90vw;
+        min-height: 600px;
+        margin: 30px auto;
+
+        h1 {
+            color: orange;
+            height: 100px;
+            margin: 0 auto;
+            padding-top: 4px;
+            text-align: center;
+            width: 92vw;
+        }
+
+        .contact--container--box {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0 auto;
+            min-height: 800px;
+            width: 90vw;
+            margin-bottom: 40px;
+
+
+            .contact--container--person--left {
+
+                background-color: rgba(0, 0, 0, 0.2);
+                border-top: solid 1px orange;
+                border-bottom: solid 1px orange;
+                border-right: none;
+                border-radius: 0;
+                color: orange;
+                width: 89vw;
+                height: 180px;
+                text-align: center;
+
+                &--title {
+                    border-bottom: solid 1px orange;
+                    margin: 0 auto;
+                    max-height: 140px;
+                    max-width: 30vw;
+
+                }
+
+                &--box {
+                    display: flex;
+                    height: 140px;
+                    max-width: 86vw;
+
+                    &--photo {
+                        display: flex;
+                        height: 140px;
+                        width: 120px;
+
+                        &--file {
+                            border: solid 1px orange;
+                            border-radius: 4px;
+                            margin: auto auto;
+                            max-height: 90%;
+                            max-width: 90%;
+                        }
+                    }
+
+                    &--text {
+                        text-align: right;
+                        margin-top: 30px;
+                        height: 140px;
+                        width: 360px;
+                    }
+                }
+
+
+            }
+
+            .contact--container--person--right {
+
+                background-color: rgba(0, 0, 0, 0.2);
+                border-top: solid 1px orange;
+                border-bottom: solid 1px orange;
+                border-left: none;
+                border-radius: 0;
+                color: orange;
+                width: 89vw;
+                height: 180px;
+                text-align: center;
+                margin: 0;
+
+                &--title {
+                    border-bottom: solid 1px orange;
+                    margin: 0 auto;
+                    max-height: 140px;
+                    max-width: 30vw;
+                }
+
+                &--box {
+                    display: flex;
+                    height: 140px;
+                    max-width: 86vw;
+
+
+                    &--photo {
+                        display: flex;
+                        height: 140px;
+                        width: 120px;
+
+                        &--file {
+                            border: solid 1px orange;
+                            border-radius: 4px;
+                            margin: auto auto;
+                            max-height: 90%;
+                            max-width: 90%;
+                        }
+                    }
+
+                    &--text {
+                        margin-top: 10px;
+                        height: 140px;
+                        width: 80vw;
+
+                    }
+                }
+
+            }
+        }
+
     }
 }

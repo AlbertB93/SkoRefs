@@ -5,4 +5,18 @@
 4. Porządek w pliku css
 5. Rozdzielczość na telefonie.
 
-1. Header o tych samych rozmiarach jak na podstronach to w indexie.
+
+
+
+2. Takie samo nazwnictwo np.
+
+index--container
+news--container
+refs--container
+
+3. zmienić czcionki na EM
+4. Poprawić w Popupach wyświetlanie, w peirwszej kolumnie przerzuca coś w dól jak jest sędzia danej ligi.
+5. Obsada jak się klika w sierpień to podświetla się inaczej.
+
+
+6. Jak na telefonie będą wyglądać popupy.

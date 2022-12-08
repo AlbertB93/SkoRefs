@@ -32,7 +32,7 @@
       <article id="article--3">
         <a href="pages/news/news003.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</a>
         <div class="article--image">
-          <img src="images/testObsada.jpg" alt="FELEK" class="article--image--file" />
+          <img src="images/testObsada.jpg" alt="losowanie sędziego z kapitanami" class="article--image--file" />
         </div>
       </article>
       <article id="article--2">
@@ -44,10 +44,11 @@
       <article id="article--1">
         <a href="pages/news/news001.php">Witamy na stronie !</a>
         <div class="article--image">
-          <img src="images/index/hand.png" alt="ręka" class="article--image--file" />
+          <img src="images/index/hand.png" alt="zdjęcie dłoni" class="article--image--file" />
         </div>
       </article>
       </section>
+    </div>
   </main>
   <?php include("php/footer.php"); ?>
 </body>

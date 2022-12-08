@@ -17,17 +17,16 @@
     <?php include("../php/header--pages.php"); ?>
     <?php include("../php/nav--pages.php"); ?>
     <main>
-
-        <div class="toDownload--main">
+        <div class="container--title">Do pobrania</div>
+        <div class="toDownload--container">
             <div class="toDownload--option">
-                <div class="toDownload--option--title" onclick="toggle2('toDownload--option--list')">
+                <div class="toDownload--option--title">
                     Regulaminy
                 </div>
                 <div class="toDownload--option--list">
                     <div class="option--list">
                         <a href="../files/regulamin_rozgrywek_iv_liga_i_nizsze_sezon_2022-2023_oraz_wytyczne_w_zakresie_organizacji_meczow.pdf" download="regulamin_rozgrywek_iv_liga_i_nizsze_sezon_2022-2023_oraz_wytyczne_w_zakresie_organizacji_meczow.pdf" target="_blank">Regulamin
                             ligi</a>
-
                     </div>
                     <div class="option--list">
                         Regulamin PP
@@ -38,7 +37,7 @@
                 </div>
             </div>
             <div class="toDownload--option">
-                <div class="toDownload--option--title" onclick="toggle2('toDownload--option--list')">
+                <div class="toDownload--option--title">
                     Dane do meczów
                 </div>
                 <div class="toDownload--option--list">
@@ -77,13 +76,7 @@
             </div>
         </div>
     </main>
-
-    <footer>
-        <div class="footer-text">
-            Copyright Albert
-        </div>
-    </footer>
-
+    <?php include("../php/footer.php"); ?>
 </body>
 
 </html>

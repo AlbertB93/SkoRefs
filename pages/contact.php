@@ -17,8 +17,8 @@
     <?php include("../php/header--pages.php"); ?>
     <?php include("../php/nav--pages.php"); ?>
     <main>
+        <div class="container--title">Dane do kontaktu</div>
         <div class="contact--container">
-            <h1>Dane do kontaktu </h1>
             <div class="contact--container--box">
                 <div class="contact--container--person--left">
                     <div class="contact--container--person--left--title">
@@ -39,7 +39,6 @@
                     <div class="contact--container--person--right--title">
                         Skarbnik
                     </div>
-
                     <div class="contact--container--person--right--box">
                         <div class="contact--container--person--right--box--photo">
                             <img src="../images/persons/SMichał.PNG" alt="" class="contact--container--person--right--box--photo--file">
@@ -55,7 +54,6 @@
                     <div class="contact--container--person--left--title">
                         Sprawy różne
                     </div>
-
                     <div class="contact--container--person--left--box">
                         <div class="contact--container--person--left--box--photo">
                             <img src="../images/persons/CKasia.PNG" alt="" class="contact--container--person--left--box--photo--file">
@@ -86,13 +84,7 @@
             </div>
         </div>
     </main>
-
-    <footer>
-        <div class="footer-text">
-            Copyright Albert
-        </div>
-    </footer>
-    <script src="../apptest.js"></script>
+    <?php include("../php/footer.php"); ?>
 </body>
 
 </html>

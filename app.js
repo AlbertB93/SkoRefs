@@ -1,14 +1,19 @@
 
 /* FUNKCJA DO WYŚWIETLANIA OBSADY*/
 
-function toggle(idDiv) {
+// dodać miesiące do zmiennych. 
+
+var august = document.querySelectorAll('#august');
+var september = document.querySelector('#september');
+
+
+
+function displayFlex(idDiv) {
     var oDiv = document.getElementById(idDiv);
     oDiv.style.display = (oDiv.style.display == "flex") ? "none" : "flex";
-
-
 }
 
-function toggleBlock(idDiv) {
+function displayBlock(idDiv) {
     var oDiv = document.getElementById(idDiv);
     let testDiv = document.getElementsByClassName("august--week")[0];
     oDiv.style.display = (oDiv.style.display == "block") ? "none" : "block";
@@ -16,20 +21,17 @@ function toggleBlock(idDiv) {
     
 }
 
-function toogleClear(idDiv) {
+function displayNone() {
     
-    var oDiv = document.getElementById(idDiv);
-    oDiv.style.display="none";
-    oDiv.style.backgroundColor = "red";
+var august = document.querySelectorAll('#august');
+var september = document.querySelector('#september');
+
+    august[0].style.display="none";    
+september[0].style.display="none";
 
 }
 
 /*  FUNKCJE DO REFS.HTML */
-
-function init() {
-    let openBtn = document.getElementsByClassName("ref--person--logo"
-    );
-}
 
 
     function openPopup(myDiv) {
@@ -37,18 +39,17 @@ function init() {
             let popupBox =  document.getElementsByClassName("popup--main") */
         
             document.getElementsByClassName("popup--main")[myDiv].style.display = "flex";
-            document.getElementsByClassName("refs--main")[0].style.opacity = 0.3;
+            document.querySelector(".refs--container").style.opacity = 0.1;
         }
         
         function closePopup(myDiv) {
             document.getElementsByClassName("popup--main")[myDiv].style.display = "none";
-            document.getElementsByClassName("refs--main")[0].style.opacity = 1;
+            document.querySelector(".refs--container").style.opacity = 1;
         }
     
 
 
-
-document.addEventListener("DOMContentLoaded", init); 
+/*  FUNKCJE DO REFS.HTML */
 
 const PHOTOS = document.querySelectorAll(".gallery--photo");
 const POPUP = document.querySelector(".popupGallery");

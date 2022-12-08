@@ -19,7 +19,7 @@
   <main>
     <div class="news--container">
       <div class="news--title--box">
-        <h2>Archiwum wiadomości 3</h2>
+        <h2>Archiwum wiadomości</h2>
       </div>
       <div class="news--box"></div>
       <div class="news--buttons--box">
