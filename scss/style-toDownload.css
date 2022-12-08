@@ -117,7 +117,6 @@ html nav {
   justify-content: space-around;
   font-size: 1.25em;
   height: 8vh;
-  padding: 1rem 0.5 rem;
   width: 92vw;
   margin: 0 auto;
 }
@@ -141,14 +140,14 @@ html nav .nav--box a {
 body nav .nav--box a:hover,
 html nav .nav--box a:hover {
   border-radius: 30px;
-  background-color: orange;
+  background-color: linear-gradient(to bottom, #fda706, #2b2a2a);
   color: black;
 }
 
 body footer,
 html footer {
-  border-top: solid 1px var(--color-decorate);
-  color: grey;
+  border-top: solid 1px orange;
+  color: orange;
   background: linear-gradient(to left, #1c1b1b, #282525);
   position: relative;
   bottom: 0;
@@ -251,7 +250,7 @@ html footer {
     justify-content: space-around;
     font-size: 1.25em;
     height: 42vh;
-    padding: 1rem 0.5rem;
+    padding: 1rem;
     width: 80vw;
     margin: 0 auto;
     align-items: center;
@@ -278,7 +277,7 @@ html footer {
   }
   body footer,
   html footer {
-    border-top: solid 1px var(--color-decorate);
+    border-top: solid 5px orange;
     color: grey;
     background: linear-gradient(to left, #1c1b1b, #282525);
     position: relative;
@@ -312,7 +311,7 @@ html footer {
   justify-content: space-around;
 }
 
-.toDownload--container .toDownload--option {
+.toDownload--container--singleBox {
   border: solid 2px black;
   background: linear-gradient(to bottom, #171717, #ffba39);
   border-radius: 20px;
@@ -320,19 +319,19 @@ html footer {
   width: 300px;
 }
 
-.toDownload--container .toDownload--option .toDownload--option--title {
+.toDownload--container--singleBox--title {
   border-bottom: solid 3px black;
   font-size: 2rem;
   margin-bottom: 30px;
   color: orange;
 }
 
-.toDownload--container .toDownload--option .toDownload--option--list {
+.toDownload--container--singleBox--list {
   flex-direction: column;
   display: flex;
 }
 
-.toDownload--container .toDownload--option .toDownload--option--list .option--list {
+.toDownload--container--singleBox--list--option {
   margin: 10px;
   font-size: 1.5rem;
   border: solid 1px black;
@@ -340,22 +339,22 @@ html footer {
   color: orange;
 }
 
-.toDownload--container .toDownload--option .toDownload--option--list .option--list a {
+.toDownload--container--singleBox--list--option a {
   color: orange;
   text-decoration: none;
 }
 
 @media (max-width: 550px) {
-  .toDownload--title {
+  .container--title {
     width: 96vw;
   }
-  .toDownload--main {
+  .toDownload--container {
     flex-direction: column;
     width: 96vw;
     align-items: center;
     margin: 20px auto;
   }
-  .toDownload--main .toDownload--option {
+  .toDownload--container--singleBox {
     width: 90vw;
     margin: 10px auto;
   }

@@ -8,6 +8,7 @@ let month2 = document.getElementById('month-2');
 let aWeek1 = document.getElementById('week-1');
 let aWeek2 = document.getElementById('week-2');
 let aWeek3 = document.getElementById('week-3');
+let mojaZmienna = document.getElementById('august_06_07');
 
 
 
@@ -17,7 +18,15 @@ console.log(testSieWrz);
 
 function displayFlex(weeks) {
     var week = document.getElementById(weeks);
-    week.style.display = (week.style.display == "flex") ? "none" : "flex";
+/*     week.style.display = (week.style.display == "flex") ? "none" : "flex"; */
+
+    if (week.style.display === "flex"){
+        week.style.display = "none";
+        mojaZmienna.style.display = "none";
+    } else {
+        week.style.display = "flex";        
+    };
+
 
     if (weeks === 'august'){
     month.style.background = (month.style.background == "orange") ? "linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37))" : "orange";

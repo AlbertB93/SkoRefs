@@ -1,20 +1,15 @@
 
-2. Mixiny na tytuły podstron
+
 3. Mixiny do newsów
 	Standard do newsa, a później ewentualnie rozszerzenia jak np. długość itp.
-4. Porządek w pliku css
+
 5. Rozdzielczość na telefonie.
 
 
 
 
-2. Takie samo nazwnictwo np.
 
-index--container
-news--container
-refs--container
 
-3. zmienić czcionki na EM
 4. Poprawić w Popupach wyświetlanie, w peirwszej kolumnie przerzuca coś w dól jak jest sędzia danej ligi.
 5. Obsada jak się klika w sierpień to podświetla się inaczej.
 

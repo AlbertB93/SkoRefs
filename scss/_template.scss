@@ -21,7 +21,7 @@
 
 body,
 html {
-    background: $bg-color-test2;
+    background: $bg-color;
     min-height: 100vh;
     position: relative;
     max-width: 100%;
@@ -73,12 +73,12 @@ html {
             justify-content: center;
             flex-direction: column;
             height: 16vh;
-            color: orange;
+            color: $main-text-color;
             transition: 2s;
             width: 60vw;
 
             h1 {
-                color: orange;
+                color: $main-text-color;
                 font-weight: 700;
                 font-size: 2.5em;
                 letter-spacing: 2px;
@@ -91,7 +91,7 @@ html {
 
             h3 {
                 opacity: 0;
-                color: orange;
+                color: $main-text-color;
                 font-weight: 700;
                 font-size: 1.25em;
                 letter-spacing: 0.5px;
@@ -116,7 +116,6 @@ html {
         justify-content: space-around;
         font-size: 1.25em;
         height: 8vh;
-        padding: 1rem 0.5 rem;
         width: 92vw;
         margin: 0 auto;
 
@@ -127,7 +126,7 @@ html {
 
             & a {
                 align-items: center;
-                color: orange;
+                color: $main-text-color;
                 text-decoration: none;
                 padding: 0.5rem;
                 transition: 1s;
@@ -135,7 +134,7 @@ html {
 
             & a:hover {
                 border-radius: 30px;
-                background-color: orange;
+                background-color: $bg-color-black-orange;
                 color: black;
             }
 
@@ -144,8 +143,8 @@ html {
     }
 
     footer {
-        border-top: solid 1px var(--color-decorate);
-        color: grey;
+        border-top: solid 1px $main-text-color;
+        color: $main-text-color;
         background: linear-gradient(to left, rgb(28, 27, 27), rgb(40, 37, 37));
         position: relative;
         bottom: 0;
@@ -162,98 +161,37 @@ html {
 
     body,
     html {
-        min-height: 100vh;
-        position: relative;
-        max-width: 100%;
-        width: 100vw;
-
-        main {
-            min-height: 100vh;
-        }
 
         header {
-            border: solid 1px orange;
-            border-radius: 12px;
-            display: flex;
-            height: 16vh;
-            width: 92vw;
-            justify-content: space-around;
-            align-items: center;
-            margin: 20px auto;
+
 
             .header--logo {
-                height: 16vh;
-                width: 12vw;
-                top: 1vh;
-                left: 4vw;
-
-                &--img {
-                    display: block;
-                    max-height: 80%;
-                    max-width: 80%;
-                    margin: 0 auto;
-                    margin-top: 5px;
-
-                }
+                &--img {}
             }
 
-            .header--logo2 {
-                height: 16vh;
-                width: 12vw;
-                top: 1vh;
-                right: 4vw;
-            }
+            .header--logo2 {}
 
             .header--title {
-                display: flex;
-                justify-content: center;
-                flex-direction: column;
-                height: 16vh;
-                color: orange;
-                transition: 2s;
-                width: 60vw;
+
 
                 h1 {
-                    color: orange;
-                    font-weight: 700;
-                    font-size: 1.5em;
-                    letter-spacing: 2px;
-                    text-shadow: 2px 2px black;
-                    transition: 2s;
-                    animation-name: animationHeader;
-                    animation-duration: 5s;
-                    text-align: center;
+                    font-size: 1.5rem;
                 }
 
                 h3 {
-                    opacity: 0;
-                    color: orange;
-                    font-weight: 700;
-                    font-size: 1em;
-                    letter-spacing: 0.5px;
-                    text-shadow: 2px 2px black;
-                    transition: 2s;
-                    animation-name: animationHeader;
-                    animation-duration: 5s;
-                    animation-delay: 1s;
-                    animation-fill-mode: forwards;
-                    text-align: center;
-                    margin-left: 30vw;
+                    font-size: 1rem;
                 }
             }
         }
 
         nav {
 
-            border-radius: 12px;
-            background: $bg-color-black;
-            border: solid 1px orange;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             font-size: 1.25em;
             height: 42vh;
-            padding: 1rem 0.5rem;
+            padding: 1rem;
             width: 80vw;
             margin: 0 auto;
             align-items: center;
@@ -266,31 +204,17 @@ html {
                 align-items: center;
 
                 & a {
-                    color: orange;
                     text-decoration: none;
                     transition: 1s;
                 }
 
                 & a:hover {
                     border-radius: 30px;
-                    background-color: orange;
-                    color: black;
+
                 }
 
             }
 
-        }
-
-        footer {
-            border-top: solid 1px var(--color-decorate);
-            color: grey;
-            background: linear-gradient(to left, rgb(28, 27, 27), rgb(40, 37, 37));
-            position: relative;
-            bottom: 0;
-            text-align: right;
-            max-height: 30px;
-            padding-right: 5px;
-            width: 100%;
         }
     }
 

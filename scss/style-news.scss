@@ -162,10 +162,14 @@
 
 @include breakPoint (small) {
 
+    .container--title {
+        width: 92vw;
+    }
+
     .news--container {
         display: flex;
         height: 100%;
-        width: 96vw;
+        width: 92vw;
         margin: 20px auto;
         flex-direction: row;
 

@@ -20,7 +20,7 @@
     <div class="single--news--container">
       <div class="single--news--header">
         <h1>Klip tygodnia #8</h1>
-        <button class="btn--back">
+        <button class="news--simple--container--btn--back">
           <a href="../../index.php">Powrót</a>
         </button>
       </div>

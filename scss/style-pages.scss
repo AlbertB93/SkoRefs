@@ -12,49 +12,7 @@
     }
 }
 
-@mixin simple--container {
-    border-radius: 8px;
-    background: $bg-color-black;
-    box-shadow: 8px 8px black;
-    width: 1000px;
-    height: 500px;
-    margin: 30px auto;
 
-    &--header {
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        width: 900px;
-        height: 100px;
-        padding-top: 10px;
-
-        h1 {
-            color: orange;
-            letter-spacing: 1px;
-            height: 80px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .btn--back {
-            background: $bg-color-black;
-            border: solid 2px orange;
-            font-size: 16px;
-            max-height: 30px;
-            width: 80px;
-            color: orange;
-            cursor: pointer;
-            position: relative;
-            left: 40px;
-
-            a {
-                color: orange;
-                text-decoration: none;
-            }
-
-        }
-    }
-}
 
 
 main {
@@ -63,10 +21,10 @@ main {
 
 
 
-.news--simple {
+.news--simple--container {
     @include simple--container();
 
-    &--container {
+    &--box001 {
         /*         border: solid 1px orange; */
         height: 450px;
         margin: 0 auto;
@@ -106,7 +64,7 @@ main {
 
     }
 
-    .news--simple--container--002 {
+    &--box002 {
         /*         border: solid 1px orange; */
         min-height: 450px;
         margin: 0 auto;
@@ -155,12 +113,12 @@ main {
 }
 
 
-.news--simple--long {
+.news--simple--container--long {
 
     @include simple--container();
     height: 1000px;
 
-    &--container {
+    &--box003 {
         color: orange;
         height: 900px;
         margin: 0 auto;
@@ -209,11 +167,8 @@ main {
 
                 td {
                     padding: 6px;
-
                     font-size: 12px;
                 }
-
-                tr {}
 
                 .tr--title {
                     background-color: rgb(65, 65, 64);
@@ -234,7 +189,6 @@ main {
                 .light {
                     background-color: rgb(210, 148, 34);
 
-
                     th {
                         font-weight: normal;
                         font-size: 16px;
@@ -249,12 +203,12 @@ main {
 
 }
 
-.news--simple--xlong {
+.news--simple--container--xlong {
 
     @include simple--container();
     height: 1450px;
 
-    &--container {
+    &--box004 {
 
         color: orange;
         height: 900px;
@@ -264,8 +218,6 @@ main {
         h3 {
             border-bottom: solid 2px bisque;
             color: bisque;
-            /*             color: orange; */
-
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding: 10px;
             text-align: center;
@@ -284,8 +236,6 @@ main {
                 background: $bg-color-black;
                 box-shadow: 0 0 16px 1px black;
                 display: flex;
-                /*  flex-direction: row; */
-                /*    min-height: 200px; */
                 min-height: 200px;
                 width: 800px;
                 margin-top: 10px;
@@ -293,8 +243,6 @@ main {
                 justify-content: left;
                 animation-name: testAnimation;
                 animation-duration: 3s;
-                /*                 position: relative;
-                z-index: 1; */
 
                 &--logo {
 
@@ -307,7 +255,6 @@ main {
                     justify-content: center;
                     align-items: center;
                     color: orange;
-                    /*                     align-self: center; */
 
                     &--image {
                         border: solid 1px black;
@@ -366,169 +313,170 @@ main {
                     }
                 }
             }
+        }
+    }
 
-            /*             &--person--container::before {
-                content: url(../images/persons/AAnna.PNG);
-                position: absolute;
-                z-index: -1;
-                opacity: 0.75;
-            } */
+    &--box005 {
+        height: 900px;
+        margin: 0 auto;
+        width: 900px;
+        color: orange;
+
+
+        h3 {
+            border-bottom: solid 2px bisque;
+            color: bisque;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            text-align: center;
         }
 
-        &--news005 {
-            height: 900px;
+        &--part1 {
+            height: 540px;
             margin: 0 auto;
             width: 900px;
-            /*             color: rgb(190, 189, 187); */
-            color: oranges;
 
-            &--part1 {
-                height: 540px;
-                margin: 0 auto;
+            &--box {
+
+                border-radius: 12px;
+                height: 250px;
+                margin: 10px auto;
                 width: 900px;
+                display: flex;
+                justify-content: space-between;
 
-                &--box {
-
-                    border-radius: 12px;
-                    height: 250px;
-                    margin: 10px auto;
-                    width: 900px;
+                &--logo--left {
+                    max-height: 240px;
+                    width: auto;
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: left;
+                    object-fit: cover;
 
-                    &--logo--left {
-                        max-height: 240px;
-                        width: auto;
-                        display: flex;
-                        justify-content: left;
-                        object-fit: cover;
-
-                        .--img {
-                            border-radius: 12px;
-                            max-height: 100%;
-                            max-width: 100%;
-                        }
-                    }
-
-                    &--logo--right {
-                        height: 240px;
-                        width: 450px;
-                        display: flex;
-                        justify-content: right;
-                        object-fit: cover;
-
-                        .--img {
-                            border-radius: 12px;
-                            max-height: 100%;
-                            max-width: 100%;
-                        }
-                    }
-
-                    &--text {
-
-                        margin: auto auto;
-                        height: 210px;
-                        width: 460px;
-
-                        h4 {
-                            margin-bottom: 8px;
-                            margin-left: 8px;
-                            letter-spacing: 0.5px;
-                            font-weight: 400;
-                            font-size: 20px;
-                            text-align: center;
-                        }
-
-                        p {
-                            text-align: center;
-                            padding: 2px;
-                        }
-
-                        li {
-                            text-align: center;
-                        }
+                    .--img {
+                        border-radius: 12px;
+                        max-height: 100%;
+                        max-width: 100%;
                     }
                 }
 
+                &--logo--right {
+                    height: 240px;
+                    width: 450px;
+                    display: flex;
+                    justify-content: right;
+                    object-fit: cover;
+
+                    .--img {
+                        border-radius: 12px;
+                        max-height: 100%;
+                        max-width: 100%;
+                    }
+                }
+
+                &--text {
+
+                    margin: auto auto;
+                    height: 210px;
+                    width: 460px;
+
+                    h4 {
+                        margin-bottom: 8px;
+                        margin-left: 8px;
+                        letter-spacing: 0.5px;
+                        font-weight: 400;
+                        font-size: 20px;
+                        text-align: center;
+                    }
+
+                    p {
+                        text-align: center;
+                        padding: 2px;
+                    }
+
+                    li {
+                        text-align: center;
+                    }
+                }
             }
 
-            &--part2 {
-                /*                 background: url(../images/ANIA-KASIA-3.png) center no-repeat; */
-                background-size: auto;
-                height: 600px;
-                margin: 2px auto;
-                width: 98%;
+        }
+
+        &--part2 {
+            /*                 background: url(../images/ANIA-KASIA-3.png) center no-repeat; */
+            background-size: auto;
+            height: 600px;
+            margin: 2px auto;
+            width: 98%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            &--person {
+                border: solid 3px orange;
+                border-radius: 12px;
+                height: 500px;
+                width: 400px;
                 display: flex;
-                flex-direction: row;
-                justify-content: space-between;
+                flex-direction: column;
+                justify-content: space-around;
                 align-items: center;
+                color: orange;
 
-                &--person {
-                    border: solid 3px orange;
-                    border-radius: 12px;
-                    height: 500px;
-                    width: 400px;
+                &--header {
+                    font-size: 24px;
+                    height: 40px;
+                    text-align: center;
+                    width: 360px;
+                }
+
+                &--logo {
+                    height: 200px;
+                    margin-left: 10px;
+                    width: 200px;
                     display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
                     align-items: center;
-                    color: orange;
 
-                    &--header {
-                        font-size: 24px;
-                        height: 40px;
+                    &--img {
+
+                        max-height: 100%;
+                        max-width: 100%;
+                    }
+                }
+
+                &--text {
+                    height: 400px;
+                    margin: 10px auto;
+                    text-align: center;
+                    width: 90%;
+
+                    h4 {
+
+                        color: orange;
+                        margin-bottom: 30px;
+                        margin-top: 10px;
+                        letter-spacing: 1px;
                         text-align: center;
-                        width: 360px;
                     }
 
-                    &--logo {
-                        height: 200px;
+                    h5 {
+                        border-bottom: solid 1px orange;
+                        font-size: 16px;
+                        letter-spacing: 1px;
+
+                    }
+
+                    &--img {
                         margin-left: 10px;
-                        width: 200px;
-                        display: flex;
-                        align-items: center;
-
-                        &--img {
-
-                            max-height: 100%;
-                            max-width: 100%;
-                        }
+                        margin-right: 10px;
+                        max-height: 40px;
+                        max-width: 40px;
+                        position: relative;
+                        top: 16px;
                     }
 
-                    &--text {
-                        height: 400px;
+                    p {
                         margin: 10px auto;
-                        text-align: center;
-                        width: 90%;
-
-                        h4 {
-
-                            color: orange;
-                            margin-bottom: 30px;
-                            margin-top: 10px;
-                            letter-spacing: 1px;
-                            text-align: center;
-                        }
-
-                        h5 {
-                            border-bottom: solid 1px orange;
-                            font-size: 16px;
-                            letter-spacing: 1px;
-
-                        }
-
-                        &--img {
-                            margin-left: 10px;
-                            margin-right: 10px;
-                            max-height: 40px;
-                            max-width: 40px;
-                            position: relative;
-                            top: 16px;
-                        }
-
-                        p {
-                            margin: 10px auto;
-                        }
                     }
                 }
             }

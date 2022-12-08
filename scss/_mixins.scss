@@ -1,3 +1,6 @@
+@import '_variables.scss';
+
+
 $breakPoins: (
     "small": 550px,
     "medium": 800px,
@@ -17,10 +20,54 @@ $breakPoins: (
     border: solid 1px black;
     border-radius: 8px;
     text-align: center;
-    color: orange;
+    color: $main-text-color;
     font-size: 1.5rem;
     height: 50px;
     width: 400px;
     padding-top: 5px;
     margin: 20px auto;
+}
+
+@mixin simple--container {
+    border-radius: 8px;
+    background: $bg-color-black;
+    box-shadow: 8px 8px black;
+    width: 1000px;
+    height: 500px;
+    margin: 30px auto;
+
+    &--header {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        width: 900px;
+        height: 100px;
+        padding-top: 10px;
+
+        h1 {
+            color: $main-text-color;
+            letter-spacing: 1px;
+            height: 80px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .news--simple--container--btn--back {
+            background: $bg-color-black;
+            border: solid 2px orange;
+            font-size: 16px;
+            max-height: 30px;
+            width: 80px;
+            color: $main-text-color;
+            cursor: pointer;
+            position: relative;
+            left: 40px;
+
+            a {
+                color: $main-text-color;
+                text-decoration: none;
+            }
+
+        }
+    }
 }

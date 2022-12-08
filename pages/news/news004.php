@@ -17,14 +17,14 @@
   <?php include("../../php/nav--pages--news.php"); ?>
 
   <main style="height: 1500px">
-    <div class="news--simple--xlong">
-      <div class="news--simple--header">
+    <div class="news--simple--container--xlong">
+      <div class="news--simple--container--header">
         <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</h1>
-        <button class="btn--back">
+        <button class="news--simple--container--btn--back">
           <a href="../../index.php">Powrót</a>
         </button>
       </div>
-      <div class="news--simple--xlong--container">
+      <div class="news--simple--container--xlong--box004">
         <h3>Reprezentanci sekcji na szczeblu centralnym</h3>
         <div class="news004--refBox">
           <div class="news004--refBox--person--container">
@@ -117,9 +117,7 @@
       </div>
     </div>
   </main>
-  <footer>
-    <div class="footer-text">Copyright Albert</div>
-  </footer>
+  <?php include("../../php/footer.php"); ?>
 </body>
 
 </html>

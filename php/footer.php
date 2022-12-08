@@ -1,3 +1,3 @@
 <footer>
-  <div class=" footer-text">Copyright Albert</div>
+  <div class=" footer-text"> &copy; Albert Bińkowski </div>
 </footer>

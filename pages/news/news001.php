@@ -16,14 +16,14 @@
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
   <main>
-    <div class="news--simple">
-      <div class="news--simple--header">
+    <div class="news--simple--container">
+      <div class="news--simple--container--header">
         <h1>Witamy na stronie !</h1>
-        <button class="btn--back">
+        <button class="news--simple--container--btn--back">
           <a href="../../index.php">Powrót</a>
         </button>
       </div>
-      <div class="news--simple--container">
+      <div class="news--simple--container--box001">
         <h3>Historyczny, pierwszy post na stronie...</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
@@ -41,9 +41,7 @@
       </div>
     </div>
   </main>
+  <?php include("../../php/footer.php"); ?>
 </body>
-<footer>
-  <div class="footer-text">Copyright Albert</div>
-</footer>
 
 </html>

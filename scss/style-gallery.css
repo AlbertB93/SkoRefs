@@ -409,21 +409,21 @@ html footer {
 }
 
 @media (max-width: 550px) {
-  .gallery--title {
+  .container--title {
     width: 96vw;
   }
-  .gallery--main {
+  .gallery--container {
     width: 96vw;
     min-height: 1600px;
     justify-content: space-around;
   }
-  .gallery--main .gallery--photo--field {
+  .gallery--container .gallery--photo--field {
     padding: 8px;
     max-width: 42vw;
     max-height: 42vw;
     margin: 5px 5px;
   }
-  .gallery--main .gallery--photo--field .gallery--photo {
+  .gallery--container .gallery--photo--field .gallery--photo {
     cursor: pointer;
     max-width: 100%;
     max-height: 100%;

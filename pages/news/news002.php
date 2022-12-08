@@ -16,19 +16,19 @@
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
   <main>
-    <div class="news--simple">
-      <div class="news--simple--header">
+    <div class="news--simple--container">
+      <div class="news--simple--container--header">
         <h1>Zapraszamy na kurs !</h1>
-        <button class="btn--back">
+        <button class="news--simple--container--btn--back">
           <a href="../../index.php">Powrót</a>
         </button>
       </div>
-      <div class="news--simple--container">
-        <div class="news--simple--container--002">
-          <div class="news--simple--container--002--image">
+      <div class="news--simple--container--box">
+        <div class="news--simple--container--box002">
+          <div class="news--simple--container--box002--image">
             <img src="../../images/pages/news/news002-kurs.jpg" alt="plakat-kurs" class="image--file" />
           </div>
-          <div class="news--simple--container--002--text">
+          <div class="news--simple--container--box002--text">
             <h3>Dane do kontaktu:</h3>
             <p>Marek Śliwa</p>
             <p>tel. 502 319 647</p>
@@ -38,9 +38,7 @@
       </div>
     </div>
   </main>
-  <footer>
-    <div class="footer-text">Copyright Albert</div>
-  </footer>
+  <?php include("../../php/footer.php"); ?>
 </body>
 
 </html>

@@ -279,10 +279,19 @@
 
 @include breakPoint(small) {
 
+
+    .container--title {
+        font-size: 1rem;
+        padding-top: 10px;
+        width: 92vw;
+    }
+
     .refs--container {
         display: flex;
         flex-direction: column;
-        height: 2900px;
+        height: 3300px;
+        align-items: center;
+        margin-bottom: 20px;
 
         &--title {
             font-size: 1.2rem;

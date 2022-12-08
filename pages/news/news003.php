@@ -17,14 +17,14 @@
   <?php include("../../php/nav--pages--news.php"); ?>
 
   <main style="height: 1200px">
-    <div class="news--simple--long">
-      <div class="news--simple--header">
+    <div class="news--simple--container--long">
+      <div class="news--simple--container--header">
         <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</h1>
-        <button class="btn--back">
+        <button class="news--simple--container--btn--back">
           <a href="../../index.php">Powrót</a>
         </button>
       </div>
-      <div class="news--simple--long--container">
+      <div class="news--simple--container--long--box003">
         <h3>Krótkie podsumowanie rundy...</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
@@ -278,9 +278,8 @@
       </div>
     </div>
   </main>
+  <?php include("../../php/footer.php"); ?>
 </body>
-<footer>
-  <div class="footer-text">Copyright Albert</div>
-</footer>
+
 
 </html>
