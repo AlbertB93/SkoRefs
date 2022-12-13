@@ -16,22 +16,22 @@
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
 
-  <main style="height: 1500px">
-    <div class="news--simple--container--xlong">
+  <main style="height: 1200px">
+    <div class="news--simple--container--long">
       <div class="news--simple--container--header">
         <h1>Rozgrywki Kobiet - podsumowanie rundy</h1>
         <button class="news--simple--container--btn--back">
-          <a href="../../index.php">Powrót</a>
+          <a href="javascript:history.back();">Powrót</a>
         </button>
       </div>
-      <div class="news--simple--container--xlong--box005">
+      <div class="news--simple--container--long--box005">
         <h3>"Nasze" dziewczyny na wspólnych meczach...</h3>
-        <div class="news--simple--container--xlong--box005--part1">
-          <div class="news--simple--container--xlong--box005--part1--box">
-            <div class="news--simple--container--xlong--box005--part1--box--logo--left">
-              <img src="../../images/ANIA-KASIA.png" alt="zdjecie Ani i Kasi" class="--img">
+        <div class="news--simple--container--long--box005--part1">
+          <div class="news--simple--container--long--box005--part1--box1">
+            <div class="news--simple--container--long--box005--part1--box1--logo--left">
+              <img src="../../images/pages/news/news005-ania-kasia.png" alt="zdjecie Ani i Kasi" class="--img">
             </div>
-            <div class="news--simple--container--xlong--box005--part1--box--text">
+            <div class="news--simple--container--long--box005--part1--box1--text">
               <h4>
                 4 mecze EKSTRALIGI Kobiet:
               </h4>
@@ -49,43 +49,43 @@
               </p>
             </div>
           </div>
-          <div class="news--simple--container--xlong--box005--part1--box">
-            <div class="news--simple--container--xlong--box005--part1--box--text">
+          <div class="news--simple--container--long--box005--part1--box2">
+            <div class="news--simple--container--long--box005--part1--box2--text">
               <h4>
                 Puchar Polski kobiet
               </h4>
               <p>POGOŃ Gościniec nad Wisłą II Tczew - UKS SMS II Łódź</p>
             </div>
-            <div class="news--simple--container--xlong--box005--part1--box--logo--right">
-              <img src="../../images/ania-kasia-2.jpg" alt="zdjecie Ani i Kasi" class="--img">
+            <div class="news--simple--container--long--box005--part1--box2--logo--right">
+              <img src="../../images/pages/news/news005-ania-kasia-2.jpg" alt="zdjecie Ani i Kasi" class="--img">
             </div>
           </div>
         </div>
         <h3>Ania i Kasia w pozostałych meczach kobiecych</h3>
-        <div class="news--simple--container--xlong--box005--part2">
-          <div class="news--simple--container--xlong--box005--part2--person">
-            <div class="news--simple--container--xlong--box005--part2--person--header">Anna Adamska</div>
-            <div class="news--simple--container--xlong--box005--part2--person--logo">
-              <img src="../../images/Ania.png" alt="zdjęcie Ania Adamska" class="news--simple--container--xlong--box005--part2--person--logo--img">
+        <div class="news--simple--container--long--box005--part2">
+          <div class="news--simple--container--long--box005--part2--person">
+            <div class="news--simple--container--long--box005--part2--person--header">Anna Adamska</div>
+            <div class="news--simple--container--long--box005--part2--person--logo">
+              <img src="../../images/pages/news/news005-ania.png" alt="zdjęcie Ania Adamska" class="news--simple--container--long--box005--part2--person--logo--img">
             </div>
-            <div class="news--simple--container--xlong--box005--part2--person--text">
-              <h5>Sędzia techniczny <img src="../../images/table-table.PNG" alt="WHISTLE" class="news--simple--container--xlong--box005--part2--person--text--img" style="top: 2px;" />
+            <div class="news--simple--container--long--box005--part2--person--text">
+              <h5>Sędzia techniczny <img src="../../images/pages/news/table-table.PNG" alt="zdjęcie tablica do zmian" class="news--simple--container--long--box005--part2--person--text--img" style="top: 2px;" />
               </h5>
               <p>Eliminacje do MŚ Kobiet</p>
-              <p><img src="../../images/flag-Grecce.jpg" alt="WHISTLE" class="news--simple--container--xlong--box005--part2--person--text--img" style="top: 2px;" />Grecja
-                - Walia <img src="../../images/flag-Wales.webp" alt="WHISTLE" class="news--simple--container--xlong--box005--part2--person--text--img" style="top: 2px;" />
+              <p><img src="../../images/pages/news/news005-flag-Grecce.jpg" alt="flaga Grecji" class="news--simple--container--long--box005--part2--person--text--img" style="top: 2px;" />Grecja
+                - Walia <img src="../../images/pages/news/news005-flag-Wales.webp" alt="flaga Walii" class="news--simple--container--long--box005--part2--person--text--img" style="top: 2px;" />
               </p>
             </div>
           </div>
-          <div class="news--simple--container--xlong--box005--part2--person">
-            <div class="news--simple--container--xlong--box005--part2--person--header">Katarzyna Chrzanowska
+          <div class="news--simple--container--long--box005--part2--person">
+            <div class="news--simple--container--long--box005--part2--person--header">Katarzyna Chrzanowska
             </div>
-            <div class="news--simple--container--xlong--box005--part2--person--logo">
-              <img src="../../images/kasia.jpg" alt="zdjęcie Kasia Chrzanowska" class="news--simple--container--xlong--box005--part2--person--logo--img">
+            <div class="news--simple--container--long--box005--part2--person--logo">
+              <img src="../../images/pages/news/news005-kasia.jpg" alt="zdjęcie Kasia Chrzanowska" class="news--simple--container--long--box005--part2--person--logo--img">
             </div>
-            <div class="news--simple--container--xlong--box005--part2--person--text">
+            <div class="news--simple--container--long--box005--part2--person--text">
 
-              <h5>Sędzia asystent <img src="../../images/table-flag.png" alt="WHISTLE" class="news--simple--container--xlong--box005--part2--person--text--img" style="top: 12px;" />
+              <h5>Sędzia asystent <img src="../../images/pages/news/table-flag.png" alt="WHISTLE" class="news--simple--container--long--box005--part2--person--text--img" style="top: 12px;" />
               </h5>
               <p>Ekstraliga Kobiet</p>
               <p>POGOŃ Gościniec nad Wisłą II Tczew - UKS SMS II Łódź</p>

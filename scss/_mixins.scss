@@ -55,13 +55,63 @@ $breakPoins: (
         .news--simple--container--btn--back {
             background: $bg-color-black;
             border: solid 2px orange;
-            font-size: 16px;
+            font-size: 1rem;
             max-height: 30px;
             width: 80px;
             color: $main-text-color;
             cursor: pointer;
             position: relative;
-            left: 40px;
+            left: 30px;
+
+            a {
+                color: $main-text-color;
+                text-decoration: none;
+            }
+
+        }
+    }
+}
+
+@mixin simple--container--small {
+    border-radius: 8px;
+    background: $bg-color-black;
+    box-shadow: 8px 8px black;
+    width: 92vw;
+    height: 500px;
+    margin: 30px auto;
+
+    &--header {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 92vw;
+        height: 100px;
+        padding-top: 10px;
+
+        h1 {
+
+            color: $main-text-color;
+            letter-spacing: 1px;
+            height: 80px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.5rem;
+            margin-top: 50px;
+        }
+
+        .news--simple--container--btn--back {
+            background: $bg-color-black;
+            border: solid 2px orange;
+/*             border-bottom: none; */
+            font-size: 0.8rem;
+            max-height: 30px;
+            width: 14vw;
+            color: $main-text-color;
+            cursor: pointer;
+            left: 74vw;
+            bottom: 100px;
+
 
             a {
                 color: $main-text-color;

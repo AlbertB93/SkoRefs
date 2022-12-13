@@ -21,7 +21,7 @@
       <div class="news--simple--container--header">
         <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</h1>
         <button class="news--simple--container--btn--back">
-          <a href="../../index.php">Powrót</a>
+          <a href="javascript:history.back();">Powrót</a>
         </button>
       </div>
       <div class="news--simple--container--long--box003">
@@ -54,40 +54,40 @@
               </tr>
               <tr class="tr--title">
                 <th scope="col">
-                  <img src="../../images/table-whistle.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-whistle.png" alt="GWIZDEK" class="table--image" />
                 </th>
                 <th scope="col">
-                  <img src="../../images/table-flag.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="table--image" />
                 </th>
                 <th scope="col">
-                  <img src="../../images/table-whistle.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-whistle.png" alt="GWIZDEK" class="table--image" />
                 </th>
                 <th scope="col">
-                  <img src="../../images/table-flag.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="table--image" />
                 </th>
                 <th scope="col">
-                  <img src="../../images/table-whistle.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-whistle.png" alt="GWIZDEK" class="table--image" />
                 </th>
                 <th scope="col">
-                  <img src="../../images/table-flag.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="table--image" />
                 </th>
                 <th scope="col">
-                  <img src="../../images/table-whistle.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-whistle.png" alt="GWIZDEK" class="table--image" />
                 </th>
                 <th scope="col">
-                  <img src="../../images/table-flag.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="table--image" />
                 </th>
                 <th scope="col">
-                  <img src="../../images/table-whistle.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-whistle.png" alt="GWIZDEK" class="table--image" />
                 </th>
                 <th scope="col">
-                  <img src="../../images/table-flag.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="table--image" />
                 </th>
                 <th scope="col">
-                  <img src="../../images/table-whistle.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-whistle.png" alt="GWIZDEK" class="table--image" />
                 </th>
                 <th scope="col">
-                  <img src="../../images/table-flag.png" alt="WHISTLE" class="table--image" />
+                  <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="table--image" />
                 </th>
               </tr>
             </thead>

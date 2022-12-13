@@ -20,7 +20,7 @@
       <div class="news--simple--container--header">
         <h1>Witamy na stronie !</h1>
         <button class="news--simple--container--btn--back">
-          <a href="../../index.php">Powrót</a>
+          <a href="javascript:history.back();">Powrót</a>
         </button>
       </div>
       <div class="news--simple--container--box001">

@@ -16,12 +16,12 @@
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
 
-  <main style="height: 1500px">
+  <main style="height: 1650px">
     <div class="news--simple--container--xlong">
       <div class="news--simple--container--header">
         <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</h1>
         <button class="news--simple--container--btn--back">
-          <a href="../../index.php">Powrót</a>
+          <a href="javascript:history.back();">Powrót</a>
         </button>
       </div>
       <div class="news--simple--container--xlong--box004">
@@ -37,7 +37,7 @@
             <div class="news004--refBox--person--container--text">
               <h4>
                 2 LIGA - jako sędzia techniczny
-                <img src="../../images/table-table.PNG" alt="WHISTLE" class="news004--refBox--person--container--text--img" style="top: 2px" />
+                <img src="../../images/pages/news/table-table.PNG" alt="TABLICA" class="news004--refBox--person--container--text--img" style="top: 2px" />
               </h4>
               <p>Garbarnia Kraków - Motor Lublin S.A.</p>
               <p>MKS Znicz Pruszków - Radunia Stężyca</p>
@@ -45,7 +45,7 @@
               <p>Stomil Olsztyn S.A. - Śląsk II Wrocław</p>
               <p>Wisła Puławy - MKS Znicz Pruszków</p>
               <h4>
-                3 LIGA - jako sędzia główny<img src="../../images/table-whistle.png" alt="WHISTLE" class="news004--refBox--person--container--text--img" />
+                3 LIGA - jako sędzia główny<img src="../../images/pages/news/table-whistle.png" alt="GWIZDEK" class="news004--refBox--person--container--text--img" />
               </h4>
               <p>Wisła Sandomierz - Czarni Połaniec</p>
               <p>KS Legionovia - ŁKS II Łódź S.A.</p>
@@ -53,7 +53,7 @@
               <p>Unia Tarnów - Avia Świdnik</p>
               <p>Broń Radom - Jagiellonia II Białystok</p>
               <h4>
-                CLJ U-19 - jako sędzia główny<img src="../../images/table-whistle.png" alt="WHISTLE" class="news004--refBox--person--container--text--img" />
+                CLJ U-19 - jako sędzia główny<img src="../../images/pages/news/table-whistle.png" alt="GWIZDEK" class="news004--refBox--person--container--text--img" />
               </h4>
               <p>Escola Varsovia - Cracovia Kraków</p>
             </div>
@@ -68,7 +68,7 @@
             <div class="news004--refBox--person--container--text">
               <h4>
                 3 LIGA - jako sędzia asystent
-                <img src="../../images/table-flag.png" alt="WHISTLE" class="news004--refBox--person--container--text--img" />
+                <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--text--img" />
               </h4>
               <p>Wisła Sandomierz - Czarni Połaniec</p>
               <p>KS Legionovia - ŁKS II Łódź S.A.</p>
@@ -77,7 +77,7 @@
               <p>Broń Radom - Jagiellonia II Białystok</p>
               <h4>
                 CLU U-19 - jako sędzia asystent
-                <img src="../../images/table-flag.png" alt="WHISTLE" class="news004--refBox--person--container--text--img" />
+                <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--text--img" />
               </h4>
               <p>Escola Varsovia - Cracovia Kraków</p>
             </div>
@@ -92,7 +92,7 @@
             <div class="news004--refBox--person--container--text">
               <h4>
                 3 LIGA - jako sędzia asystent
-                <img src="../../images/table-flag.png" alt="WHISTLE" class="news004--refBox--person--container--text--img" />
+                <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--text--img" />
               </h4>
               <p>Broń Radom - Sokół Ostróda</p>
               <p>JAKIŚ MECZ CORE</p>
@@ -108,7 +108,7 @@
             <div class="news004--refBox--person--container--text">
               <h4>
                 3 LIGA - jako sędzia asystent
-                <img src="../../images/table-flag.png" alt="WHISTLE" class="news004--refBox--person--container--text--img" />
+                <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--text--img" />
               </h4>
               <p>Unia Tarnów - Avia Świdnik</p>
             </div>

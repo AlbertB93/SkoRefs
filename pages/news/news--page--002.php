@@ -19,31 +19,13 @@
   <main>
     <div class="news--container">
       <div class="news--title--box">
-        <h2>Archiwum wiadomości 2</h2>
+        <h2>Archiwum wiadomości</h2>
       </div>
       <div class="news--box">
         <article id="article--1">
-          <a href="pages/news/news001.html">Witamy na stronie !</a>
+          <a href="news001.php">Witamy na stronie !</a>
           <div class="article--image">
-            <img src="../../images/index/hand.png" alt="ręka" class="article--image--file" />
-          </div>
-        </article>
-        <article id="article--1">
-          <a href="pages/news/news001.html">Witamy na stronie !</a>
-          <div class="article--image">
-            <img src="../../images/index/hand.png" alt="ręka" class="article--image--file" />
-          </div>
-        </article>
-        <article id="article--4">
-          <a href="pages/news/news004.html">Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</a>
-          <div class="article--image">
-            <img src="../../images/klip-spalony.png" alt="sędzia-asystent-chorągiewka" class="article--image--file" />
-          </div>
-        </article>
-        <article id="article--1">
-          <a href="pages/news/news001.html">Witamy na stronie !</a>
-          <div class="article--image">
-            <img src="../../images/index/hand.png" alt="ręka" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news001.png" alt="ręka" class="article--image--file" />
           </div>
         </article>
       </div>
@@ -54,17 +36,16 @@
         <button class="news--buttons--active">
           <a href=" news--page--002.php" style="background-color: orange; color:black;">2</a>
         </button>
-        <button class="news--buttons">
+        <!--         <button class="news--buttons">
           <a href="news--page--003.php">3</a>
         </button>
-        <button class="news--buttons">...</button>
+        <button class="news--buttons">...</button> -->
       </div>
     </div>
   </main>
 
-  <footer>
-    <div class="footer-text">Copyright Albert</div>
-  </footer>
+
+  <?php include("../../php/footer.php"); ?>
   <script src="../../test.js"></script>
 </body>
 

@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="/images/favicon.png">
 </head>
 
 <body>
@@ -20,31 +21,31 @@
       <article id="article--5">
         <a href="pages/news/news005.php">Nasze dziewczyny w rozgrywkach kobiecych - podsumowanie rundy</a>
         <div class="article--image">
-          <img src="images/news005-logo.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
+          <img src="images/pages/news-logo/news005.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
         </div>
       </article>
       <article id="article--4">
         <a href="pages/news/news004.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</a>
         <div class="article--image">
-          <img src="images/klip-spalony.png" alt="sędzia-asystent-chorągiewka" class="article--image--file" />
+          <img src="images/pages/news-logo/news004.jpg" alt="sędzia-asystent-chorągiewka" class="article--image--file" />
         </div>
       </article>
       <article id="article--3">
         <a href="pages/news/news003.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</a>
         <div class="article--image">
-          <img src="images/testObsada.jpg" alt="losowanie sędziego z kapitanami" class="article--image--file" />
+          <img src="images/pages/news-logo/news003.jpg" alt="losowanie sędziego z kapitanami" class="article--image--file" />
         </div>
       </article>
       <article id="article--2">
         <a href="pages/news/news002.php">ZAPISZ SIĘ NA KURS!</a>
         <div class="article--image">
-          <img src="images/index/kurs2.jpg" alt="plakat-kurs-sedziowski" class="article--image--file" />
+          <img src="images/pages/news-logo/news002.jpg" alt="plakat-kurs-sedziowski" class="article--image--file" />
         </div>
       </article>
       <article id="article--1">
         <a href="pages/news/news001.php">Witamy na stronie !</a>
         <div class="article--image">
-          <img src="images/index/hand.png" alt="zdjęcie dłoni" class="article--image--file" />
+          <img src="images/pages/news-logo/news001.png" alt="zdjęcie dłoni" class="article--image--file" />
         </div>
       </article>
       </section>

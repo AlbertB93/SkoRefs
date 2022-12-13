@@ -21,7 +21,7 @@
       <div class="single--news--header">
         <h1>Klip tygodnia #8</h1>
         <button class="news--simple--container--btn--back">
-          <a href="../../index.php">Powrót</a>
+          <a href="javascript:history.back();">Powrót</a>
         </button>
       </div>
       <div class="single--news--box--Simple">

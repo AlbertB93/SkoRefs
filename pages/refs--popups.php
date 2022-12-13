@@ -3,27 +3,39 @@
         <img src="../images/persons/AAnna.PNG " alt="zdjęcie Anna Adamska" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
+            <p> Sędzia od: 2009r. </p>
             <p> Obecnie: Sędzia 3 ligi</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
             Anna Adamska
+            <button class="popup--btn" onclick="closePopup(0)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Ania została sędzią w sezonie 2009/2010. Pierwszy mecz w "B" klasie jako sędzia główna prowadziła w 2011r.
+                Następnie po pół roku awansowała do klasy "A", a po kolejnych 6 miesiącach do klasy "Okręgowej".
+                Od 2014r. biegała z gwizdkiem po czwartoligowych boiskach. Obcenie jest sędzia 3 ligi mężczyzn od 2020 roku.
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            <p>
+                W sezonie 2015/2016 debiutowała jako sędzia asystnent na meczu 3 ligi mężczyzn w meczu Czarni Połaniec - KSZO Ostrowiec Św.
+                W sezonie 2018/2019 pierwszy raz była sędzią technicznym podczas meczu 2 ligi mężczyzn: Radomiak Radom - Resovia Rzeszów.
+            </p>
+            <p>
+                W rozgrywkach kobiecych Ania na szczeblu centralnym jest od sezonu 2012/2013. Pod koniec sezonu 2015/2016 zadebiutowała wraz z Kasią Chrzanowską w Ekstralidze Kobiet w meczu Mitech Żywiec - AZS PWSZ Wałbrzych.
+            </p> </br>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: 3 Liga.</li>
+            <li> Najwyższa liga jako sędzia techniczny: 2 Liga.</li>
+            <li> Sędzia techniczna na 6 meczach międzynarodowych oraz jednym turnieju w rozgrywkach Kobiet.</li>
+            <li> Sędzia techniczna na 2 meczach Eliminacji do MŚ Kobiet oraz 1 meczu Elminacji do ME Kobiet.</li>
+            <li> Sędzia techniczna na 3 meczach Ligi Mistrzyń.</li>
+            <li> Około 60 meczów w Ekstralidze Kobiet.</li>
+            <li> Około 51 meczów w Centralnej Lidze Juniorów.</li>
+            <li> Uczestnik programu CORE Polska 4 </li>
         </div>
-        <button class="popup--btn" onclick="closePopup(0)">X</button>
+
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -32,9 +44,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -42,76 +54,83 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
+                        <td>10</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
+                        <td>31</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>5</td>
-                        <td>2</td>
+                        <td>68*</td>
+                        <td>6*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>32*</td>
+                        <td>10*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>20*</td>
+                        <td>19*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>11*</td>
+                        <td>12*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
-                        <td>0</td>
+                        <td>106*</td>
+                        <td>32*</td>
+                        <td>5</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011</p>
         </div>
     </div>
 </div>
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/BAlbert.PNG " alt="zdjęcie Albert Bińkowski" class="popup--photo">
+        <img src="../images/persons/BAlbert.PNG " alt="zdjęcie Anlbert Bińkowski" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
-            <p> Obecnie: Sędzia 3 ligi</p>
+            <p> Sędzia od: 2012r. </p>
+            <p> Obecnie: Sędzia 4 ligi</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
             Albert Bińkowski
+            <button class="popup--btn" onclick="closePopup(1)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Albert, kurs ukończył wiosną 2012r.
+                W rundzie jesiennej sezonu 2012/2013r. został sędzią głównym w B klasie, aby po półroku awansować do klasy "A".
+                W sezonie 2013/2014 sędziował w klasie "Okręgowej". Pod koniec tego sezonu został wyznaczony do dwóch meczów próbnych w 4 lidze, co poskutkowało awansem do tej klasy w przyszłym sezonie.
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            <p>
+                Do tej pory Albert prowadził blisko 100 meczów jako arbiter główny w 4 lidze. W sezonie 2017/2018 awansował do III ligi. Debiutował w meczu: Wólczanka Wólka Pełkińska - Soła Oświęcim.
+                W III lidze sędziował mecze przez 4 sezony. W swoim dorobku ma kilka meczów w Centralnej Lidze Juniorów oraz 3 spotkania jako sędzia techniczny w II lidze.
+                Obecnie jest sędzią przyporządkowanym do 4 ligi świętokrzyskiej.
+            </p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: 3 Liga.</li>
+            <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
+            <li> Najwyższa liga jako sędzia techniczny: 2 Liga.</li>
+            <li> Sędzia techniczny na meczu Norwegia - Estonia w pucharze Syrenka Cup.</li>
+            <li> Uczestnik programu CORE Polska 5 </li>
         </div>
-        <button class="popup--btn" onclick="closePopup(1)">X</button>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -120,9 +139,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -130,42 +149,42 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
+                        <td>3</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
-                        <td>0</td>
+                        <td>44</td>
+                        <td>1</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
+                        <td>92</td>
                         <td>5</td>
-                        <td>2</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>28</td>
+                        <td>22</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>31</td>
+                        <td>45</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>14</td>
+                        <td>26</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
+                        <td>112</td>
+                        <td>104</td>
                         <td>0</td>
                     </tr>
                 </tbody>
@@ -178,28 +197,32 @@
     <div class="popup--photo--field">
         <img src="../images/persons/CJakub.PNG " alt="zdjęcie Jakub Chrzanowski" class="popup--photo">
         <div class="popup--photo--text">
-            <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
-            <p> Obecnie: Sędzia 3 ligi</p>
+            <p> Rok urodzenia: 1997</p>
+            <p> Sędzia od: 2015r. </p>
+            <p> Obecnie: Sędzia 4 ligi</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
             Jakub Chrzanowski
+            <button class="popup--btn" onclick="closePopup(2)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Jakub został sędzią w 2015r. Wraz ze startem sezonu 2015 / 2016 awansował do klasy "B", a w rundzie wiosennej tego samego sezonu awanoswał do klasy "A".
+                Na pierwszy mecz próbny w klasie "O" został wyznaczony również pod koniec sezonu 2015 / 2016. </br> W sezonie 2018 / 2019 prowadził 3 mecze w 4 lidze, aby w kolejnym zostać już oficjalnie sędzią czwartoligowym.
+
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            <p>
+                Pomimo młodego wieku, Kuba był już asystenetem na 45 meczach III ligi oraz jeden raz sędzią technicznym podczas meczu II ligi.
+            </p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: 4 Liga.</li>
+            <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
+            <li> Najwyższa liga jako sędzia techniczny: 2 Liga.</li>
+            <li> Sędzia techniczny na meczu finału PP na szczeblu okręgu w sezonie 2020 / 2021.</li>
+            <li> Uczestnik programu CORE Polska 10 </li>
         </div>
-        <button class="popup--btn" onclick="closePopup(2)">X</button>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -208,9 +231,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -218,42 +241,42 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
+                        <td>1</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>45</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>5</td>
-                        <td>2</td>
+                        <td>38</td>
+                        <td>24</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>28</td>
+                        <td>20</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>18</td>
+                        <td>24</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>17</td>
+                        <td>30</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
+                        <td>85</td>
+                        <td>51</td>
                         <td>0</td>
                     </tr>
                 </tbody>
@@ -266,9 +289,9 @@
     <div class="popup--photo--field">
         <img src="../images/persons/MJakub.PNG " alt="zdjęcie Jakub Moskal" class="popup--photo">
         <div class="popup--photo--text">
-            <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
-            <p> Obecnie: Sędzia 3 ligi</p>
+            <p> Rok urodzenia: 1990</p>
+            <p> Sędzia od: X. </p>
+            <p> Obecnie: Sędzia 4 ligi</p>
         </div>
     </div>
     <div class="popup--container">
@@ -296,9 +319,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -355,8 +378,8 @@
         <img src="../images/persons/CKasia.PNG " alt="zdjęcie Katarzyna Chrzanowska" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
-            <p> Obecnie: Sędzia 3 ligi</p>
+            <p> Sędzia od: X. </p>
+            <p> Obecnie: Sędzia klasy "O"</p>
         </div>
     </div>
     <div class="popup--container">
@@ -384,9 +407,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -442,9 +465,9 @@
     <div class="popup--photo--field">
         <img src="../images/persons/KEryk.PNG " alt="zdjęcie Eryk Kiliszek" class="popup--photo">
         <div class="popup--photo--text">
-            <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
-            <p> Obecnie: Sędzia 3 ligi</p>
+            <p> Rok urodzenia: 1996</p>
+            <p> Sędzia od: . </p>
+            <p> Obecnie: Sędzia klasy "O"</p>
         </div>
     </div>
     <div class="popup--container">
@@ -472,9 +495,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -530,28 +553,28 @@
     <div class="popup--photo--field">
         <img src="../images/persons/KPaweł.PNG " alt="zdjęcie Paweł Kocia" class="popup--photo">
         <div class="popup--photo--text">
-            <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
-            <p> Obecnie: Sędzia 3 ligi</p>
+            <p> Rok urodzenia: 1998</p>
+            <p> Sędzia od: 2019r. </p>
+            <p> Obecnie: Sędzia klasy "O"</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
             Paweł Kocia
+            <button class="popup--btn" onclick="closePopup(6)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Paweł w sezonie 2020/2021 dostałem awans do B klasy, w której spędził jeden sezon. "A" klasę zaczął sędziować w sezonie 2021/2022, z której awansował po roku do klasy "O".
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            <p>
+                Paweł w bardzo młodym wieku ( ile lat ? ) zadebiutował jako asystent na meczu III ligi: X --- X
+            </p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
+            <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
+            <li> Uczestnik programu mentorskiego ŚZPN </li>
         </div>
-        <button class="popup--btn" onclick="closePopup(6)">X</button>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -560,9 +583,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -619,8 +642,8 @@
         <img src="../images/persons/PKarol.PNG " alt="zdjęcie Karol Purtak" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
-            <p> Obecnie: Sędzia 3 ligi</p>
+            <p> Sędzia od: X. </p>
+            <p> Obecnie: Sędzia klasy "O"</p>
         </div>
     </div>
     <div class="popup--container">
@@ -648,9 +671,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -706,9 +729,9 @@
     <div class="popup--photo--field">
         <img src="../images/persons/FDariusz.PNG " alt="zdjęcie Dariusz Frydryk" class="popup--photo">
         <div class="popup--photo--text">
-            <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
-            <p> Obecnie: Sędzia 3 ligi</p>
+            <p> Rok urodzenia: 1968</p>
+            <p> Sędzia od: xr. </p>
+            <p> Obecnie: Sędzia klasy "A"</p>
         </div>
     </div>
     <div class="popup--container">
@@ -736,9 +759,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -794,28 +817,27 @@
     <div class="popup--photo--field">
         <img src="../images/persons/SRafał.PNG " alt="zdjęcie Rafał Sokołowski" class="popup--photo">
         <div class="popup--photo--text">
-            <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
-            <p> Obecnie: Sędzia 3 ligi</p>
+            <p> Rok urodzenia: 1974</p>
+            <p> Sędzia od: 2001r. </p>
+            <p> Obecnie: Sędzia klasy "A"</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
             Rafał Sokołowski
+            <button class="popup--btn" onclick="closePopup(9)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Rafał ukończył kurs w 2001r. Od tamtej pory prowadził bardzo dużą ilość meczów klasy Okręgowej, klasy "A" oraz klasy "B".
+                W 4 lidze Rafał jako sędzia główny prowadził jeden mecz, natomiast był 5 razy asystentem w meczach III ligi.
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: 4 Liga.</li>
+            <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
+            <li> Sędzia główny Europejskiego Turnieju piłki nożnej Olimpiad Specjalnych w Warszawie. </li>
+
         </div>
-        <button class="popup--btn" onclick="closePopup(9)">X</button>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -824,9 +846,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -834,46 +856,47 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>5</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>5</td>
-                        <td>2</td>
+                        <td>1</td>
+                        <td>89*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>13*</td>
+                        <td>54*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>38*</td>
+                        <td>48*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>57*</td>
+                        <td>27*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
+                        <td>23*</td>
+                        <td>79*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011</p>
         </div>
     </div>
 </div>
@@ -882,9 +905,9 @@
     <div class="popup--photo--field">
         <img src="../images/persons/face.PNG " alt="zdjęcie Adrian Dzięcioł" class="popup--photo">
         <div class="popup--photo--text">
-            <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
-            <p> Obecnie: Sędzia 3 ligi</p>
+            <p> Rok urodzenia: 2000</p>
+            <p> Sędzia od: Xr. </p>
+            <p> Obecnie: Sędzia klasy "B"</p>
         </div>
     </div>
     <div class="popup--container">
@@ -912,9 +935,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -970,9 +993,9 @@
     <div class="popup--photo--field">
         <img src="../images/persons/face.PNG " alt="zdjęcie Błażej Turski" class="popup--photo">
         <div class="popup--photo--text">
-            <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: 2010r. </p>
-            <p> Obecnie: Sędzia 3 ligi</p>
+            <p> Rok urodzenia: 2002</p>
+            <p> Sędzia od: 2020r. </p>
+            <p> Obecnie: Sędzia klasy "B"</p>
         </div>
     </div>
     <div class="popup--container">
@@ -1000,9 +1023,9 @@
                 <thead>
                     <tr>
                         <th scope="col"></th>
-                        <th scope="col"><img src="../images/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
                     </tr>
                 </thead>
                 <tbody>

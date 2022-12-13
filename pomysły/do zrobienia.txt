@@ -1,17 +1,17 @@
 
 
-3. Mixiny do newsów
-	Standard do newsa, a później ewentualnie rozszerzenia jak np. długość itp.
 
-5. Rozdzielczość na telefonie.
+-Rozdzielczość na telefonie.
+-Obsada jak się klika w sierpień to podświetla się inaczej.
+-Jak na telefonie będą wyglądać popupy.
+-Licznik odwiedzin
+
+- jednakowe miniaturki zdjęć sędziów
+- jednakowe rozmiary zdjęć w galerii
+- przejrzeć wszystkie pliki php pod względem kodu
+- przejrzeć wszystkie pliki scss 
+
+-przejrzeć funkcję do galerii zdjęć.
 
 
 
-
-
-
-4. Poprawić w Popupach wyświetlanie, w peirwszej kolumnie przerzuca coś w dól jak jest sędzia danej ligi.
-5. Obsada jak się klika w sierpień to podświetla się inaczej.
-
-
-6. Jak na telefonie będą wyglądać popupy.

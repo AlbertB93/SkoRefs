@@ -76,7 +76,7 @@
       </button>
       <button class="popupArrow--left">
         <div class="text">
-          << /div>
+          <
         </div>
   </main>
   <?php include("../php/footer.php"); ?>

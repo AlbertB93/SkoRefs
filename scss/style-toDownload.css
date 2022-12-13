@@ -45,16 +45,16 @@ html header {
 body header .header--logo,
 html header .header--logo {
   position: relative;
-  height: 16vh;
-  width: 12vw;
-  top: 1vh;
+  height: 140px;
+  width: auto;
+  top: 30px;
 }
 
 body header .header--logo--img,
 html header .header--logo--img {
   display: block;
-  max-height: 80%;
-  max-width: 80%;
+  max-height: 70%;
+  max-width: 70%;
   margin: 0 auto;
   margin-top: 5px;
 }
@@ -73,14 +73,14 @@ html header .header--title {
   justify-content: center;
   flex-direction: column;
   height: 16vh;
-  color: orange;
+  color: #ffa600;
   transition: 2s;
   width: 60vw;
 }
 
 body header .header--title h1,
 html header .header--title h1 {
-  color: orange;
+  color: #ffa600;
   font-weight: 700;
   font-size: 2.5em;
   letter-spacing: 2px;
@@ -94,7 +94,7 @@ html header .header--title h1 {
 body header .header--title h3,
 html header .header--title h3 {
   opacity: 0;
-  color: orange;
+  color: #ffa600;
   font-weight: 700;
   font-size: 1.25em;
   letter-spacing: 0.5px;
@@ -126,12 +126,13 @@ html nav .nav--box {
   display: flex;
   justify-content: space-around;
   width: 60%;
+  margin-top: 8px;
 }
 
 body nav .nav--box a,
 html nav .nav--box a {
   align-items: center;
-  color: orange;
+  color: #ffa600;
   text-decoration: none;
   padding: 0.5rem;
   transition: 1s;
@@ -140,14 +141,14 @@ html nav .nav--box a {
 body nav .nav--box a:hover,
 html nav .nav--box a:hover {
   border-radius: 30px;
-  background-color: linear-gradient(to bottom, #fda706, #2b2a2a);
+  background-color: #ffa600;
   color: black;
 }
 
 body footer,
 html footer {
-  border-top: solid 1px orange;
-  color: orange;
+  border-top: solid 1px #ffa600;
+  color: #ffa600;
   background: linear-gradient(to left, #1c1b1b, #282525);
   position: relative;
   bottom: 0;
@@ -158,93 +159,21 @@ html footer {
 }
 
 @media (max-width: 550px) {
-  body,
-  html {
-    min-height: 100vh;
-    position: relative;
-    max-width: 100%;
-    width: 100vw;
-  }
-  body main,
-  html main {
-    min-height: 100vh;
-  }
-  body header,
-  html header {
-    border: solid 1px orange;
-    border-radius: 12px;
-    display: flex;
-    height: 16vh;
-    width: 92vw;
-    justify-content: space-around;
-    align-items: center;
-    margin: 20px auto;
-  }
   body header .header--logo,
   html header .header--logo {
-    height: 16vh;
-    width: 12vw;
-    top: 1vh;
-    left: 4vw;
-  }
-  body header .header--logo--img,
-  html header .header--logo--img {
-    display: block;
-    max-height: 80%;
-    max-width: 80%;
-    margin: 0 auto;
-    margin-top: 5px;
-  }
-  body header .header--logo2,
-  html header .header--logo2 {
-    height: 16vh;
-    width: 12vw;
-    top: 1vh;
-    right: 4vw;
-  }
-  body header .header--title,
-  html header .header--title {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 16vh;
-    color: orange;
-    transition: 2s;
-    width: 60vw;
+    height: 70px;
+    margin-bottom: 22vw;
   }
   body header .header--title h1,
   html header .header--title h1 {
-    color: orange;
-    font-weight: 700;
-    font-size: 1.5em;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px black;
-    transition: 2s;
-    animation-name: animationHeader;
-    animation-duration: 5s;
-    text-align: center;
+    font-size: 1.5rem;
   }
   body header .header--title h3,
   html header .header--title h3 {
-    opacity: 0;
-    color: orange;
-    font-weight: 700;
-    font-size: 1em;
-    letter-spacing: 0.5px;
-    text-shadow: 2px 2px black;
-    transition: 2s;
-    animation-name: animationHeader;
-    animation-duration: 5s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    text-align: center;
-    margin-left: 30vw;
+    font-size: 1rem;
   }
   body nav,
   html nav {
-    border-radius: 12px;
-    background: linear-gradient(to left bottom, #171717, #2b2a2a);
-    border: solid 1px orange;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -265,27 +194,12 @@ html footer {
   }
   body nav .nav--box a,
   html nav .nav--box a {
-    color: orange;
     text-decoration: none;
     transition: 1s;
   }
   body nav .nav--box a:hover,
   html nav .nav--box a:hover {
     border-radius: 30px;
-    background-color: orange;
-    color: black;
-  }
-  body footer,
-  html footer {
-    border-top: solid 5px orange;
-    color: grey;
-    background: linear-gradient(to left, #1c1b1b, #282525);
-    position: relative;
-    bottom: 0;
-    text-align: right;
-    max-height: 30px;
-    padding-right: 5px;
-    width: 100%;
   }
 }
 
@@ -294,7 +208,7 @@ html footer {
   border: solid 1px black;
   border-radius: 8px;
   text-align: center;
-  color: orange;
+  color: #ffa600;
   font-size: 1.5rem;
   height: 50px;
   width: 400px;

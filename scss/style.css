@@ -45,16 +45,16 @@ html header {
 body header .header--logo,
 html header .header--logo {
   position: relative;
-  height: 16vh;
-  width: 12vw;
-  top: 1vh;
+  height: 140px;
+  width: auto;
+  top: 30px;
 }
 
 body header .header--logo--img,
 html header .header--logo--img {
   display: block;
-  max-height: 80%;
-  max-width: 80%;
+  max-height: 70%;
+  max-width: 70%;
   margin: 0 auto;
   margin-top: 5px;
 }
@@ -126,6 +126,7 @@ html nav .nav--box {
   display: flex;
   justify-content: space-around;
   width: 60%;
+  margin-top: 8px;
 }
 
 body nav .nav--box a,
@@ -140,7 +141,7 @@ html nav .nav--box a {
 body nav .nav--box a:hover,
 html nav .nav--box a:hover {
   border-radius: 30px;
-  background-color: linear-gradient(to bottom, #fda706, #2b2a2a);
+  background-color: #ffa600;
   color: black;
 }
 
@@ -158,6 +159,11 @@ html footer {
 }
 
 @media (max-width: 550px) {
+  body header .header--logo,
+  html header .header--logo {
+    height: 70px;
+    margin-bottom: 22vw;
+  }
   body header .header--title h1,
   html header .header--title h1 {
     font-size: 1.5rem;

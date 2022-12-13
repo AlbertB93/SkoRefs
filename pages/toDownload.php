@@ -29,10 +29,12 @@
                             ligi</a>
                     </div>
                     <div class="toDownload--container--singleBox--list--option">
-                        Regulamin PP
+                        <a href="../files/regulamin_pucharu_polski_szpn_2022-2023.pdf" download="regulamin_pucharu_polski_szpn_2022-2023.pdf" target="_blank">Regulamin
+                            PP</a>
                     </div>
                     <div class="toDownload--container--singleBox--list--option">
-                        Regulamin spadków i awansów
+                        <a href="../files/ZASADY SPADKU I AWANSU SĘDZIÓW KS ŚZPN W SEZONIE 2022-2023.pdf" download="ZASADY SPADKU I AWANSU SĘDZIÓW KS ŚZPN W SEZONIE 2022-2023.pdf" target="_blank">Regulamin
+                            spadków i awansów</a>
                     </div>
                 </div>
             </div>
@@ -51,7 +53,8 @@
                         </a>
                     </div>
                     <div class="toDownload--container--singleBox--list--option">
-                        Aktualne stawki
+                        <a href="../files/Stawki_ŚZPN_jesień_2022.pdf" download="Stawki_ŚZPN_jesień_2022.pdf" target="_blank">Aktualne stawki
+                        </a>
                     </div>
                 </div>
             </div>
@@ -61,17 +64,20 @@
                 </div>
                 <div class="toDownload--container--singleBox--list">
                     <div class="toDownload--container--singleBox--list--option">
-                        Wydanie 1 / 2022
+                        <a href="https://pzpn.pl/public/system/files/publikacje/128/4529-S%C4%99dzia%201%202022.pdf" target="_blank"> Wydanie 1 / 2022
+                        </a>
                     </div>
                     <div class="toDownload--container--singleBox--list--option">
-                        Wydanie 2 / 2022
+                        <a href="https://pzpn.pl/public/system/files/publikacje/132/4731-S%C4%99dzia%202%202022.pdf" target="_blank"> Wydanie 2 / 2022
+                        </a>
                     </div>
                     <div class="toDownload--container--singleBox--list--option">
-                        Wydanie 3 / 2022
+                        <a href="https://pzpn.pl/public/system/files/publikacje/136/4959-S%C4%99dzia%203%202022.pdf" target="_blank"> Wydanie 3 / 2022
+                        </a>
                     </div>
-                    <div class="toDownload--container--singleBox--list--option">
+                    <!--                     <div class="toDownload--container--singleBox--list--option">
                         Wydanie 4 / 2022
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

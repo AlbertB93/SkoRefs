@@ -75,8 +75,8 @@
                         </div>
                         <div class="contact--container--person--right--box--text">
                             <p>Albert Bińkowski</p>
-                            <p>tel. 123 456 789</p>
-                            <p>e-mail: woopps@dasda.pl</p>
+                            <p>tel. 691 489 623</p>
+                            <p>e-mail: bercik93@interia.eu</p>
                         </div>
                     </div>
                 </div>
