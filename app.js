@@ -2,7 +2,7 @@
 /* FUNKCJA DO WYŚWIETLANIA OBSADY*/
 
 // dodać miesiące do zmiennych. 
-
+{
 var august = document.querySelectorAll('#august');
 var september = document.querySelector('#september');
 
@@ -31,9 +31,14 @@ september[0].style.display="none";
 
 }
 
+
+}
+
+
+
 /*  FUNKCJE DO REFS.HTML */
 
-
+{
     function openPopup(myDiv) {
         /* 
             let popupBox =  document.getElementsByClassName("popup--main") */
@@ -47,19 +52,35 @@ september[0].style.display="none";
             document.querySelector(".refs--container").style.opacity = 1;
         }
     
+    }
 
 
-/*  FUNKCJE DO REFS.HTML */
 
-const PHOTOS = document.querySelectorAll(".gallery--photo");
+/*  FUNKCJE DO GALLERY.HTML */
+
+
+const PHOTOS_CONTAINER = document.querySelectorAll(".gallery--photo--field");
 const POPUP = document.querySelector(".popupGallery");
 const POPUP_CLOSE = document.querySelector(".popupCloseBtn");
 const POPUP_IMG = document.querySelector(".popupGallery__img");
 const ARROW_LEFT = document.querySelector(".popupArrow--left");
 const ARROW_RIGHT = document.querySelector(".popupArrow--right");
 
-
 let currentImgIndex;
+let photoCounter = 1;
+
+console.log(PHOTOS_CONTAINER);
+
+// DODAWANIE ZDJĘĆ DO GALERII
+for(let i=0;i<PHOTOS_CONTAINER.length;i++){
+    PHOTOS_CONTAINER[i].innerHTML = '<img src="../images/gallery/g' + photoCounter +'.jpg" alt="zdjecie" class="gallery--photo" />';
+    photoCounter++;
+}
+
+
+const PHOTOS = document.querySelectorAll(".gallery--photo");
+
+// PRZYPISYWANIE NASTĘPNEGO ZDJĘĆIA W GALERII
 
 const showNextImg = () => {
     if(currentImgIndex === PHOTOS.length - 1){
@@ -70,7 +91,7 @@ const showNextImg = () => {
         POPUP_IMG.src = PHOTOS[currentImgIndex].src
 };
 
-
+// PRZYPISYWANIE PPRZEDNIEGO ZDJĘCIA W GALERII
 const showPreviousImg = () => {
     if(currentImgIndex === 0){
         currentImgIndex = PHOTOS.length - 1;
@@ -80,11 +101,12 @@ const showPreviousImg = () => {
         POPUP_IMG.src = PHOTOS[currentImgIndex].src
 };
 
-
+// ZAMYKANIE POPUPA
 const exitPopup = ()=> {
         POPUP.classList.add("hidden");
 }
 
+// WŁĄCZANIE POPUPA
 PHOTOS.forEach( (photo, index) => {
     photo.addEventListener("click", (e)=> {
         POPUP.classList.remove("hidden");
@@ -93,9 +115,8 @@ PHOTOS.forEach( (photo, index) => {
     });
 });
 
+// PRZYPISANIE LISTENERÓW DO PRZYCISKÓW
 POPUP_CLOSE.addEventListener("click", exitPopup);
-
-
 ARROW_RIGHT.addEventListener("click", showNextImg);
 ARROW_LEFT.addEventListener("click", showPreviousImg); 
 

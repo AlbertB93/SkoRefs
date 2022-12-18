@@ -115,6 +115,7 @@ html nav {
   border: solid 1px orange;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-size: 1.25em;
   height: 8vh;
   width: 92vw;
@@ -126,7 +127,7 @@ html nav .nav--box {
   display: flex;
   justify-content: space-around;
   width: 60%;
-  margin-top: 8px;
+  align-items: center;
 }
 
 body nav .nav--box a,
@@ -700,7 +701,7 @@ main {
 .news--simple--container--xlong--box004 .news004--refBox--person--container--logo--image {
   border: solid 1px black;
   border-radius: 4px;
-  max-height: 150px;
+  max-height: 100%;
   max-width: 150px;
   overflow: hidden;
   text-align: center;
@@ -843,7 +844,7 @@ main {
     max-width: 90%;
   }
   .news--simple--container--box002--image:hover {
-    transform: scale(1.13);
+    transform: scale(1.05);
     left: 200px;
   }
   .news--simple--container--long {

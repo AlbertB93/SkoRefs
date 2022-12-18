@@ -408,7 +408,7 @@ main {
                     &--image {
                         border: solid 1px black;
                         border-radius: 4px;
-                        max-height: 150px;
+                        max-height: 100%;
                         max-width: 150px;
                         overflow: hidden;
                         text-align: center;
@@ -538,7 +538,7 @@ main {
 
             &--image:hover {
 
-                transform: scale(1.13);
+                transform: scale(1.05);
                 left: 200px;
 
             }

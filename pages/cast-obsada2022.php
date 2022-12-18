@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet" />
-
+  <link rel="shortcut icon" href="/images/favicon.png">
 </head>
 
 <body>
@@ -225,7 +225,7 @@
     </div>
   </main>
   <?php include("../php/footer.php"); ?>
-  <script src="../test.js"></script>
+  <script src="../castEngine.js"></script>
 </body>
 
 </html>

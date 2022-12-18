@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="/images/favicon.png">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
         </button>
       </div>
       <div class="news--simple--container--box001">
-        <h3>Historyczny, pierwszy post na stronie...</h3>
+        <h3>Poznaj sędziów sekcji Skarżysko...</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
           voluptate quod necessitatibus odio, quia perferendis dolorum odit

@@ -1,17 +1,32 @@
 
 
 
--Rozdzielczość na telefonie.
--Obsada jak się klika w sierpień to podświetla się inaczej.
--Jak na telefonie będą wyglądać popupy.
--Licznik odwiedzin
 
-- jednakowe miniaturki zdjęć sędziów
-- jednakowe rozmiary zdjęć w galerii
-- przejrzeć wszystkie pliki php pod względem kodu
+
 - przejrzeć wszystkie pliki scss 
+- zmienić fotki sędziów w popupach
+- zebrać info od sędziów
 
--przejrzeć funkcję do galerii zdjęć.
+w newsach może tak jak na podstronach ? tytuł i powrót do stronyn głównej ?
 
 
 
+
+-Rozdzielczość na telefonie.
+
+- zdjęcia wyświetlane na telefonie za pomocą popupów
+- artykuły, podsumowanie rundy, pierwszy post
+
+
+
+
+
+
+
+
+Do zrobienia już później:
+
+-Obsada jak się klika w sierpień to podświetla się inaczej.
+- scrollbar w refs - kolorystyka
+- Licznik odwiedzin
+- jednakowe miniaturki zdjęć sędziów

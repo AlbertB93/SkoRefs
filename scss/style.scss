@@ -32,8 +32,10 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 320px;
-        width: 280px;
+        /*         height: 320px;
+        width: 280px; */
+        height: 22vw;
+        width: 20vw;
         box-shadow: 4px 4px black;
         transition: 0.5s;
         transform: scale(1);
@@ -119,6 +121,8 @@
         article {
 
             margin-top: 20px;
+            width: 90vw;
+            height: 95vw;
 
             .article--image {
 

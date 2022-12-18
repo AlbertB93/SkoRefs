@@ -1,6 +1,6 @@
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/AAnna.PNG " alt="zdjęcie Anna Adamska" class="popup--photo">
+        <img src="../images/persons/AAnna-pop.PNG " alt="zdjęcie Anna Adamska" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
             <p> Sędzia od: 2009r. </p>
@@ -195,7 +195,7 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/CJakub.PNG " alt="zdjęcie Jakub Chrzanowski" class="popup--photo">
+        <img src="../images/persons/CJakub-pop.PNG " alt="zdjęcie Jakub Chrzanowski" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1997</p>
             <p> Sędzia od: 2015r. </p>
@@ -287,7 +287,7 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/MJakub.PNG " alt="zdjęcie Jakub Moskal" class="popup--photo">
+        <img src="../images/persons/MJakub-pop.PNG " alt="zdjęcie Jakub Moskal" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1990</p>
             <p> Sędzia od: X. </p>
@@ -297,20 +297,21 @@
     <div class="popup--container">
         <div class="popup--name">
             Jakub Moskal
+            <button class="popup--btn" onclick="closePopup(3)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Eryk w sezonie 2018/2019 awansował do klasy "B". Po pół roku uzyskał awans do wyższej klasy rozgrywkowej - klasy "A".
+                W klasie "O" sędziuje jako arbiter główny od sezony 2022/2023.
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            <p>
+                Wymyślić coś
+            </p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
+            <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
+            <li> Uczestnik programu mentorskiego ŚZPN </li>
         </div>
-        <button class="popup--btn" onclick="closePopup(3)">X</button>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -375,7 +376,7 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/CKasia.PNG " alt="zdjęcie Katarzyna Chrzanowska" class="popup--photo">
+        <img src="../images/persons/CKasia-pop.PNG " alt="zdjęcie Katarzyna Chrzanowska" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
             <p> Sędzia od: X. </p>
@@ -385,20 +386,21 @@
     <div class="popup--container">
         <div class="popup--name">
             Katarzyna Chrzanowska
+            <button class="popup--btn" onclick="closePopup(4)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Eryk w sezonie 2018/2019 awansował do klasy "B". Po pół roku uzyskał awans do wyższej klasy rozgrywkowej - klasy "A".
+                W klasie "O" sędziuje jako arbiter główny od sezony 2022/2023.
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            <p>
+                Wymyślić coś
+            </p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
+            <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
+            <li> Uczestnik programu mentorskiego ŚZPN </li>
         </div>
-        <button class="popup--btn" onclick="closePopup(4)">X</button>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -463,30 +465,31 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/KEryk.PNG " alt="zdjęcie Eryk Kiliszek" class="popup--photo">
+        <img src="../images/persons/KEryk-pop.PNG " alt="zdjęcie Eryk Kiliszek" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1996</p>
-            <p> Sędzia od: . </p>
+            <p> Sędzia od: 2017r. </p>
             <p> Obecnie: Sędzia klasy "O"</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
             Eryk Kiliszek
+            <button class="popup--btn" onclick="closePopup(5)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Eryk w sezonie 2018/2019 awansował do klasy "B". Po pół roku uzyskał awans do wyższej klasy rozgrywkowej - klasy "A".
+                W klasie "O" sędziuje jako arbiter główny od sezony 2022/2023.
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            <p>
+                Wymyślić coś
+            </p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
+            <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
+            <li> Uczestnik programu mentorskiego ŚZPN </li>
         </div>
-        <button class="popup--btn" onclick="closePopup(5)">X</button>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -505,42 +508,42 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
                         <td>0</td>
+                        <td>5</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>5</td>
-                        <td>2</td>
+                        <td>0</td>
+                        <td>31</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>4</td>
+                        <td>10</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>15</td>
+                        <td>20</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>11</td>
+                        <td>15</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
+                        <td>40</td>
+                        <td>66</td>
                         <td>0</td>
                     </tr>
                 </tbody>
@@ -551,7 +554,7 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/KPaweł.PNG " alt="zdjęcie Paweł Kocia" class="popup--photo">
+        <img src="../images/persons/KPaweł-pop.PNG " alt="zdjęcie Paweł Kocia" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1998</p>
             <p> Sędzia od: 2019r. </p>
@@ -649,20 +652,20 @@
     <div class="popup--container">
         <div class="popup--name">
             Karol Purtak
+            <button class="popup--btn" onclick="closePopup(7)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Paweł w sezonie 2020/2021 dostałem awans do B klasy, w której spędził jeden sezon. "A" klasę zaczął sędziować w sezonie 2021/2022, z której awansował po roku do klasy "O".
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            <p>
+                Paweł w bardzo młodym wieku ( ile lat ? ) zadebiutował jako asystent na meczu III ligi: X --- X
+            </p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
+            <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
+            <li> Uczestnik programu mentorskiego ŚZPN </li>
         </div>
-        <button class="popup--btn" onclick="closePopup(7)">X</button>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -736,21 +739,20 @@
     </div>
     <div class="popup--container">
         <div class="popup--name">
-            Dariusz Frydryk
+            Rafał Sokołowski
+            <button class="popup--btn" onclick="closePopup(8)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Rafał ukończył kurs w 2001r. Od tamtej pory prowadził bardzo dużą ilość meczów klasy Okręgowej, klasy "A" oraz klasy "B".
+                W 4 lidze Rafał jako sędzia główny prowadził jeden mecz, natomiast był 5 razy asystentem w meczach III ligi.
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: 4 Liga.</li>
+            <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
+            <li> Sędzia główny Europejskiego Turnieju piłki nożnej Olimpiad Specjalnych w Warszawie. </li>
+
         </div>
-        <button class="popup--btn" onclick="closePopup(8)">X</button>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -815,7 +817,7 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/SRafał.PNG " alt="zdjęcie Rafał Sokołowski" class="popup--photo">
+        <img src="../images/persons/SRafał-pop.PNG " alt="zdjęcie Rafał Sokołowski" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1974</p>
             <p> Sędzia od: 2001r. </p>
@@ -913,20 +915,22 @@
     <div class="popup--container">
         <div class="popup--name">
             Adrian Dzięcioł
+            <button class="popup--btn" onclick="closePopup(10)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Błażej jest naszym "najświeższym" sędzią. Skończył kurs w 2020r. Miniona runda była jego pierwszą jako sędzia "B" klasy.
+                Do tej pory prowadził 3 mecze "B" klasy jako sędzia główny.
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            <p>
+                Pomimo małego stażu Błażej poprowadził już ponad 70 meczów jako sędzia główny lub sędzia asystent w rozgrywkach młodzieżowych.
+            </p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: "B" klasa.</li>
+            <li> Najwyższa liga jako sędzia asystent: Klasa "O".</li>
+            <li> Zawodnik IV ligowego Orlicza Suchedniów. </li>
+
         </div>
-        <button class="popup--btn" onclick="closePopup(10)">X</button>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -1001,20 +1005,22 @@
     <div class="popup--container">
         <div class="popup--name">
             Błażej Turski
+            <button class="popup--btn" onclick="closePopup(11)">X</button>
         </div>
         <div class="popup--description">
-            <p> Ania kurs skończył wiosną 2012r. Wtedy to zadebiutował na meczu ligi juniorów w Ćmińsku.</p>
-            <p> Następnie awansował z grona sędziów pozostałych do "B" klasy na początku sezonu 2012 / 2013. Po pierwszej
-                rundzie
-                awansował
-                do klasy "A". W sezonie 2013 / 2014 sędziował już w klasie Okręgowej.
+            <p>
+                Błażej jest naszym "najświeższym" sędzią. Skończył kurs w 2020r. Miniona runda była jego pierwszą jako sędzia "B" klasy.
+                Do tej pory prowadził 3 mecze "B" klasy jako sędzia główny.
             </p>
-            <p> Ciekawostki:</p>
-            <p> Najwyższa liga jako sędzia główny: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia asystent: 3 Liga</p>
-            <p> Najwyższa liga jako sędzia techniczny: 1 Liga</p>
+            <p>
+                Pomimo małego stażu Błażej poprowadził już ponad 70 meczów jako sędzia główny lub sędzia asystent w rozgrywkach młodzieżowych.
+            </p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: "B" klasa.</li>
+            <li> Najwyższa liga jako sędzia asystent: Klasa "O".</li>
+            <li> Zawodnik IV ligowego Orlicza Suchedniów. </li>
+
         </div>
-        <button class="popup--btn" onclick="closePopup(11)">X</button>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
@@ -1033,42 +1039,42 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>5</td>
-                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>0</td>
+                        <td>3</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>0</td>
+                        <td>7</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>3</td>
+                        <td>3</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
+                        <td>32</td>
+                        <td>39</td>
                         <td>0</td>
                     </tr>
                 </tbody>

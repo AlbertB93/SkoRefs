@@ -10,23 +10,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet" />
-
+  <link rel="shortcut icon" href="/images/favicon.png">
 </head>
 
 <body>
   <?php include("../php/header--pages.php"); ?>
   <?php include("../php/nav--pages.php"); ?>
   <main>
-    <div class="container--title" onclick="displayNone()">
-      OBSADA SĘDZIOWSKA
+    <div class="container--title">
+      <div class="title">
+        Obsada sędziowska
+      </div>
+      <div class="btn--index">
+        <a href="../index.php">Strona główna </a>
+      </div>
     </div>
     <div class="cast--container">
       <div class="cast--container--month" id="month-1" onclick="displayFlex('august')">Marzec 2023r.</div>
     </div>
-    </div>
   </main>
   <?php include("../php/footer.php"); ?>
-  <script src="../test.js"></script>
+  <script src="../castEngine.js"></script>
 </body>
 
 </html>

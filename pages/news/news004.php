@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="/images/favicon.png">
 </head>
 
 <body>
@@ -28,8 +29,8 @@
         <h3>Reprezentanci sekcji na szczeblu centralnym</h3>
         <div class="news004--refBox">
           <div class="news004--refBox--person--container">
-            <div class="news004--refBox--person--container--logo">
-              <img src="../../images/persons/AAnna.PNG" alt="zdjęcie Ania Adamska" class="news004--refBox--person--container--logo--image" />
+            <div class="news004--refBox--person--container--logo" style="max-height:300px">
+              <img src="../../images/persons/AAnna-sg.PNG" alt="zdjęcie Ania Adamska" class="news004--refBox--person--container--logo--image" />
               <p class="news004--refBox--person--container--logo--name">
                 Anna Adamska
               </p>
@@ -59,8 +60,8 @@
             </div>
           </div>
           <div class="news004--refBox--person--container">
-            <div class="news004--refBox--person--container--logo">
-              <img src="../../images/persons/CKasia.PNG" alt="zdjęcie Kasia Chrzanowska" class="news004--refBox--person--container--logo--image" />
+            <div class="news004--refBox--person--container--logo" style="max-height:250px">
+              <img src=" ../../images/persons/CKasia-as.PNG" alt="zdjęcie Kasia Chrzanowska" class="news004--refBox--person--container--logo--image" />
               <p class="news004--refBox--person--container--logo--name">
                 Katarzyna Chrzanowska
               </p>
@@ -84,7 +85,7 @@
           </div>
           <div class="news004--refBox--person--container">
             <div class="news004--refBox--person--container--logo">
-              <img src="../../images/persons/CJakub.PNG" alt="zdjęcie Jakub Chrzanowski" class="news004--refBox--person--container--logo--image" />
+              <img src="../../images/persons/CJakub-pop.PNG" alt="zdjęcie Jakub Chrzanowski" class="news004--refBox--person--container--logo--image" />
               <p class="news004--refBox--person--container--logo--name">
                 Jakub Chrzanowski
               </p>
@@ -95,7 +96,7 @@
                 <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--text--img" />
               </h4>
               <p>Broń Radom - Sokół Ostróda</p>
-              <p>JAKIŚ MECZ CORE</p>
+              <p>Lublinianka Lublin - Korona II Kielce</p>
             </div>
           </div>
           <div class="news004--refBox--person--container">

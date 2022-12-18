@@ -17,7 +17,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-    .gallery--photo--field {
+    .gallery--photo--field,
+    .gallery--photo--field2 {
         background: $bg-color-black;
         display: flex;
         border-radius: 4px;
@@ -39,6 +40,7 @@
         }
     }
 
+    @include buttons-box;
 }
 
 .popupGallery {

@@ -115,6 +115,7 @@ html nav {
   border: solid 1px orange;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-size: 1.25em;
   height: 8vh;
   width: 92vw;
@@ -126,7 +127,7 @@ html nav .nav--box {
   display: flex;
   justify-content: space-around;
   width: 60%;
-  margin-top: 8px;
+  align-items: center;
 }
 
 body nav .nav--box a,
@@ -213,16 +214,44 @@ html footer {
 }
 
 .container--title {
+  font-size: 1.5rem;
+  height: 50px;
+  margin: 20px auto;
+  display: flex;
+  width: 92vw;
+}
+
+.container--title .title {
+  position: relative;
+  left: 30vw;
+  border: solid 1px orange;
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
-  border: solid 1px black;
   border-radius: 8px;
   text-align: center;
   color: #ffa600;
-  font-size: 1.5rem;
   height: 50px;
-  width: 400px;
+  width: 30vw;
   padding-top: 5px;
-  margin: 20px auto;
+}
+
+.container--title .btn--index {
+  position: relative;
+  height: 40px;
+  width: 8vw;
+  font-size: 1rem;
+  left: 50vw;
+  border: solid 1px orange;
+  padding-top: 6px;
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  border-radius: 8px;
+  text-align: center;
+  color: #ffa600;
+  margin-bottom: 5px;
+}
+
+.container--title .btn--index a {
+  text-decoration: none;
+  color: orange;
 }
 
 .contact--container {

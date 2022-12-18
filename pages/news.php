@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="/images/favicon.png">
 </head>
 
 <body>
@@ -17,7 +18,12 @@
   <?php include("../php/nav--pages.php"); ?>
   <main>
     <div class="container--title">
-      Archiwum wiadomości
+      <div class="title">
+        Archiwum wiadomości
+      </div>
+      <div class="btn--index">
+        <a href="../index.php">Strona główna </a>
+      </div>
     </div>
     <div class="news--container">
       <div class="news--box">
@@ -30,13 +36,13 @@
         <article id="article--4">
           <a href="news/news004.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</a>
           <div class="article--image">
-            <img src="../images/pages/news-logo/news004.jpg" alt="sędzia-asystent-chorągiewka" class="article--image--file" />
+            <img src="../images/pages/news-logo/news004.jpg" alt="wyjście-sędziów-z-drużynami" class="article--image--file" />
           </div>
         </article>
         <article id="article--3">
           <a href="news/news003.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</a>
           <div class="article--image">
-            <img src="../images/pages/news-logo/news003.jpg" alt="losowanie sędziego z kapitanami" class="article--image--file" />
+            <img src="../images/pages/news-logo/news003.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
           </div>
         </article>
         <article id="article--2">
@@ -46,11 +52,11 @@
           </div>
         </article>
       </div>
-      <div class="news--buttons--box">
-        <button class="news--buttons--active">
+      <div class="buttons--box">
+        <button class="buttons--box--buttons--active">
           <a href="news.php">1</a>
         </button>
-        <button class="news--buttons">
+        <button class="buttons--box--buttons">
           <a href="news/news--page--002.php">2</a>
         </button>
         <!--         <button class="news--buttons">

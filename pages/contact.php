@@ -11,13 +11,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet">
     <script src="../apptest.js"></script>
+    <link rel="shortcut icon" href="/images/favicon.png">
+
 </head>
 
 <body>
     <?php include("../php/header--pages.php"); ?>
     <?php include("../php/nav--pages.php"); ?>
     <main>
-        <div class="container--title">Dane do kontaktu</div>
+        <div class="container--title">
+            <div class="title">
+                Dane do kontaktu
+            </div>
+            <div class="btn--index">
+                <a href="../index.php">Strona główna </a>
+            </div>
+        </div>
         <div class="contact--container">
             <div class="contact--container--box">
                 <div class="contact--container--person--left">
@@ -26,7 +35,7 @@
                     </div>
                     <div class="contact--container--person--left--box">
                         <div class="contact--container--person--left--box--photo">
-                            <img src="../images/persons/FRobert.PNG" alt="" class="contact--container--person--left--box--photo--file">
+                            <img src="../images/persons/FRobert.PNG" alt="zdjęcie-Robert-Frączkiewicz" class="contact--container--person--left--box--photo--file">
                         </div>
                         <div class="contact--container--person--left--box--text">
                             <p>Robert Frączkiewicz</p>
@@ -41,7 +50,7 @@
                     </div>
                     <div class="contact--container--person--right--box">
                         <div class="contact--container--person--right--box--photo">
-                            <img src="../images/persons/SMichał.PNG" alt="" class="contact--container--person--right--box--photo--file">
+                            <img src="../images/persons/SMichał.PNG" alt="zdjęcie Michał Szurek" class="contact--container--person--right--box--photo--file">
                         </div>
                         <div class="contact--container--person--right--box--text">
                             <p>Michał Szurek</p>
@@ -56,7 +65,7 @@
                     </div>
                     <div class="contact--container--person--left--box">
                         <div class="contact--container--person--left--box--photo">
-                            <img src="../images/persons/CKasia.PNG" alt="" class="contact--container--person--left--box--photo--file">
+                            <img src="../images/persons/CKasia.PNG" alt="zdjęcie-Katarzyna-Chrzanowska" class="contact--container--person--left--box--photo--file">
                         </div>
                         <div class="contact--container--person--left--box--text">
                             <p>Katarzyna Chrzanowska</p>
@@ -71,7 +80,7 @@
                     </div>
                     <div class="contact--container--person--right--box">
                         <div class="contact--container--person--right--box--photo">
-                            <img src="../images/persons/BAlbert.PNG" alt="" class="contact--container--person--right--box--photo--file">
+                            <img src="../images/persons/BAlbert.PNG" alt="zdjęcie-Albert-Bińkowski" class="contact--container--person--right--box--photo--file">
                         </div>
                         <div class="contact--container--person--right--box--text">
                             <p>Albert Bińkowski</p>
@@ -80,7 +89,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </main>

@@ -115,6 +115,7 @@ html nav {
   border: solid 1px orange;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-size: 1.25em;
   height: 8vh;
   width: 92vw;
@@ -126,7 +127,7 @@ html nav .nav--box {
   display: flex;
   justify-content: space-around;
   width: 60%;
-  margin-top: 8px;
+  align-items: center;
 }
 
 body nav .nav--box a,

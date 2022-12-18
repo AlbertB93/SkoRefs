@@ -45,16 +45,16 @@ html header {
 body header .header--logo,
 html header .header--logo {
   position: relative;
-  height: 16vh;
-  width: 12vw;
-  top: 1vh;
+  height: 140px;
+  width: auto;
+  top: 30px;
 }
 
 body header .header--logo--img,
 html header .header--logo--img {
   display: block;
-  max-height: 80%;
-  max-width: 80%;
+  max-height: 70%;
+  max-width: 70%;
   margin: 0 auto;
   margin-top: 5px;
 }
@@ -115,6 +115,7 @@ html nav {
   border: solid 1px orange;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-size: 1.25em;
   height: 8vh;
   width: 92vw;
@@ -126,6 +127,7 @@ html nav .nav--box {
   display: flex;
   justify-content: space-around;
   width: 60%;
+  align-items: center;
 }
 
 body nav .nav--box a,
@@ -140,7 +142,7 @@ html nav .nav--box a {
 body nav .nav--box a:hover,
 html nav .nav--box a:hover {
   border-radius: 30px;
-  background-color: linear-gradient(to bottom, #fda706, #2b2a2a);
+  background-color: #ffa600;
   color: black;
 }
 
@@ -158,6 +160,11 @@ html footer {
 }
 
 @media (max-width: 550px) {
+  body header .header--logo,
+  html header .header--logo {
+    height: 70px;
+    margin-bottom: 22vw;
+  }
   body header .header--title h1,
   html header .header--title h1 {
     font-size: 1.5rem;
@@ -198,17 +205,45 @@ html footer {
 }
 
 .container--title {
+  font-size: 1.5rem;
+  height: 50px;
+  margin: 20px auto;
+  display: flex;
+  width: 92vw;
+  cursor: pointer;
+}
+
+.container--title .title {
+  position: relative;
+  left: 30vw;
+  border: solid 1px orange;
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
-  border: solid 1px black;
   border-radius: 8px;
   text-align: center;
   color: #ffa600;
-  font-size: 1.5rem;
   height: 50px;
-  width: 400px;
+  width: 30vw;
   padding-top: 5px;
-  margin: 20px auto;
-  cursor: pointer;
+}
+
+.container--title .btn--index {
+  position: relative;
+  height: 40px;
+  width: 8vw;
+  font-size: 1rem;
+  left: 50vw;
+  border: solid 1px orange;
+  padding-top: 6px;
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  border-radius: 8px;
+  text-align: center;
+  color: #ffa600;
+  margin-bottom: 5px;
+}
+
+.container--title .btn--index a {
+  text-decoration: none;
+  color: orange;
 }
 
 .cast--container {

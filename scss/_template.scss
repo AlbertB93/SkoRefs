@@ -113,6 +113,7 @@ html {
         border: solid 1px orange;
         display: flex;
         justify-content: space-around;
+        align-items: center;
         font-size: 1.25em;
         height: 8vh;
         width: 92vw;
@@ -122,7 +123,7 @@ html {
             display: flex;
             justify-content: space-around;
             width: 60%;
-            margin-top: 8px;
+            align-items: center;
 
             & a {
                 align-items: center;

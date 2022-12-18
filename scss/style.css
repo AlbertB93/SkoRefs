@@ -115,6 +115,7 @@ html nav {
   border: solid 1px orange;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-size: 1.25em;
   height: 8vh;
   width: 92vw;
@@ -126,7 +127,7 @@ html nav .nav--box {
   display: flex;
   justify-content: space-around;
   width: 60%;
-  margin-top: 8px;
+  align-items: center;
 }
 
 body nav .nav--box a,
@@ -213,6 +214,7 @@ html footer {
 }
 
 .container--title {
+  border: solid 1px red;
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
   border: solid 1px black;
   border-radius: 8px;
@@ -242,8 +244,10 @@ html footer {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 320px;
-  width: 280px;
+  /*         height: 320px;
+        width: 280px; */
+  height: 22vw;
+  width: 20vw;
   box-shadow: 4px 4px black;
   transition: 0.5s;
   transform: scale(1);
@@ -324,6 +328,8 @@ html footer {
   }
   .index--container article {
     margin-top: 20px;
+    width: 90vw;
+    height: 95vw;
   }
   .index--container article .article--image {
     max-height: 90vh;
