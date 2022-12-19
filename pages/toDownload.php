@@ -34,11 +34,11 @@
                 <div class="toDownload--container--singleBox--list">
                     <div class="toDownload--container--singleBox--list--option">
                         <a href="../files/regulamin_rozgrywek_iv_liga_i_nizsze_sezon_2022-2023_oraz_wytyczne_w_zakresie_organizacji_meczow.pdf" download="regulamin_rozgrywek_iv_liga_i_nizsze_sezon_2022-2023_oraz_wytyczne_w_zakresie_organizacji_meczow.pdf" target="_blank">Regulamin
-                            ligi</a>
+                            lig ŚZPN</a>
                     </div>
                     <div class="toDownload--container--singleBox--list--option">
                         <a href="../files/regulamin_pucharu_polski_szpn_2022-2023.pdf" download="regulamin_pucharu_polski_szpn_2022-2023.pdf" target="_blank">Regulamin
-                            PP</a>
+                            PP ŚZPN</a>
                     </div>
                     <div class="toDownload--container--singleBox--list--option">
                         <a href="../files/ZASADY SPADKU I AWANSU SĘDZIÓW KS ŚZPN W SEZONIE 2022-2023.pdf" download="ZASADY SPADKU I AWANSU SĘDZIÓW KS ŚZPN W SEZONIE 2022-2023.pdf" target="_blank">Regulamin

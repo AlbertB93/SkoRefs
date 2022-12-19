@@ -1,3 +1,15 @@
+/* body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: orange;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+
+} */
 * {
   box-sizing: border-box;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -179,7 +191,7 @@ html footer {
     flex-direction: column;
     justify-content: space-around;
     font-size: 1.25em;
-    height: 42vh;
+    height: 48vh;
     padding: 1rem;
     width: 80vw;
     margin: 0 auto;
@@ -246,40 +258,40 @@ html footer {
 }
 
 .toDownload--container {
-  margin-top: 30px;
   display: flex;
   flex-direction: row;
-  text-align: center;
-  width: 100%;
   justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
+  width: 98vw;
 }
 
 .toDownload--container--singleBox {
-  border: solid 2px black;
   background: linear-gradient(to bottom, #171717, #ffba39);
+  border: solid 2px black;
   border-radius: 20px;
-  height: 400px;
-  width: 300px;
+  height: 45vh;
+  width: 22vw;
 }
 
 .toDownload--container--singleBox--title {
   border-bottom: solid 3px black;
+  color: orange;
   font-size: 2rem;
   margin-bottom: 30px;
-  color: orange;
 }
 
 .toDownload--container--singleBox--list {
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
 }
 
 .toDownload--container--singleBox--list--option {
-  margin: 10px;
-  font-size: 1.5rem;
-  border: solid 1px black;
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  border: solid 1px black;
   color: orange;
+  font-size: 1.5rem;
+  margin: 10px;
 }
 
 .toDownload--container--singleBox--list--option a {
@@ -289,7 +301,45 @@ html footer {
 
 @media (max-width: 550px) {
   .container--title {
+    font-size: 1.5rem;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    height: 30vw;
     width: 96vw;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container--title .title {
+    position: relative;
+    border: solid 1px orange;
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    border-radius: 8px;
+    text-align: center;
+    color: #ffa600;
+    padding-top: 5px;
+    font-size: 1.8rem;
+    height: 16vw;
+    width: 50vw;
+    left: 0;
+  }
+  .container--title .btn--index {
+    position: relative;
+    border: solid 1px orange;
+    padding-top: 6px;
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    border-radius: 8px;
+    text-align: center;
+    color: #ffa600;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    height: 8vw;
+    left: 30vw;
+    width: 30vw;
+  }
+  .container--title .btn--index a {
+    text-decoration: none;
+    color: orange;
   }
   .toDownload--container {
     flex-direction: column;

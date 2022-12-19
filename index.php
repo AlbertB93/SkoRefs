@@ -25,13 +25,13 @@
         </div>
       </article>
       <article id="article--4">
-        <a href="pages/news/news004.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</a>
+        <a href="pages/news/news004.php">Podsumowanie rundy jesiennej </br> sezonu 2022 / 2023 Centrala</a>
         <div class="article--image">
           <img src="images/pages/news-logo/news004.jpg" alt="wyjście-sędziów-z-drużynami" class="article--image--file" />
         </div>
       </article>
       <article id="article--3">
-        <a href="pages/news/news003.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</a>
+        <a href="pages/news/news003.php">Podsumowanie rundy jesiennej </br> sezonu 2022 / 2023 ŚZPN</a>
         <div class="article--image">
           <img src="images/pages/news-logo/news003.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
         </div>

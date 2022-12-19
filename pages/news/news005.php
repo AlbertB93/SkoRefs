@@ -34,6 +34,16 @@
             </div>
             <div class="news--simple--container--long--box005--part1--box1--text">
               <h4>
+                Puchar Polski kobiet
+              </h4>
+              <p>
+                <li>POGOŃ Gościniec nad Wisłą II Tczew - UKS SMS II Łódź</li>
+              </p>
+            </div>
+          </div>
+          <div class="news--simple--container--long--box005--part1--box2">
+            <div class="news--simple--container--long--box005--part1--box2--text">
+              <h4>
                 4 mecze EKSTRALIGI Kobiet:
               </h4>
               <p>
@@ -48,14 +58,6 @@
               <p>
                 <li>GKS Górnik Łęczna - TME SMS Łódź</li>
               </p>
-            </div>
-          </div>
-          <div class="news--simple--container--long--box005--part1--box2">
-            <div class="news--simple--container--long--box005--part1--box2--text">
-              <h4>
-                Puchar Polski kobiet
-              </h4>
-              <p>POGOŃ Gościniec nad Wisłą II Tczew - UKS SMS II Łódź</p>
             </div>
             <div class="news--simple--container--long--box005--part1--box2--logo--right">
               <img src="../../images/pages/news/news005-ania-kasia-2.jpg" alt="zdjecie Ani i Kasi" class="--img">
@@ -72,7 +74,7 @@
             <div class="news--simple--container--long--box005--part2--person--text">
               <h5>Sędzia techniczny <img src="../../images/pages/news/table-table.PNG" alt="zdjęcie tablica do zmian" class="news--simple--container--long--box005--part2--person--text--img" style="top: 2px;" />
               </h5>
-              <p>Eliminacje do MŚ Kobiet</p>
+              <p style="border-top: solid 1px orange">Eliminacje do MŚ Kobiet</p>
               <p><img src="../../images/pages/news/news005-flag-Grecce.jpg" alt="flaga Grecji" class="news--simple--container--long--box005--part2--person--text--img" style="top: 2px;" />Grecja
                 - Walia <img src="../../images/pages/news/news005-flag-Wales.webp" alt="flaga Walii" class="news--simple--container--long--box005--part2--person--text--img" style="top: 2px;" />
               </p>
@@ -85,10 +87,9 @@
               <img src="../../images/pages/news/news005-kasia.jpg" alt="zdjęcie Kasia Chrzanowska" class="news--simple--container--long--box005--part2--person--logo--img">
             </div>
             <div class="news--simple--container--long--box005--part2--person--text">
-
-              <h5>Sędzia asystent <img src="../../images/pages/news/table-flag.png" alt="WHISTLE" class="news--simple--container--long--box005--part2--person--text--img" style="top: 12px;" />
+              <h5 style="margin-bottom: 30px">Sędzia asystent <img src="../../images/pages/news/table-flag.png" alt="WHISTLE" class="news--simple--container--long--box005--part2--person--text--img" style="top: 10px;" />
               </h5>
-              <p>Ekstraliga Kobiet</p>
+              <p style="border-top: solid 1px orange">Ekstraliga Kobiet</p>
               <p>POGOŃ Gościniec nad Wisłą II Tczew - UKS SMS II Łódź</p>
             </div>
           </div>

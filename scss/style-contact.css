@@ -1,3 +1,15 @@
+/* body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: orange;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+
+} */
 * {
   box-sizing: border-box;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -179,7 +191,7 @@ html footer {
     flex-direction: column;
     justify-content: space-around;
     font-size: 1.25em;
-    height: 42vh;
+    height: 48vh;
     padding: 1rem;
     width: 80vw;
     margin: 0 auto;
@@ -201,15 +213,6 @@ html footer {
   body nav .nav--box a:hover,
   html nav .nav--box a:hover {
     border-radius: 30px;
-  }
-}
-
-@keyframes testAnimation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }
 
@@ -255,55 +258,53 @@ html footer {
 }
 
 .contact--container {
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
   border-radius: 8px;
   border: solid 1px orange;
-  background: linear-gradient(to left bottom, #171717, #2b2a2a);
-  width: 1000px;
-  min-height: 500px;
   margin: 30px auto;
+  min-height: 70vh;
+  width: 66vw;
 }
 
 .contact--container .contact--container--box {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  height: 110vh;
+  justify-content: space-around;
   margin: 0 auto;
-  min-height: 800px;
-  width: 1000px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  width: 66vw;
 }
 
 .contact--container .contact--container--box .contact--container--person--left {
   background-color: rgba(0, 0, 0, 0.2);
+  border: solid 1px orange;
+  color: orange;
+  height: 24vh;
+  text-align: center;
+  width: 36vw;
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
-  border-top: solid 1px orange;
-  border-bottom: solid 1px orange;
-  border-right: solid 1px orange;
-  color: orange;
-  width: 500px;
-  height: 180px;
-  text-align: center;
+  border-left: none;
 }
 
 .contact--container .contact--container--box .contact--container--person--left--title {
   border-bottom: solid 1px orange;
   margin: 0 auto;
-  max-height: 140px;
-  max-width: 180px;
+  max-height: 12vh;
+  max-width: 30vw;
 }
 
 .contact--container .contact--container--box .contact--container--person--left--box {
   display: flex;
-  height: 140px;
-  max-width: 500px;
+  height: 20vh;
+  margin: 2px auto;
+  width: 34vw;
 }
 
 .contact--container .contact--container--box .contact--container--person--left--box--photo {
   display: flex;
-  height: 140px;
-  width: 120px;
+  height: auto;
+  width: 14vw;
 }
 
 .contact--container .contact--container--box .contact--container--person--left--box--photo--file {
@@ -315,44 +316,44 @@ html footer {
 }
 
 .contact--container .contact--container--box .contact--container--person--left--box--text {
+  height: 20vh;
+  margin-top: 10px;
+  margin-right: 10px;
   text-align: right;
-  margin-top: 30px;
-  height: 140px;
-  width: 360px;
+  width: 16vw;
 }
 
 .contact--container .contact--container--box .contact--container--person--right {
   background-color: rgba(0, 0, 0, 0.2);
+  border: solid 1px orange;
+  color: orange;
+  height: 24vh;
+  text-align: center;
+  width: 36vw;
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
-  border-top: solid 1px orange;
-  border-bottom: solid 1px orange;
-  border-left: solid 1px orange;
-  color: orange;
-  width: 600px;
-  height: 180px;
-  margin-left: 400px;
-  right: 0;
-  text-align: center;
+  border-right: none;
+  align-self: flex-end;
 }
 
 .contact--container .contact--container--box .contact--container--person--right--title {
   border-bottom: solid 1px orange;
   margin: 0 auto;
-  max-height: 140px;
-  max-width: 180px;
+  max-height: 12vh;
+  max-width: 30vw;
 }
 
 .contact--container .contact--container--box .contact--container--person--right--box {
   display: flex;
-  height: 140px;
-  max-width: 600px;
+  height: 20vh;
+  margin: 2px auto;
+  width: 34vw;
 }
 
 .contact--container .contact--container--box .contact--container--person--right--box--photo {
   display: flex;
-  height: 140px;
-  width: 120px;
+  height: auto;
+  width: 14vw;
 }
 
 .contact--container .contact--container--box .contact--container--person--right--box--photo--file {
@@ -364,10 +365,11 @@ html footer {
 }
 
 .contact--container .contact--container--box .contact--container--person--right--box--text {
+  height: 20vh;
   margin-top: 10px;
-  height: 140px;
-  width: 460px;
+  margin-right: 10px;
   text-align: right;
+  width: 16vw;
 }
 
 @media (max-width: 550px) {

@@ -7,19 +7,18 @@
 
 
 .history--container {
+    align-items: center;
     background: $bg-color-black-orange-bottom;
     border-radius: 12px;
-    width: 90vw;
-    min-height: 600px;
-    margin: 20px auto;
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin: 20px auto;
+    min-height: 600px;
+    width: 90vw;
 
-    p{
-        text-align: center;
+    p {
         color: black;
         font-size: 3rem;
+        text-align: center;
     }
 }
-

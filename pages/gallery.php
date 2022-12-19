@@ -87,13 +87,15 @@
 
     <div class="popupGallery hidden">
       <button class="popupCloseBtn">X</button>
-      <img src="../images/gallery/g8.jpg" alt="" class="popupGallery__img" />
+      <img src="../images/gallery/g8.jpg" alt="" class="popupGallery--img" />
       <button class="popupArrow--right">
         <div class="text">></div>
       </button>
       <button class="popupArrow--left">
         <div class="text">
           < </div>
+        </div>
+    </div>
   </main>
   <?php include("../php/footer.php"); ?>
   <script src="../app.js"></script>

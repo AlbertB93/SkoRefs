@@ -642,7 +642,7 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/PKarol.PNG " alt="zdjęcie Karol Purtak" class="popup--photo">
+        <img src="../images/persons/PKarol-pop.PNG " alt="zdjęcie Karol Purtak" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
             <p> Sędzia od: X. </p>
@@ -730,7 +730,7 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/FDariusz.PNG " alt="zdjęcie Dariusz Frydryk" class="popup--photo">
+        <img src="../images/persons/FDariusz-pop.PNG " alt="zdjęcie Dariusz Frydryk" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1968</p>
             <p> Sędzia od: xr. </p>

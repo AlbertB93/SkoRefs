@@ -1,3 +1,15 @@
+/* body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: orange;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+
+} */
 * {
   box-sizing: border-box;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -179,7 +191,7 @@ html footer {
     flex-direction: column;
     justify-content: space-around;
     font-size: 1.25em;
-    height: 42vh;
+    height: 48vh;
     padding: 1rem;
     width: 80vw;
     margin: 0 auto;
@@ -255,67 +267,48 @@ html footer {
 }
 
 .news--container {
+  align-items: center;
   background: linear-gradient(to bottom, #171717, #ffba39);
   border: solid 2px black;
   border-radius: 12px;
   display: flex;
-  height: 500px;
-  width: 1300px;
-  margin: 20px auto;
-  flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  height: 68vh;
   justify-content: space-around;
-}
-
-.news--container .news--title--box {
-  background: linear-gradient(to left bottom, #171717, #2b2a2a);
-  border: solid 1px black;
-  border-radius: 8px;
-  display: flex;
-  height: 50px;
-  width: 240px;
-}
-
-.news--container .news--title--box h2 {
-  color: orange;
-  font-weight: 300;
-  /*             font-size: 24px; */
-  text-shadow: 1px 0px black;
-  margin: 5px auto;
-  letter-spacing: 1px;
+  margin: 20px auto;
+  width: 94vw;
 }
 
 .news--container .news--box {
-  height: 320px;
+  align-items: center;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  width: 1200px;
+  height: 46vh;
   justify-content: space-around;
+  width: 90vw;
 }
 
 .news--container .news--box article {
-  border: solid 2px black;
+  align-items: center;
   background: linear-gradient(to bottom, #171717, #ffba39);
+  border: solid 2px black;
   border-radius: 20px;
+  box-shadow: 4px 4px black;
   display: flex;
   flex-direction: column;
+  height: 22vw;
   justify-content: space-around;
-  align-items: center;
-  height: 300px;
-  width: 280px;
-  box-shadow: 4px 4px black;
   transition: 0.5s;
   transform: scale(1);
+  width: 20vw;
 }
 
 .news--container .news--box article .article--image {
-  margin: 15px 10px;
   border-radius: 5px;
-  max-height: 200px;
-  max-width: 280px;
+  margin: 15px 10px;
+  max-height: 25vh;
+  max-width: auto;
 }
 
 .news--container .news--box article .article--image .article--image--file {
@@ -325,23 +318,23 @@ html footer {
 }
 
 .news--container .news--box article:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
   z-index: 100;
 }
 
 .news--container .news--box article a {
-  display: flex;
-  border: solid 2px black;
+  align-items: center;
   background-color: orange;
+  border: solid 2px black;
   border-radius: 12px;
+  color: black;
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
   min-height: 50px;
-  width: 80%;
   text-align: center;
   text-decoration: none;
-  color: black;
-  font-size: 16px;
-  justify-content: center;
-  align-items: center;
+  width: 80%;
 }
 
 .news--container .news--box article a:hover {

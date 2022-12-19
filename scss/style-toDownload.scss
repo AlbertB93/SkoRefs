@@ -7,37 +7,37 @@
 }
 
 .toDownload--container {
-    margin-top: 30px;
     display: flex;
     flex-direction: row;
-    text-align: center;
-    width: 100%;
     justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+    width: 98vw;
 
     &--singleBox {
-        border: solid 2px black;
         background: $bg-color-black-orange-bottom;
+        border: solid 2px black;
         border-radius: 20px;
-        height: 400px;
-        width: 300px;
+        height: 45vh;
+        width: 22vw;
 
         &--title {
             border-bottom: solid 3px black;
+            color: orange;
             font-size: 2rem;
             margin-bottom: 30px;
-            color: orange;
         }
 
         &--list {
-            flex-direction: column;
             display: flex;
+            flex-direction: column;
 
             &--option {
-                margin: 10px;
-                font-size: 1.5rem;
-                border: solid 1px black;
                 background: $bg-color-black;
+                border: solid 1px black;
                 color: orange;
+                font-size: 1.5rem;
+                margin: 10px;
 
                 & a {
                     color: orange;
@@ -52,7 +52,7 @@
 @include breakPoint(small) {
 
     .container--title {
-        width: 96vw;
+        @include title--small;
     }
 
     .toDownload--container {

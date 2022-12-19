@@ -40,23 +40,23 @@
                 2 LIGA - jako sędzia techniczny
                 <img src="../../images/pages/news/table-table.PNG" alt="TABLICA" class="news004--refBox--person--container--text--img" style="top: 2px" />
               </h4>
-              <p>Garbarnia Kraków - Motor Lublin S.A.</p>
-              <p>MKS Znicz Pruszków - Radunia Stężyca</p>
-              <p>MKS Znicz Pruszków - Zagłębie II Lubin</p>
-              <p>Stomil Olsztyn S.A. - Śląsk II Wrocław</p>
-              <p>Wisła Puławy - MKS Znicz Pruszków</p>
+              <li>Garbarnia Kraków - Motor Lublin S.A.</li>
+              <li>MKS Znicz Pruszków - Radunia Stężyca</li>
+              <li>MKS Znicz Pruszków - Zagłębie II Lubin</li>
+              <li>Stomil Olsztyn S.A. - Śląsk II Wrocław</li>
+              <li>Wisła Puławy - MKS Znicz Pruszków</li>
               <h4>
                 3 LIGA - jako sędzia główny<img src="../../images/pages/news/table-whistle.png" alt="GWIZDEK" class="news004--refBox--person--container--text--img" />
               </h4>
-              <p>Wisła Sandomierz - Czarni Połaniec</p>
-              <p>KS Legionovia - ŁKS II Łódź S.A.</p>
-              <p>Wisłoka Dębica - KS Lublinianka</p>
-              <p>Unia Tarnów - Avia Świdnik</p>
-              <p>Broń Radom - Jagiellonia II Białystok</p>
+              <li>Wisła Sandomierz - Czarni Połaniec</li>
+              <li>KS Legionovia - ŁKS II Łódź S.A.</li>
+              <li>Wisłoka Dębica - KS Lublinianka</li>
+              <li>Unia Tarnów - Avia Świdnik</li>
+              <li>Broń Radom - Jagiellonia II Białystok</li>
               <h4>
                 CLJ U-19 - jako sędzia główny<img src="../../images/pages/news/table-whistle.png" alt="GWIZDEK" class="news004--refBox--person--container--text--img" />
               </h4>
-              <p>Escola Varsovia - Cracovia Kraków</p>
+              <li>Escola Varsovia - Cracovia Kraków</li>
             </div>
           </div>
           <div class="news004--refBox--person--container">
@@ -71,16 +71,16 @@
                 3 LIGA - jako sędzia asystent
                 <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--text--img" />
               </h4>
-              <p>Wisła Sandomierz - Czarni Połaniec</p>
-              <p>KS Legionovia - ŁKS II Łódź S.A.</p>
-              <p>Wisłoka Dębica - KS Lublinianka</p>
-              <p>Unia Tarnów - Avia Świdnik</p>
-              <p>Broń Radom - Jagiellonia II Białystok</p>
+              <li>Wisła Sandomierz - Czarni Połaniec</li>
+              <li>KS Legionovia - ŁKS II Łódź S.A.</li>
+              <li>Wisłoka Dębica - KS Lublinianka</li>
+              <li>Unia Tarnów - Avia Świdnik</li>
+              <li>Broń Radom - Jagiellonia II Białystok</li>
               <h4>
                 CLU U-19 - jako sędzia asystent
                 <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--text--img" />
               </h4>
-              <p>Escola Varsovia - Cracovia Kraków</p>
+              <li>Escola Varsovia - Cracovia Kraków</li>
             </div>
           </div>
           <div class="news004--refBox--person--container">
@@ -95,8 +95,8 @@
                 3 LIGA - jako sędzia asystent
                 <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--text--img" />
               </h4>
-              <p>Broń Radom - Sokół Ostróda</p>
-              <p>Lublinianka Lublin - Korona II Kielce</p>
+              <li>Broń Radom - Sokół Ostróda</li>
+              <li>Lublinianka Lublin - Korona II Kielce</li>
             </div>
           </div>
           <div class="news004--refBox--person--container">
@@ -111,7 +111,7 @@
                 3 LIGA - jako sędzia asystent
                 <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--text--img" />
               </h4>
-              <p>Unia Tarnów - Avia Świdnik</p>
+              <li>Unia Tarnów - Avia Świdnik</li>
             </div>
           </div>
         </div>

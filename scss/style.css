@@ -1,3 +1,15 @@
+/* body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: orange;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+
+} */
 * {
   box-sizing: border-box;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -179,7 +191,7 @@ html footer {
     flex-direction: column;
     justify-content: space-around;
     font-size: 1.25em;
-    height: 42vh;
+    height: 48vh;
     padding: 1rem;
     width: 80vw;
     margin: 0 auto;
@@ -214,17 +226,44 @@ html footer {
 }
 
 .container--title {
-  border: solid 1px red;
+  font-size: 1.5rem;
+  height: 50px;
+  margin: 20px auto;
+  display: flex;
+  width: 92vw;
+}
+
+.container--title .title {
+  position: relative;
+  left: 30vw;
+  border: solid 1px orange;
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
-  border: solid 1px black;
   border-radius: 8px;
   text-align: center;
   color: #ffa600;
-  font-size: 1.5rem;
   height: 50px;
-  width: 400px;
+  width: 30vw;
   padding-top: 5px;
-  margin: 20px auto;
+}
+
+.container--title .btn--index {
+  position: relative;
+  height: 40px;
+  width: 8vw;
+  font-size: 1rem;
+  left: 50vw;
+  border: solid 1px orange;
+  padding-top: 6px;
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  border-radius: 8px;
+  text-align: center;
+  color: #ffa600;
+  margin-bottom: 5px;
+}
+
+.container--title .btn--index a {
+  text-decoration: none;
+  color: orange;
 }
 
 .index--container {
@@ -232,32 +271,30 @@ html footer {
   grid-template-columns: 2% 19% 19% 19% 19% 19% 3%;
   grid-template-rows: 10% 10% 10% 70%;
   height: 100vh;
-  width: 92vw;
   margin: 0 auto;
+  width: 92vw;
 }
 
 .index--container article {
-  border: solid 2px black;
+  align-items: center;
   background: linear-gradient(to bottom, #171717, #ffba39);
+  border: solid 2px black;
   border-radius: 20px;
+  box-shadow: 4px 4px black;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  /*         height: 320px;
-        width: 280px; */
   height: 22vw;
-  width: 20vw;
-  box-shadow: 4px 4px black;
+  justify-content: space-around;
   transition: 0.5s;
   transform: scale(1);
+  width: 20vw;
 }
 
 .index--container article .article--image {
-  margin: 15px 10px;
   border-radius: 5px;
+  margin: 15px 10px;
   max-height: 25vh;
-  max-width: 20vw;
+  max-width: auto;
 }
 
 .index--container article .article--image .article--image--file {
@@ -267,23 +304,23 @@ html footer {
 }
 
 .index--container article:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
   z-index: 100;
 }
 
 .index--container article a {
-  display: flex;
-  border: solid 2px black;
+  align-items: center;
   background-color: orange;
+  border: solid 2px black;
   border-radius: 12px;
-  min-height: 50px;
-  width: 80%;
-  text-align: center;
-  text-decoration: none;
   color: black;
+  display: flex;
   font-size: 1rem;
   justify-content: center;
-  align-items: center;
+  min-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  width: 80%;
 }
 
 .index--container article a:hover {
@@ -318,9 +355,10 @@ html footer {
 
 @media (max-width: 550px) {
   .index--container {
+    border: solid 1px red;
     display: flex;
     flex-direction: column;
-    height: 240vh;
+    height: 300vh;
     width: 92vw;
     margin: 4vh auto;
     justify-content: space-between;
@@ -329,7 +367,7 @@ html footer {
   .index--container article {
     margin-top: 20px;
     width: 90vw;
-    height: 95vw;
+    height: 55vh;
   }
   .index--container article .article--image {
     max-height: 90vh;

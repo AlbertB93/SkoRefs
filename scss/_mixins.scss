@@ -64,8 +64,8 @@ $breakPoins: (
     border-radius: 8px;
     background: $bg-color-black;
     box-shadow: 8px 8px black;
-    width: 1000px;
-    height: 500px;
+    width: 70vw;
+    height: 70vh;
     margin: 30px auto;
 
     &--header {
@@ -104,54 +104,14 @@ $breakPoins: (
     }
 }
 
-@mixin simple--container--small {
-    border-radius: 8px;
-    background: $bg-color-black;
-    box-shadow: 8px 8px black;
-    width: 92vw;
-    height: 500px;
-    margin: 30px auto;
+@mixin simple--container--h3 {
+    border-bottom: solid 2px bisque;
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
 
-    &--header {
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 92vw;
-        height: 100px;
-        padding-top: 10px;
-
-        h1 {
-
-            color: $main-text-color;
-            letter-spacing: 1px;
-            height: 80px;
-            margin: 0 auto;
-            text-align: center;
-            font-size: 1.5rem;
-            margin-top: 50px;
-        }
-
-        .news--simple--container--btn--back {
-            background: $bg-color-black;
-            border: solid 2px orange;
-            /*             border-bottom: none; */
-            font-size: 0.8rem;
-            max-height: 30px;
-            width: 14vw;
-            color: $main-text-color;
-            cursor: pointer;
-            left: 74vw;
-            bottom: 100px;
-
-
-            a {
-                color: $main-text-color;
-                text-decoration: none;
-            }
-
-        }
-    }
 }
 
 @mixin buttons-box {
@@ -202,5 +162,212 @@ $breakPoins: (
 
 
 
+    }
+}
+
+@mixin article {
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(23, 23, 23), rgb(255, 186, 57));
+    border: solid 2px black;
+    border-radius: 20px;
+    box-shadow: 4px 4px black;
+    display: flex;
+    flex-direction: column;
+    height: 22vw;
+    justify-content: space-around;
+    transition: 0.5s;
+    transform: scale(1);
+    width: 20vw;
+
+    .article--image {
+
+        border-radius: 5px;
+        margin: 15px 10px;
+        max-height: 25vh;
+        max-width: auto;
+
+        .article--image--file {
+            border-radius: 5px;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+@mixin article--a {
+    align-items: center;
+    background-color: orange;
+    border: solid 2px black;
+    border-radius: 12px;
+    color: black;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    min-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+}
+
+@mixin arrow {
+    border: solid 3px orange;
+    border-radius: 12px;
+    background: $bg-color-black;
+    color: orange;
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    height: 50px;
+    width: 50px;
+
+    .text {
+        position: absolute;
+        bottom: -6px;
+        right: 12px;
+    }
+}
+
+@mixin contact--container--person {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: solid 1px orange;
+    color: orange;
+    height: 24vh;
+    text-align: center;
+    width: 36vw;
+
+    &--title {
+        border-bottom: solid 1px orange;
+        margin: 0 auto;
+        max-height: 12vh;
+        max-width: 30vw;
+    }
+
+    &--box {
+        display: flex;
+        height: 20vh;
+        margin: 2px auto;
+        width: 34vw;
+
+        &--photo {
+            display: flex;
+            height: auto;
+            width: 14vw;
+
+            &--file {
+                border: solid 1px orange;
+                border-radius: 4px;
+                margin: auto auto;
+                max-height: 90%;
+                max-width: 90%;
+            }
+        }
+
+        &--text {
+            height: 20vh;
+            margin-top: 10px;
+            margin-right: 10px;
+            text-align: right;
+            width: 16vw;
+        }
+    }
+}
+
+@mixin title--small {
+
+    font-size: 1.5rem;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    height: 30vw;
+    width: 96vw;
+    justify-content: space-around;
+    align-items: center;
+
+
+    .title {
+        position: relative;
+        border: solid 1px orange;
+        background: $bg-color-black;
+        border-radius: 8px;
+        text-align: center;
+        color: $main-text-color;
+        padding-top: 5px;
+        font-size: 1.8rem;
+        height: 16vw;
+        width: 50vw;
+        left: 0;
+    }
+
+    .btn--index {
+
+        position: relative;
+        border: solid 1px orange;
+        padding-top: 6px;
+        background: $bg-color-black;
+        border-radius: 8px;
+        text-align: center;
+        color: $main-text-color;
+        margin-bottom: 5px;
+
+        font-size: 0.8rem;
+        height: 8vw;
+        left: 30vw;
+        width: 30vw;
+
+        a {
+            text-decoration: none;
+            color: orange;
+        }
+    }
+
+}
+
+@mixin simple--container--small {
+    border-radius: 8px;
+    background: $bg-color-black;
+    box-shadow: 8px 8px black;
+    width: 92vw;
+    height: 500px;
+    margin: 30px auto;
+
+    &--header {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 92vw;
+        height: 100px;
+        padding-top: 10px;
+
+        h1 {
+
+            color: $main-text-color;
+            letter-spacing: 1px;
+            height: 80px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.5rem;
+            margin-top: 50px;
+        }
+
+        .news--simple--container--btn--back {
+            background: $bg-color-black;
+            border: solid 2px orange;
+            /*             border-bottom: none; */
+            font-size: 0.8rem;
+            max-height: 30px;
+            width: 14vw;
+            color: $main-text-color;
+            cursor: pointer;
+            left: 74vw;
+            bottom: 100px;
+
+
+            a {
+                color: $main-text-color;
+                text-decoration: none;
+            }
+
+        }
     }
 }

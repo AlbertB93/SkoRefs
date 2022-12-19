@@ -40,7 +40,7 @@
           molestiae minima ipsum doloremque voluptatum odit aliquid quaerat
           iure!
         </p>
-        <h3>Statystyki...</h3>
+        <h3 style="margin-top: 50px">Statystyki...</h3>
         <div class="news-003--table">
           <table>
             <thead>
