@@ -85,15 +85,41 @@
 }
 
 
-@include breakPoint(small) {
+@include breakPoint(xlarge) {
 
     .container--title {
-        width: 96vw;
+
+        .title {
+            left: 30vw;
+            width: 40vw;
+        }
+
+        .btn--index {
+            left: 44vw;
+            width: 9vw;
+        }
+
+    }
+
+}
+
+
+
+@include breakPoint(large) {
+
+    .container--title {
+        @include title--small;
+
+        .title {
+            font-size: 1.2rem;
+            padding-top: 0.5em;
+            width: 80vw;
+        }
     }
 
     .gallery--container {
         width: 96vw;
-        min-height: 1600px;
+        min-height: 150vh;
         justify-content: space-around;
 
         .gallery--photo--field {
