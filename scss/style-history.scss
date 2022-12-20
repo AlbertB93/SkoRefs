@@ -22,3 +22,35 @@
         text-align: center;
     }
 }
+
+
+@include breakPoint(xlarge) {
+
+    .container--title {
+        .title {
+            left: 30vw;
+            width: 40vw;
+        }
+
+        .btn--index {
+            left: 44vw;
+            width: 9vw;
+        }
+
+    }
+
+}
+
+
+@include breakPoint (large) {
+
+    .container--title {
+        @include title--small;
+
+        .title {
+            font-size: 1.4rem;
+        }
+
+
+    }
+}

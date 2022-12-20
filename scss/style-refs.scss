@@ -329,208 +329,209 @@
     }
 
     .refs--container {
+
         display: flex;
         flex-direction: column;
-        height: 3300px;
+        height: 620vh;
         align-items: center;
         margin-bottom: 20px;
+        width: 96vw;
 
-        &--title {
-            font-size: 1.2rem;
-            height: 50px;
-            width: 96vw;
-        }
 
-        &--list {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 800px;
-            width: 100%;
+        &--person {
+            animation-name: none;
+            animation-duration: 0s;
+            height: 100vw;
+            transition: transform 0s;
+            width: 92vw;
 
-            .ref--person--container {
-                margin-top: 10px;
+            &--logo {
+                max-width: 92vw;
+                max-height: 70vh;
 
-                .ref--person--logo {
-                    margin-top: 10px;
 
-                    .ref--person--image {}
-
-                    .ref--person--name {
-                        font-size: 1rem;
-                    }
+                &--image {
+                    border: solid 1px black;
+                    border-radius: 4px;
+                    max-height: 70%;
+                    max-width: 70%;
+                    overflow: hidden;
                 }
 
-                .ref--person--description {
-                    font-size: 1rem;
-
-
-                    &--shortDescritpion {
-                        color: black;
-                        font-size: 1rem;
-                    }
-
-                    &--button {
-                        border: solid 2px orange;
-                        color: orange;
-                        border-radius: 10px;
-                        background: linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37));
-                        cursor: pointer;
-                        bottom: 5px;
-                        font-size: 12px;
-                        right: 85px;
-                        padding: 5px;
-                        position: absolute;
-                        text-decoration: none;
-                    }
-
+                &--name {
+                    font-size: 1.5rem;
+                    width: 92vw;
                 }
-
-            }
-
-            .ref--person--logo:hover {
-                transform: scale(1.2);
-            }
-
-
-        }
-
-
-    }
-
-    .popup--main {
-        height: 500px;
-        width: 92vw;
-        left: 10px;
-        top: 100px;
-        flex-direction: column;
-        overflow-x: scroll;
-
-        .popup--photo--field {
-
-            max-height: 400px;
-            max-width: auto;
-            margin: 10px auto;
-            border-right: none;
-            border-bottom: solid 1px black;
-            padding-right: 0px;
-            padding-bottom: 10px;
-
-
-
-            .popup--photo {
-                align-items: center;
-                border-radius: 4px;
-                max-height: 100%;
-                max-width: 100%;
-            }
-
-            .popup--photo--text {
-
-                max-height: 100%;
-                max-width: 100%;
 
                 p {
                     font-size: 1rem;
-                    text-align: center;
-                    margin-top: 10px;
+                    width: 92vw;
+
                 }
             }
         }
 
-        .popup--container {
-
-            display: flex;
-            height: 400px;
-            width: 92vw;
-            flex-direction: column;
-            align-items: center;
-
-            .popup--name {
-                color: black;
-                font-weight: 600;
-                font-size: 1.5rem;
-                letter-spacing: 1px;
-                height: 50px;
-                width: 80%;
-                text-align: center;
-                margin-top: 5px;
-            }
-
-            .popup--description {
-                color: black;
-                margin: 10px;
-                padding: 10px;
-                width: 92vw;
-                font-size: 1rem;
-            }
-
-            .popup--btn {
-                width: 40px;
-                position: relative;
-                padding: 5px;
-                border: solid 2px black;
-                background: $bg-color-orange-dark;
-                color: black;
-                left: 230px;
-                bottom: 260px;
-                font-size: 16px;
-                font-weight: 600;
-            }
-
+        .refs--container--person:hover {
+            transform: scale(1.0);
         }
 
-        .popup--static {
+        .popup--main {
+            background: $bg-color-grey-orange-bottom;
+            border: solid 3px black;
+            border-radius: 12px;
+            color: black;
+            display: none;
+            flex-direction: row;
+            height: 300vh;
+            left: 1vw;
+            position: fixed;
+            width: 96vw;
+            z-index: 100;
+            position: absolute;
+            bottom: 20vh;
 
-            height: 400px;
-            width: 300px;
-            margin: 10px;
-            border-left: 0;
-            padding-left: 10px;
+            .popup--photo--field {
+                align-items: center;
+                border-right: solid 1px black;
+                display: flex;
+                flex-direction: column;
+                height: 60vh;
+                justify-content: center;
+                padding: 10px;
+                width: 16vw;
 
-            .static--title {
+                .popup--photo {
+                    border: solid 1px black;
+                    border-radius: 4px;
+                    max-height: auto;
+                    width: 14vw;
+                }
 
-                font-size: 20px;
-                max-width: 400px;
-                text-align: center;
-                border-bottom: solid 1px black;
+                .popup--photo--text {
+                    max-height: auto;
+                    max-width: 16vw;
+
+                    p {
+                        font-size: 1.2rem;
+                        margin-top: 10px;
+                        text-align: center;
+                    }
+                }
             }
 
-            .static--table {
+            .popup--container {
+                align-items: center;
+                border-right: solid 1px black;
+                display: flex;
+                flex-direction: column;
+                height: 60vh;
+                margin: 0 auto;
+                padding-left: 10px;
+                width: 44vw;
 
-                font-size: 20px;
-                height: 300px;
-                max-width: 196px;
-                text-align: center;
+                .popup--name {
 
-                table {
-                    max-width: 196px;
+                    color: orange;
+                    font-weight: 300;
+                    font-size: 2rem;
+                    height: 50px;
+                    letter-spacing: 1px;
+                    text-align: center;
+                    text-shadow: 0.1rem 0.1rem black;
+                    margin-top: 20px;
+                    width: 40vw;
+
+                    .popup--btn {
+                        background: transparent;
+                        border: solid 2px orange;
+                        border-radius: 8px;
+                        bottom: 0.5vw;
+                        color: orange;
+                        font-size: 16px;
+                        font-weight: 600;
+                        left: 10vw;
+                        position: relative;
+                        padding: 5px;
+                        text-decoration: bold;
+                        width: 40px;
+                    }
+
+                }
+
+                .popup--description {
+                    color: black;
+                    font-size: 1.3rem;
+                    margin: 20px;
+                    overflow-y: auto;
+                    padding-right: 10px;
+                    padding-top: 10px;
+                    width: 40vw;
+
+                    p {
+                        text-indent: 2vw;
+                    }
+                }
+            }
+
+
+            .popup--static {
+                height: 60vh;
+                margin: 20px auto;
+                padding-left: 10px;
+                width: 18vw;
+
+                .static--title {
+                    border-bottom: solid 1px orange;
+                    color: orange;
+                    font-size: 1.5rem;
                     margin: 0 auto;
+                    max-width: 15vw;
+                    text-align: center;
+                }
 
-                    th {
-                        padding: 6px;
-                        font-size: 14px;
+                .static--table {
+                    font-size: 1.2rem;
+                    height: 300px;
+                    max-width: 10vw;
+                    text-align: center;
 
-                        .table--image {
-                            max-width: 50px;
-                            max-height: 50px;
+                    table {
+                        margin: 0 auto;
+                        max-width: 10vw;
+
+                        th {
+                            font-size: 1rem;
+                            padding: 6px;
+
+                            .table--image {
+                                max-height: 50px;
+                                max-width: 50px;
+                            }
+                        }
+
+                        td {
+                            border-radius: 12px;
+                            font-size: 1rem;
+                            padding: 6px;
+                        }
+
+                        .dark {
+                            background-color: rgb(210, 148, 34);
+                            border-radius: 12px;
                         }
                     }
+                }
 
-                    td {
-                        padding: 6px;
-
-                        font-size: 12px;
-                    }
-
-                    .dark {
-                        background-color: rgb(210, 148, 34);
-                    }
+                p {
+                    bottom: 10px;
+                    font-size: 0.8rem;
+                    position: absolute;
+                    right: 10px;
                 }
             }
         }
-    }
 
+    }
 
 
 }

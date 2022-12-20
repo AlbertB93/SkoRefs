@@ -1,5 +1,5 @@
 @import "_template.scss";
-@import "_variables.scss";
+
 
 @keyframes testAnimation {
     from {
@@ -69,27 +69,31 @@
 
 }
 
+@include breakPoint(xlarge) {
+    .index--container {
+        article a {
+            font-size: 0.8rem;
+        }
+    }
+}
 
-@include breakPoint(small) {
+@include breakPoint(large) {
 
     .index--container {
-        border: solid 1px red;
+        align-items: center;
         display: flex;
         flex-direction: column;
         height: 300vh;
-        width: 92vw;
-        margin: 4vh auto;
         justify-content: space-between;
-        align-items: center;
+        margin: 4vh auto;
+        width: 92vw;
 
         article {
-
+            height: 55vh;
             margin-top: 20px;
             width: 90vw;
-            height: 55vh;
 
             .article--image {
-
                 max-height: 90vh;
                 max-width: 80vw;
                 overflow: hidden;
@@ -101,5 +105,11 @@
                 }
             }
         }
+
+        article:hover {
+            transform: scale(1);
+            z-index: 100;
+        }
+
     }
 }

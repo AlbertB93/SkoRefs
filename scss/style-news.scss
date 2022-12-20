@@ -47,7 +47,7 @@
         }
 
         article a {
-        @include article--a;
+            @include article--a;
         }
 
         article a:hover {
@@ -55,45 +55,88 @@
             color: orange;
         }
     }
-    
+
     @include buttons-box;
 }
 
 
-// tylko to co ma się zmienić  - TEST
-
-@include breakPoint (small) {
+@include breakPoint(xlarge) {
 
     .container--title {
-        width: 92vw;
+        .title {
+            left: 30vw;
+            width: 40vw;
+        }
+
+        .btn--index {
+            left: 44vw;
+            width: 9vw;
+        }
+
     }
 
     .news--container {
-        display: flex;
-        height: 100%;
-        width: 92vw;
-        margin: 20px auto;
-        flex-direction: row;
+        .news--box {
+            article a {
+                font-size: 0.8rem;
+            }
+        }
+    }
 
-        .news--title--box {
-            display: flex;
-            height: 50px;
-            width: 80vw;
-            margin: 2vh auto;
+
+}
+
+@include breakPoint (large) {
+
+    .container--title {
+        @include title--small;
+
+        .title {
+            font-size: 1.4rem;
         }
 
+
+    }
+
+    .news--container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 250vh;
+        justify-content: center;
+        margin: 20px auto;
+        width: 94vw;
+
         .news--box {
-            height: 100%;
+            align-items: center;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            width: 96vw;
+            height: 230vh;
             justify-content: space-around;
+            width: 90vw;
 
             article {
-                margin: 2vh auto;
+                min-height: 55vh;
+                margin-top: 20px;
+                width: 86vw;
 
+                .article--image {
+                    max-height: 90%;
+                    max-width: 90%;
+                    overflow: hidden;
+
+                    .article--image--file {
+                        border-radius: 5px;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
             }
+
+            article:hover {
+                transform: scale(1);
+                z-index: 100;
+            }
+
         }
 
         @include buttons-box;

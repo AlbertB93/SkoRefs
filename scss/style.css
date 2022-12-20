@@ -1,3 +1,17 @@
+/* 
+$bg-color-orange: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57));
+
+$bg-color-test: linear-gradient(to top, rgb(76, 64, 35), rgb(80, 67, 44));
+
+$bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42, 42));
+$bg-color-black-orange-bottom: linear-gradient(to bottom, rgb(23, 23, 23), rgb(255, 186, 57)); */
+/* 
+$bg-color-orange: linear-gradient(to top, rgb(241, 199, 121), rgb(255, 186, 57));
+
+$bg-color-test: linear-gradient(to top, rgb(76, 64, 35), rgb(80, 67, 44));
+
+$bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42, 42));
+$bg-color-black-orange-bottom: linear-gradient(to bottom, rgb(23, 23, 23), rgb(255, 186, 57)); */
 /* body::-webkit-scrollbar {
     width: 20px;
 }
@@ -56,19 +70,16 @@ html header {
 
 body header .header--logo,
 html header .header--logo {
-  position: relative;
-  height: 140px;
+  height: 16vh;
   width: auto;
-  top: 30px;
 }
 
 body header .header--logo--img,
 html header .header--logo--img {
   display: block;
-  max-height: 70%;
-  max-width: 70%;
-  margin: 0 auto;
-  margin-top: 5px;
+  max-height: 80%;
+  max-width: 80%;
+  margin: 2vh auto;
 }
 
 body header .header--logo2,
@@ -76,7 +87,6 @@ html header .header--logo2 {
   position: relative;
   height: 16vh;
   width: 12vw;
-  top: 1vh;
 }
 
 body header .header--title,
@@ -138,7 +148,7 @@ body nav .nav--box,
 html nav .nav--box {
   display: flex;
   justify-content: space-around;
-  width: 60%;
+  width: 80%;
   align-items: center;
 }
 
@@ -171,19 +181,51 @@ html footer {
   width: 100%;
 }
 
+@media (max-width: 1000px) {
+  body header .header--title h1,
+  html header .header--title h1 {
+    font-size: 2rem;
+  }
+  body header .header--title h3,
+  html header .header--title h3 {
+    font-size: 1.5rem;
+    margin-left: 0vw;
+  }
+  body nav,
+  html nav {
+    font-size: 1rem;
+  }
+  body nav .nav--box,
+  html nav .nav--box {
+    width: 90%;
+  }
+  body nav .nav--box a,
+  html nav .nav--box a {
+    text-decoration: none;
+    transition: 1s;
+  }
+  body nav .nav--box a:hover,
+  html nav .nav--box a:hover {
+    border-radius: 30px;
+  }
+}
+
 @media (max-width: 550px) {
   body header .header--logo,
   html header .header--logo {
-    height: 70px;
-    margin-bottom: 22vw;
+    position: relative;
+    height: 10vh;
+    width: auto;
+    bottom: 2vh;
   }
   body header .header--title h1,
   html header .header--title h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   body header .header--title h3,
   html header .header--title h3 {
     font-size: 1rem;
+    margin-left: 0vw;
   }
   body nav,
   html nav {
@@ -191,19 +233,20 @@ html footer {
     flex-direction: column;
     justify-content: space-around;
     font-size: 1.25em;
-    height: 48vh;
+    height: 90vw;
     padding: 1rem;
-    width: 80vw;
+    width: 60vw;
     margin: 0 auto;
     align-items: center;
   }
   body nav .nav--box,
   html nav .nav--box {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 90%;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    width: 100%;
   }
   body nav .nav--box a,
   html nav .nav--box a {
@@ -318,6 +361,7 @@ html footer {
   font-size: 1rem;
   justify-content: center;
   min-height: 50px;
+  padding: 4px;
   text-align: center;
   text-decoration: none;
   width: 80%;
@@ -353,21 +397,26 @@ html footer {
   grid-row: 2/3;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 1200px) {
+  .index--container article a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1000px) {
   .index--container {
-    border: solid 1px red;
+    align-items: center;
     display: flex;
     flex-direction: column;
     height: 300vh;
-    width: 92vw;
-    margin: 4vh auto;
     justify-content: space-between;
-    align-items: center;
+    margin: 4vh auto;
+    width: 92vw;
   }
   .index--container article {
+    height: 55vh;
     margin-top: 20px;
     width: 90vw;
-    height: 55vh;
   }
   .index--container article .article--image {
     max-height: 90vh;
@@ -378,5 +427,9 @@ html footer {
     border-radius: 5px;
     height: 100%;
     width: 100%;
+  }
+  .index--container article:hover {
+    transform: scale(1);
+    z-index: 100;
   }
 }
