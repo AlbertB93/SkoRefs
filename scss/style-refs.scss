@@ -315,18 +315,44 @@
     }
 }
 
-@include breakPoint(small) {
+@include breakPoint(xlarge) {
+
+    .container--title {
+
+        .title {
+            left: 30vw;
+            width: 40vw;
+        }
+
+        .btn--index {
+            left: 44vw;
+            width: 9vw;
+        }
+
+    }
+
+}
+
+
+@include breakPoint(large) {
 
 
     .container--title {
         @include title--small;
 
         .title {
-            width: 90vw;
-            font-size: 1.3rem;
-            text-align: center;
+            font-size: 1.2rem;
+            padding-top: 0.5em;
+            width: 80vw;
         }
     }
+
+    .title {
+        width: 90vw;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
 
     .refs--container {
 
@@ -343,10 +369,10 @@
             animation-duration: 0s;
             height: 100vw;
             transition: transform 0s;
-            width: 92vw;
+            width: 50vw;
 
             &--logo {
-                max-width: 92vw;
+                max-width: 50vw;
                 max-height: 70vh;
 
 
@@ -360,12 +386,12 @@
 
                 &--name {
                     font-size: 1.5rem;
-                    width: 92vw;
+                    width: 50vw;
                 }
 
                 p {
                     font-size: 1rem;
-                    width: 92vw;
+                    width: 50vw;
 
                 }
             }
@@ -533,5 +559,28 @@
 
     }
 
+}
+
+
+@include breakPoint(small) {
+
+    .refs--container {
+
+        &--person {
+            width: 92vw;
+
+            &--logo {
+                max-width: 92vw;
+
+                &--name {
+                    width: 92vw;
+                }
+
+                p {
+                    width: 92vw;
+                }
+            }
+        }
+    }
 
 }

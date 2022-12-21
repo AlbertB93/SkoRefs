@@ -19,7 +19,7 @@
 
   <main style="height: 1200px">
     <div class="news--simple--container--long">
-      <div class="news--simple--container--header">
+      <div class="news--simple--container--long--header">
         <h1>Rozgrywki Kobiet - podsumowanie rundy</h1>
         <button class="news--simple--container--btn--back">
           <a href="javascript:history.back();">Powrót</a>
@@ -74,7 +74,7 @@
             <div class="news--simple--container--long--box005--part2--person--text">
               <h5>Sędzia techniczny <img src="../../images/pages/news/table-table.PNG" alt="zdjęcie tablica do zmian" class="news--simple--container--long--box005--part2--person--text--img" style="top: 2px;" />
               </h5>
-              <p style="border-top: solid 1px orange">Eliminacje do MŚ Kobiet</p>
+              <p>Eliminacje do MŚ Kobiet</p>
               <p><img src="../../images/pages/news/news005-flag-Grecce.jpg" alt="flaga Grecji" class="news--simple--container--long--box005--part2--person--text--img" style="top: 2px;" />Grecja
                 - Walia <img src="../../images/pages/news/news005-flag-Wales.webp" alt="flaga Walii" class="news--simple--container--long--box005--part2--person--text--img" style="top: 2px;" />
               </p>
@@ -89,7 +89,7 @@
             <div class="news--simple--container--long--box005--part2--person--text">
               <h5 style="margin-bottom: 30px">Sędzia asystent <img src="../../images/pages/news/table-flag.png" alt="WHISTLE" class="news--simple--container--long--box005--part2--person--text--img" style="top: 10px;" />
               </h5>
-              <p style="border-top: solid 1px orange">Ekstraliga Kobiet</p>
+              <p>Ekstraliga Kobiet</p>
               <p>POGOŃ Gościniec nad Wisłą II Tczew - UKS SMS II Łódź</p>
             </div>
           </div>

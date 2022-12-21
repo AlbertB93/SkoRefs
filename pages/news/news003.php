@@ -19,7 +19,7 @@
 
   <main style="height: 1200px">
     <div class="news--simple--container--long">
-      <div class="news--simple--container--header">
+      <div class="news--simple--container--long--header">
         <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</h1>
         <button class="news--simple--container--btn--back">
           <a href="javascript:history.back();">Powrót</a>

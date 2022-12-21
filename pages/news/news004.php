@@ -19,7 +19,7 @@
 
   <main style="height: 1650px">
     <div class="news--simple--container--xlong">
-      <div class="news--simple--container--header">
+      <div class="news--simple--container--xlong--header">
         <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</h1>
         <button class="news--simple--container--btn--back">
           <a href="javascript:history.back();">Powrót</a>

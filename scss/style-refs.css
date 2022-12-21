@@ -597,7 +597,18 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
   right: 10px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 1200px) {
+  .container--title .title {
+    left: 30vw;
+    width: 40vw;
+  }
+  .container--title .btn--index {
+    left: 44vw;
+    width: 9vw;
+  }
+}
+
+@media (max-width: 1000px) {
   .container--title {
     font-size: 1.5rem;
     margin: 20px auto;
@@ -618,7 +629,7 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
     padding-top: 5px;
     font-size: 1.8rem;
     height: 60px;
-    width: 200px;
+    width: 50vw;
     left: 0;
   }
   .container--title .btn--index {
@@ -640,6 +651,11 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
     color: orange;
   }
   .container--title .title {
+    font-size: 1.2rem;
+    padding-top: 0.5em;
+    width: 80vw;
+  }
+  .title {
     width: 90vw;
     font-size: 1.3rem;
     text-align: center;
@@ -657,10 +673,10 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
     animation-duration: 0s;
     height: 100vw;
     transition: transform 0s;
-    width: 92vw;
+    width: 50vw;
   }
   .refs--container--person--logo {
-    max-width: 92vw;
+    max-width: 50vw;
     max-height: 70vh;
   }
   .refs--container--person--logo--image {
@@ -672,11 +688,11 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
   }
   .refs--container--person--logo--name {
     font-size: 1.5rem;
-    width: 92vw;
+    width: 50vw;
   }
   .refs--container--person--logo p {
     font-size: 1rem;
-    width: 92vw;
+    width: 50vw;
   }
   .refs--container .refs--container--person:hover {
     transform: scale(1);
@@ -814,5 +830,20 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
     font-size: 0.8rem;
     position: absolute;
     right: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .refs--container--person {
+    width: 92vw;
+  }
+  .refs--container--person--logo {
+    max-width: 92vw;
+  }
+  .refs--container--person--logo--name {
+    width: 92vw;
+  }
+  .refs--container--person--logo p {
+    width: 92vw;
   }
 }

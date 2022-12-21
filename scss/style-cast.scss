@@ -24,8 +24,9 @@
         background: $bg-color-black;
         border: solid 1px black;
         color: orange;
+        font-size: 1.2rem;
         margin: 10px auto;
-        padding: 4px 0;
+        padding: 8px 0;
         width: 40vw;
 
         &--week {
@@ -83,10 +84,34 @@
     }
 }
 
-@include breakPoint(small) {
+@include breakPoint(xlarge) {
 
     .container--title {
-        width: 92vw;
+
+        .title {
+            left: 30vw;
+            width: 40vw;
+        }
+
+        .btn--index {
+            left: 44vw;
+            width: 9vw;
+        }
+
+    }
+
+}
+
+@include breakPoint(large) {
+
+    .container--title {
+        @include title--small;
+
+        .title {
+            font-size: 1.2rem;
+            padding-top: 0.5em;
+            width: 80vw;
+        }
     }
 
     .cast--container {

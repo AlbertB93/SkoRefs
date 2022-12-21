@@ -28,6 +28,7 @@ main {
     }
 
     &--box002 {
+        color: orange;
         display: flex;
         margin: 0 auto;
         min-height: 70vh;
@@ -38,7 +39,6 @@ main {
         }
 
         p {
-            color: orange;
             padding: 8px;
         }
 
@@ -68,7 +68,7 @@ main {
 .news--simple--container--long {
 
     @include simple--container();
-    height: 135vh;
+    height: 150vh;
 
     &--box003 {
         color: orange;
@@ -220,7 +220,7 @@ main {
             align-items: center;
             display: flex;
             flex-direction: row;
-            height: 50vh;
+            height: 60vh;
             justify-content: space-around;
             margin: 2px auto;
             width: 68vw;
@@ -232,9 +232,9 @@ main {
                 color: orange;
                 display: flex;
                 flex-direction: column;
-                height: 48vh;
+                height: 58vh;
                 justify-content: space-around;
-                width: 24vw;
+                width: vw;
 
                 &--header {
                     font-size: 1.5rem;
@@ -382,25 +382,145 @@ main {
 }
 
 
-@include breakPoint(small) {
+@include breakPoint(xlarge) {
 
+    main {
+        height: 100vh;
+    }
 
     .news--simple--container {
-        @include simple--container--small();
+        @include simple--container--small;
+        height: 90vh;
 
         &--header {
-            .news--simple--container--btn--back {
-                position: absolute;
-                top: 440px;
+            flex-direction: column;
 
-                a {}
+            h1 {
+                font-size: 1rem;
+            }
+
+            .news--simple--container--btn--back {
+                position: relative;
+                bottom: 90px;
+                left: 66vw;
             }
         }
 
-        &--box001 {
+        &--box002 {
+            color: orange;
+            flex-direction: column;
+            margin: 0 auto;
+            height: 70vh;
             width: 92vw;
 
+            &--text {
+                padding-right: 20px;
+                text-align: center;
+            }
+
+            &--image {
+                height: auto;
+                transform: scale(1);
+                transition: 0s;
+                width: 60vw;
+
+                .image--file {
+                    max-height: auto;
+                    max-width: 100%;
+                }
+            }
+
+            &--image:hover {
+                transform: scale(1);
+            }
+        }
+    }
+
+    .news--simple--container--long {
+
+        height: 160vh;
+        width: 86vw;
+
+        &--header {
+            flex-direction: column;
+            width: 84vw;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .news--simple--container--btn--back {
+                align-self: flex-end;
+            }
+        }
+
+
+        &--box003 {
+            //none to change;
+        }
+
+        &--box005 {
+            height: 140vh;
+            width: 80vw;
+
+
+            &--part1 {
+                width: 80vw;
+
+                &--box1,
+                &--box2 {
+                    width: 36vw;
+                }
+            }
+
+            &--part2 {
+
+                width: 80vw;
+
+                &--person {
+
+                    width: 34vw;
+
+                    &--header {
+                        width: 26vw;
+                    }
+
+                    &--logo {
+                        width: 24vw;
+                    }
+
+                    &--text {
+                        width: 100%;
+
+                        p {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}
+
+@include breakPoint(large) {
+
+    main {
+        height: 150vh;
+    }
+
+    .news--simple--container {
+        @include simple--container--small;
+        height: 90vh;
+
+        &--box001 {
+            height: 80vh;
+            width: 90vw;
+
             h3 {
+                @include simple--container--h3;
                 font-size: 1rem;
             }
 
@@ -411,387 +531,500 @@ main {
         }
 
         &--box002 {
-            min-height: 450px;
-            margin: 0 auto;
-            width: 92vw;
-            display: flex;
+            color: orange;
             flex-direction: column;
+            margin: 0 auto;
+            height: 70vh;
+            width: 92vw;
 
             &--text {
+                padding-right: 20px;
                 text-align: center;
-            }
-
-            h3 {
-                color: orange;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                padding: 10px;
-                text-align: center;
-            }
-
-            p {
-                color: orange;
-                padding: 8px;
             }
 
             &--image {
-                margin: 0 auto;
-                max-width: 800px;
-                max-height: 400px;
-                display: flex;
-                justify-content: center;
+                height: auto;
                 transform: scale(1);
-                transition-duration: 3s;
+                transition: 0s;
+                width: 70vw;
 
                 .image--file {
-
-                    max-height: 90%;
-                    max-width: 90%;
+                    max-height: auto;
+                    max-width: 100%;
                 }
             }
 
             &--image:hover {
-
-                transform: scale(1.05);
-                left: 200px;
-
+                transform: scale(1);
             }
-
         }
-
     }
 
     .news--simple--container--long {
 
-        @include simple--container--small();
-        height: 1000px;
+        height: 160vh; // to jest okej.
+        width: 94vw;
 
         &--box003 {
-            height: 900px;
-            width: 92vw;
-
-            h3 {}
-
-            p {
-                padding: 10px;
-            }
-
-            .news-003--table {
-                width: 90vw;
-                display: block;
-                margin: 20px auto;
-                overflow: scroll;
-
-
-                table {
-                    th {
-                        padding: 6px;
-                        font-size: 0.8rem;
-                        color: orange;
-                        letter-spacing: 1px;
-
-                        .col--image {
-                            max-width: 30px;
-                            max-height: 30px;
-                        }
-
-                        .table--image {
-                            max-width: 30px;
-                            max-height: 30px;
-                        }
-
-                    }
-
-                    td {}
-
-                    .tr--title {}
-
-                    .dark {
-                        th {
-                            font-size: 0.8rem;
-                        }
-
-                    }
-
-                    .light {
-                        th {
-                            font-size: 0.8rem;
-                        }
-                    }
-                }
-            }
-
-
+            width: 90vw;
         }
 
         &--box005 {
 
-            width: 92vw;
-
-            h3 {
-                border-bottom: solid 2px bisque;
-                color: bisque;
-                width: 92vw;
-                margin-top: 10px;
-            }
-
+            //none;
             &--part1 {
-                height: 300px;
-                margin: 0 auto;
-                width: 92vw;
+                flex-direction: column;
+                height: 620px;
+                width: 88vw;
 
-                &--box1 {
-
-                    height: 200px;
-                    margin: 5px auto;
-                    width: 96vw;
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
+                &--box1,
+                &--box2 {
+                    flex-direction: row;
+                    height: 50vh;
+                    width: 80vw;
 
                     &--logo--left {
-                        max-height: 80vw;
+                        height: 28vh;
                         width: auto;
-                        display: none;
-                        justify-content: left;
-                        object-fit: cover;
 
-                        .--img {
-                            border-radius: 12px;
-                            max-height: 100%;
-                            max-width: 100%;
-                        }
                     }
-
-                    &--text {
-
-                        margin: auto auto;
-                        height: 210px;
-                        width: 92vw;
-
-                        h4 {
-                            margin-bottom: 8px;
-                            margin-left: 8px;
-                            letter-spacing: 0.5px;
-                            font-weight: 400;
-                            font-size: 20px;
-                            text-align: center;
-                        }
-
-                        p {
-                            text-align: center;
-                            padding: 2px;
-                        }
-
-                        li {
-                            text-align: center;
-                        }
-                    }
-                }
-
-                &--box2 {
-                    height: 70px;
-                    margin: 5px auto;
-                    width: 96vw;
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
 
                     &--logo--right {
-                        height: 240px;
-                        width: 450px;
-                        display: none;
-                        justify-content: right;
-                        object-fit: cover;
-
-                        .--img {
-                            border-radius: 12px;
-                            max-height: 100%;
-                            max-width: 100%;
-                        }
+                        height: 28vh;
+                        width: auto;
                     }
 
                     &--text {
-
-                        margin: auto auto;
-                        height: 210px;
-                        width: 92vw;
-
-                        h4 {
-                            margin-bottom: 8px;
-                            margin-left: 8px;
-                            letter-spacing: 0.5px;
-                            font-weight: 400;
-                            font-size: 20px;
-                            text-align: center;
-                        }
-
-                        p {
-                            text-align: center;
-                            padding: 2px;
-                        }
-
-                        li {
-                            text-align: center;
-                        }
+                        font-size: 0.8rem;
+                        height: 12vh;
+                        width: 30vw;
                     }
                 }
+            }
+        }
+    }
 
+    .news--simple--container--xlong {
+
+        @include simple--container();
+        height: 200vh;
+
+        &--box004 {
+            color: orange;
+            margin: 0 auto;
+
+            h3 {
+                @include simple--container--h3;
             }
 
-            &--part2 {
-                height: 200px;
-                width: 96vw;
+            .news004--refBox {
+                align-items: center;
                 display: flex;
                 flex-direction: column;
+                justify-content: space-around;
 
-                &--person {
-                    height: 200px;
-                    width: 88vw;
+                &--person--container {
+                    background: $bg-color-grey-orange-bottom;
+                    border: solid 3px black;
+                    border-radius: 10px;
+                    box-shadow: 0 0 16px 1px black;
+                    color: black;
                     display: flex;
-                    flex-direction: column;
-                    margin: 10px auto;
-
-                    &--header {
-                        font-size: 24px;
-                        height: 40px;
-                        text-align: center;
-                        width: 360px;
-                    }
+                    margin-top: 10px;
+                    min-height: 30vh;
+                    width: 54vw;
 
                     &--logo {
-                        height: 200px;
-                        margin-left: 10px;
-                        width: 200px;
-                        display: none;
                         align-items: center;
+                        color: black;
+                        display: flex;
+                        flex-direction: column;
+                        margin: auto auto;
+                        max-height: 20vh;
+                        max-width: 12vw;
 
-                        &--img {
-
+                        &--image {
+                            border: solid 1px black;
+                            border-radius: 4px;
                             max-height: 100%;
                             max-width: 100%;
+                            overflow: hidden;
+                        }
+
+                        &--name {
+                            font-size: 1rem;
+                            font-weight: 600;
+                            letter-spacing: 1px;
+                            text-align: center;
+                            padding-top: 5px;
                         }
                     }
 
                     &--text {
-                        height: 400px;
-                        margin: 10px auto;
-                        text-align: center;
-                        width: 90%;
+                        margin: 5px;
+                        min-height: 18vh;
+                        padding: 5px;
+                        width: 34vw;
 
                         h4 {
-
-                            color: orange;
-                            margin-bottom: 30px;
-                            margin-top: 10px;
+                            border-bottom: solid 1px black;
                             letter-spacing: 1px;
+                            margin-bottom: 10px;
+                            padding: 2px;
                             text-align: center;
-                        }
-
-                        h5 {
-                            border-bottom: solid 1px orange;
-                            font-size: 16px;
-                            letter-spacing: 1px;
-
                         }
 
                         &--img {
                             margin-left: 10px;
-                            margin-right: 10px;
                             max-height: 40px;
                             max-width: 40px;
                             position: relative;
                             top: 16px;
                         }
 
-                        p {
-                            margin: 10px auto;
+                        li {
+                            font-size: 1rem;
+                            padding: 3px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@include breakPoint(medium) {
+
+    main {
+        height: 100vh;
+    }
+
+    .news--simple--container {
+        @include simple--container--small;
+        height: 90vh;
+
+        &--box002 {
+            color: orange;
+            flex-direction: column;
+            margin: 0 auto;
+            height: 70vh;
+            width: 92vw;
+
+            &--text {
+                padding-right: 20px;
+                text-align: center;
+            }
+
+            &--image {
+                height: auto;
+                transform: scale(1);
+                transition: 0s;
+                width: 92vw;
+
+                .image--file {
+                    max-height: auto;
+                    max-width: 100%;
+                }
+            }
+
+            &--image:hover {
+                transform: scale(1);
+            }
+        }
+    }
+
+    .news--simple--container--long {
+
+        height: 150vh;
+        width: 96vw;
+
+        &--header {
+            h1 {
+                font-size: 1.2rem;
+            }
+        }
+
+        &--box003 {
+            height: 120vh;
+            width: 94vw;
+
+            .news-003--table {
+                table {
+
+                    th {
+                        font-size: 0.8rem;
+                    }
+
+                    td {
+                        font-size: 0.8rem;
+                    }
+
+                    .dark {
+                        th {
+                            font-size: 0.7rem;
+                        }
+                    }
+
+                    .light {
+                        th {
+                            font-size: 0.7rem;
                         }
                     }
                 }
             }
         }
 
-    }
-
-
-    .news--simple--container--xlong {
-
-        @include simple--container--small();
-        box-shadow: 0 0 0px 0px black;
-        height: 1640px;
-
-        &--box004 {
-            width: 96vw;
-            height: 1400px;
+        &--box005 {
+            height: 135vh;
+            width: 88vw;
 
             h3 {
-                width: 92vw;
-                margin: 20px 0;
-
+                @include simple--container--h3;
             }
 
-            .news004--refBox {
-                width: 92vw;
+            &--part1 {
+                flex-direction: column;
+                height: 620px;
+                width: 88vw;
 
+                &--box1,
+                &--box2 {
+                    flex-direction: row;
+                    height: 50vh;
+                    width: 88vw;
 
-                &--person--container {
-                    box-shadow: 0 0 0px 0px black;
-                    display: flex;
-                    flex-direction: column;
-                    width: 90vw;
-                    margin-top: 10px;
+                    &--logo--left {
+                        height: 28vh;
+                        width: auto;
 
-                    &--logo {
-                        width: 80vw;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                        color: orange;
-                        margin-bottom: 0px;
+                    }
 
-                        &--image {
-                            border: solid 1px black;
-                            border-radius: 4px;
-                            max-height: 0px;
-                            max-width: 0px;
-                            overflow: hidden;
-                            text-align: center;
-                            display: none;
-
-                        }
-
-                        &--name {
-                            color: bisque;
-                            text-shadow: 5px;
-                            font-size: 1.2rem;
-                            font-weight: 600;
-                            letter-spacing: 2px;
-                            text-align: center;
-                            width: 80vw;
-                            margin: 0 auto;
-                        }
+                    &--logo--right {
+                        height: 28vh;
+                        width: auto;
                     }
 
                     &--text {
-                        width: 84vw;
                         font-size: 0.8rem;
-                        padding: 0;
+                        height: 12vh;
+                        width: 30vw;
+                    }
+                }
+            }
 
-                        h4 {}
+            &--part2 {
 
-                        &--img {}
+                height: 30vh;
+                width: 88vw;
 
-                        p {}
+                &--person {
+                    height: 24vh;
+                    width: 42vw;
 
-                        li {}
+                    &--header {
+                        font-size: 1.2rem;
+                        height: 6vh;
+                        width: 40vw;
+                    }
+
+                    &--logo {
+                        display: none;
+                    }
+
+                    &--text {
+                        height: 20vh;
+
+                        h5 {
+                            font-size: 1rem;
+                            height: 4vh;
+                        }
+
+                        p {
+                            font-size: 0.8rem;
+                        }
                     }
                 }
             }
         }
 
+    }
+}
 
+
+@include breakPoint(small) {
+
+    main {
+        height: 100vh;
     }
 
+    .news--simple--container {
+        @include simple--container--small;
+        height: 90vh;
+
+        &--header {
+            flex-direction: column;
+
+            .news--simple--container--btn--back {
+                position: relative;
+                bottom: 90px;
+                left: 66vw;
+            }
+        }
+
+
+        &--box002 {
+            color: orange;
+            flex-direction: column;
+            margin: 0 auto;
+            height: 70vh;
+            width: 92vw;
+
+            &--text {
+                padding-right: 20px;
+                text-align: center;
+            }
+
+            &--image {
+                height: auto;
+                transform: scale(1);
+                transition: 0s;
+                width: 92vw;
+
+                .image--file {
+                    max-height: auto;
+                    max-width: 100%;
+                }
+            }
+
+            &--image:hover {
+                transform: scale(1);
+            }
+        }
+    }
+
+    .news--simple--container--long {
+
+        height: 178vh;
+        width: 96vw;
+
+        &--header {
+            h1 {
+                font-size: 1.2rem;
+            }
+        }
+
+
+        &--box003 {
+            height: 120vh;
+
+            .news-003--table {
+
+                justify-content: flex-start;
+                overflow: scroll;
+
+                table {
+                    margin-top: 4vh;
+
+                    th {
+                        font-size: 0.8rem;
+                    }
+
+                    td {
+                        font-size: 0.6rem;
+                    }
+
+                    .dark {
+                        th {
+                            font-size: 0.7rem;
+                        }
+                    }
+
+                    .light {
+                        th {
+                            font-size: 0.7rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        &--box005 {
+            height: 140vh;
+            width: 92vw;
+
+            h3 {
+                @include simple--container--h3;
+            }
+
+            &--part1 {
+                flex-direction: column;
+                height: 90vh;
+                width: 90vw;
+
+                &--box1,
+                &--box2 {
+                    flex-direction: column;
+                    height: 88vh;
+                    width: 88vw;
+
+                    &--logo--right {
+                        display: none;
+                    }
+
+                    &--text {
+                        height: 12vh;
+                        margin: 10px auto;
+                        width: 88vw;
+                    }
+                }
+            }
+
+            &--part2 {
+                flex-direction: column;
+                height: 48vh;
+                width: 90vw;
+
+                &--person {
+                    border: none;
+                    flex-direction: column;
+                    height: 18vh;
+                    width: 88vw;
+
+                    &--header {
+                        border-bottom: solid 1px orange;
+                        font-size: 1rem;
+                        height: 10vh;
+                        width: 88vw;
+                    }
+
+                    &--logo {
+                        display: none;
+                    }
+
+                    &--text {
+                        height: 20vh;
+                        width: 90%;
+
+                        h5 {
+                            border: none;
+                            font-size: 1rem;
+                            height: 3vh;
+                        }
+
+                        &--img {
+                            display: none;
+                        }
+
+                        p {
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
 
 }

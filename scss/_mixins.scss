@@ -71,8 +71,9 @@ $breakPoins: (
     &--header {
         margin: 0 auto;
         display: flex;
+        flex-direction: row;
         justify-content: center;
-        width: 900px;
+        width: 66vw;
         height: 100px;
         padding-top: 10px;
 
@@ -92,8 +93,9 @@ $breakPoins: (
             width: 80px;
             color: $main-text-color;
             cursor: pointer;
-            position: relative;
-            left: 30px;
+            justify-content: flex-end;
+
+
 
             a {
                 color: $main-text-color;
@@ -273,6 +275,8 @@ $breakPoins: (
     }
 }
 
+// mixins media-queries
+
 @mixin title--small {
 
 
@@ -328,40 +332,37 @@ $breakPoins: (
     background: $bg-color-black;
     box-shadow: 8px 8px black;
     width: 92vw;
-    height: 500px;
+    height: 120vh;
     margin: 30px auto;
+
 
     &--header {
         margin: 0 auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
-        width: 92vw;
+        width: 88vw;
         height: 100px;
         padding-top: 10px;
 
         h1 {
-
             color: $main-text-color;
             letter-spacing: 1px;
             height: 80px;
             margin: 0 auto;
             text-align: center;
-            font-size: 1.5rem;
-            margin-top: 50px;
         }
 
         .news--simple--container--btn--back {
             background: $bg-color-black;
             border: solid 2px orange;
-            /*             border-bottom: none; */
-            font-size: 0.8rem;
+            font-size: 1rem;
             max-height: 30px;
-            width: 14vw;
+            width: 80px;
             color: $main-text-color;
             cursor: pointer;
-            left: 74vw;
-            bottom: 100px;
+            justify-content: flex-end;
+
 
 
             a {
