@@ -17,7 +17,7 @@
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
 
-  <main style="height: 1650px">
+  <main style="height: 220vh;">
     <div class="news--simple--container--xlong">
       <div class="news--simple--container--xlong--header">
         <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</h1>

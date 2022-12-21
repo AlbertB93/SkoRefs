@@ -4,7 +4,7 @@
 
 
 main {
-    height: 600px;
+    height: 200vh;
 }
 
 
@@ -293,7 +293,7 @@ main {
 .news--simple--container--xlong {
 
     @include simple--container();
-    height: 200vh;
+    height: 210vh;
 
     &--box004 {
         color: orange;
@@ -502,6 +502,37 @@ main {
 
     }
 
+    .news--simple--container--xlong {
+
+        height: 210vh;
+        width: 86vw;
+
+        &--header {
+            flex-direction: column;
+            width: 84vw;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .news--simple--container--btn--back {
+                align-self: flex-end;
+            }
+        }
+
+
+        &--box004 {
+            .news004--refBox {
+                &--person--container {
+                    width: 70vw;
+
+                    &--logo {
+                        max-width: 30vw;
+                    }
+                }
+            }
+        }
+    }
 
 }
 
@@ -562,7 +593,7 @@ main {
 
     .news--simple--container--long {
 
-        height: 160vh; // to jest okej.
+        height: 160vh;
         width: 94vw;
 
         &--box003 {
@@ -605,87 +636,17 @@ main {
     }
 
     .news--simple--container--xlong {
-
-        @include simple--container();
-        height: 200vh;
+        height: 210vh;
+        width: 94vw;
 
         &--box004 {
-            color: orange;
-            margin: 0 auto;
-
-            h3 {
-                @include simple--container--h3;
-            }
 
             .news004--refBox {
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-
                 &--person--container {
-                    background: $bg-color-grey-orange-bottom;
-                    border: solid 3px black;
-                    border-radius: 10px;
-                    box-shadow: 0 0 16px 1px black;
-                    color: black;
-                    display: flex;
-                    margin-top: 10px;
-                    min-height: 30vh;
-                    width: 54vw;
-
-                    &--logo {
-                        align-items: center;
-                        color: black;
-                        display: flex;
-                        flex-direction: column;
-                        margin: auto auto;
-                        max-height: 20vh;
-                        max-width: 12vw;
-
-                        &--image {
-                            border: solid 1px black;
-                            border-radius: 4px;
-                            max-height: 100%;
-                            max-width: 100%;
-                            overflow: hidden;
-                        }
-
-                        &--name {
-                            font-size: 1rem;
-                            font-weight: 600;
-                            letter-spacing: 1px;
-                            text-align: center;
-                            padding-top: 5px;
-                        }
-                    }
-
                     &--text {
-                        margin: 5px;
-                        min-height: 18vh;
-                        padding: 5px;
-                        width: 34vw;
-
-                        h4 {
-                            border-bottom: solid 1px black;
-                            letter-spacing: 1px;
-                            margin-bottom: 10px;
-                            padding: 2px;
-                            text-align: center;
-                        }
-
                         &--img {
-                            margin-left: 10px;
-                            max-height: 40px;
-                            max-width: 40px;
-                            position: relative;
-                            top: 16px;
-                        }
+                            display: none;
 
-                        li {
-                            font-size: 1rem;
-                            padding: 3px;
-                            text-align: left;
                         }
                     }
                 }
@@ -850,6 +811,61 @@ main {
         }
 
     }
+
+    .news--simple--container--xlong {
+
+        height: 210vh;
+        width: 92vw;
+
+        &--header {
+            flex-direction: column;
+            width: 84vw;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .news--simple--container--btn--back {
+                align-self: flex-end;
+            }
+        }
+
+
+        &--box004 {
+            color: orange;
+            margin: 0 auto;
+
+            h3 {
+                @include simple--container--h3;
+            }
+
+            .news004--refBox {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                &--person--container {
+                    width: 80vw;
+
+                    &--logo {
+                        max-height: auto;
+                        max-width: 30vw;
+                    }
+
+                    &--text {
+                        width: 40vw;
+
+                        li {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
 }
 
 
@@ -1026,5 +1042,108 @@ main {
         }
 
     }
+
+    .news--simple--container--xlong {
+
+        height: 220vh;
+        width: 92vw;
+
+        &--header {
+            flex-direction: column;
+            width: 84vw;
+
+            h1 {
+                font-size: 1rem;
+            }
+
+            .news--simple--container--btn--back {
+                align-self: flex-end;
+            }
+        }
+
+
+        &--box004 {
+            margin-top: 20px;
+            height: 200vh;
+            width: 92vw;
+
+            h3 {
+                @include simple--container--h3;
+            }
+
+            .news004--refBox {
+                flex-direction: column;
+                width: 92vw;
+
+                &--person--container {
+                    background: $bg-color-grey-orange-bottom;
+                    border: solid 3px black;
+                    border-radius: 10px;
+                    box-shadow: 0 0 16px 1px black;
+                    color: black;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10px;
+                    min-height: 30vh;
+                    width: 90vw;
+
+                    &--logo {
+                        align-items: center;
+                        color: black;
+                        display: flex;
+                        flex-direction: column;
+                        margin: auto auto;
+                        max-height: 20vh;
+                        max-width: 90vw;
+
+                        &--image {
+                            display: none;
+
+                        }
+
+                        &--name {
+                            font-size: 1rem;
+                            font-weight: 600;
+                            letter-spacing: 1px;
+                            text-align: center;
+                            padding-top: 5px;
+                        }
+                    }
+
+                    &--text {
+                        margin: 5px;
+                        min-height: 18vh;
+                        padding: 5px;
+                        width: 90vw;
+
+                        h4 {
+                            border-bottom: solid 1px black;
+                            letter-spacing: 1px;
+                            margin-bottom: 10px;
+                            padding: 2px;
+                            text-align: center;
+                        }
+
+                        &--img {
+                            margin-left: 10px;
+                            max-height: 40px;
+                            max-width: 40px;
+                            position: relative;
+                            top: 16px;
+                        }
+
+                        li {
+                            font-size: 1rem;
+                            padding: 3px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
 
 }
