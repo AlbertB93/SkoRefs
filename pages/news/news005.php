@@ -17,7 +17,7 @@
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
 
-  <main style="height: 1200px">
+  <main style="height: 160vh;">
     <div class="news--simple--container--long">
       <div class="news--simple--container--long--header">
         <h1>Rozgrywki Kobiet - podsumowanie rundy</h1>

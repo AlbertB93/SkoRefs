@@ -171,7 +171,7 @@
     height: 61vh;
     left: 10vw;
     position: fixed;
-    width: 80vw;
+    width: 86vw;
     z-index: 100;
 
     .popup--photo--field {
@@ -185,15 +185,14 @@
         width: 16vw;
 
         .popup--photo {
-            border: solid 1px black;
             border-radius: 4px;
-            max-height: auto;
+            max-height: 45vh;
             width: 14vw;
         }
 
         .popup--photo--text {
-            max-height: auto;
-            max-width: 16vw;
+            height: 16vh;
+            width: 16vw;
 
             p {
                 font-size: 1.2rem;
@@ -214,11 +213,10 @@
         width: 44vw;
 
         .popup--name {
-
             color: orange;
             font-weight: 300;
             font-size: 2rem;
-            height: 50px;
+            height: 8vh;
             letter-spacing: 1px;
             text-align: center;
             text-shadow: 0.1rem 0.1rem black;
@@ -245,6 +243,7 @@
         .popup--description {
             color: black;
             font-size: 1.3rem;
+            height: 50vh;
             margin: 20px;
             overflow-y: auto;
             padding-right: 10px;
@@ -260,28 +259,30 @@
 
     .popup--static {
         height: 60vh;
-        margin: 20px auto;
-        padding-left: 10px;
-        width: 18vw;
+        margin: 0px auto;
+        padding-left: 1vw;
+        width: 24vw;
 
         .static--title {
             border-bottom: solid 1px orange;
             color: orange;
             font-size: 1.5rem;
             margin: 0 auto;
-            max-width: 15vw;
+            width: 22vw;
             text-align: center;
         }
 
         .static--table {
+            display: flex;
             font-size: 1.2rem;
             height: 300px;
-            max-width: 10vw;
+            justify-content: center;
+            width: 22vw;
             text-align: center;
 
             table {
-                margin: 0 auto;
-                max-width: 10vw;
+                margin: 4px auto;
+                width: 18vw;
 
                 th {
                     font-size: 1rem;
@@ -559,6 +560,111 @@
 
     }
 
+    .popup--main {
+        background: $bg-color-grey-orange-top;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 94vh;
+        left: 6vw;
+        top: 2vh;
+        width: 92vw;
+
+        .popup--photo--field {
+            border: solid 0px black;
+            flex-direction: column;
+            height: 40vh;
+            justify-content: space-around;
+            margin: 2vh auto;
+            order: 1;
+            width: 30vw;
+
+            .popup--photo {
+                max-height: 35vh;
+                width: 20vw;
+            }
+
+            .popup--photo--text {
+                height: 16vh;
+                width: 30vw;
+
+                p {
+                    color: black;
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+
+        .popup--container {
+            border-right: solid 0px black;
+            display: flex;
+            flex-direction: column;
+            height: 36vh;
+            order: 0;
+            padding-left: 0px;
+            width: 80vw;
+
+            .popup--name {
+                color: black;
+                font-size: 1.5rem;
+                height: 6vh;
+                text-shadow: 0.0rem 0.0rem black;
+                margin-top: 20px;
+                width: 80vw;
+
+                .popup--btn {
+                    border: solid 2px black;
+                    color: black;
+                }
+
+            }
+
+            .popup--description {
+                color: black;
+                font-size: 1rem;
+                height: 50vh;
+                width: 80vw;
+            }
+        }
+
+
+        .popup--static {
+            height: 50vh;
+            margin: 0px auto;
+            order: 2;
+            padding-left: 1vw;
+            width: 36vw;
+
+            .static--title {
+                border-bottom: solid 1px black;
+                color: black;
+                font-size: 1.2rem;
+                width: 34vw;
+            }
+
+            .static--table {
+                font-size: 1rem;
+                height: 30vh;
+                width: 34vw;
+
+                table {
+                    width: 18vw;
+
+                    th {
+                        font-size: 1rem;
+                        padding: 4px;
+                    }
+
+                    td {
+                        font-size: 1rem;
+                        padding: 4px;
+                    }
+                }
+            }
+        }
+    }
+
+
 }
 
 
@@ -582,5 +688,171 @@
             }
         }
     }
+
+    .popup--main {
+        display: flex;
+        background: $bg-color-grey-orange-top;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 94vh;
+        left: 6vw;
+        top: 2vh;
+        width: 92vw;
+        overflow-y: auto;
+
+
+        .popup--photo--field {
+
+            align-items: center;
+            border-radius: 12px;
+            border: solid 2px red;
+            display: flex;
+            flex-direction: column;
+            height: 14vh;
+            justify-content: space-around;
+            margin: 2vh auto;
+            padding: 2px;
+            width: 90vw;
+            order: 1;
+
+            .popup--photo {
+                display: none;
+                border-radius: 4px;
+                max-height: 35vh;
+                width: 20vw;
+            }
+
+            .popup--photo--text {
+                height: 10vh;
+                width: 90vw;
+
+                p {
+                    color: black;
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                    margin-top: 2px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .popup--container {
+            align-items: center;
+            border: solid 1px red;
+            display: flex;
+            flex-direction: column;
+            height: 50vh;
+            margin: 0 auto;
+            padding-left: 0px;
+            width: 80vw;
+            order: 0;
+
+            .popup--name {
+                color: black;
+                font-weight: 300;
+                font-size: 1rem;
+                height: 6vh;
+                letter-spacing: 1px;
+                text-align: center;
+                text-shadow: 0.0rem 0.0rem black;
+                margin-top: 20px;
+                width: 80vw;
+
+                .popup--btn {
+                    background: transparent;
+                    border: solid 2px black;
+                    border-radius: 8px;
+                    bottom: 0.5vw;
+                    color: black;
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                    left: 10vw;
+                    position: relative;
+                    padding: 5px;
+                    text-decoration: bold;
+                    width: 40px;
+                }
+
+            }
+
+            .popup--description {
+                color: black;
+                font-size: 1rem;
+                height: 50vh;
+                margin: 20px;
+                overflow-y: auto;
+                padding-right: 10px;
+                padding-top: 10px;
+                width: 80vw;
+
+                p {
+                    text-indent: 2vw;
+                }
+            }
+        }
+
+
+        .popup--static {
+            border: solid 1px yellow;
+            height: 60vh;
+            margin: 0px auto;
+            padding-left: 1vw;
+            width: 80vw;
+            order: 2;
+
+
+            .static--title {
+                border-bottom: solid 1px black;
+                color: black;
+                font-size: 1.2rem;
+                margin: 0 auto;
+                width: 80vw;
+                text-align: center;
+            }
+
+            .static--table {
+                display: flex;
+                font-size: 1rem;
+                height: 30vh;
+                justify-content: center;
+                width: 80vw;
+                text-align: center;
+
+                table {
+                    margin: 4px auto;
+                    width: 18vw;
+
+                    th {
+                        font-size: 1rem;
+                        padding: 4px;
+
+                        .table--image {
+                            max-height: 50px;
+                            max-width: 50px;
+                        }
+                    }
+
+                    td {
+                        border-radius: 12px;
+                        font-size: 1rem;
+                        padding: 4px;
+                    }
+
+                    .dark {
+                        background-color: rgb(210, 148, 34);
+                        border-radius: 12px;
+                    }
+                }
+            }
+
+            p {
+                bottom: 10px;
+                font-size: 0.8rem;
+                position: absolute;
+                right: 10px;
+            }
+        }
+    }
+
 
 }

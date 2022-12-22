@@ -425,7 +425,7 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
   font-size: 50px;
   height: 50px;
   width: 50px;
-  right: 200px;
+  right: 5vw;
 }
 
 .popupGallery .popupArrow--right .text {
@@ -444,7 +444,7 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
   font-size: 50px;
   height: 50px;
   width: 50px;
-  left: 200px;
+  left: 5vw;
 }
 
 .popupGallery .popupArrow--left .text {
@@ -526,5 +526,40 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
     cursor: pointer;
     max-width: 100%;
     max-height: 100%;
+  }
+  .popupGallery .popupGallery--img {
+    height: auto;
+    width: 80vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .popupGallery .popupGallery--img {
+    height: auto;
+    width: 80vw;
+  }
+  .popupGallery .popupArrow--right {
+    border: solid 1px orange;
+    border-radius: 0px;
+    font-size: 20px;
+    height: 30px;
+    right: 5vw;
+    width: 30px;
+  }
+  .popupGallery .popupArrow--right .text {
+    bottom: 2px;
+    right: 10px;
+  }
+  .popupGallery .popupArrow--left {
+    border: solid 1px orange;
+    border-radius: 0px;
+    font-size: 20px;
+    height: 30px;
+    left: 5vw;
+    width: 30px;
+  }
+  .popupGallery .popupArrow--left .text {
+    bottom: 2px;
+    right: 10px;
   }
 }

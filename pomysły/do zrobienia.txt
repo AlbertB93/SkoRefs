@@ -3,19 +3,16 @@
 
 
 
-- przejrzeć wszystkie pliki scss 
+
 - zmienić fotki sędziów w popupach
 - zebrać info od sędziów
-
-
--Rozdzielczość na telefonie.
 
 - zdjęcia wyświetlane na telefonie za pomocą popupów
 - artykuły, podsumowanie rundy, pierwszy post
 
 
 
-
+kto był w mentorskim ?? 
 
 
 

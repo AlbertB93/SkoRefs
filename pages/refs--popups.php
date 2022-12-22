@@ -573,6 +573,7 @@
             <p>
                 Paweł w bardzo młodym wieku ( ile lat ? ) zadebiutował jako asystent na meczu III ligi: X --- X
             </p>
+            </br>
             Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
@@ -645,7 +646,7 @@
         <img src="../images/persons/PKarol-pop.PNG " alt="zdjęcie Karol Purtak" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: X. </p>
+            <p> Sędzia od: 2015r. </p>
             <p> Obecnie: Sędzia klasy "O"</p>
         </div>
     </div>
@@ -656,11 +657,13 @@
         </div>
         <div class="popup--description">
             <p>
-                Paweł w sezonie 2020/2021 dostałem awans do B klasy, w której spędził jeden sezon. "A" klasę zaczął sędziować w sezonie 2021/2022, z której awansował po roku do klasy "O".
+                Karol, po półroku sędziowania, awansował do klasy "B". W sezonie 2017/2018 uzyskał awans do klasy "A".
+                Klasę "O" zaczął sędziować w sezonie 2019/2020.
             </p>
             <p>
-                Paweł w bardzo młodym wieku ( ile lat ? ) zadebiutował jako asystent na meczu III ligi: X --- X
+                Karol większość meczów sędziował jako asystent. </br>Do tej pory był sędzią asystentem 31 razy w III lidze.
             </p>
+            </br>
             Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
@@ -684,46 +687,47 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
                         <td>0</td>
+                        <td>31*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>5</td>
-                        <td>2</td>
+                        <td>0</td>
+                        <td>35*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>16*</td>
+                        <td>12*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>16*</td>
+                        <td>31*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>12*</td>
+                        <td>22*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
+                        <td>44*</td>
+                        <td>64*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane wg strony kieleckapilka.pl</p>
         </div>
     </div>
 </div>
