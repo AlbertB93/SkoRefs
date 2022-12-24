@@ -106,14 +106,14 @@
             </div>
             <div class="refs--container--person" id="DA">
                 <div class="refs--container--person--logo" onClick="openPopup(10)">
-                    <img src="../images/persons/face.png" alt="zdjęcie Adrian Dzięcioł" class="refs--container--person--logo--image">
+                    <img src="../images/persons/DAdrian.PNG" alt="zdjęcie Adrian Dzięcioł" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Adrian Dzięcioł</p>
                     <p> Sędzia klasy "B"</p>
                 </div>
             </div>
             <div class="refs--container--person" id="TB">
                 <div class="refs--container--person--logo" onClick="openPopup(11)">
-                    <img src="../images/persons/face.png" alt="zdjęcie Błażej Turski" class="refs--container--person--logo--image">
+                    <img src="../images/persons/TBlazej.png" alt="zdjęcie Błażej Turski" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Błażej Turski</p>
                     <p> Sędzia klasy "B"</p>
                 </div>

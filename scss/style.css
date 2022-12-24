@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 body,
 html {
   background: linear-gradient(to top, #352e1f, #31291b);
-  min-height: 100vh;
+  min-height: auto;
   position: relative;
   max-width: 100%;
   width: 100vw;
@@ -52,7 +52,7 @@ html {
 
 body main,
 html main {
-  min-height: 100vh;
+  min-height: 67vh;
 }
 
 body header,
@@ -313,7 +313,7 @@ html footer {
   display: grid;
   grid-template-columns: 2% 19% 19% 19% 19% 19% 3%;
   grid-template-rows: 10% 10% 10% 70%;
-  height: 100vh;
+  height: 60vh;
   margin: 0 auto;
   width: 92vw;
 }

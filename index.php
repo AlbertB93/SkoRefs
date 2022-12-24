@@ -16,7 +16,7 @@
 <body>
   <?php include("php/header--index.php"); ?>
   <?php include("php/nav--index.php"); ?>
-  <main>
+  <main style="height: auto">
     <div class="index--container">
       <article id="article--5">
         <a href="pages/news/news005.php">Nasze dziewczyny w rozgrywkach kobiecych - podsumowanie rundy</a>

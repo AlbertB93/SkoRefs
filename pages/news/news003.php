@@ -17,7 +17,7 @@
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
 
-  <main style="height: 160vh">
+  <main style="height: 180vh">
     <div class="news--simple--container--long">
       <div class="news--simple--container--long--header">
         <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</h1>

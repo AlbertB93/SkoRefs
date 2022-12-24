@@ -909,7 +909,7 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/face.PNG " alt="zdjęcie Adrian Dzięcioł" class="popup--photo">
+        <img src="../images/persons/DAdrian-pop.PNG" alt="zdjęcie Adrian Dzięcioł" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 2000</p>
             <p> Sędzia od: Xr. </p>
@@ -999,7 +999,7 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/face.PNG " alt="zdjęcie Błażej Turski" class="popup--photo">
+        <img src="../images/persons/TBlazej-pop.PNG " alt="zdjęcie Błażej Turski" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 2002</p>
             <p> Sędzia od: 2020r. </p>

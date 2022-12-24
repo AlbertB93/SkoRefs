@@ -16,7 +16,7 @@
 <body>
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
-  <main>
+  <main style="height: 100vh;">
     <div class="news--simple--container">
       <div class="news--simple--container--header">
         <h1>Zapraszamy na kurs !</h1>

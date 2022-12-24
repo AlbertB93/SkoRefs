@@ -670,6 +670,12 @@
 
 @include breakPoint(small) {
 
+    @mixin simple--container--small {
+
+        
+    }
+
+
     .refs--container {
 
         &--person {
@@ -690,8 +696,8 @@
     }
 
     .popup--main {
-        display: flex;
-        background: $bg-color-grey-orange-top;
+
+        background: $bg-color-grey-orange-bottom;
         flex-direction: row;
         flex-wrap: wrap;
         height: 94vh;
@@ -705,7 +711,6 @@
 
             align-items: center;
             border-radius: 12px;
-            border: solid 2px red;
             display: flex;
             flex-direction: column;
             height: 14vh;
@@ -738,7 +743,6 @@
 
         .popup--container {
             align-items: center;
-            border: solid 1px red;
             display: flex;
             flex-direction: column;
             height: 50vh;
@@ -793,7 +797,6 @@
 
 
         .popup--static {
-            border: solid 1px yellow;
             height: 60vh;
             margin: 0px auto;
             padding-left: 1vw;

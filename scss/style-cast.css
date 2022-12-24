@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 body,
 html {
   background: linear-gradient(to top, #352e1f, #31291b);
-  min-height: 100vh;
+  min-height: auto;
   position: relative;
   max-width: 100%;
   width: 100vw;
@@ -52,7 +52,7 @@ html {
 
 body main,
 html main {
-  min-height: 100vh;
+  min-height: 67vh;
 }
 
 body header,

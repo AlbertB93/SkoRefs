@@ -36,8 +36,10 @@
             @include contact--container--person;
             border-bottom-left-radius: 8px;
             border-top-left-radius: 8px;
-            border-right: none;
+            border-right: none; 
+            position: relative;    
             align-self: flex-end;
+            right: 2px;
         }
     }
 }

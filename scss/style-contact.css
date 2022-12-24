@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 body,
 html {
   background: linear-gradient(to top, #352e1f, #31291b);
-  min-height: 100vh;
+  min-height: auto;
   position: relative;
   max-width: 100%;
   width: 100vw;
@@ -52,7 +52,7 @@ html {
 
 body main,
 html main {
-  min-height: 100vh;
+  min-height: 67vh;
 }
 
 body header,
@@ -383,7 +383,9 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
   border-right: none;
+  position: relative;
   align-self: flex-end;
+  right: 2px;
 }
 
 .contact--container .contact--container--box .contact--container--person--right--title {

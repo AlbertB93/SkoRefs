@@ -928,6 +928,13 @@ main {
         &--header {
             h1 {
                 font-size: 1.2rem;
+                padding-top: 6vh;
+            }
+
+            .news--simple--container--btn--back {
+                bottom: 14vh;
+                left: 0vw;
+                position: relative;
             }
         }
 
@@ -976,7 +983,7 @@ main {
 
             &--part1 {
                 flex-direction: column;
-                height: 90vh;
+                height: 75vh;
                 width: 90vw;
 
                 &--box1,
@@ -1050,6 +1057,7 @@ main {
 
         &--header {
             flex-direction: column;
+            padding-top: 6vh;
             width: 84vw;
 
             h1 {
@@ -1057,13 +1065,15 @@ main {
             }
 
             .news--simple--container--btn--back {
-                align-self: flex-end;
+                bottom: 14vh;
+                left: 0vw;
+                position: relative;
             }
         }
 
 
         &--box004 {
-            margin-top: 20px;
+            margin-top: 0px;
             height: 200vh;
             width: 92vw;
 

@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 body,
 html {
   background: linear-gradient(to top, #352e1f, #31291b);
-  min-height: 100vh;
+  min-height: auto;
   position: relative;
   max-width: 100%;
   width: 100vw;
@@ -52,7 +52,7 @@ html {
 
 body main,
 html main {
-  min-height: 100vh;
+  min-height: 67vh;
 }
 
 body header,
@@ -1318,6 +1318,12 @@ main {
   }
   .news--simple--container--long--header h1 {
     font-size: 1.2rem;
+    padding-top: 6vh;
+  }
+  .news--simple--container--long--header .news--simple--container--btn--back {
+    bottom: 14vh;
+    left: 0vw;
+    position: relative;
   }
   .news--simple--container--long--box003 {
     height: 120vh;
@@ -1355,7 +1361,7 @@ main {
   }
   .news--simple--container--long--box005--part1 {
     flex-direction: column;
-    height: 90vh;
+    height: 75vh;
     width: 90vw;
   }
   .news--simple--container--long--box005--part1--box1, .news--simple--container--long--box005--part1--box2 {
@@ -1412,16 +1418,19 @@ main {
   }
   .news--simple--container--xlong--header {
     flex-direction: column;
+    padding-top: 6vh;
     width: 84vw;
   }
   .news--simple--container--xlong--header h1 {
     font-size: 1rem;
   }
   .news--simple--container--xlong--header .news--simple--container--btn--back {
-    align-self: flex-end;
+    bottom: 14vh;
+    left: 0vw;
+    position: relative;
   }
   .news--simple--container--xlong--box004 {
-    margin-top: 20px;
+    margin-top: 0px;
     height: 200vh;
     width: 92vw;
   }

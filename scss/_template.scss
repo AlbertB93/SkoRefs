@@ -40,13 +40,13 @@ body::-webkit-scrollbar-thumb {
 body,
 html {
     background: $bg-color;
-    min-height: 100vh;
+    min-height: auto;
     position: relative;
     max-width: 100%;
     width: 100vw;
 
     main {
-        min-height: 100vh;
+        min-height: 67vh;
     }
 
     header {

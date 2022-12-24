@@ -39,8 +39,8 @@
                         </div>
                         <div class="contact--container--person--left--box--text">
                             <p>Robert Frączkiewicz</p>
-                            <p>tel. 123 456 789</p>
-                            <p>e-mail: woopps@dasda.pl</p>
+                            <p>tel. 600 447 425</p>
+                            <p>e-mail: franco75@o2.pl</p>
                         </div>
                     </div>
                 </div>
@@ -54,8 +54,8 @@
                         </div>
                         <div class="contact--container--person--right--box--text">
                             <p>Michał Szurek</p>
-                            <p>tel. 123 456 789</p>
-                            <p>e-mail: woopps@dasda.pl</p>
+                            <p>tel. 501 144 295</p>
+                            <p>e-mail: etr1@wp.pl</p>
                         </div>
                     </div>
                 </div>
@@ -69,8 +69,7 @@
                         </div>
                         <div class="contact--container--person--left--box--text">
                             <p>Katarzyna Chrzanowska</p>
-                            <p>tel. 123 456 789</p>
-                            <p>e-mail: woopps@dasda.pl</p>
+                            <p>e-mail: k_chrzanowska@poczta.fm</p>
                         </div>
                     </div>
                 </div>

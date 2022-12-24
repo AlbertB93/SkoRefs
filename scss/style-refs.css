@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
 body,
 html {
   background: linear-gradient(to top, #352e1f, #31291b);
-  min-height: 100vh;
+  min-height: auto;
   position: relative;
   max-width: 100%;
   width: 100vw;
@@ -52,7 +52,7 @@ html {
 
 body main,
 html main {
-  min-height: 100vh;
+  min-height: 67vh;
 }
 
 body header,
@@ -936,8 +936,7 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
     width: 92vw;
   }
   .popup--main {
-    display: flex;
-    background: linear-gradient(to top, #3a393a, #ffba39);
+    background: linear-gradient(to bottom, #3a393a, #ffba39);
     flex-direction: row;
     flex-wrap: wrap;
     height: 94vh;
@@ -949,7 +948,6 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
   .popup--main .popup--photo--field {
     align-items: center;
     border-radius: 12px;
-    border: solid 2px red;
     display: flex;
     flex-direction: column;
     height: 14vh;
@@ -978,7 +976,6 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
   }
   .popup--main .popup--container {
     align-items: center;
-    border: solid 1px red;
     display: flex;
     flex-direction: column;
     height: 50vh;
@@ -1026,7 +1023,6 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
     text-indent: 2vw;
   }
   .popup--main .popup--static {
-    border: solid 1px yellow;
     height: 60vh;
     margin: 0px auto;
     padding-left: 1vw;
