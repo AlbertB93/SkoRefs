@@ -20,9 +20,6 @@
     <div class="news--simple--container">
       <div class="news--simple--container--header">
         <h1>Witamy na stronie !</h1>
-        <button class="news--simple--container--btn--back">
-          <a href="javascript:history.back();">Powrót</a>
-        </button>
       </div>
       <div class="news--simple--container--box001">
         <h3>Poznaj sędziów sekcji Skarżysko...</h3>

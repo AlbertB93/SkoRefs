@@ -26,9 +26,6 @@
             <div class="title">
                 Lista sędziów sekcji Skarżysko - Kamienna
             </div>
-            <div class="btn--index">
-                <a href="../index.php">Strona główna </a>
-            </div>
         </div>
         <div class="refs--container">
             <div class="refs--container--person" id="AA">
@@ -113,7 +110,7 @@
             </div>
             <div class="refs--container--person" id="TB">
                 <div class="refs--container--person--logo" onClick="openPopup(11)">
-                    <img src="../images/persons/TBlazej.png" alt="zdjęcie Błażej Turski" class="refs--container--person--logo--image">
+                    <img src="../images/persons/TBlazej.PNG" alt="zdjęcie Błażej Turski" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Błażej Turski</p>
                     <p> Sędzia klasy "B"</p>
                 </div>

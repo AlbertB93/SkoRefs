@@ -22,9 +22,6 @@
             <div class="title">
                 Do pobrania
             </div>
-            <div class="btn--index">
-                <a href="../index.php">Strona główna </a>
-            </div>
         </div>
         <div class="toDownload--container">
             <div class="toDownload--container--singleBox">

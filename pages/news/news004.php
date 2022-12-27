@@ -17,13 +17,10 @@
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
 
-  <main style="height: 220vh;">
+  <main style="height: auto;">
     <div class="news--simple--container--xlong">
       <div class="news--simple--container--xlong--header">
         <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</h1>
-        <button class="news--simple--container--btn--back">
-          <a href="javascript:history.back();">Powrót</a>
-        </button>
       </div>
       <div class="news--simple--container--xlong--box004">
         <h3>Reprezentanci sekcji na szczeblu centralnym</h3>
@@ -83,33 +80,33 @@
               <li>Escola Varsovia - Cracovia Kraków</li>
             </div>
           </div>
-          <div class="news004--refBox--person--container">
-            <div class="news004--refBox--person--container--logo">
-              <img src="../../images/persons/CJakub-pop.PNG" alt="zdjęcie Jakub Chrzanowski" class="news004--refBox--person--container--logo--image" />
-              <p class="news004--refBox--person--container--logo--name">
+          <div class="news004--refBox--person--container--small">
+            <div class="news004--refBox--person--container--small--logo">
+              <img src="../../images/persons/CJakub-pop.PNG" alt="zdjęcie Jakub Chrzanowski" class="news004--refBox--person--container--small--logo--image" />
+              <p class="news004--refBox--person--container--small--logo--name">
                 Jakub Chrzanowski
               </p>
             </div>
-            <div class="news004--refBox--person--container--text">
+            <div class="news004--refBox--person--container--small--text">
               <h4>
                 3 LIGA - jako sędzia asystent
-                <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--text--img" />
+                <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--small--text--img" />
               </h4>
               <li>Broń Radom - Sokół Ostróda</li>
               <li>Lublinianka Lublin - Korona II Kielce</li>
             </div>
           </div>
-          <div class="news004--refBox--person--container">
-            <div class="news004--refBox--person--container--logo">
-              <img src="../../images/persons/PKarol.PNG" alt="zdjęcie Karol Purtak" class="news004--refBox--person--container--logo--image" />
-              <p class="news004--refBox--person--container--logo--name">
+          <div class="news004--refBox--person--container--small">
+            <div class="news004--refBox--person--container--small--logo">
+              <img src="../../images/persons/PKarol.PNG" alt="zdjęcie Karol Purtak" class="news004--refBox--person--container--small--logo--image" />
+              <p class="news004--refBox--person--container--small--logo--name">
                 Karol Purtak
               </p>
             </div>
-            <div class="news004--refBox--person--container--text">
+            <div class="news004--refBox--person--container--small--text">
               <h4>
                 3 LIGA - jako sędzia asystent
-                <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--text--img" />
+                <img src="../../images/pages/news/table-flag.png" alt="FLAGA" class="news004--refBox--person--container--small--text--img" />
               </h4>
               <li>Unia Tarnów - Avia Świdnik</li>
             </div>

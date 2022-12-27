@@ -3,6 +3,17 @@
 @import "_mixins.scss";
 
 
+nav {
+    .nav--box {
+        & a#news {
+            background: $bg-color-orange-dark;
+            border-radius: 12px;
+            color: black;
+        }
+    }
+}
+
+
 main {
     height: 200vh;
 }
@@ -301,15 +312,18 @@ main {
 
         h3 {
             @include simple--container--h3;
+            margin: 30px auto;
         }
 
         .news004--refBox {
             align-items: center;
             display: flex;
             flex-direction: column;
+            height: 180vh;
             justify-content: space-around;
 
-            &--person--container {
+            &--person--container,
+            &--person--container--small {
                 background: $bg-color-grey-orange-bottom;
                 border: solid 3px black;
                 border-radius: 10px;
@@ -375,6 +389,8 @@ main {
                     }
                 }
             }
+
+
         }
     }
 
@@ -384,9 +400,6 @@ main {
 
 @include breakPoint(xlarge) {
 
-    main {
-        height: 100vh;
-    }
 
     .news--simple--container {
         @include simple--container--small;
@@ -396,13 +409,28 @@ main {
             flex-direction: column;
 
             h1 {
-                font-size: 1rem;
+                font-size: 2rem;
             }
 
             .news--simple--container--btn--back {
                 position: relative;
                 bottom: 90px;
                 left: 66vw;
+            }
+        }
+
+        &--box001 {
+            height: 70vh;
+            margin: 0 auto;
+            width: 80vw;
+
+            h3 {
+                @include simple--container--h3;
+            }
+
+            p {
+                color: orange;
+                padding: 8px;
             }
         }
 
@@ -504,7 +532,7 @@ main {
 
     .news--simple--container--xlong {
 
-        height: 210vh;
+        height: auto;
         width: 86vw;
 
         &--header {
@@ -593,7 +621,7 @@ main {
 
     .news--simple--container--long {
 
-        height: 160vh;
+        height: auto;
         width: 94vw;
 
         &--box003 {
@@ -605,7 +633,7 @@ main {
             //none;
             &--part1 {
                 flex-direction: column;
-                height: 620px;
+                height: 65vh;
                 width: 88vw;
 
                 &--box1,
@@ -629,6 +657,77 @@ main {
                         font-size: 0.8rem;
                         height: 12vh;
                         width: 30vw;
+                    }
+                }
+            }
+
+            &--part2 {
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                height: 50vh;
+                justify-content: space-around;
+                margin: 2px auto;
+                width: 80vw;
+
+                &--person {
+                    align-items: center;
+                    border: solid 3px orange;
+                    border-radius: 12px;
+                    color: orange;
+                    display: flex;
+                    flex-direction: column;
+                    height: 48vh;
+                    justify-content: space-around;
+                    width: vw;
+
+                    &--header {
+                        font-size: 1.5rem;
+                        height: 8vh;
+                        text-align: center;
+                        width: 28vw;
+                    }
+
+                    &--logo {
+                        align-items: center;
+                        display: flex;
+                        height: 20vh;
+                        margin: 2px auto;
+                        width: 20vw;
+
+                        &--img {
+                            margin: 0 auto;
+                            max-height: 90%;
+                            max-width: auto;
+                        }
+                    }
+
+                    &--text {
+                        height: 20vh;
+                        margin: 10px auto;
+                        text-align: center;
+                        width: 90%;
+
+                        h5 {
+                            font-size: 1rem;
+                            font-weight: 200;
+                            height: 6vh;
+                            letter-spacing: 1px;
+                            text-align: center;
+                        }
+
+                        &--img {
+                            margin-left: 10px;
+                            margin-right: 10px;
+                            max-height: 40px;
+                            max-width: 40px;
+                            position: relative;
+                            top: 16px;
+                        }
+
+                        p {
+                            margin: 10px auto;
+                        }
                     }
                 }
             }
@@ -659,30 +758,54 @@ main {
 @include breakPoint(medium) {
 
     main {
-        height: 100vh;
+        height: 250vh;
     }
 
     .news--simple--container {
         @include simple--container--small;
         height: 90vh;
 
+        &--box001 {
+            height: 80vh;
+            width: 90vw;
+
+            h3 {
+                @include simple--container--h3;
+                font-size: 1rem;
+                margin-top: 20px;
+            }
+
+            p {
+                color: orange;
+                padding: 8px;
+            }
+        }
+
         &--box002 {
             color: orange;
-            flex-direction: column;
-            margin: 0 auto;
+            flex-direction: row;
+            margin: 20px auto;
             height: 70vh;
             width: 92vw;
 
             &--text {
                 padding-right: 20px;
                 text-align: center;
+
+                h3 {
+                    font-size: 1rem;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                }
             }
 
             &--image {
                 height: auto;
                 transform: scale(1);
                 transition: 0s;
-                width: 92vw;
+                width: 60vw;
 
                 .image--file {
                     max-height: auto;
@@ -698,7 +821,7 @@ main {
 
     .news--simple--container--long {
 
-        height: 150vh;
+        height: 270vh;
         width: 96vw;
 
         &--header {
@@ -708,7 +831,7 @@ main {
         }
 
         &--box003 {
-            height: 120vh;
+            height: 240vh;
             width: 94vw;
 
             .news-003--table {
@@ -738,7 +861,7 @@ main {
         }
 
         &--box005 {
-            height: 135vh;
+            height: auto;
             width: 88vw;
 
             h3 {
@@ -746,30 +869,30 @@ main {
             }
 
             &--part1 {
-                flex-direction: column;
-                height: 620px;
+                flex-direction: row;
+                height: auto;
                 width: 88vw;
 
                 &--box1,
                 &--box2 {
-                    flex-direction: row;
-                    height: 50vh;
-                    width: 88vw;
+                    flex-direction: column;
+                    height: 94vh;
+                    width: 40vw;
 
                     &--logo--left {
-                        height: 28vh;
+                        height: 80vh;
                         width: auto;
-
                     }
 
                     &--logo--right {
-                        height: 28vh;
+                        /*                         display: none; */
+                        height: 40vh;
                         width: auto;
                     }
 
                     &--text {
                         font-size: 0.8rem;
-                        height: 12vh;
+                        height: 40vh;
                         width: 30vw;
                     }
                 }
@@ -777,11 +900,11 @@ main {
 
             &--part2 {
 
-                height: 30vh;
+                height: 120vh;
                 width: 88vw;
 
                 &--person {
-                    height: 24vh;
+                    height: 112vh;
                     width: 42vw;
 
                     &--header {
@@ -791,19 +914,37 @@ main {
                     }
 
                     &--logo {
-                        display: none;
+
+                        align-items: center;
+                        display: flex;
+                        height: 40vh;
+                        margin: 2px auto;
+                        width: 40vw;
+
+                        &--img {
+                            margin: 0 auto;
+                            max-height: 90%;
+                            max-width: auto;
+                        }
                     }
 
                     &--text {
-                        height: 20vh;
+
+                        height: 40vh;
 
                         h5 {
+                            border-bottom: solid 1px orange;
                             font-size: 1rem;
-                            height: 4vh;
+                            height: 8vh;
+                        }
+
+                        &--img {
+                            display: none;
                         }
 
                         p {
                             font-size: 0.8rem;
+                            margin-top: 30px;
                         }
                     }
                 }
@@ -814,7 +955,7 @@ main {
 
     .news--simple--container--xlong {
 
-        height: 210vh;
+        height: auto;
         width: 92vw;
 
         &--header {
@@ -833,7 +974,8 @@ main {
 
         &--box004 {
             color: orange;
-            margin: 0 auto;
+            height: auto;
+            margin: 10px auto;
 
             h3 {
                 @include simple--container--h3;
@@ -844,21 +986,40 @@ main {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
+                height: auto;
+                margin: 10px auto;
 
                 &--person--container {
+                    height: auto;
+                    margin: 10px auto;
                     width: 80vw;
 
                     &--logo {
                         max-height: auto;
-                        max-width: 30vw;
+                        max-width: 200px;
                     }
 
                     &--text {
+                        height: auto;
                         width: 40vw;
 
                         li {
                             font-size: 0.8rem;
+                            padding-bottom: 10px;
                         }
+                    }
+                }
+
+                &--person--container--small {
+                    height: 200px;
+                    margin: 10px auto;
+                    width: 80vw;
+
+                    &--logo {
+
+                        max-height: 40vh;
+                        max-width: 300px;
+
                     }
                 }
             }
@@ -872,38 +1033,30 @@ main {
 @include breakPoint(small) {
 
     main {
-        height: 100vh;
+        height: auto;
     }
 
     .news--simple--container {
         @include simple--container--small;
         height: 90vh;
 
-        &--header {
-            flex-direction: column;
-
-            .news--simple--container--btn--back {
-                position: relative;
-                bottom: 90px;
-                left: 66vw;
-            }
-        }
-
-
         &--box002 {
             color: orange;
             flex-direction: column;
+            justify-content: space-around;
             margin: 0 auto;
             height: 70vh;
             width: 92vw;
 
             &--text {
+                order: 0;
                 padding-right: 20px;
                 text-align: center;
             }
 
             &--image {
                 height: auto;
+                order: 1;
                 transform: scale(1);
                 transition: 0s;
                 width: 92vw;
@@ -922,19 +1075,12 @@ main {
 
     .news--simple--container--long {
 
-        height: 178vh;
+        height: 170vh;
         width: 96vw;
 
         &--header {
             h1 {
                 font-size: 1.2rem;
-                padding-top: 6vh;
-            }
-
-            .news--simple--container--btn--back {
-                bottom: 14vh;
-                left: 0vw;
-                position: relative;
             }
         }
 
@@ -974,22 +1120,24 @@ main {
         }
 
         &--box005 {
-            height: 140vh;
+            height: 110vh;
             width: 92vw;
 
             h3 {
                 @include simple--container--h3;
+                font-size: 1rem;
+                margin-top: 3vh;
             }
 
             &--part1 {
                 flex-direction: column;
-                height: 75vh;
+                height: 70vh;
                 width: 90vw;
 
                 &--box1,
                 &--box2 {
                     flex-direction: column;
-                    height: 88vh;
+                    height: 60vh;
                     width: 88vw;
 
                     &--logo--right {
@@ -1001,39 +1149,62 @@ main {
                         margin: 10px auto;
                         width: 88vw;
                     }
+
+                    &--logo--left {
+                        height: 30vh;
+                        width: auto;
+                    }
+
                 }
             }
 
             &--part2 {
                 flex-direction: column;
-                height: 48vh;
+                height: 60vh;
+                margin-top: 2vh;
                 width: 90vw;
 
                 &--person {
-                    border: none;
+
+                    border: solid 1px orange;
                     flex-direction: column;
-                    height: 18vh;
+                    flex-wrap: wrap;
+                    height: 30vh;
+                    margin-top: 4vh;
                     width: 88vw;
 
                     &--header {
-                        border-bottom: solid 1px orange;
                         font-size: 1rem;
-                        height: 10vh;
-                        width: 88vw;
+                        height: 6vh;
+                        margin-top: 2vh;
+                        width: 40vw;
+                        order: 1;
                     }
 
                     &--logo {
-                        display: none;
+                        align-items: center;
+                        display: flex;
+                        height: 28vh;
+                        margin: 2px auto;
+                        width: 38vw;
+                        order: 0;
+
+                        &--img {
+                            margin: 0 auto;
+                            max-height: 20vh;
+                            max-width: 90%;
+                        }
                     }
 
                     &--text {
-                        height: 20vh;
-                        width: 90%;
+                        height: 18vh;
+                        width: 40vw;
+                        order: 2;
 
                         h5 {
-                            border: none;
                             font-size: 1rem;
-                            height: 3vh;
+                            height: 4vh;
+                            width: 36vw;
                         }
 
                         &--img {
@@ -1041,7 +1212,8 @@ main {
                         }
 
                         p {
-                            font-size: 0.9rem;
+                            font-size: 0.8rem;
+                            margin-top: 10px;
                         }
                     }
                 }
@@ -1052,29 +1224,19 @@ main {
 
     .news--simple--container--xlong {
 
-        height: 220vh;
+        height: 280vh;
         width: 92vw;
 
         &--header {
-            flex-direction: column;
-            padding-top: 6vh;
-            width: 84vw;
-
             h1 {
-                font-size: 1rem;
-            }
-
-            .news--simple--container--btn--back {
-                bottom: 14vh;
-                left: 0vw;
-                position: relative;
+                font-size: 1.2rem;
             }
         }
 
 
         &--box004 {
             margin-top: 0px;
-            height: 200vh;
+            height: 265vh;
             width: 92vw;
 
             h3 {
@@ -1085,16 +1247,11 @@ main {
                 flex-direction: column;
                 width: 92vw;
 
-                &--person--container {
-                    background: $bg-color-grey-orange-bottom;
-                    border: solid 3px black;
-                    border-radius: 10px;
-                    box-shadow: 0 0 16px 1px black;
-                    color: black;
-                    display: flex;
+                &--person--container,
+                &--person--container--small {
+
                     flex-direction: column;
-                    margin-top: 10px;
-                    min-height: 30vh;
+                    height: auto;
                     width: 90vw;
 
                     &--logo {
@@ -1102,13 +1259,13 @@ main {
                         color: black;
                         display: flex;
                         flex-direction: column;
-                        margin: auto auto;
+                        margin: 10px auto;
                         max-height: 20vh;
                         max-width: 90vw;
 
                         &--image {
-                            display: none;
-
+                            max-height: 20vh;
+                            max-width: 90vw;
                         }
 
                         &--name {

@@ -17,13 +17,10 @@
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
 
-  <main style="height: 180vh">
+  <main style="height: auto;">
     <div class="news--simple--container--long">
       <div class="news--simple--container--long--header">
         <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</h1>
-        <button class="news--simple--container--btn--back">
-          <a href="javascript:history.back();">Powrót</a>
-        </button>
       </div>
       <div class="news--simple--container--long--box003">
         <h3>Krótkie podsumowanie rundy...</h3>

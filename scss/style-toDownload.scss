@@ -1,6 +1,16 @@
 @import "_template.scss";
 @import "_variables.scss";
 
+nav {
+    .nav--box {
+        & a#toDownload {
+            background: $bg-color-orange-dark;
+            border-radius: 12px;
+            color: black;
+        }
+    }
+}
+
 
 .container--title {
     @include title;
@@ -69,10 +79,54 @@
 @include breakPoint(large) {
 
     .container--title {
+        @include title--large;
+    }
+
+    .toDownload--container {
+        flex-direction: column;
+        height: 200vh;
+        width: 96vw;
+        align-items: center;
+        margin: 20px auto;
+
+        &--singleBox {
+            height: 60vh;
+            width: 70vw;
+            margin: 10px auto;
+
+            &--title {
+                font-size: 1.3rem;
+                margin-bottom: 30px;
+            }
+
+            &--list {
+                display: flex;
+                flex-direction: column;
+
+                &--option {
+                    background: $bg-color-black;
+                    border: solid 1px black;
+                    color: orange;
+                    font-size: 1rem;
+                    margin: 10px;
+
+                    & a {
+                        color: orange;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include breakPoint (small) {
+    .container--title {
         @include title--small;
     }
 
     .toDownload--container {
+        height: 100vh;
         flex-direction: column;
         width: 96vw;
         align-items: center;

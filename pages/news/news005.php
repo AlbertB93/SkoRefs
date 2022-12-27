@@ -17,13 +17,10 @@
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
 
-  <main style="height: 180vh;">
+  <main style="height: auto;">
     <div class="news--simple--container--long">
       <div class="news--simple--container--long--header">
         <h1>Rozgrywki Kobiet - podsumowanie rundy</h1>
-        <button class="news--simple--container--btn--back">
-          <a href="javascript:history.back();">Powrót</a>
-        </button>
       </div>
       <div class="news--simple--container--long--box005">
         <h3>"Nasze" dziewczyny na wspólnych meczach...</h3>

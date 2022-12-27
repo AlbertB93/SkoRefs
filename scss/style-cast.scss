@@ -1,6 +1,16 @@
 @import "_template.scss";
 @import "_variables.scss";
 
+nav {
+    .nav--box {
+        & a#cast {
+            background: $bg-color-orange-dark;
+            border-radius: 12px;
+            color: black;
+        }
+    }
+}
+
 
 .container--title {
     @include title;
@@ -105,13 +115,7 @@
 @include breakPoint(large) {
 
     .container--title {
-        @include title--small;
-
-        .title {
-            font-size: 1.2rem;
-            padding-top: 0.5em;
-            width: 80vw;
-        }
+        @include title--large;
     }
 
     .cast--container {
@@ -179,4 +183,10 @@
         }
     }
 
+}
+
+@include breakPoint (small) {
+    .container--title {
+        @include title--small;
+    }
 }

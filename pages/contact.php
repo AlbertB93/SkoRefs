@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet">
     <script src="../apptest.js"></script>
-    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="shortcut icon" href="/images/favicon.png">x`
 
 </head>
 
@@ -22,9 +22,6 @@
         <div class="container--title">
             <div class="title">
                 Dane do kontaktu
-            </div>
-            <div class="btn--index">
-                <a href="../index.php">Strona główna </a>
             </div>
         </div>
         <div class="contact--container">

@@ -24,7 +24,7 @@
         Skarżyskie Gwizdki w obiektywie
       </div>
     </div>
-    <div class="gallery--container" id="1">
+    <div class="gallery--container">
       <div class="gallery--photo--field"></div>
       <div class="gallery--photo--field"></div>
       <div class="gallery--photo--field"></div>
@@ -45,16 +45,26 @@
       <div class="gallery--photo--field"></div>
       <div class="gallery--photo--field"></div>
       <div class="gallery--photo--field"></div>
-      <div class="buttons--box">
-        <button class="buttons--box--buttons--active">
-          <a href="gallery.php">1</a>
-        </button>
-        <button class="buttons--box--buttons">
-          <a href="gallery002.php">2</a>
-        </button>
-      </div>
-
-
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
+      <div class="gallery--photo--field"></div>
     </div>
 
     <div class="popupGallery hidden">

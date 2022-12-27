@@ -101,7 +101,7 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/BAlbert.PNG " alt="zdjęcie Anlbert Bińkowski" class="popup--photo">
+        <img src="../images/persons/BAlbert-pop.PNG " alt="zdjęcie Anlbert Bińkowski" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
             <p> Sędzia od: 2012r. </p>
@@ -124,7 +124,7 @@
                 W III lidze sędziował mecze przez 4 sezony. W swoim dorobku ma kilka meczów w Centralnej Lidze Juniorów oraz 3 spotkania jako sędzia techniczny w II lidze.
                 Obecnie jest sędzią przyporządkowanym do 4 ligi świętokrzyskiej.
             </p>
-            Ciekawostki:
+            <br>Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: 3 Liga.</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
             <li> Najwyższa liga jako sędzia techniczny: 2 Liga.</li>
@@ -216,7 +216,7 @@
             <p>
                 Pomimo młodego wieku, Kuba był już asystenetem na 45 meczach III ligi oraz jeden raz sędzią technicznym podczas meczu II ligi.
             </p>
-            Ciekawostki:
+            <br>Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: 4 Liga.</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
             <li> Najwyższa liga jako sędzia techniczny: 2 Liga.</li>
@@ -290,7 +290,7 @@
         <img src="../images/persons/MJakub-pop.PNG " alt="zdjęcie Jakub Moskal" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1990</p>
-            <p> Sędzia od: X. </p>
+            <p> Sędzia od: 2009r. </p>
             <p> Obecnie: Sędzia 4 ligi</p>
         </div>
     </div>
@@ -301,14 +301,16 @@
         </div>
         <div class="popup--description">
             <p>
-                Eryk w sezonie 2018/2019 awansował do klasy "B". Po pół roku uzyskał awans do wyższej klasy rozgrywkowej - klasy "A".
-                W klasie "O" sędziuje jako arbiter główny od sezony 2022/2023.
+                Kuba kurs ukończył w 2009r. Można powiedzieć, że w "B" klasie debiutował dwa razy. Raz w sezonie 2010/2011, a drugi raz w sezonie 2012/2013, ponieważ w sezonie 2011/2012 doznał kontuzji i musiał swoją przygodę sędziowską
+                zaczynać raz jeszcze z grupy sędziów pozostałych. <br> W sezonie 2013/2014 awanosował do klasy "A", pod koniec sezonu dostał próbne mecze w klasie "O". Podobnie było w kolejnym sezonie, awans do klasy "O" oraz mecze próbne w "IV" lidze. <br>
+                W IV lidze debiut Kuby miał miejsce w Staszowie, 10 października 2015r. w meczu Olimpia-Pogoń Staszów - Orlicz Suchedniów.
             </p>
             <p>
-                Wymyślić coś
+                Po rundzie jesiennej sezonu 2017/2018, Kuba uzyskał awans do III ligi. Debiutował meczem Soła Oświęcim - Wólczanka Wólka Pełkińska. <br>
+                Jakub jako asystent w III lidze debiutował znacznie wcześniej, w sezonie 2014/2015.
             </p>
-            Ciekawostki:
-            <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
+            <br>Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: Klasa "III".</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
             <li> Uczestnik programu mentorskiego ŚZPN </li>
         </div>
@@ -334,38 +336,38 @@
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
-                        <td>0</td>
+                        <td>32</td>
+                        <td>5</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>5</td>
-                        <td>2</td>
+                        <td>68</td>
+                        <td>16</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>30</td>
+                        <td>29</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>25</td>
+                        <td>33</td>
                         <td>0</td>
                     </tr>
                     <tr>
-                        <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>Kl."B"</td>
+                        <td>8</td>
+                        <td>26</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
+                        <td>52</td>
+                        <td>58</td>
                         <td>0</td>
                     </tr>
                 </tbody>
@@ -390,13 +392,9 @@
         </div>
         <div class="popup--description">
             <p>
-                Eryk w sezonie 2018/2019 awansował do klasy "B". Po pół roku uzyskał awans do wyższej klasy rozgrywkowej - klasy "A".
-                W klasie "O" sędziuje jako arbiter główny od sezony 2022/2023.
+                W przygotowaniu.
             </p>
-            <p>
-                Wymyślić coś
-            </p>
-            Ciekawostki:
+            <br>Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
             <li> Uczestnik programu mentorskiego ŚZPN </li>
@@ -483,7 +481,7 @@
                 W klasie "O" sędziuje jako arbiter główny od sezony 2022/2023.
             </p>
             <p>
-                Wymyślić coś
+                Niestety przed sezonem 2020/2021 Eryk doznał kontuzji, która wyeliminowała go na rok z sędziowania.
             </p>
             Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
@@ -524,30 +522,31 @@
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>4</td>
-                        <td>10</td>
+                        <td>4*</td>
+                        <td>10*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>15</td>
-                        <td>20</td>
+                        <td>15*</td>
+                        <td>20*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>11</td>
-                        <td>15</td>
+                        <td>11*</td>
+                        <td>15*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>40</td>
-                        <td>66</td>
+                        <td>40*</td>
+                        <td>66*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane wg strony kieleckapilka.pl</p>
         </div>
     </div>
 </div>
@@ -667,7 +666,6 @@
             Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
-            <li> Uczestnik programu mentorskiego ŚZPN </li>
         </div>
     </div>
     <div class="popup--static">
@@ -737,24 +735,22 @@
         <img src="../images/persons/FDariusz-pop.PNG " alt="zdjęcie Dariusz Frydryk" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1968</p>
-            <p> Sędzia od: xr. </p>
+            <p> Sędzia od: 1998r. </p>
             <p> Obecnie: Sędzia klasy "A"</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
-            Rafał Sokołowski
-            <button class="popup--btn" onclick="closePopup(8)">X</button>
+            Dariusz Frydryk <button class="popup--btn" onclick="closePopup(8)">X</button>
         </div>
         <div class="popup--description">
             <p>
-                Rafał ukończył kurs w 2001r. Od tamtej pory prowadził bardzo dużą ilość meczów klasy Okręgowej, klasy "A" oraz klasy "B".
-                W 4 lidze Rafał jako sędzia główny prowadził jeden mecz, natomiast był 5 razy asystentem w meczach III ligi.
+                Dariusz jest najbardziej doświadczonym sędzią naszej sekcji. W swoim dorobku ma poprowadzonych ok. 1500 meczów, począwszy od rozgrywek młodziów do rozgrywek III ligi.
             </p>
-            Ciekawostki:
+            <br>Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: 4 Liga.</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
-            <li> Sędzia główny Europejskiego Turnieju piłki nożnej Olimpiad Specjalnych w Warszawie. </li>
+            <li> 24 lata stażu sędziowskiego </li>
 
         </div>
     </div>
@@ -775,46 +771,47 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>77</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>5</td>
-                        <td>2</td>
+                        <td>1*</td>
+                        <td>96*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>48*</td>
+                        <td>30*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>74*</td>
+                        <td>36*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>28*</td>
+                        <td>28*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
+                        <td>54-</td>
+                        <td>79*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011</p>
         </div>
     </div>
 </div>
@@ -912,7 +909,7 @@
         <img src="../images/persons/DAdrian-pop.PNG" alt="zdjęcie Adrian Dzięcioł" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 2000</p>
-            <p> Sędzia od: Xr. </p>
+            <p> Sędzia od: 2021r. </p>
             <p> Obecnie: Sędzia klasy "B"</p>
         </div>
     </div>
@@ -923,16 +920,16 @@
         </div>
         <div class="popup--description">
             <p>
-                Błażej jest naszym "najświeższym" sędzią. Skończył kurs w 2020r. Miniona runda była jego pierwszą jako sędzia "B" klasy.
-                Do tej pory prowadził 3 mecze "B" klasy jako sędzia główny.
+                Adrian jest "najnowszym nabytkiem" naszej sekcji. Skończył kurs w 2021r.<br>
+                Od początku tego sezonu tj. 2022/2023 jest sędzią prowadzącym mecze jako sędzia główny w klasie "B".
+                Do tej pory prowadził 2 mecze "B" klasy jako sędzia główny.
             </p>
             <p>
-                Pomimo małego stażu Błażej poprowadził już ponad 70 meczów jako sędzia główny lub sędzia asystent w rozgrywkach młodzieżowych.
+                Adrian zaliczył udany debiut jako sędzia asystent w 4 lidze w drugim sezonie swojej sędziowskiej przygody.
             </p>
-            Ciekawostki:
+            <br>Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: "B" klasa.</li>
-            <li> Najwyższa liga jako sędzia asystent: Klasa "O".</li>
-            <li> Zawodnik IV ligowego Orlicza Suchedniów. </li>
+            <li> Najwyższa liga jako sędzia asystent: IV Liga.</li>
 
         </div>
     </div>
@@ -953,46 +950,47 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
+                        <td>0</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>5</td>
-                        <td>2</td>
+                        <td>0</td>
+                        <td>1*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>0</td>
+                        <td>3*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>0</td>
+                        <td>1*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>2*</td>
+                        <td>3*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
+                        <td>14*</td>
+                        <td>16*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane wg strony kieleckapilka.pl</p>
         </div>
     </div>
 </div>
@@ -1013,7 +1011,7 @@
         </div>
         <div class="popup--description">
             <p>
-                Błażej jest naszym "najświeższym" sędzią. Skończył kurs w 2020r. Miniona runda była jego pierwszą jako sędzia "B" klasy.
+                Błażej jest naszym najmłodszym sędzią. Skończył kurs w 2020r. Miniona runda była jego pierwszą jako sędzia "B" klasy.
                 Do tej pory prowadził 3 mecze "B" klasy jako sędzia główny.
             </p>
             <p>

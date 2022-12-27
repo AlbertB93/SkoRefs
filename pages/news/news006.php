@@ -21,9 +21,6 @@
     <div class="single--news--container">
       <div class="single--news--header">
         <h1>Klip tygodnia #8</h1>
-        <button class="news--simple--container--btn--back">
-          <a href="javascript:history.back();">Powrót</a>
-        </button>
       </div>
       <div class="single--news--box--Simple">
         <h3>12 kolejka. Warta Poznań - Piast Gliwice</h3>

@@ -12,6 +12,15 @@ $bg-color-test: linear-gradient(to top, rgb(76, 64, 35), rgb(80, 67, 44));
 
 $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42, 42));
  */
+@keyframes testAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* body::-webkit-scrollbar {
     width: 20px;
 }
@@ -184,19 +193,21 @@ html footer {
 @media (max-width: 1000px) {
   body header .header--title h1,
   html header .header--title h1 {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   body header .header--title h3,
   html header .header--title h3 {
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     margin-left: 0vw;
   }
   body nav,
   html nav {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    height: 12vh;
   }
   body nav .nav--box,
   html nav .nav--box {
+    height: 90%;
     width: 90%;
   }
   body nav .nav--box a,
@@ -229,13 +240,10 @@ html footer {
   }
   body nav,
   html nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: 1.25em;
-    height: 90vw;
-    padding: 1rem;
-    width: 60vw;
+    font-size: 0.8em;
+    height: 20vh;
+    padding: 1em;
+    width: 80vw;
     margin: 0 auto;
     align-items: center;
   }
@@ -243,7 +251,8 @@ html footer {
   html nav .nav--box {
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 100%;
     justify-content: space-around;
     width: 100%;
@@ -266,6 +275,12 @@ $bg-color-test: linear-gradient(to top, rgb(76, 64, 35), rgb(80, 67, 44));
 
 $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42, 42));
  */
+nav .nav--box a#cast {
+  background: linear-gradient(to top, #fcb022, #d29422);
+  border-radius: 12px;
+  color: black;
+}
+
 .container--title {
   font-size: 1.5rem;
   height: 50px;
@@ -286,26 +301,6 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
   height: 50px;
   width: 30vw;
   padding-top: 5px;
-}
-
-.container--title .btn--index {
-  position: relative;
-  height: 40px;
-  width: 8vw;
-  font-size: 1rem;
-  left: 50vw;
-  border: solid 1px orange;
-  padding-top: 6px;
-  background: linear-gradient(to left bottom, #171717, #2b2a2a);
-  border-radius: 8px;
-  text-align: center;
-  color: #ffa600;
-  margin-bottom: 5px;
-}
-
-.container--title .btn--index a {
-  text-decoration: none;
-  color: orange;
 }
 
 .cast--container {
@@ -404,11 +399,10 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
 
 @media (max-width: 1000px) {
   .container--title {
-    font-size: 1.5rem;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    height: 140px;
+    height: 10vh;
     width: 96vw;
     justify-content: space-around;
     align-items: center;
@@ -421,33 +415,10 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
     text-align: center;
     color: #ffa600;
     padding-top: 5px;
-    font-size: 1.8rem;
-    height: 60px;
+    font-size: 1rem;
+    height: 10vh;
     width: 50vw;
     left: 0;
-  }
-  .container--title .btn--index {
-    position: relative;
-    border: solid 1px orange;
-    padding-top: 6px;
-    background: linear-gradient(to left bottom, #171717, #2b2a2a);
-    border-radius: 8px;
-    text-align: center;
-    color: #ffa600;
-    margin-bottom: 5px;
-    font-size: 0.8rem;
-    height: 32px;
-    left: 36vw;
-    width: 100px;
-  }
-  .container--title .btn--index a {
-    text-decoration: none;
-    color: orange;
-  }
-  .container--title .title {
-    font-size: 1.2rem;
-    padding-top: 0.5em;
-    width: 80vw;
   }
   .cast--container {
     align-items: center;
@@ -510,5 +481,30 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
   .cast--container #sept_13_14 table th {
     text-align: center;
     font-weight: 100;
+  }
+}
+
+@media (max-width: 550px) {
+  .container--title {
+    font-size: 1.5rem;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    height: 6vh;
+    width: 96vw;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container--title .title {
+    position: relative;
+    border: solid 1px orange;
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    border-radius: 8px;
+    text-align: center;
+    color: #ffa600;
+    padding-top: 5px;
+    font-size: 1rem;
+    width: 80vw;
+    left: 0;
   }
 }

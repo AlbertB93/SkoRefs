@@ -2,6 +2,16 @@
 @import "_variables.scss";
 
 
+nav {
+    .nav--box {
+        & a#contact {
+            background: $bg-color-orange-dark;
+            border-radius: 12px;
+            color: black;
+        }
+    }
+}
+
 .container--title {
     @include title;
 }
@@ -36,8 +46,8 @@
             @include contact--container--person;
             border-bottom-left-radius: 8px;
             border-top-left-radius: 8px;
-            border-right: none; 
-            position: relative;    
+            border-right: none;
+            position: relative;
             align-self: flex-end;
             right: 2px;
         }
@@ -66,17 +76,62 @@
 @include breakPoint(large) {
 
     .container--title {
-        @include title--small;
-
-        .title {
-            font-size: 1.2rem;
-            padding-top: 0.5em;
-        }
+        @include title--large;
     }
 
     .contact--container {
 
-        min-height: 10vh;
+        height: 230vh;
+        width: 70vw;
+
+        .contact--container--box {
+            height: 220vh;
+            width: 70vw;
+
+            .contact--container--person--left,
+            .contact--container--person--right {
+ 
+                height: 50vh;
+                text-align: center;
+                width: 68vw;
+
+                &--title {
+                    max-height: 10vh;
+                    max-width: 60vw;
+                }
+
+                &--box {
+                    height: 40vh;
+                    width: 92vw;
+
+                    &--photo {
+                        align-self: flex-start;
+                        height: 40vh;
+                        margin-top: 10px;
+                        width: auto;
+                    }
+
+                    &--text {
+                        height: 30vh;
+                        margin-top: 0vw;
+                        right: 5vw;
+                        text-align: center;
+                        width: 50vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include breakPoint (small) {
+    .container--title {
+        @include title--small;
+    }
+
+    .contact--container {
+
+        height: 150vh;
         width: 96vw;
 
         .contact--container--box {
@@ -102,12 +157,12 @@
                     &--photo {
                         align-self: flex-start;
                         height: 26vh;
-
                         margin-top: 10px;
                         width: auto;
                     }
 
                     &--text {
+                        font-size: 0.8rem;
                         height: 20vh;
                         margin-top: 10vw;
                         text-align: center;

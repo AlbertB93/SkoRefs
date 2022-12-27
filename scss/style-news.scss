@@ -2,6 +2,16 @@
 @import "_variables.scss";
 @import "_mixins.scss";
 
+nav {
+    .nav--box {
+        & a#news {
+            background: $bg-color-orange-dark;
+            border-radius: 12px;
+            color: black;
+        }
+    }
+}
+
 @keyframes testAnimation {
     from {
         opacity: 0;
@@ -90,13 +100,62 @@
 @include breakPoint (large) {
 
     .container--title {
-        @include title--small;
+        @include title--large;
+    }
 
-        .title {
-            font-size: 1.2rem;
+    .news--container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 320vh;
+        justify-content: center;
+        margin: 20px auto;
+        width: 70vw;
+
+        .news--box {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 300vh;
+            justify-content: flex-start;
+            width: 60vw;
+
+            article {
+                min-height: 60vh;
+                margin-top: 20px;
+                width: 40vw;
+
+                .article--image {
+                    max-height: 90%;
+                    max-width: 90%;
+                    overflow: hidden;
+
+                    .article--image--file {
+                        border-radius: 5px;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+
+            article:hover {
+                transform: scale(1);
+                z-index: 100;
+            }
+
         }
 
+        @include buttons-box;
 
+        .buttons--box {
+            margin: 20px auto;
+            width: 60vw;
+        }
+    }
+}
+
+@include breakPoint (small) {
+    .container--title {
+        @include title--small;
     }
 
     .news--container {

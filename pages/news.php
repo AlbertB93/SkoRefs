@@ -21,9 +21,6 @@
       <div class="title">
         Archiwum wiadomości
       </div>
-      <div class="btn--index">
-        <a href="../index.php">Strona główna </a>
-      </div>
     </div>
     <div class="news--container">
       <div class="news--box">

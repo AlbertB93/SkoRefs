@@ -1,6 +1,6 @@
 
 
-
+-- posprawdzać długość mainów w newsach na różnych szerokościach
 
 
 

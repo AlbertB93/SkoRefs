@@ -22,9 +22,6 @@
       <div class="title">
         Historia sekcji
       </div>
-      <div class="btn--index">
-        <a href="../index.php">Strona główna </a>
-      </div>
     </div>
     <div class="history--container">
       <p> Strona w przygotowaniu</p>

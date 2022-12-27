@@ -1,5 +1,15 @@
 @import '_variables.scss';
 
+@keyframes testAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 
 $breakPoins: (
     "small": 550px,
@@ -36,28 +46,6 @@ $breakPoins: (
         width: 30vw;
         padding-top: 5px;
     }
-
-    .btn--index {
-
-        position: relative;
-        height: 40px;
-        width: 8vw;
-        font-size: 1rem;
-        left: 50vw;
-        border: solid 1px orange;
-        padding-top: 6px;
-        background: $bg-color-black;
-        border-radius: 8px;
-        text-align: center;
-        color: $main-text-color;
-        margin-bottom: 5px;
-
-        a {
-            text-decoration: none;
-            color: orange;
-        }
-    }
-
 }
 
 @mixin simple--container {
@@ -74,7 +62,7 @@ $breakPoins: (
         flex-direction: row;
         justify-content: center;
         width: 66vw;
-        height: 100px;
+        height: 10vh;
         padding-top: 10px;
 
         h1 {
@@ -83,25 +71,6 @@ $breakPoins: (
             height: 80px;
             margin: 0 auto;
             text-align: center;
-        }
-
-        .news--simple--container--btn--back {
-            background: $bg-color-black;
-            border: solid 2px orange;
-            font-size: 1rem;
-            max-height: 30px;
-            width: 80px;
-            color: $main-text-color;
-            cursor: pointer;
-            justify-content: flex-end;
-
-
-
-            a {
-                color: $main-text-color;
-                text-decoration: none;
-            }
-
         }
     }
 }
@@ -277,14 +246,12 @@ $breakPoins: (
 
 // mixins media-queries
 
-@mixin title--small {
+@mixin title--large {
 
-
-    font-size: 1.5rem;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    height: 140px;
+    height: 10vh;
     width: 96vw;
     justify-content: space-around;
     align-items: center;
@@ -298,36 +265,41 @@ $breakPoins: (
         text-align: center;
         color: $main-text-color;
         padding-top: 5px;
-        font-size: 1.8rem;
-        height: 60px;
+        font-size: 1rem;
+        height: 10vh;
         width: 50vw;
         left: 0;
     }
+}
 
-    .btn--index {
+@mixin title--small {
 
+
+    font-size: 1.5rem;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    height: 6vh;
+    width: 96vw;
+    justify-content: space-around;
+    align-items: center;
+
+
+    .title {
         position: relative;
         border: solid 1px orange;
-        padding-top: 6px;
         background: $bg-color-black;
         border-radius: 8px;
         text-align: center;
         color: $main-text-color;
-        margin-bottom: 5px;
-        font-size: 0.8rem;
-        height: 32px;
-        left: 36vw;
-        width: 100px;
-
-        a {
-            text-decoration: none;
-            color: orange;
-        }
+        padding-top: 5px;
+        font-size: 1rem;
+        width: 80vw;
+        left: 0;
     }
-
 }
 
-@mixin simple--container--small {
+@mixin simple--container--small {   
     border-radius: 8px;
     background: $bg-color-black;
     box-shadow: 8px 8px black;
@@ -342,34 +314,16 @@ $breakPoins: (
         flex-direction: row;
         justify-content: center;
         width: 88vw;
-        height: 100px;
+        height: 10vh;
         padding-top: 10px;
 
         h1 {
             color: $main-text-color;
+            font-size: 1.5rem;
             letter-spacing: 1px;
             height: 80px;
             margin: 0 auto;
             text-align: center;
-        }
-
-        .news--simple--container--btn--back {
-            background: $bg-color-black;
-            border: solid 2px orange;
-            font-size: 1rem;
-            max-height: 30px;
-            width: 80px;
-            color: $main-text-color;
-            cursor: pointer;
-            justify-content: flex-end;
-
-
-
-            a {
-                color: $main-text-color;
-                text-decoration: none;
-            }
-
         }
     }
 }

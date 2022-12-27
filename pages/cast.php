@@ -21,9 +21,6 @@
       <div class="title">
         Obsada sędziowska
       </div>
-      <div class="btn--index">
-        <a href="../index.php">Strona główna </a>
-      </div>
     </div>
     <div class="cast--container">
       <div class="cast--container--month" id="month-1" onclick="displayFlex('august')">Marzec 2023r.</div>

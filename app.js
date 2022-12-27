@@ -66,17 +66,32 @@ const POPUP_CLOSE = document.querySelector(".popupCloseBtn");
 const POPUP_IMG = document.querySelector(".popupGallery--img");
 const ARROW_LEFT = document.querySelector(".popupArrow--left");
 const ARROW_RIGHT = document.querySelector(".popupArrow--right");
-
+const GALLERY_CONTAINER_ID = document.querySelector(".gallery--container");
 let currentImgIndex;
 let photoCounter = 1;
 
 console.log(PHOTOS_CONTAINER);
 
+console.log(GALLERY_CONTAINER_ID.getAttribute("id"));
+let galleryId = GALLERY_CONTAINER_ID.getAttribute("id");
+
 // DODAWANIE ZDJĘĆ DO GALERII
-for (let i = 0; i < PHOTOS_CONTAINER.length; i++) {
+
+if(galleryId == 1){
+    photoCounter = 1;
+}else if (galleryId == 2){
+    photoCounter = 21;
+} else {
+    photoCounter = 0;
+}
+
+
+for (i=0; i < PHOTOS_CONTAINER.length; i++) {
     PHOTOS_CONTAINER[i].innerHTML = '<img src="../images/gallery/g' + photoCounter + '.jpg" alt="zdjecie" class="gallery--photo" />';
     photoCounter++;
 }
+
+
 
 
 const PHOTOS = document.querySelectorAll(".gallery--photo");
