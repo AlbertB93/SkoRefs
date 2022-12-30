@@ -16,30 +16,36 @@
 <body>
   <?php include("../../php/header--pages--news.php"); ?>
   <?php include("../../php/nav--pages--news.php"); ?>
-  <main style="height: 100vh;">
+  <main style="height: auto;">
     <div class="news--simple--container">
       <div class="news--simple--container--header">
-        <h1>Witamy na stronie !</h1>
+        <h1>
+          <p> Data dodania - autor: 30.12.2022r. - Bercik</p>
+          Witamy na stronie !
+        </h1>
       </div>
       <div class="news--simple--container--box001">
-        <h3>Poznaj sędziów sekcji Skarżysko...</h3>
+        <h3>Poznaj sędziów sekcji Skarżysko...
+        </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-          voluptate quod necessitatibus odio, quia perferendis dolorum odit
-          harum in, dolore voluptatem sit assumenda aut. Adipisci qui odit
-          magnam eum earum! Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Sed voluptatibus velit dicta, numquam quis repellendus quia,
-          quisquam vero animi aliquid ex ratione aliquam doloremque esse rem
-          dolores tenetur perferendis! Facere. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Eum mollitia culpa beatae nisi, at
-          tempore pariatur, fugit tempora repellendus perferendis labore
-          molestiae minima ipsum doloremque voluptatum odit aliquid quaerat
-          iure!
+          Cześć wszystkim !
+        </p>
+        <p class="pTextIndent">
+          Chciałbym Was serdecznie przywitać na stronie skarżyskich sędziów piłki nożnej. Strona ma charakter informacyjny zarówno dla osób ze środowiska sędziowskiego, które mogą pobrać interesujące ich dokumenty ( regulaminy, dokumenty meczowe ), jak i dla osób spoza naszej sekcji – możecie po krótce poznać nasze „sędziowskie sylwetki” ( zakładka <a href="../refs.php">sędziowie</a> ), zobaczyć kilkanaście zdjęć naszych obecnych oraz byłych sędziów ( zakładka <a href="../gallery.php">galeria</a> ), pobrać czasopismo „Sędzia” ( zakładka <a href="../toDownload.php">do pobrania</a> ).
+        </p>
+        <p class="pTextIndent">
+          Z biegiem czasu na stronie będą pojawiał się artykuły dotyczące wiadomości ze świata sędziowskiego, obsady naszych sędziów na mecze oraz innych przydatnych informacji dotyczących naszej pasji. Pojawi się również zakładka „historia” – gdzie będziecie mogli poznać historię naszej sekcji.
+        </p>
+        <p>
+          Zachęcam do przejrzenia / zapoznania się ze stroną :)
+        </p>
+        <p class="pTextIndent">
+          Strona powstała dla celów niekomercyjnych, ze względów hobbistycznych, jako chęć rozwoju samego siebie, dlatego będę bardzo wdzięczy za wszystkie informację na temat zauważonych błędów na stronie dotyczących treści merytorycznej jak i błędów w funkcjonowanie strony od strony technicznej.
         </p>
       </div>
     </div>
-    </main>
-    <?php include("../../php/footer.php"); ?>
+  </main>
+  <?php include("../../php/footer.php"); ?>
 </body>
 
 </html>

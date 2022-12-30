@@ -1,18 +1,9 @@
 
 
--- posprawdzać długość mainów w newsach na różnych szerokościach
 
 
 
-- zmienić fotki sędziów w popupach
-- zebrać info od sędziów
 
-- zdjęcia wyświetlane na telefonie za pomocą popupów
-- artykuły, podsumowanie rundy, pierwszy post
-
-
-
-kto był w mentorskim ?? 
 
 
 
@@ -23,3 +14,5 @@ Do zrobienia już później:
 - scrollbar w refs - kolorystyka
 - Licznik odwiedzin
 - jednakowe miniaturki zdjęć sędziów
+- historia sekcji
+- ciekawostki sekcji: turnieje itp.

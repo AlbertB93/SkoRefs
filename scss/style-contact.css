@@ -202,8 +202,39 @@ html footer {
   }
   body nav,
   html nav {
-    font-size: 0.8rem;
+    font-size: 1rem;
     height: 12vh;
+  }
+  body nav .nav--box,
+  html nav .nav--box {
+    height: 90%;
+    width: 90%;
+  }
+  body nav .nav--box a,
+  html nav .nav--box a {
+    text-decoration: none;
+    transition: 1s;
+  }
+  body nav .nav--box a:hover,
+  html nav .nav--box a:hover {
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  body header .header--title h1,
+  html header .header--title h1 {
+    font-size: 1.2rem;
+  }
+  body header .header--title h3,
+  html header .header--title h3 {
+    font-size: 0.8rem;
+    margin-left: 0vw;
+  }
+  body nav,
+  html nav {
+    font-size: 0.8rem;
+    height: 10vh;
   }
   body nav .nav--box,
   html nav .nav--box {
@@ -362,10 +393,13 @@ nav .nav--box a#contact {
 
 .contact--container .contact--container--box .contact--container--person--left--box--text {
   height: 20vh;
-  margin-top: 10px;
-  margin-right: 10px;
-  text-align: right;
+  margin: auto auto;
+  text-align: center;
   width: 16vw;
+}
+
+.contact--container .contact--container--box .contact--container--person--left--box--text P {
+  margin-top: 2vh;
 }
 
 .contact--container .contact--container--box .contact--container--person--right {
@@ -413,10 +447,13 @@ nav .nav--box a#contact {
 
 .contact--container .contact--container--box .contact--container--person--right--box--text {
   height: 20vh;
-  margin-top: 10px;
-  margin-right: 10px;
-  text-align: right;
+  margin: auto auto;
+  text-align: center;
   width: 16vw;
+}
+
+.contact--container .contact--container--box .contact--container--person--right--box--text P {
+  margin-top: 2vh;
 }
 
 @media (max-width: 1200px) {

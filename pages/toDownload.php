@@ -80,6 +80,11 @@
                         <a href="https://pzpn.pl/public/system/files/publikacje/136/4959-S%C4%99dzia%203%202022.pdf" target="_blank"> Wydanie 3 / 2022
                         </a>
                     </div>
+                    <div class="toDownload--container--singleBox--list--option">
+                        <a href="https://cdn.laczynaspilka.pl/cms2/prod/sites/default/files/2022-12/sedzia_04_2022.pdf?fbclid=IwAR2WJRS6F27FaygWoWdlACGj1d6s_ujF5zc4ZDT2kD5ZLusdiqQpU_Ef5ow" target="_blank">
+                            Wydanie 4 / 2022
+                        </a>
+                    </div>
                     <!--                     <div class="toDownload--container--singleBox--list--option">
                         Wydanie 4 / 2022
                     </div> -->

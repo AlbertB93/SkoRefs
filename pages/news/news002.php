@@ -19,7 +19,10 @@
   <main style="height: 100vh;">
     <div class="news--simple--container">
       <div class="news--simple--container--header">
-        <h1>Zapraszamy na kurs !</h1>
+        <h1>
+          <p> Data dodania - autor: 30.12.2022r. - Bercik</p>
+          Zapraszamy na kurs !
+        </h1>
       </div>
       <div class="news--simple--container--box002">
         <div class="news--simple--container--box002--image">

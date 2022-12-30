@@ -310,7 +310,7 @@
                 Jakub jako asystent w III lidze debiutował znacznie wcześniej, w sezonie 2014/2015.
             </p>
             <br>Ciekawostki:
-            <li> Najwyższa liga jako sędzia główny: Klasa "III".</li>
+            <li> Najwyższa liga jako sędzia główny: 3 liga.</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
             <li> Uczestnik programu mentorskiego ŚZPN </li>
         </div>
@@ -381,7 +381,7 @@
         <img src="../images/persons/CKasia-pop.PNG " alt="zdjęcie Katarzyna Chrzanowska" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
-            <p> Sędzia od: X. </p>
+            <p> Sędzia od: 2009r. </p>
             <p> Obecnie: Sędzia klasy "O"</p>
         </div>
     </div>
@@ -392,12 +392,20 @@
         </div>
         <div class="popup--description">
             <p>
-                W przygotowaniu.
+                Kasia ukończyła kurs sędziowski w 2009r. Przez długi okres była tylko sędzią asystnent na wielu meczach w różnych kategoriach rozgrywkowych. W sezonie 2017/2018 zdecydowała się spróbować swoich sił jako sędzia główna - co było bardzo dobrą decyzją. Sezon później była już w klasie "A". Od sezonu 2020/2021 do obecnej chwili jest sędzią głównym w "Okręgówce". </br>
+                Jako sędzia asystent była również wyznaczona na 35 meczy CLJ ( U18 oraz U19 ).
             </p>
+            <p>W rozgrywkach kobiecych Kasia ma na swoim koncie jako sędzia asystentka: 39 meczów Ekstraligi kobiet, 35 meczów I ligi kobiet, II Liga kobiet - 13 meczów, PP Kobiet - 9 meczów, III liga kobiet - 1 mecz.
+                Jako sędzia główna, Kasia prowadziła jeden mecz III ligi kobiet. </p>
             <br>Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
-            <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
+            <li> Najwyższa liga jako sędzia asystent: 2 Liga.</li>
             <li> Uczestnik programu mentorskiego ŚZPN </li>
+            <li> Turniej Trzech Narodów U15 ( chłopcy ): Polska - Finlandia</li>
+            <li> Mecz Towarzyski U17 ( kobiety ): Polska – Szwecja</li>
+            <li> UEFA Development ( kobiety ): Grecja – Dania</li>
+            <li> UEFA Development U16 ( kobiety ): Polska - Dania</li>
+            <li> Mecz towarzyski: Korona Kielce - Hapoel Beer Sheva</li>
         </div>
     </div>
     <div class="popup--static">
@@ -416,47 +424,48 @@
                     <tr class="dark">
                         <td>2 liga</td>
                         <td>0</td>
-                        <td>0</td>
                         <td>2</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
                         <td>0</td>
+                        <td>48*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>5</td>
-                        <td>2</td>
+                        <td>0</td>
+                        <td>45*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>14*</td>
+                        <td>24*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>16*</td>
+                        <td>44*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>4*</td>
+                        <td>26*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
+                        <td>35*</td>
+                        <td>103*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011</p>
         </div>
     </div>
 </div>
@@ -483,6 +492,7 @@
             <p>
                 Niestety przed sezonem 2020/2021 Eryk doznał kontuzji, która wyeliminowała go na rok z sędziowania.
             </p>
+            </br>
             Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
@@ -570,7 +580,7 @@
                 Paweł w sezonie 2020/2021 dostałem awans do B klasy, w której spędził jeden sezon. "A" klasę zaczął sędziować w sezonie 2021/2022, z której awansował po roku do klasy "O".
             </p>
             <p>
-                Paweł w bardzo młodym wieku ( ile lat ? ) zadebiutował jako asystent na meczu III ligi: X --- X
+                Paweł w wieku 22 lat zadebiutował jako asystent na meczu III ligi: Korona II Kielce - ŁKS Łagów.
             </p>
             </br>
             Ciekawostki:
@@ -660,7 +670,7 @@
                 Klasę "O" zaczął sędziować w sezonie 2019/2020.
             </p>
             <p>
-                Karol większość meczów sędziował jako asystent. </br>Do tej pory był sędzią asystentem 31 razy w III lidze.
+                Karol większość meczów sędziował jako asystent. Do tej pory był sędzią asystentem 31 razy w III lidze.
             </p>
             </br>
             Ciekawostki:
@@ -835,6 +845,7 @@
                 Rafał ukończył kurs w 2001r. Od tamtej pory prowadził bardzo dużą ilość meczów klasy Okręgowej, klasy "A" oraz klasy "B".
                 W 4 lidze Rafał jako sędzia główny prowadził jeden mecz, natomiast był 5 razy asystentem w meczach III ligi.
             </p>
+            </br>
             Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: 4 Liga.</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>

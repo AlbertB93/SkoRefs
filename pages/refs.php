@@ -64,6 +64,7 @@
                     <img src="../images/persons/CKasia.PNG" alt="zdjęcie Katarzyna Chrzanowska" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Katarzyna Chrzanowska</p>
                     <p> Sędzia klasy "O"</p>
+                    <p> Sędzia asystent szczebla centralnego</p>
                 </div>
             </div>
             <div class="refs--container--person" id="KE">
@@ -90,8 +91,10 @@
             <div class="refs--container--person" id="FD">
                 <div class="refs--container--person--logo" onClick="openPopup(8)">
                     <img src="../images/persons/FDariusz.PNG" alt="zdjęcie Dariusz Frydryk" class="refs--container--person--logo--image">
-                    <p class="refs--container--person--logo--name">Dariusz Frydryk</p>
+                    <p class="refs--container--person--logo--name">Dariusz Frydryk
                     <p> Sędzia klasy "A"</p>
+                    </p>
+
                 </div>
             </div>
             <div class="refs--container--person" id="SR">

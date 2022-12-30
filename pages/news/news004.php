@@ -20,7 +20,10 @@
   <main style="height: auto;">
     <div class="news--simple--container--xlong">
       <div class="news--simple--container--xlong--header">
-        <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</h1>
+        <h1>
+          <p> Data dodania - autor: 30.12.2022r. - Bercik</p>
+          Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala
+        </h1>
       </div>
       <div class="news--simple--container--xlong--box004">
         <h3>Reprezentanci sekcji na szczeblu centralnym</h3>
@@ -82,7 +85,7 @@
           </div>
           <div class="news004--refBox--person--container--small">
             <div class="news004--refBox--person--container--small--logo">
-              <img src="../../images/persons/CJakub-pop.PNG" alt="zdjęcie Jakub Chrzanowski" class="news004--refBox--person--container--small--logo--image" />
+              <img src="../../images/persons/CJakub-as.PNG" alt="zdjęcie Jakub Chrzanowski" class="news004--refBox--person--container--small--logo--image" />
               <p class="news004--refBox--person--container--small--logo--name">
                 Jakub Chrzanowski
               </p>
@@ -98,7 +101,7 @@
           </div>
           <div class="news004--refBox--person--container--small">
             <div class="news004--refBox--person--container--small--logo">
-              <img src="../../images/persons/PKarol.PNG" alt="zdjęcie Karol Purtak" class="news004--refBox--person--container--small--logo--image" />
+              <img src="../../images/persons/PKarol-as.PNG" alt="zdjęcie Karol Purtak" class="news004--refBox--person--container--small--logo--image" />
               <p class="news004--refBox--person--container--small--logo--name">
                 Karol Purtak
               </p>

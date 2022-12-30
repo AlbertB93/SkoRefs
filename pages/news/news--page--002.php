@@ -30,6 +30,9 @@
           <div class="article--image">
             <img src="../../images/pages/news-logo/news001.png" alt="ręka" class="article--image--file" />
           </div>
+          <div class="dataAuthor">
+            Data dodania - autor: 30.12.2022r. - Bercik
+          </div>
         </article>
       </div>
       <div class="buttons--box">

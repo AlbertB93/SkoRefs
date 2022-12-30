@@ -75,14 +75,35 @@ console.log(PHOTOS_CONTAINER);
 console.log(GALLERY_CONTAINER_ID.getAttribute("id"));
 let galleryId = GALLERY_CONTAINER_ID.getAttribute("id");
 
+
+
+// Źródła strony
+
+function openPopupSourcesPhotos() {
+    document.getElementsByClassName("popup--sourcesPhotos")[0].style.display = "flex";
+    GALLERY_CONTAINER_ID.style.opacity = 0.05;
+
+
+}
+
+function closePopupSourcesPhotos() {
+    document.getElementsByClassName("popup--sourcesPhotos")[0].style.display = "none";
+    GALLERY_CONTAINER_ID.style.opacity = 1;
+}
+
+
 // DODAWANIE ZDJĘĆ DO GALERII
 
 if(galleryId == 1){
     photoCounter = 1;
 }else if (galleryId == 2){
     photoCounter = 21;
-} else {
-    photoCounter = 0;
+} else if (galleryId == 3) {
+    photoCounter = 41;
+} else if (galleryId == 4) {
+    photoCounter = 61;
+} else if (galleryId == 5) {
+    photoCounter = 81;
 }
 
 

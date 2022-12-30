@@ -66,7 +66,7 @@
                         </div>
                         <div class="contact--container--person--left--box--text">
                             <p>Katarzyna Chrzanowska</p>
-                            <p>e-mail: k_chrzanowska@poczta.fm</p>
+                            <p>e-mail: sedziowieskarzysko@wp.pl</p>
                         </div>
                     </div>
                 </div>

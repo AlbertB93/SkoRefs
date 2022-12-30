@@ -23,11 +23,17 @@
         <div class="article--image">
           <img src="images/pages/news-logo/news005.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
         </div>
+        <div class="dataAuthor">
+          Data dodania - autor: 30.12.2022r. - Bercik
+        </div>
       </article>
       <article id="article--4">
         <a href="pages/news/news004.php">Podsumowanie rundy jesiennej </br> sezonu 2022 / 2023 Centrala</a>
         <div class="article--image">
           <img src="images/pages/news-logo/news004.jpg" alt="wyjście-sędziów-z-drużynami" class="article--image--file" />
+        </div>
+        <div class="dataAuthor">
+          Data dodania - autor: 30.12.2022r. - Bercik
         </div>
       </article>
       <article id="article--3">
@@ -35,17 +41,26 @@
         <div class="article--image">
           <img src="images/pages/news-logo/news003.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
         </div>
+        <div class="dataAuthor">
+          Data dodania - autor: 30.12.2022r. - Bercik
+        </div>
       </article>
       <article id="article--2">
         <a href="pages/news/news002.php">ZAPISZ SIĘ NA KURS!</a>
         <div class="article--image">
           <img src="images/pages/news-logo/news002.jpg" alt="plakat-kurs-sedziowski" class="article--image--file" />
         </div>
+        <div class="dataAuthor">
+          Data dodania - autor: 30.12.2022r. - Bercik
+        </div>
       </article>
       <article id="article--1">
         <a href="pages/news/news001.php">Witamy na stronie !</a>
         <div class="article--image">
           <img src="images/pages/news-logo/news001.png" alt="zdjęcie dłoni" class="article--image--file" />
+        </div>
+        <div class="dataAuthor">
+          Data dodania - autor: 30.12.2022r. - Bercik
         </div>
       </article>
     </div>

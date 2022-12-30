@@ -202,8 +202,39 @@ html footer {
   }
   body nav,
   html nav {
-    font-size: 0.8rem;
+    font-size: 1rem;
     height: 12vh;
+  }
+  body nav .nav--box,
+  html nav .nav--box {
+    height: 90%;
+    width: 90%;
+  }
+  body nav .nav--box a,
+  html nav .nav--box a {
+    text-decoration: none;
+    transition: 1s;
+  }
+  body nav .nav--box a:hover,
+  html nav .nav--box a:hover {
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  body header .header--title h1,
+  html header .header--title h1 {
+    font-size: 1.2rem;
+  }
+  body header .header--title h3,
+  html header .header--title h3 {
+    font-size: 0.8rem;
+    margin-left: 0vw;
+  }
+  body nav,
+  html nav {
+    font-size: 0.8rem;
+    height: 10vh;
   }
   body nav .nav--box,
   html nav .nav--box {
@@ -380,15 +411,15 @@ nav .nav--box a#toDownload {
   }
   .toDownload--container {
     flex-direction: column;
-    height: 200vh;
+    height: auto;
     width: 96vw;
     align-items: center;
     margin: 20px auto;
   }
   .toDownload--container--singleBox {
-    height: 60vh;
+    height: auto;
     width: 70vw;
-    margin: 10px auto;
+    margin: 30px auto;
   }
   .toDownload--container--singleBox--title {
     font-size: 1.3rem;

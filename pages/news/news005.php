@@ -20,7 +20,10 @@
   <main style="height: auto;">
     <div class="news--simple--container--long">
       <div class="news--simple--container--long--header">
-        <h1>Rozgrywki Kobiet - podsumowanie rundy</h1>
+        <h1>
+          <p> Data dodania - autor: 30.12.2022r. - Bercik</p>
+          Rozgrywki Kobiet - podsumowanie rundy
+        </h1>
       </div>
       <div class="news--simple--container--long--box005">
         <h3>"Nasze" dziewczyny na wspólnych meczach...</h3>
@@ -69,7 +72,7 @@
               <img src="../../images/pages/news/news005-ania.png" alt="zdjęcie Ania Adamska" class="news--simple--container--long--box005--part2--person--logo--img">
             </div>
             <div class="news--simple--container--long--box005--part2--person--text">
-              <h5>Sędzia techniczny <img src="../../images/pages/news/table-table.PNG" alt="zdjęcie tablica do zmian" class="news--simple--container--long--box005--part2--person--text--img" style="top: 2px;" />
+              <h5>Sędzia techniczny
               </h5>
               <p>Eliminacje do MŚ Kobiet</p>
               <p><img src="../../images/pages/news/news005-flag-Grecce.jpg" alt="flaga Grecji" class="news--simple--container--long--box005--part2--person--text--img" style="top: 2px;" />Grecja
@@ -84,7 +87,7 @@
               <img src="../../images/pages/news/news005-kasia.jpg" alt="zdjęcie Kasia Chrzanowska" class="news--simple--container--long--box005--part2--person--logo--img">
             </div>
             <div class="news--simple--container--long--box005--part2--person--text">
-              <h5 style="margin-bottom: 30px">Sędzia asystent <img src="../../images/pages/news/table-flag.png" alt="WHISTLE" class="news--simple--container--long--box005--part2--person--text--img" style="top: 10px;" />
+              <h5 id="SA">Sędzia asystent
               </h5>
               <p>Ekstraliga Kobiet</p>
               <p>POGOŃ Gościniec nad Wisłą II Tczew - UKS SMS II Łódź</p>

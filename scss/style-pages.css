@@ -329,7 +329,7 @@ nav .nav--box a#news {
 }
 
 main {
-  height: 200vh;
+  height: auto;
 }
 
 .news--simple--container {
@@ -357,10 +357,18 @@ main {
   height: 80px;
   margin: 0 auto;
   text-align: center;
+  width: 100%;
+}
+
+.news--simple--container--header h1 p {
+  color: orange;
+  font-size: 0.5rem;
+  font-weight: 100;
+  text-align: right;
 }
 
 .news--simple--container--box001 {
-  height: 70vh;
+  height: auto;
   margin: 0 auto;
   width: 60vw;
 }
@@ -374,9 +382,25 @@ main {
   margin-bottom: 10px;
 }
 
+.news--simple--container--box001 h3 p {
+  color: orange;
+  font-size: 0.8rem;
+  text-align: right;
+}
+
 .news--simple--container--box001 p {
   color: orange;
+  font-size: 1.1rem;
   padding: 8px;
+}
+
+.news--simple--container--box001 .pTextIndent {
+  text-indent: 25px;
+}
+
+.news--simple--container--box001 a {
+  color: bisque;
+  text-decoration: none;
 }
 
 .news--simple--container--box002 {
@@ -388,6 +412,7 @@ main {
 }
 
 .news--simple--container--box002--text {
+  margin-top: 50px;
   padding-right: 20px;
 }
 
@@ -421,7 +446,7 @@ main {
   width: 70vw;
   height: 70vh;
   margin: 30px auto;
-  height: 150vh;
+  height: auto;
 }
 
 .news--simple--container--long--header {
@@ -440,6 +465,14 @@ main {
   height: 80px;
   margin: 0 auto;
   text-align: center;
+  width: 100%;
+}
+
+.news--simple--container--long--header h1 p {
+  color: orange;
+  font-size: 0.5rem;
+  font-weight: 100;
+  text-align: right;
 }
 
 .news--simple--container--long--box003 {
@@ -455,6 +488,17 @@ main {
   padding: 10px;
   text-align: center;
   margin-bottom: 10px;
+  margin-bottom: 3vh;
+}
+
+.news--simple--container--long--box003 p {
+  font-size: 1.1rem;
+  text-indent: 25px;
+}
+
+.news--simple--container--long--box003 li {
+  font-size: 1rem;
+  margin: 10px;
 }
 
 .news--simple--container--long--box003 .news-003--table {
@@ -466,7 +510,7 @@ main {
 }
 
 .news--simple--container--long--box003 .news-003--table table {
-  margin-top: 4vh;
+  margin: 4vh auto;
 }
 
 .news--simple--container--long--box003 .news-003--table table th {
@@ -517,7 +561,7 @@ main {
 
 .news--simple--container--long--box005 {
   color: orange;
-  height: 140vh;
+  height: auto;
   margin: 0 auto;
   width: 68vw;
 }
@@ -534,7 +578,7 @@ main {
 .news--simple--container--long--box005--part1 {
   display: flex;
   flex-direction: row;
-  height: 60vh;
+  height: 70vh;
   margin: 10px auto;
   width: 68vw;
 }
@@ -543,7 +587,7 @@ main {
   border-radius: 12px;
   display: flex;
   flex-direction: column;
-  height: 54vh;
+  height: 66vh;
   justify-content: space-between;
   margin: 10px auto;
   width: 32vw;
@@ -562,7 +606,7 @@ main {
 
 .news--simple--container--long--box005--part1--box1--logo--right, .news--simple--container--long--box005--part1--box2--logo--right {
   display: flex;
-  height: 28vh;
+  height: 35vh;
   justify-content: center;
   width: auto;
 }
@@ -598,7 +642,7 @@ main {
   align-items: center;
   display: flex;
   flex-direction: row;
-  height: 60vh;
+  height: 70vh;
   justify-content: space-around;
   margin: 2px auto;
   width: 68vw;
@@ -613,7 +657,7 @@ main {
   flex-direction: column;
   height: 58vh;
   justify-content: space-around;
-  width: vw;
+  width: 30vw;
 }
 
 .news--simple--container--long--box005--part2--person--header {
@@ -626,9 +670,9 @@ main {
 .news--simple--container--long--box005--part2--person--logo {
   align-items: center;
   display: flex;
-  height: 20vh;
+  height: 30vh;
   margin: 2px auto;
-  width: 20vw;
+  width: 30vw;
 }
 
 .news--simple--container--long--box005--part2--person--logo--img {
@@ -645,11 +689,14 @@ main {
 }
 
 .news--simple--container--long--box005--part2--person--text h5 {
+  border-bottom: solid 1px orange;
   font-size: 1rem;
   font-weight: 200;
   height: 6vh;
   letter-spacing: 1px;
+  margin: 10px auto;
   text-align: center;
+  width: 16vw;
 }
 
 .news--simple--container--long--box005--part2--person--text--img {
@@ -658,11 +705,12 @@ main {
   max-height: 40px;
   max-width: 40px;
   position: relative;
-  top: 16px;
+  top: 6px;
 }
 
 .news--simple--container--long--box005--part2--person--text p {
-  margin: 10px auto;
+  font-size: 1rem;
+  margin: 5px auto;
 }
 
 .news--simple--container--xlong {
@@ -672,7 +720,7 @@ main {
   width: 70vw;
   height: 70vh;
   margin: 30px auto;
-  height: 210vh;
+  height: auto;
 }
 
 .news--simple--container--xlong--header {
@@ -691,11 +739,19 @@ main {
   height: 80px;
   margin: 0 auto;
   text-align: center;
+  width: 100%;
+}
+
+.news--simple--container--xlong--header h1 p {
+  color: orange;
+  font-size: 0.5rem;
+  font-weight: 100;
+  text-align: right;
 }
 
 .news--simple--container--xlong--box004 {
   color: orange;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .news--simple--container--xlong--box004 h3 {
@@ -712,8 +768,9 @@ main {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 180vh;
+  height: auto;
   justify-content: space-around;
+  margin: 20px auto;
 }
 
 .news--simple--container--xlong--box004 .news004--refBox--person--container, .news--simple--container--xlong--box004 .news004--refBox--person--container--small {
@@ -723,7 +780,7 @@ main {
   box-shadow: 0 0 16px 1px black;
   color: black;
   display: flex;
-  margin-top: 10px;
+  margin: 10px auto;
   min-height: 30vh;
   width: 54vw;
 }
@@ -791,7 +848,7 @@ main {
     width: 92vw;
     height: 120vh;
     margin: 30px auto;
-    height: 90vh;
+    height: auto;
   }
   .news--simple--container--header {
     margin: 0 auto;
@@ -810,6 +867,12 @@ main {
     margin: 0 auto;
     text-align: center;
   }
+  .news--simple--container--header h1 p {
+    color: orange;
+    font-size: 0.6rem;
+    font-weight: 100;
+    text-align: right;
+  }
   .news--simple--container--header {
     flex-direction: column;
   }
@@ -822,7 +885,7 @@ main {
     left: 66vw;
   }
   .news--simple--container--box001 {
-    height: 70vh;
+    height: auto;
     margin: 0 auto;
     width: 80vw;
   }
@@ -863,7 +926,7 @@ main {
     transform: scale(1);
   }
   .news--simple--container--long {
-    height: 160vh;
+    height: auto;
     width: 86vw;
   }
   .news--simple--container--long--header {
@@ -877,7 +940,7 @@ main {
     align-self: flex-end;
   }
   .news--simple--container--long--box005 {
-    height: 140vh;
+    height: auto;
     width: 80vw;
   }
   .news--simple--container--long--box005--part1 {
@@ -928,7 +991,7 @@ main {
 
 @media (max-width: 1000px) {
   main {
-    height: 150vh;
+    height: auto;
   }
   .news--simple--container {
     border-radius: 8px;
@@ -937,7 +1000,7 @@ main {
     width: 92vw;
     height: 120vh;
     margin: 30px auto;
-    height: 90vh;
+    height: auto;
   }
   .news--simple--container--header {
     margin: 0 auto;
@@ -956,8 +1019,14 @@ main {
     margin: 0 auto;
     text-align: center;
   }
+  .news--simple--container--header h1 p {
+    color: orange;
+    font-size: 0.6rem;
+    font-weight: 100;
+    text-align: right;
+  }
   .news--simple--container--box001 {
-    height: 80vh;
+    height: auto;
     width: 90vw;
   }
   .news--simple--container--box001 h3 {
@@ -977,7 +1046,7 @@ main {
     color: orange;
     flex-direction: column;
     margin: 0 auto;
-    height: 70vh;
+    height: auto;
     width: 92vw;
   }
   .news--simple--container--box002--text {
@@ -1100,7 +1169,7 @@ main {
 
 @media (max-width: 800px) {
   main {
-    height: 250vh;
+    height: auto;
   }
   .news--simple--container {
     border-radius: 8px;
@@ -1109,7 +1178,7 @@ main {
     width: 92vw;
     height: 120vh;
     margin: 30px auto;
-    height: 90vh;
+    height: auto;
   }
   .news--simple--container--header {
     margin: 0 auto;
@@ -1128,8 +1197,14 @@ main {
     margin: 0 auto;
     text-align: center;
   }
+  .news--simple--container--header h1 p {
+    color: orange;
+    font-size: 0.6rem;
+    font-weight: 100;
+    text-align: right;
+  }
   .news--simple--container--box001 {
-    height: 80vh;
+    height: auto;
     width: 90vw;
   }
   .news--simple--container--box001 h3 {
@@ -1154,6 +1229,7 @@ main {
     width: 92vw;
   }
   .news--simple--container--box002--text {
+    margin-top: 0px;
     padding-right: 20px;
     text-align: center;
   }
@@ -1177,14 +1253,14 @@ main {
     transform: scale(1);
   }
   .news--simple--container--long {
-    height: 270vh;
+    height: auto;
     width: 96vw;
   }
   .news--simple--container--long--header h1 {
     font-size: 1.2rem;
   }
   .news--simple--container--long--box003 {
-    height: 240vh;
+    height: auto;
     width: 94vw;
   }
   .news--simple--container--long--box003 .news-003--table table th {
@@ -1349,7 +1425,7 @@ main {
     width: 92vw;
     height: 120vh;
     margin: 30px auto;
-    height: 90vh;
+    height: auto;
   }
   .news--simple--container--header {
     margin: 0 auto;
@@ -1368,12 +1444,18 @@ main {
     margin: 0 auto;
     text-align: center;
   }
+  .news--simple--container--header h1 p {
+    color: orange;
+    font-size: 0.6rem;
+    font-weight: 100;
+    text-align: right;
+  }
   .news--simple--container--box002 {
     color: orange;
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
-    height: 70vh;
+    height: auto;
     width: 92vw;
   }
   .news--simple--container--box002--text {
@@ -1396,14 +1478,14 @@ main {
     transform: scale(1);
   }
   .news--simple--container--long {
-    height: 170vh;
+    height: auto;
     width: 96vw;
   }
   .news--simple--container--long--header h1 {
     font-size: 1.2rem;
   }
   .news--simple--container--long--box003 {
-    height: 120vh;
+    height: auto;
   }
   .news--simple--container--long--box003 .news-003--table {
     justify-content: flex-start;
@@ -1425,7 +1507,7 @@ main {
     font-size: 0.7rem;
   }
   .news--simple--container--long--box005 {
-    height: 110vh;
+    height: auto;
     width: 92vw;
   }
   .news--simple--container--long--box005 h3 {
@@ -1462,8 +1544,9 @@ main {
   }
   .news--simple--container--long--box005--part2 {
     flex-direction: column;
-    height: 60vh;
+    height: auto;
     margin-top: 2vh;
+    padding-bottom: 5vh;
     width: 90vw;
   }
   .news--simple--container--long--box005--part2--person {
@@ -1512,7 +1595,7 @@ main {
     margin-top: 10px;
   }
   .news--simple--container--xlong {
-    height: 280vh;
+    height: auto;
     width: 92vw;
   }
   .news--simple--container--xlong--header h1 {

@@ -20,24 +20,32 @@
   <main style="height: auto;">
     <div class="news--simple--container--long">
       <div class="news--simple--container--long--header">
-        <h1>Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</h1>
+        <h1>
+          <p> Data dodania - autor: 30.12.2022r. - Bercik</p>
+          Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN
+        </h1>
       </div>
       <div class="news--simple--container--long--box003">
         <h3>Krótkie podsumowanie rundy...</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-          voluptate quod necessitatibus odio, quia perferendis dolorum odit
-          harum in, dolore voluptatem sit assumenda aut. Adipisci qui odit
-          magnam eum earum! Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Sed voluptatibus velit dicta, numquam quis repellendus quia,
-          quisquam vero animi aliquid ex ratione aliquam doloremque esse rem
-          dolores tenetur perferendis! Facere. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Eum mollitia culpa beatae nisi, at
-          tempore pariatur, fugit tempora repellendus perferendis labore
-          molestiae minima ipsum doloremque voluptatum odit aliquid quaerat
-          iure!
+          Nasi sędziowie w tym roku poprowadzili 26 meczów 4 ligi. Stanowi to około 17% wszystkich meczów tej klasy rozgrywkowej.</br> W klasie „O” tych meczów było 13, co stanowi 11% wszystkich spotkań. W „A” klasie nasi sędziowie mają na koncie 18 spotkań, natomiast w klasie „B” - 8 meczów.
+          </br>Zostaliśmy wyznaczeni również na poniższe mecze Okręgowego PP: </br>
         </p>
-        <h3 style="margin-top: 50px">Statystyki...</h3>
+        <li>Eska Dziki Skarżysko- Kamienna vs. KS LECHIA Strawczyn</li>
+        <li>GKS ZRYW CZARNI Łopuszno vs. KS HETMAN Włoszczowa</li>
+        <li>TĘCZA Gowarczów vs. GKS GRÓD Ćmińsk</li>
+        <li>MKS Orlicz Suchedniów vs. ŁKS Łagów</li>
+        <li>GKS Gród Ćmińsk vs. KS Moravia Anna-Bud Morawica</li>
+        </br>
+        <p>Prowadziliśmy również jeden mecz w sąsiednim, Radomskim Związku Piłki Nożnej. Było to spotkanie klasy Okręgówej: </br>
+          Powiślanka Lipsko – KS Warka. ( SG: Purtak Karol, SA: Chrzanowska Katarzyna, Sokołowski Rafał ).
+        </p>
+        </br>
+        <p>
+          Najwięcej meczów we wszystkich rozgrywkach seniorskich ( Liga + PP ) w tej rundzie jako sędzia główny zgromadził Jakub Chrzanowski – 11 meczów, natomiast najwięcej meczów jako sędzia asystent, Rafał Sokołowski - 21. Najwięcej razy na mecze w rozgrywkach młodzieżowych jako sędzia główny lub sędzia asystent był wyznaczany Błażej Turski - 23 mecze.
+          Albert Bińkowski zgromadził najwięcej meczów – 41 ( zarówno jako sędzia główny jak i sędzia asystent ), we wszystkich rozgrywkach pod patronatem ŚZPN.
+        </p>
+        <h3 style="margin-top: 50px">Statystyki (mecze ligowe oraz pucharowe)</h3>
         <div class="news-003--table">
           <table>
             <thead>

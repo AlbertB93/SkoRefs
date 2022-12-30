@@ -32,7 +32,7 @@ nav {
 
     display: grid;
     grid-template-columns: 10vw 16vw 2vw 16w 2vw 16vw 2vw 16vw 10vw;
-    grid-template-rows: 8vh 42vh 4vh 42vh 4vh 42vh 8vh;
+    grid-template-rows: 5vh 44vh 4vh 44vh 4vh 44vh 5vh;
     height: 150vh;
     margin: 0px auto;
     width: 90vw;
@@ -49,7 +49,7 @@ nav {
         color: orange;
         display: flex;
         flex-direction: column;
-        height: 40vh;
+        height: 44vh;
         justify-content: center;
         margin-top: 10px;
         transform: scale(1);
@@ -59,22 +59,21 @@ nav {
 
         &--logo {
             align-items: center;
-            border-radius: 90px;
             color: black;
             cursor: pointer;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            margin-top: 30px;
-            max-width: 10vw;
-            max-height: auto;
+            margin-top: 10px;
+            width: auto;
+            height: 40vh;
 
 
             &--image {
                 border: solid 1px black;
                 border-radius: 4px;
-                max-height: auto;
-                max-width: 88%;
+                height: 28vh;
+                width: auto;
                 overflow: hidden;
             }
 
@@ -82,15 +81,16 @@ nav {
                 color: black;
                 font-size: 1.5rem;
                 font-weight: 600;
+                height: 4vh;
                 letter-spacing: 1px;
                 padding-top: 5px;
                 text-align: center;
                 text-shadow: 5px;
-                width: 17vw;
+                width: 12vw;
             }
 
             p {
-                font-size: 1.2rem;
+                font-size: 1rem;
                 text-align: center;
                 width: 18vw;
             }
@@ -183,6 +183,7 @@ nav {
     z-index: 100;
 
     .popup--photo--field {
+
         align-items: center;
         border-right: solid 1px black;
         display: flex;
@@ -223,7 +224,7 @@ nav {
         .popup--name {
             color: orange;
             font-weight: 300;
-            font-size: 2rem;
+            font-size: 1.5rem;
             height: 8vh;
             letter-spacing: 1px;
             text-align: center;
@@ -250,7 +251,7 @@ nav {
 
         .popup--description {
             color: black;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             height: 50vh;
             margin: 20px;
             overflow-y: auto;
@@ -274,38 +275,39 @@ nav {
         .static--title {
             border-bottom: solid 1px orange;
             color: orange;
-            font-size: 1.5rem;
-            margin: 0 auto;
+            font-size: 1.2rem;
+            margin: 10px auto;
             width: 22vw;
             text-align: center;
         }
 
         .static--table {
             display: flex;
-            font-size: 1.2rem;
-            height: 300px;
+            font-size: 1rem;
+            height: 48vh;
             justify-content: center;
             width: 22vw;
             text-align: center;
 
             table {
+                height: 42vh;
                 margin: 4px auto;
                 width: 18vw;
 
                 th {
                     font-size: 1rem;
-                    padding: 6px;
+                    padding: 4px;
 
                     .table--image {
-                        max-height: 50px;
-                        max-width: 50px;
+                        max-height: 40px;
+                        max-width: 40px;
                     }
                 }
 
                 td {
                     border-radius: 12px;
                     font-size: 1rem;
-                    padding: 6px;
+                    padding: 4px;
                 }
 
                 .dark {
@@ -807,7 +809,7 @@ nav {
         height: 600vh;
 
         &--person {
-            height: 50vh;
+            height: 54vh;
             width: 92vw;
 
             &--logo {
