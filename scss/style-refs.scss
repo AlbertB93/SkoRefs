@@ -95,6 +95,25 @@ nav {
                 width: 18vw;
             }
 
+            &--btnBox {
+
+                display: flex;
+                justify-content: flex-end;
+                width: 90%;
+
+                &--btn {
+                    background: transparent;
+                    border: solid 1px black;
+                    border-radius: 8px;
+                    color: black;
+                    cursor: pointer;
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                    height: 24px;
+                    width: 60px;
+                }
+            }
+
 
         }
 
@@ -357,7 +376,7 @@ nav {
 
         display: flex;
         flex-direction: column;
-        height: 1000vh;
+        height: auto;
         align-items: center;
         margin-bottom: 20px;
         width: 96vw;
@@ -366,13 +385,13 @@ nav {
         &--person {
             animation-name: none;
             animation-duration: 0s;
-            height: 80vh;
+            height: auto;
             transition: transform 0s;
             width: 50vw;
 
             &--logo {
                 max-width: 50vw;
-                max-height: 70vh;
+                max-height: auto;
 
 
                 &--image {
@@ -385,6 +404,7 @@ nav {
 
                 &--name {
                     font-size: 1.5rem;
+                    height: auto;
                     width: 50vw;
                 }
 
@@ -577,7 +597,7 @@ nav {
             width: 30vw;
 
             .popup--photo {
-                max-height: 35vh;
+                max-height: 25vh;
                 width: 20vw;
             }
 
@@ -682,16 +702,16 @@ nav {
 
         .popup--photo--field {
             border: solid 0px black;
+            display: flex;
             flex-direction: column;
             height: 60vh;
-            justify-content: space-around;
-            margin: 2vh auto;
             order: 0;
             width: 30vw;
 
             .popup--photo {
+                margin-top: 5vh;
                 max-height: auto;
-                width: 15vw;
+                width: auto;
             }
 
             .popup--photo--text {
@@ -711,7 +731,7 @@ nav {
             border-right: solid 0px black;
             display: flex;
             flex-direction: column;
-            height: 62vh;
+            height: 60vh;
             order: 1;
             padding-left: 0px;
             width: 50vw;
@@ -744,9 +764,9 @@ nav {
 
         .popup--static {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             flex-wrap: wrap;
-            height: 102vh;
+            height: auto;
             margin: 0px auto;
             order: 2;
             padding-left: 1vw;
@@ -763,7 +783,7 @@ nav {
                 display: flex;
                 flex-direction: column;
                 font-size: 1rem;
-                height: 84vh;
+                height: auto;
                 margin: 0 auto;
                 width: 50vw;
 
@@ -855,8 +875,8 @@ nav {
             .popup--photo {
                 border-radius: 4px;
                 height: auto;
-                padding-top: 1vh;
-                width: 30vw;
+                padding-bottom: 3vh;
+                width: 20vw;
             }
 
             .popup--photo--text {
@@ -877,7 +897,7 @@ nav {
             align-items: center;
             display: flex;
             flex-direction: column;
-            height: 50vh;
+            height: auto;
             margin: 0 auto;
             padding-left: 0px;
             width: 80vw;
@@ -914,7 +934,7 @@ nav {
             .popup--description {
                 color: black;
                 font-size: 1rem;
-                height: 50vh;
+                height: auto;
                 margin: 20px;
                 overflow-y: auto;
                 padding-right: 10px;

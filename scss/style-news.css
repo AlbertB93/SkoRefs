@@ -364,9 +364,9 @@ nav .nav--box a#news {
   border: solid 2px black;
   border-radius: 12px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  height: 68vh;
+  height: auto;
   justify-content: space-around;
   margin: 20px auto;
   width: 94vw;
@@ -399,8 +399,8 @@ nav .nav--box a#news {
 
 .news--container .news--box article .article--image {
   border-radius: 5px;
-  margin: 15px 10px;
-  max-height: 25vh;
+  margin: 15px 20px;
+  max-height: 20vh;
   max-width: auto;
 }
 
@@ -531,7 +531,7 @@ nav .nav--box a#news {
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    height: 10vh;
+    height: 34px;
     width: 96vw;
     justify-content: space-around;
     align-items: center;
@@ -545,14 +545,14 @@ nav .nav--box a#news {
     color: #ffa600;
     padding-top: 5px;
     font-size: 1rem;
-    height: 10vh;
+    height: 34px;
     width: 50vw;
     left: 0;
   }
   .news--container {
     flex-wrap: nowrap;
     flex-direction: column;
-    height: 320vh;
+    height: auto;
     justify-content: center;
     margin: 20px auto;
     width: 70vw;
@@ -561,12 +561,12 @@ nav .nav--box a#news {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 300vh;
+    height: auto;
     justify-content: flex-start;
     width: 60vw;
   }
   .news--container .news--box article {
-    min-height: 60vh;
+    min-height: 40vh;
     margin-top: 20px;
     width: 40vw;
   }
@@ -678,7 +678,7 @@ nav .nav--box a#news {
   .news--container {
     flex-wrap: nowrap;
     flex-direction: column;
-    height: 250vh;
+    height: auto;
     justify-content: center;
     margin: 20px auto;
     width: 94vw;
@@ -687,7 +687,7 @@ nav .nav--box a#news {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 230vh;
+    height: auto;
     justify-content: flex-start;
     width: 90vw;
   }

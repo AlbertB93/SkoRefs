@@ -58,20 +58,10 @@ main {
     &--box002 {
         color: orange;
         display: flex;
-        margin: 0 auto;
+        margin: 20px auto;
         min-height: 70vh;
-        width: 68vw;
-
-
-        &--text {
-            margin-top: 50px;
-            padding-right: 20px;
-        }
-
-        p {
-            padding: 8px;
-        }
-
+        width: 70vw;
+        
         &--image {
             display: flex;
             height: 58vh;
@@ -442,6 +432,7 @@ main {
     .news--simple--container {
         @include simple--container--small;
         height: auto;
+        padding-bottom: 10px;
 
         &--header {
             flex-direction: column;
@@ -823,28 +814,14 @@ main {
             color: orange;
             flex-direction: row;
             margin: 20px auto;
-            height: 70vh;
+            height: auto;
             width: 92vw;
-
-            &--text {
-                margin-top: 0px;
-                padding-right: 20px;
-                text-align: center;
-
-                h3 {
-                    font-size: 1rem;
-                }
-
-                p {
-                    font-size: 0.8rem;
-                }
-            }
 
             &--image {
                 height: auto;
                 transform: scale(1);
                 transition: 0s;
-                width: 60vw;
+                width: auto;
 
                 .image--file {
                     max-height: auto;
@@ -915,23 +892,23 @@ main {
                 &--box1,
                 &--box2 {
                     flex-direction: column;
-                    height: 94vh;
+                    height: auto;
                     width: 40vw;
 
                     &--logo--left {
-                        height: 80vh;
+                        height: auto;
                         width: auto;
                     }
 
                     &--logo--right {
                         /*                         display: none; */
-                        height: 40vh;
+                        height: auto;
                         width: auto;
                     }
 
                     &--text {
                         font-size: 0.8rem;
-                        height: 40vh;
+                        height: auto;
                         width: 30vw;
                     }
                 }
@@ -939,11 +916,12 @@ main {
 
             &--part2 {
 
-                height: 120vh;
+                height: auto;
                 width: 88vw;
 
                 &--person {
-                    height: 112vh;
+                    height: auto;
+                    margin: 10px auto;
                     width: 42vw;
 
                     &--header {
@@ -969,7 +947,7 @@ main {
 
                     &--text {
 
-                        height: 40vh;
+                        height: auto;
 
                         h5 {
                             border-bottom: solid 1px orange;
@@ -1056,7 +1034,7 @@ main {
 
                     &--logo {
 
-                        max-height: 40vh;
+                        max-height: auto;
                         max-width: 300px;
 
                     }

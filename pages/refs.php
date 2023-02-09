@@ -34,14 +34,19 @@
                     <p class="refs--container--person--logo--name">Anna Adamska </p>
                     <p> Sędzia Ekstraligi Kobiet </br></p>
                     <p>Sędzia 3 ligi</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(0)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
             </div>
-            <div class="refs--container--person" id="BA">
+            <div class=" refs--container--person" id="BA">
                 <div class="refs--container--person--logo" onClick="openPopup(1)">
                     <img src="../images/persons/BAlbert.PNG" alt="zdjęcia Albert Bińkowsk" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Albert Bińkowski</p>
                     <p> Sędzia 4 ligi</p>
-
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(1)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
             </div>
             <div class="refs--container--person" id="CJ">
@@ -49,6 +54,9 @@
                     <img src="../images/persons/CJakub.PNG" alt="zdjęcia Jakub Chrzanowski" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Jakub Chrzanowski</p>
                     <p> Sędzia 4 ligi</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(2)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
             </div>
             <div class="refs--container--person" id="MJ">
@@ -56,6 +64,9 @@
                     <img src=" ../images/persons/MJakub.PNG" alt="zjdęcie Jakub Moskal" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Jakub Moskal</p>
                     <p> Sędzia 4 ligi</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(3)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
 
             </div>
@@ -65,6 +76,9 @@
                     <p class="refs--container--person--logo--name">Katarzyna Chrzanowska</p>
                     <p> Sędzia klasy "O"</p>
                     <p> Sędzia asystent szczebla centralnego</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(4)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
             </div>
             <div class="refs--container--person" id="KE">
@@ -72,6 +86,9 @@
                     <img src="../images/persons/KEryk.PNG" alt="zdjęcie Eryk Kiliszek" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Eryk Kiliszek</p>
                     <p> Sędzia klasy "O"</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(5)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
             </div>
             <div class="refs--container--person" id="KP">
@@ -79,6 +96,9 @@
                     <img src="../images/persons/KPaweł.PNG" alt="zdjęcie Paweł Kocia" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Paweł Kocia</p>
                     <p> Sędzia klasy "O"</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(6)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
             </div>
             <div class="refs--container--person" id="PK">
@@ -86,6 +106,9 @@
                     <img src="../images/persons/PKarol.PNG" alt="zdjęcie Karol Purtak" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Karol Purtak</p>
                     <p> Sędzia klasy "O"</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(7)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
             </div>
             <div class="refs--container--person" id="FD">
@@ -94,7 +117,9 @@
                     <p class="refs--container--person--logo--name">Dariusz Frydryk
                     <p> Sędzia klasy "A"</p>
                     </p>
-
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(8)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
             </div>
             <div class="refs--container--person" id="SR">
@@ -102,6 +127,9 @@
                     <img src="../images/persons/SRafał.PNG" alt="zdjęcie Rafał Sokołowski" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Rafał Sokołowski</p>
                     <p> Sędzia klasy "A"</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(9)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
             </div>
             <div class="refs--container--person" id="DA">
@@ -109,6 +137,9 @@
                     <img src="../images/persons/DAdrian.PNG" alt="zdjęcie Adrian Dzięcioł" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Adrian Dzięcioł</p>
                     <p> Sędzia klasy "B"</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(10)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
             </div>
             <div class="refs--container--person" id="TB">
@@ -116,6 +147,9 @@
                     <img src="../images/persons/TBlazej.PNG" alt="zdjęcie Błażej Turski" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Błażej Turski</p>
                     <p> Sędzia klasy "B"</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(11)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
                 </div>
             </div>
         </div>

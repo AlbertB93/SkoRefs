@@ -119,13 +119,13 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        height: 330vh;
+        height: auto;
         justify-content: space-between;
         margin: 4vh auto;
         width: 92vw;
 
         article {
-            min-height: 60vh;
+            min-height: 40vh;
             margin-top: 20px;
             width: 40vw;
 

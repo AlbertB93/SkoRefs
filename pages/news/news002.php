@@ -28,12 +28,6 @@
         <div class="news--simple--container--box002--image">
           <img src="../../images/pages/news/news002-kurs.jpg" alt="plakat-kurs" class="image--file" />
         </div>
-        <div class="news--simple--container--box002--text">
-          <h3>Dane do kontaktu:</h3>
-          <p>Marek Śliwa</p>
-          <p>tel. 502 319 647</p>
-          <p>e-mail: mareksliwa411@gmail.com</p>
-        </div>
       </div>
     </div>
   </main>

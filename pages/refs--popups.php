@@ -606,42 +606,42 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>8</td>
                         <td>0</td>
+                        <td>6</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>5</td>
-                        <td>2</td>
+                        <td>0</td>
+                        <td>32</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>3</td>
+                        <td>11</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>9</td>
+                        <td>19</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>2</td>
-                        <td>2</td>
+                        <td>11</td>
+                        <td>8</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8</td>
-                        <td>7</td>
+                        <td>44</td>
+                        <td>31</td>
                         <td>0</td>
                     </tr>
                 </tbody>

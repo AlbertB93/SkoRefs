@@ -82,18 +82,18 @@ nav {
     .contact--container {
 
         height: 230vh;
-        width: 70vw;
+        width: 90vw;
 
         .contact--container--box {
             height: 220vh;
-            width: 70vw;
+            width: 90vw;
 
             .contact--container--person--left,
             .contact--container--person--right {
  
                 height: 50vh;
                 text-align: center;
-                width: 68vw;
+                width: 86vw;
 
                 &--title {
                     max-height: 10vh;
@@ -102,7 +102,7 @@ nav {
 
                 &--box {
                     height: 40vh;
-                    width: 92vw;
+                    width: 86vw;
 
                     &--photo {
                         align-self: flex-start;

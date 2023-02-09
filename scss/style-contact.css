@@ -472,7 +472,7 @@ nav .nav--box a#contact {
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    height: 10vh;
+    height: 34px;
     width: 96vw;
     justify-content: space-around;
     align-items: center;
@@ -486,23 +486,23 @@ nav .nav--box a#contact {
     color: #ffa600;
     padding-top: 5px;
     font-size: 1rem;
-    height: 10vh;
+    height: 34px;
     width: 50vw;
     left: 0;
   }
   .contact--container {
     height: 230vh;
-    width: 70vw;
+    width: 90vw;
   }
   .contact--container .contact--container--box {
     height: 220vh;
-    width: 70vw;
+    width: 90vw;
   }
   .contact--container .contact--container--box .contact--container--person--left,
   .contact--container .contact--container--box .contact--container--person--right {
     height: 50vh;
     text-align: center;
-    width: 68vw;
+    width: 86vw;
   }
   .contact--container .contact--container--box .contact--container--person--left--title,
   .contact--container .contact--container--box .contact--container--person--right--title {
@@ -512,7 +512,7 @@ nav .nav--box a#contact {
   .contact--container .contact--container--box .contact--container--person--left--box,
   .contact--container .contact--container--box .contact--container--person--right--box {
     height: 40vh;
-    width: 92vw;
+    width: 86vw;
   }
   .contact--container .contact--container--box .contact--container--person--left--box--photo,
   .contact--container .contact--container--box .contact--container--person--right--box--photo {

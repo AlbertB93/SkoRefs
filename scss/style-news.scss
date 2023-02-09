@@ -32,9 +32,9 @@ nav {
     border: solid 2px black;
     border-radius: 12px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    height: 68vh;
+    height: auto;
     justify-content: space-around;
     margin: 20px auto;
     width: 94vw;
@@ -106,7 +106,7 @@ nav {
     .news--container {
         flex-wrap: nowrap;
         flex-direction: column;
-        height: 320vh;
+        height: auto;
         justify-content: center;
         margin: 20px auto;
         width: 70vw;
@@ -115,12 +115,12 @@ nav {
             align-items: center;
             display: flex;
             flex-direction: column;
-            height: 300vh;
+            height: auto;
             justify-content: flex-start;
             width: 60vw;
 
             article {
-                min-height: 60vh;
+                min-height: 40vh;
                 margin-top: 20px;
                 width: 40vw;
 
@@ -161,7 +161,7 @@ nav {
     .news--container {
         flex-wrap: nowrap;
         flex-direction: column;
-        height: 250vh;
+        height: auto;
         justify-content: center;
         margin: 20px auto;
         width: 94vw;
@@ -170,7 +170,7 @@ nav {
             align-items: center;
             display: flex;
             flex-direction: column;
-            height: 230vh;
+            height: auto;
             justify-content: flex-start;
             width: 90vw;
 

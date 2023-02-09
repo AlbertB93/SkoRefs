@@ -202,8 +202,39 @@ html footer {
   }
   body nav,
   html nav {
-    font-size: 0.8rem;
+    font-size: 1rem;
     height: 12vh;
+  }
+  body nav .nav--box,
+  html nav .nav--box {
+    height: 90%;
+    width: 90%;
+  }
+  body nav .nav--box a,
+  html nav .nav--box a {
+    text-decoration: none;
+    transition: 1s;
+  }
+  body nav .nav--box a:hover,
+  html nav .nav--box a:hover {
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  body header .header--title h1,
+  html header .header--title h1 {
+    font-size: 1.2rem;
+  }
+  body header .header--title h3,
+  html header .header--title h3 {
+    font-size: 0.8rem;
+    margin-left: 0vw;
+  }
+  body nav,
+  html nav {
+    font-size: 0.8rem;
+    height: 10vh;
   }
   body nav .nav--box,
   html nav .nav--box {
@@ -402,7 +433,7 @@ nav .nav--box a#cast {
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    height: 10vh;
+    height: 34px;
     width: 96vw;
     justify-content: space-around;
     align-items: center;
@@ -416,7 +447,7 @@ nav .nav--box a#cast {
     color: #ffa600;
     padding-top: 5px;
     font-size: 1rem;
-    height: 10vh;
+    height: 34px;
     width: 50vw;
     left: 0;
   }

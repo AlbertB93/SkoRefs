@@ -62,16 +62,18 @@
         </article>
       </div>
       <div class="buttons--box">
-        <button class="buttons--box--buttons--active">
-          <a href="news.php">1</a>
-        </button>
-        <button class="buttons--box--buttons">
-          <a href="news/news--page--002.php">2</a>
-        </button>
-        <!--         <button class="news--buttons">
+        <div class="buttons--box--container">
+          <button class="buttons--box--container--buttons--active">
+            <a href="news.php">1</a>
+          </button>
+          <button class="buttons--box--container--buttons">
+            <a href="news/news--page--002.php">2</a>
+          </button>
+          <!--         <button class="news--buttons">
           <a href="news/news--page--003.php">3</a>
         </button>
         <button class="news--buttons">...</button> -->
+        </div>
       </div>
     </div>
   </main>
