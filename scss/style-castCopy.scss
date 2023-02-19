@@ -71,6 +71,12 @@ nav {
         }
     }
 
+    .active {
+        background-color: red;
+        color: white;
+        border: solid 3px white;
+    }
+
 
     #august,
     #september {

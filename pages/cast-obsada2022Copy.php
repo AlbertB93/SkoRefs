@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Skarżyskie Gwizdki</title>
-  <link rel="stylesheet" href="../scss/style-cast.css" />
+  <link rel="stylesheet" href="../scss/style-castCopy.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Oswald&display=swap" rel="stylesheet" />
@@ -19,12 +19,12 @@
   <main>
     <div class="container--title" onclick="displayNone()">
       <div class="title">
-        Obsada sędziowska
+        Obsada sędziowska Copy
       </div>
     </div>
     <div class="cast--container">
       <div class="cast--container--month" id="month-1" onclick="displayFlex('august')">
-      Sierpień 2022r.</div>
+        Sierpień 2022r.</div>
       <div id="august">
         <div class="cast--container--month--week" id="week-1" onclick="displayBlock('august_06_07')">
           06-07.08.2022r.
@@ -228,7 +228,7 @@
     </div>
   </main>
   <?php include("../php/footer.php"); ?>
-  <script src="../castEngine.js"></script>
+  <script src="../castEngineCopy.js"></script>
 </body>
 
 </html>

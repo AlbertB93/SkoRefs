@@ -24,6 +24,15 @@
     </div>
     <div class="news--container">
       <div class="news--box">
+        <article id="article--6">
+          <a href="news/news006.php">Klip tygodnia<br> 18,19,20 PKO BP Ekstraklasy</a>
+          <div class="article--image">
+            <img src="../images/pages/news-logo/news006.png" alt="widzew-pogoń-grosicki" class="article--image--file" />
+          </div>
+          <div class="dataAuthor">
+            Data dodania - autor: 19.02.2023r. - Bercik
+          </div>
+        </article>
         <article id="article--5">
           <a href="news/news005.php">Nasze dziewczyny w rozgrywkach kobiecych - podsumowanie rundy</a>
           <div class="article--image">
@@ -46,15 +55,6 @@
           <a href="news/news003.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</a>
           <div class="article--image">
             <img src="../images/pages/news-logo/news003.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
-          </div>
-          <div class="dataAuthor">
-            Data dodania - autor: 30.12.2022r. - Bercik
-          </div>
-        </article>
-        <article id="article--2">
-          <a href="news/news002.php">ZAPISZ SIĘ NA KURS!</a>
-          <div class="article--image">
-            <img src="../images/pages/news-logo/news002.jpg" alt="plakat-kurs-sedziowski" class="article--image--file" />
           </div>
           <div class="dataAuthor">
             Data dodania - autor: 30.12.2022r. - Bercik

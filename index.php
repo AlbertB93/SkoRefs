@@ -18,6 +18,15 @@
   <?php include("php/nav--index.php"); ?>
   <main style="height: auto">
     <div class="index--container">
+      <article id="article--6">
+        <a href="pages/news/news006.php">Klip tygodnia<br> 18,19,20 PKO BP Ekstraklasy</a>
+        <div class="article--image">
+          <img src="../images/pages/news-logo/news006.png" alt="widzew-pogoń-grosicki" class="article--image--file" />
+        </div>
+        <div class="dataAuthor">
+          Data dodania - autor: 19.02.2023r. - Bercik
+        </div>
+      </article>
       <article id="article--5">
         <a href="pages/news/news005.php">Nasze dziewczyny w rozgrywkach kobiecych - podsumowanie rundy</a>
         <div class="article--image">
@@ -54,18 +63,10 @@
           Data dodania - autor: 30.12.2022r. - Bercik
         </div>
       </article>
-      <article id="article--1">
-        <a href="pages/news/news001.php">Witamy na stronie !</a>
-        <div class="article--image">
-          <img src="images/pages/news-logo/news001.png" alt="zdjęcie dłoni" class="article--image--file" />
-        </div>
-        <div class="dataAuthor">
-          Data dodania - autor: 30.12.2022r. - Bercik
-        </div>
-      </article>
     </div>
   </main>
   <?php include("php/footer.php"); ?>
+
 </body>
 
 </html>

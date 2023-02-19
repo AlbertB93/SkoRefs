@@ -25,6 +25,15 @@
     </div>
     <div class="news--container">
       <div class="news--box">
+        <article id="article--2">
+          <a href="news002.php">ZAPISZ SIĘ NA KURS!</a>
+          <div class="article--image">
+            <img src="../../images/pages/news-logo/news002.jpg" alt="plakat-kurs-sedziowski" class="article--image--file" />
+          </div>
+          <div class="dataAuthor">
+            Data dodania - autor: 30.12.2022r. - Bercik
+          </div>
+        </article>
         <article id="article--1">
           <a href="news001.php">Witamy na stronie !</a>
           <div class="article--image">

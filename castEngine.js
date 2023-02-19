@@ -29,8 +29,20 @@ function displayFlex(weeks) {
 
 
     if (weeks === 'august'){
-    month.style.background = (month.style.background == "orange") ? "linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37))" : "orange";
+        if (month.classList.contains("cast--container--month")){
+        month.classList.replace("cast--container--month", "cast--container--month-reverse");
+    } else {
+            month.classList.replace("cast--container--month-reverse", "cast--container--month");
+
+    }
+
+  /*       month.classList.remove("cast--container--month");
+        month.classList.add("cast--container--month-reverse"); */
+    /*month.style.background = (month.style.background == "orange") ? "linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37))" : "orange";
     month.style.color = (month.style.color == "black") ? "orange" : "black";  
+    month.style.border = (month.style.border == "solid 2px black") ? "solid 1px orange" : "solid 2px black"; */
+
+
 /*         aWeek1.style.display = (aWeek1.style.display == "flex") ? "none" : "flex";
             aWeek2.style.display = (aWeek2.style.display == "flex") ? "none" : "flex"; */
     } else if (weeks === 'september'){
@@ -46,7 +58,7 @@ function displayBlock(weeks) {
     week.style.display = (week.style.display == "block") ? "none" : "block";
 
     if (weeks === 'august_06_07'){
-    aWeek1.style.background = (aWeek1.style.background == "orange") ? "linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37))" : "orange";
+    aWeek1.style.background = (aWeek1.style.background == "linear-gradient(to top, rgb(252, 176, 34), rgb(210, 148, 34))") ? "linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37))" : "linear-gradient(to top, rgb(252, 176, 34), rgb(210, 148, 34))";
     aWeek1.style.color = (aWeek1.style.color == "black") ? "orange" : "black";  
     } else if (weeks === 'august_13_14'){
     aWeek2.style.background = (aWeek2.style.background == "orange") ? "linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37))" : "orange";

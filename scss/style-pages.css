@@ -337,7 +337,7 @@ main {
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
   box-shadow: 8px 8px black;
   width: 70vw;
-  height: 70vh;
+  height: auto;
   margin: 30px auto;
 }
 
@@ -430,12 +430,78 @@ main {
   transform: scale(1.13);
 }
 
+.news--simple--container--box006 {
+  height: auto;
+  margin: 0 auto;
+  width: 60vw;
+}
+
+.news--simple--container--box006 h3 {
+  border-bottom: solid 2px bisque;
+  color: bisque;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.news--simple--container--box006 h3 p {
+  color: orange;
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.news--simple--container--box006 h4 {
+  border-bottom: solid 2px bisque;
+  color: bisque;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 40vw;
+}
+
+.news--simple--container--box006 p {
+  color: orange;
+  font-size: 1rem;
+  padding: 8px;
+}
+
+.news--simple--container--box006 .center {
+  color: bisque;
+  text-align: center;
+}
+
+.news--simple--container--box006 .pTextIndent {
+  font-size: 1rem;
+  text-indent: 25px;
+}
+
+.news--simple--container--box006 a {
+  color: bisque;
+  text-decoration: none;
+}
+
+.news--simple--container--box006 .video--box {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.news--simple--container--box006 .sources {
+  border-top: solid 1px bisque;
+  color: bisque;
+  font-size: 0.8rem;
+  text-align: right;
+}
+
 .news--simple--container--long {
   border-radius: 8px;
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
   box-shadow: 8px 8px black;
   width: 70vw;
-  height: 70vh;
+  height: auto;
   margin: 30px auto;
   height: auto;
 }
@@ -709,7 +775,7 @@ main {
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
   box-shadow: 8px 8px black;
   width: 70vw;
-  height: 70vh;
+  height: auto;
   margin: 30px auto;
   height: auto;
 }
@@ -1057,6 +1123,11 @@ main {
   }
   .news--simple--container--box002--image:hover {
     transform: scale(1);
+  }
+  .news--simple--container--box006 {
+    height: auto;
+    margin: 0 auto;
+    width: 80vw;
   }
   .news--simple--container--long {
     height: auto;

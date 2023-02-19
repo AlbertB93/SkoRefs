@@ -386,6 +386,12 @@ nav .nav--box a#cast {
   padding: 4px 30px;
 }
 
+.cast--container .active {
+  background-color: red;
+  color: white;
+  border: solid 3px white;
+}
+
 .cast--container #august,
 .cast--container #september {
   display: none;
