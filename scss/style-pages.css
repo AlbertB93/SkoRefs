@@ -430,13 +430,13 @@ main {
   transform: scale(1.13);
 }
 
-.news--simple--container--box006 {
+.news--simple--container--box006, .news--simple--container--box008 {
   height: auto;
   margin: 0 auto;
   width: 60vw;
 }
 
-.news--simple--container--box006 h3 {
+.news--simple--container--box006 h3, .news--simple--container--box008 h3 {
   border-bottom: solid 2px bisque;
   color: bisque;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -445,13 +445,13 @@ main {
   margin-bottom: 10px;
 }
 
-.news--simple--container--box006 h3 p {
+.news--simple--container--box006 h3 p, .news--simple--container--box008 h3 p {
   color: orange;
   font-size: 0.8rem;
   text-align: right;
 }
 
-.news--simple--container--box006 h4 {
+.news--simple--container--box006 h4, .news--simple--container--box008 h4 {
   border-bottom: solid 2px bisque;
   color: bisque;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -462,38 +462,156 @@ main {
   width: 40vw;
 }
 
-.news--simple--container--box006 p {
+.news--simple--container--box006 p, .news--simple--container--box008 p {
   color: orange;
   font-size: 1rem;
   padding: 8px;
 }
 
-.news--simple--container--box006 .center {
+.news--simple--container--box006 .center, .news--simple--container--box008 .center {
   color: bisque;
   text-align: center;
 }
 
-.news--simple--container--box006 .pTextIndent {
+.news--simple--container--box006 .pTextIndent, .news--simple--container--box008 .pTextIndent {
   font-size: 1rem;
   text-indent: 25px;
 }
 
-.news--simple--container--box006 a {
+.news--simple--container--box006 a, .news--simple--container--box008 a {
   color: bisque;
   text-decoration: none;
 }
 
-.news--simple--container--box006 .video--box {
+.news--simple--container--box006 .video--box, .news--simple--container--box008 .video--box {
   display: flex;
   justify-content: center;
   padding: 10px;
 }
 
-.news--simple--container--box006 .sources {
+.news--simple--container--box006 .sources, .news--simple--container--box008 .sources {
   border-top: solid 1px bisque;
   color: bisque;
   font-size: 0.8rem;
   text-align: right;
+}
+
+.news--simple--container--box006 .img--box, .news--simple--container--box008 .img--box {
+  display: flex;
+  justify-content: center;
+  /*             max-height: 80vw;
+            max-width: 80vw; */
+  padding: 10px;
+}
+
+.news--simple--container--box006 .img--box--file, .news--simple--container--box008 .img--box--file {
+  max-width: 90vw;
+  max-height: auto;
+}
+
+.news--simple--container--box007 {
+  height: auto;
+  margin: 0 auto;
+  width: 60vw;
+}
+
+.news--simple--container--box007 .awarded {
+  color: bisque;
+}
+
+.news--simple--container--box007 h3 {
+  border-bottom: solid 2px bisque;
+  color: bisque;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.news--simple--container--box007 h3 p {
+  color: orange;
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.news--simple--container--box007 p {
+  color: orange;
+  font-size: 1.1rem;
+  padding: 8px;
+}
+
+.news--simple--container--box007 .pTextIndent {
+  text-indent: 25px;
+}
+
+.news--simple--container--box007 a {
+  color: bisque;
+  text-decoration: none;
+}
+
+.news--simple--container--box007 .table--title {
+  color: orange;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.news--simple--container--box007 .table--container .awarded {
+  color: bisque;
+}
+
+.news--simple--container--box007 .table--container table,
+.news--simple--container--box007 .table--container table * {
+  border: solid 1px grey;
+  color: orange;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin: 10px auto;
+  padding: 3px;
+  width: 60vw;
+}
+
+.news--simple--container--box007 .table--container table th,
+.news--simple--container--box007 .table--container table * th {
+  font-weight: 100;
+  text-align: center;
+}
+
+.news--simple--container--box007 .table--container table tr td,
+.news--simple--container--box007 .table--container table * tr td {
+  padding: 5px;
+  text-align: center;
+}
+
+.news--simple--container--box007 .box007--container {
+  /*     border: solid 1px red; */
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.news--simple--container--box007 .box007--container--list {
+  color: orange;
+  font-size: 1.4rem;
+  margin-left: 30px;
+  padding: 8px;
+}
+
+.news--simple--container--box007 .box007--container--imageContainer {
+  border-radius: 25px;
+  /*          border: solid 1px green; */
+  margin-bottom: 50px;
+  max-height: 12vw;
+  max-width: 12vw;
+}
+
+.news--simple--container--box007 .box007--container--imageContainer--image {
+  border-radius: 15px;
+  max-height: 90%;
+  max-width: 90%;
 }
 
 .news--simple--container--long {
@@ -983,6 +1101,9 @@ main {
   .news--simple--container--box002--image:hover {
     transform: scale(1);
   }
+  .news--simple--container--box007 {
+    width: 80vw;
+  }
   .news--simple--container--long {
     height: auto;
     width: 86vw;
@@ -1124,7 +1245,7 @@ main {
   .news--simple--container--box002--image:hover {
     transform: scale(1);
   }
-  .news--simple--container--box006 {
+  .news--simple--container--box006, .news--simple--container--box008 {
     height: auto;
     margin: 0 auto;
     width: 80vw;
@@ -1303,6 +1424,58 @@ main {
   }
   .news--simple--container--box002--image:hover {
     transform: scale(1);
+  }
+  .news--simple--container--box007 p {
+    font-size: 1rem;
+  }
+  .news--simple--container--box007 .table--container {
+    overflow: scroll;
+  }
+  .news--simple--container--box007 .table--container table,
+  .news--simple--container--box007 .table--container table * {
+    border: solid 1px grey;
+    color: orange;
+    cursor: pointer;
+    font-size: 0.7rem;
+    margin: 10px auto;
+    padding: 3px;
+    width: 60vw;
+  }
+  .news--simple--container--box007 .table--container table th,
+  .news--simple--container--box007 .table--container table * th {
+    font-weight: 100;
+    text-align: center;
+  }
+  .news--simple--container--box007 .table--container table tr td,
+  .news--simple--container--box007 .table--container table * tr td {
+    padding: 5px;
+    text-align: center;
+  }
+  .news--simple--container--box007 .box007--container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .news--simple--container--box007 .box007--container--list {
+    color: orange;
+    font-size: 1rem;
+    margin-left: 0px;
+    padding: 8px;
+    text-align: center;
+    width: 40vw;
+  }
+  .news--simple--container--box007 .box007--container--imageContainer {
+    border-radius: 0px;
+    margin: auto auto;
+    max-height: 40vw;
+    max-width: 40vw;
+  }
+  .news--simple--container--box007 .box007--container--imageContainer--image {
+    border-radius: 15px;
+    max-height: 90%;
+    max-width: 90%;
   }
   .news--simple--container--long {
     height: auto;

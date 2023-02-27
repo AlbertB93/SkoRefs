@@ -25,7 +25,25 @@
     </div>
     <div class="news--container">
       <div class="news--box">
-        <article id="article--2">
+        <article>
+          <a href="news/news004.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</a>
+          <div class="article--image">
+            <img src="../../images/pages/news-logo/news004.jpg" alt="wyjście-sędziów-z-drużynami" class="article--image--file" />
+          </div>
+          <div class="dataAuthor">
+            Data dodania - autor: 30.12.2022r. - Bercik
+          </div>
+        </article>
+        <article>
+          <a href="news003.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</a>
+          <div class="article--image">
+            <img src="../../images/pages/news-logo/news003.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
+          </div>
+          <div class="dataAuthor">
+            Data dodania - autor: 30.12.2022r. - Bercik
+          </div>
+        </article>
+        <article>
           <a href="news002.php">ZAPISZ SIĘ NA KURS!</a>
           <div class="article--image">
             <img src="../../images/pages/news-logo/news002.jpg" alt="plakat-kurs-sedziowski" class="article--image--file" />
@@ -34,7 +52,7 @@
             Data dodania - autor: 30.12.2022r. - Bercik
           </div>
         </article>
-        <article id="article--1">
+        <article>
           <a href="news001.php">Witamy na stronie !</a>
           <div class="article--image">
             <img src="../../images/pages/news-logo/news001.png" alt="ręka" class="article--image--file" />

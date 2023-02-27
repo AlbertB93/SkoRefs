@@ -42,27 +42,27 @@
         color: orange;
     }
 
-    #article--2 {
+    #article--1 {
         grid-column: 6/7;
         grid-row: 2/3;
     }
 
-    #article--3 {
+    #article--2 {
         grid-column: 5/6;
         grid-row: 3/4;
     }
 
-    #article--4 {
+    #article--3 {
         grid-column: 4/5;
         grid-row: 2/3;
     }
 
-    #article--5 {
+    #article--4 {
         grid-column: 3/4;
         grid-row: 3/4;
     }
 
-    #article--6 {
+    #article--5 {
         grid-column: 2/3;
         grid-row: 2/3;
     }
@@ -70,7 +70,7 @@
 }
 
 @include breakPoint(xlarge) {
-.index--container {
+    .index--container {
         display: grid;
         grid-template-columns: 2% 19% 19% 19% 19% 19% 3%;
         grid-template-rows: 10% 10% 10% 70%;
@@ -80,19 +80,20 @@
 
         article {
             @include article;
-                .article--image {
-                
-                        border-radius: 5px;
-                        margin: 15px 10px;
-                        max-height: 20vh;
-                        max-width: auto;
-                
-                        .article--image--file {
-                            border-radius: 5px;
-                            height: 90%;
-                            width: 90%;
-                        }
-                    }
+
+            .article--image {
+
+                border-radius: 5px;
+                margin: 15px 10px;
+                max-height: 20vh;
+                max-width: auto;
+
+                .article--image--file {
+                    border-radius: 5px;
+                    height: 90%;
+                    width: 90%;
+                }
+            }
         }
 
         article:hover {

@@ -24,7 +24,25 @@
     </div>
     <div class="news--container">
       <div class="news--box">
-        <article id="article--6">
+        <article>
+          <a href="news/news008.php">Klip tygodnia</br> 21 kolejka PKO BP Ekstraklasy</a>
+          <div class="article--image">
+            <img src="../images/pages/news-logo/news008.png" alt="Ishak-ręka" class="article--image--file" />
+          </div>
+          <div class="dataAuthor">
+            Data dodania - autor: 27.02.2023r. - Bercik
+          </div>
+        </article>
+        <article>
+          <a href="news/news007.php">Startujemy z rundą wiosenną !</a>
+          <div class="article--image">
+            <img src="../images/pages/news-logo/news007.png" alt="logo-kolegium-sedziów-ŚZPN" class="article--image--file" />
+          </div>
+          <div class="dataAuthor">
+            Data dodania - autor: 24.02.2023r. - Bercik
+          </div>
+        </article>
+        <article>
           <a href="news/news006.php">Klip tygodnia<br> 18,19,20 PKO BP Ekstraklasy</a>
           <div class="article--image">
             <img src="../images/pages/news-logo/news006.png" alt="widzew-pogoń-grosicki" class="article--image--file" />
@@ -33,7 +51,7 @@
             Data dodania - autor: 19.02.2023r. - Bercik
           </div>
         </article>
-        <article id="article--5">
+        <article>
           <a href="news/news005.php">Nasze dziewczyny w rozgrywkach kobiecych - podsumowanie rundy</a>
           <div class="article--image">
             <img src="../images/pages/news-logo/news005.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
@@ -42,24 +60,7 @@
             Data dodania - autor: 30.12.2022r. - Bercik
           </div>
         </article>
-        <article id="article--4">
-          <a href="news/news004.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</a>
-          <div class="article--image">
-            <img src="../images/pages/news-logo/news004.jpg" alt="wyjście-sędziów-z-drużynami" class="article--image--file" />
-          </div>
-          <div class="dataAuthor">
-            Data dodania - autor: 30.12.2022r. - Bercik
-          </div>
-        </article>
-        <article id="article--3">
-          <a href="news/news003.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</a>
-          <div class="article--image">
-            <img src="../images/pages/news-logo/news003.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
-          </div>
-          <div class="dataAuthor">
-            Data dodania - autor: 30.12.2022r. - Bercik
-          </div>
-        </article>
+
       </div>
       <div class="buttons--box">
         <div class="buttons--box--container">

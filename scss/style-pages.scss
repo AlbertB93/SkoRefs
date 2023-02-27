@@ -83,7 +83,8 @@ main {
 
     }
 
-    &--box006 {
+    &--box006,
+    &--box008 {
         height: auto;
         margin: 0 auto;
         width: 60vw;
@@ -143,9 +144,129 @@ main {
             font-size: 0.8rem;
             text-align: right;
         }
+
+        .img--box {
+            display: flex;
+            justify-content: center;
+/*             max-height: 80vw;
+            max-width: 80vw; */
+            padding: 10px;
+
+            &--file{
+                max-width: 90vw;
+                max-height: auto;
+            }
+        }
+
     }
 
+    &--box007 {
+        height: auto;
+        margin: 0 auto;
+        width: 60vw;
+
+        .awarded {
+            color: bisque;
+        }
+
+        h3 {
+            @include simple--container--h3;
+
+            p {
+                color: orange;
+                font-size: 0.8rem;
+                text-align: right;
+            }
+        }
+
+        p {
+            color: orange;
+            font-size: 1.1rem;
+            padding: 8px;
+        }
+
+        .pTextIndent {
+            text-indent: 25px;
+        }
+
+        a {
+            color: bisque;
+            text-decoration: none;
+        }
+
+        .table--title {
+            color: orange;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .table--container {
+            .awarded {
+                color: bisque;
+            }
+
+            table,
+            table * {
+                border: solid 1px grey;
+                color: orange;
+                cursor: pointer;
+                font-size: 0.9rem;
+                margin: 10px auto;
+                padding: 3px;
+                width: 60vw;
+
+                th {
+                    font-weight: 100;
+                    text-align: center;
+                }
+
+                tr {
+                    td {
+                        padding: 5px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .box007--container {
+            /*     border: solid 1px red; */
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+
+            &--list {
+                color: orange;
+                font-size: 1.4rem;
+                margin-left: 30px;
+                padding: 8px;
+            }
+
+            &--imageContainer {
+                border-radius: 25px;
+                /*          border: solid 1px green; */
+                margin-bottom: 50px;
+                max-height: 12vw;
+                max-width: 12vw;
+
+                &--image {
+                    border-radius: 15px;
+                    max-height: 90%;
+                    max-width: 90%;
+                }
+            }
+
+        }
+    }
+
+
+
 }
+
 
 .news--simple--container--long {
 
@@ -553,6 +674,10 @@ main {
                 transform: scale(1);
             }
         }
+
+        &--box007 {
+            width: 80vw;
+        }
     }
 
     .news--simple--container--long {
@@ -709,7 +834,8 @@ main {
             }
         }
 
-        &--box006 {
+        &--box006,
+        &--box008 {
             height: auto;
             margin: 0 auto;
             width: 80vw;
@@ -899,6 +1025,72 @@ main {
 
             &--image:hover {
                 transform: scale(1);
+            }
+        }
+
+        &--box007 {
+
+            p {
+                font-size: 1rem;
+            }
+
+            .table--container {
+                overflow: scroll;
+
+                table,
+                table * {
+                    border: solid 1px grey;
+                    color: orange;
+                    cursor: pointer;
+                    font-size: 0.7rem;
+                    margin: 10px auto;
+                    padding: 3px;
+                    width: 60vw;
+
+
+                    th {
+                        font-weight: 100;
+                        text-align: center;
+                    }
+
+                    tr {
+                        td {
+                            padding: 5px;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .box007--container {
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                &--list {
+                    color: orange;
+                    font-size: 1rem;
+                    margin-left: 0px;
+                    padding: 8px;
+                    text-align: center;
+                    width: 40vw;
+                }
+
+                &--imageContainer {
+                    border-radius: 0px;
+                    margin: auto auto;
+                    max-height: 40vw;
+                    max-width: 40vw;
+
+                    &--image {
+                        border-radius: 15px;
+                        max-height: 90%;
+                        max-width: 90%;
+                    }
+                }
+
             }
         }
 
@@ -1158,6 +1350,7 @@ main {
                 transform: scale(1);
             }
         }
+
     }
 
     .news--simple--container--long {

@@ -398,27 +398,27 @@ html footer {
   color: orange;
 }
 
-.index--container #article--2 {
+.index--container #article--1 {
   grid-column: 6/7;
   grid-row: 2/3;
 }
 
-.index--container #article--3 {
+.index--container #article--2 {
   grid-column: 5/6;
   grid-row: 3/4;
 }
 
-.index--container #article--4 {
+.index--container #article--3 {
   grid-column: 4/5;
   grid-row: 2/3;
 }
 
-.index--container #article--5 {
+.index--container #article--4 {
   grid-column: 3/4;
   grid-row: 3/4;
 }
 
-.index--container #article--6 {
+.index--container #article--5 {
   grid-column: 2/3;
   grid-row: 2/3;
 }
