@@ -347,6 +347,14 @@ nav .nav--box a#cast {
 }
 
 .cast--container--month {
+  border: solid 1px red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+}
+
+.cast--container--month--title {
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
   border: solid 1px orange;
   border-radius: 12px;
@@ -357,13 +365,62 @@ nav .nav--box a#cast {
   width: 20vw;
 }
 
-.cast--container--month--week {
+.cast--container--month--boxWeeks {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px yellow;
+  justify-content: space-around;
+}
+
+.cast--container--month--boxWeeks--week {
   background: linear-gradient(to left bottom, #171717, #2b2a2a);
-  border: solid 1px black;
+  border: solid 1px orange;
   border-radius: 10px;
   color: #ffa600;
   font-size: 0.8rem;
   padding: 4px 30px;
+  width: 10vw;
+}
+
+.cast--container--month--boxWeeks--table {
+  border: solid 1px green;
+}
+
+.cast--container--month .table--title {
+  color: orange;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.cast--container--month .table--container {
+  overflow: auto;
+}
+
+.cast--container--month .table--container table,
+.cast--container--month .table--container table * {
+  border: solid 1px grey;
+  color: orange;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 10px auto;
+  padding: 3px;
+  width: 78vw;
+}
+
+.cast--container--month .table--container table th,
+.cast--container--month .table--container table * th {
+  font-weight: 100;
+  text-align: center;
+}
+
+.cast--container--month .table--container table tr td,
+.cast--container--month .table--container table * tr td {
+  padding: 5px;
+  text-align: center;
 }
 
 .cast--container--month-reverse {

@@ -31,23 +31,83 @@ nav {
 
     &--month {
 
-        background: $bg-color-black;
-        border: solid 1px orange;
-        border-radius: 12px;
-        color: orange;
-        font-size: 1.2rem;
-        margin: 10px auto;
-        padding: 8px 0;
-        width: 20vw;
+        border: solid 1px red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80vw;
 
-        &--week {
+        &--title {
             background: $bg-color-black;
-            border: solid 1px black;
-            border-radius: 10px;
-            color: rgb(255, 166, 0);
-            font-size: 0.8rem;
-            padding: 4px 30px;
+            border: solid 1px orange;
+            border-radius: 12px;
+            color: orange;
+            font-size: 1.2rem;
+            margin: 10px auto;
+            padding: 8px 0;
+            width: 20vw;
         }
+
+        &--boxWeeks {
+            display: flex;
+            flex-direction: row;
+            border: solid 1px yellow;
+            justify-content: space-around;
+
+            &--week {
+                background: $bg-color-black;
+                border: solid 1px orange;
+                border-radius: 10px;
+                color: rgb(255, 166, 0);
+                font-size: 0.8rem;
+                padding: 4px 30px;
+                width: 10vw;
+            }
+
+            &--table {
+                border: solid 1px green;
+            }
+        }
+
+        .table--title {
+            color: orange;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .table--container {
+            overflow: auto;
+
+            table,
+            table * {
+                border: solid 1px grey;
+                color: orange;
+                cursor: pointer;
+                font-size: 1rem;
+                margin: 10px auto;
+                padding: 3px;
+                width: 78vw;
+
+
+                th {
+                    font-weight: 100;
+                    text-align: center;
+                }
+
+                tr {
+                    td {
+                        padding: 5px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+
     }
 
     &--month-reverse {

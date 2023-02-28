@@ -1,14 +1,14 @@
 console.log("Działa castEngineCopy")
 
 
-let august = document.getElementById('august');
+let august = document.getElementById('february');
 let september = document.getElementById('september');
 let month = document.getElementById('month-1');
 let month2 = document.getElementById('month-2');
 let aWeek1 = document.getElementById('week-1');
 let aWeek2 = document.getElementById('week-2');
 let aWeek3 = document.getElementById('week-3');
-let mojaZmienna = document.getElementById('august_06_07');
+let mojaZmienna = document.getElementById('feb_26-26');
 
 let testSieWrz = document.getElementsByClassName('cast--container--month');
 
