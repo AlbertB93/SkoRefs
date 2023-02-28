@@ -23,8 +23,8 @@
       </div>
     </div>
     <div class="cast--container">
-      <div class="cast--container--month" id="month-1" onclick="displayFlex('february')">
-        <div class="cast--container--month--title">
+      <div class="cast--container--month">
+        <div class="cast--container--month--title" id="month-1" onclick="displayFlex('february')">
           Luty 2023r.
         </div>
 
@@ -32,15 +32,15 @@
           <div class="cast--container--month--boxWeeks--week" id="m1-w1" onclick="displayBlock('feb_25-26')">
             25-26.02.2023r.
           </div>
-          <div class="cast--container--month--boxWeeks--week" id="m1-w1" onclick="displayBlock('feb_25-26')">
-            25-26.02.2023r.
+          <div class="cast--container--month--boxWeeks--week" id="m1-w2" onclick="displayBlock('feb_27-28')">
+            27-28.02.2023r.
           </div>
         </div>
 
         <div class="table--container" id="feb_25-26">
           <table>
             <div class="table--title">
-              Obsada na dzień 26.02.2023r. (niedziela)
+              Obsada na dzień 25-26.02.2023r. (niedziela)
             </div>
             <thead>
               <tr>
@@ -74,10 +74,10 @@
           </table>
         </div>
 
-        <div class="table--container" id="feb_25-26">
+        <div class="table--container" id="feb_27-28">
           <table>
             <div class="table--title">
-              Obsada na dzień 26.02.2023r. (niedziela)
+              Obsada na dzień 28.02.2023r. (niedziela)
             </div>
             <thead>
               <tr>
@@ -117,7 +117,7 @@
 
 
 
-
+      <!-- 
       <div class="cast--container--month" id="month-2" onclick="displayFlex('march')">Marzec 2023r.</div>
       <div id="march">
         <div class="cast--container--month--week" id="m2-w1" onclick="displayBlock('mar_04-05')">
@@ -269,7 +269,7 @@
             </tr>
           </tbody>
         </table>
-      </div>
+      </div> -->
     </div>
   </main>
   <?php include("../php/footer.php"); ?>

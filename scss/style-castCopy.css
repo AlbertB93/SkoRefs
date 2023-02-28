@@ -347,11 +347,16 @@ nav .nav--box a#cast {
 }
 
 .cast--container--month {
-  border: solid 1px red;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 80vw;
+}
+
+.cast--container--month #february,
+.cast--container--month #feb_25-26,
+.cast--container--month #feb_27-28 {
+  display: none;
 }
 
 .cast--container--month--title {
@@ -368,7 +373,6 @@ nav .nav--box a#cast {
 .cast--container--month--boxWeeks {
   display: flex;
   flex-direction: row;
-  border: solid 1px yellow;
   justify-content: space-around;
 }
 
@@ -380,10 +384,6 @@ nav .nav--box a#cast {
   font-size: 0.8rem;
   padding: 4px 30px;
   width: 10vw;
-}
-
-.cast--container--month--boxWeeks--table {
-  border: solid 1px green;
 }
 
 .cast--container--month .table--title {
@@ -423,7 +423,7 @@ nav .nav--box a#cast {
   text-align: center;
 }
 
-.cast--container--month-reverse {
+.cast--container .active {
   background: linear-gradient(to top, #fcb022, #d29422);
   border: solid 2px black;
   border-radius: 12px;
@@ -434,71 +434,11 @@ nav .nav--box a#cast {
   width: 20vw;
 }
 
-.cast--container--month-reverse--week-reverse {
-  background: linear-gradient(to left bottom, #171717, #2b2a2a);
-  border: solid 1px black;
-  border-radius: 10px;
-  color: #ffa600;
-  font-size: 0.8rem;
-  padding: 4px 30px;
-}
-
-.cast--container .active {
-  background-color: red;
-  color: white;
-  border: solid 3px white;
-}
-
-.cast--container #august,
-.cast--container #september {
-  display: none;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 20px;
-  width: 80%;
-}
-
-.cast--container #august_06_07,
-.cast--container #august_13_14,
-.cast--container #sept_13_14 {
-  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+.cast--container .active--week {
+  background: linear-gradient(to top, #fcb022, #d29422);
+  border: solid 2px black;
   border-radius: 12px;
-  display: none;
-  margin: 20px;
-  width: 92vw;
-}
-
-.cast--container #august_06_07 .table--title,
-.cast--container #august_13_14 .table--title,
-.cast--container #sept_13_14 .table--title {
-  color: orange;
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  text-align: center;
-  padding-top: 30px;
-}
-
-.cast--container #august_06_07 table,
-.cast--container #august_06_07 table *,
-.cast--container #august_13_14 table,
-.cast--container #august_13_14 table *,
-.cast--container #sept_13_14 table,
-.cast--container #sept_13_14 table * {
-  border: solid 1px black;
-  color: orange;
-  cursor: pointer;
-  font-size: 1rem;
-  margin: 20px auto;
-  padding: 5px;
-}
-
-.cast--container #august_06_07 table th,
-.cast--container #august_13_14 table th,
-.cast--container #sept_13_14 table th {
-  font-weight: 100;
-  text-align: center;
+  color: black;
 }
 
 @media (max-width: 1200px) {
