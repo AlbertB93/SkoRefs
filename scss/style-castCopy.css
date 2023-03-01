@@ -403,8 +403,8 @@ nav .nav--box a#cast {
 
 .cast--container--month .table--container table,
 .cast--container--month .table--container table * {
-  /*                 background-color: black; */
-  border: solid 1px grey;
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  border: solid 1px orange;
   color: orange;
   cursor: pointer;
   font-size: 1rem;
