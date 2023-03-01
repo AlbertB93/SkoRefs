@@ -37,8 +37,9 @@ nav {
         width: 80vw;
 
         #february,
+        #march,
         #feb_25-26,
-        #feb_27-28 {
+        #mar_04-05 {
             display: none;
         }
 
@@ -85,6 +86,7 @@ nav {
 
             table,
             table * {
+                /*                 background-color: black; */
                 border: solid 1px grey;
                 color: orange;
                 cursor: pointer;

@@ -1,22 +1,12 @@
-console.log("Działa castEngineCopy")
 
-
-/* let august = document.getElementById('february');
-let september = document.getElementById('september');
-let month = document.getElementById('month-1');
+let month1 = document.getElementById('month-1');
 let month2 = document.getElementById('month-2');
-let aWeek1 = document.getElementById('week-1');
-let aWeek2 = document.getElementById('week-2');
-let aWeek3 = document.getElementById('week-3');
-let mojaZmienna = document.getElementById('feb_26-26');
+let m1w1 = document.getElementById('m1-w1');
+let m1w1Table = document.getElementById('feb_25-26');
+let m2w1 = document.getElementById('m2-w1');
+let m2w1Table = document.getElementById('mar_04-05');
 
-let testSieWrz = document.getElementsByClassName('cast--container--month');
- */
 
-let month = document.getElementById('month-1');
-let february = document.getElementById('february');
-let aWeek1 = document.getElementById('m1-w1');
-let aWeek2 = document.getElementById('m1-w2');
 
 function displayFlex(przekazanaZmienna) {
     var week = document.getElementById(przekazanaZmienna);
@@ -24,30 +14,23 @@ function displayFlex(przekazanaZmienna) {
 
     if (week.style.display === "flex"){
         week.style.display = "none";
-/*         mojaZmienna.style.display = "none"; */
+        m1w1.classList.remove("active--week")
+        m2w1.classList.remove("active--week")
+        m1w1Table.style.display = "none";
+        m2w1Table.style.display = "none";
+
+
     } else {
         week.style.display = "flex";        
     };
 
 if(przekazanaZmienna==='february'){
-    (month.classList.contains("active")) ? month.classList.remove("active") : month.classList.add("active");
+    (month1.classList.contains("active")) ? month1.classList.remove("active") : month1.classList.add("active");
+} else if(przekazanaZmienna==='march'){
+    (month2.classList.contains("active")) ? month2.classList.remove("active") : month2.classList.add("active");
 }
 
-
- /*    if (przekazanaZmienna === 'august'){
-        if (month.classList.contains("cast--container--month")){
-        month.classList.replace("cast--container--month", "cast--container--month-reverse");
-    } else {
-            month.classList.replace("cast--container--month-reverse", "cast--container--month");
-
-    }
-    } else if (przekazanaZmienna === 'september'){
-    month2.style.background = (month2.style.background == "orange") ? "linear-gradient(to right, rgb(28, 27, 27), rgb(40, 37, 37))" : "orange";
-    month2.style.color = (month2.style.color == "black") ? "orange" : "black";    
-    } */
 }
-
-
 
 
 function displayBlock(zmTest) {
@@ -55,9 +38,9 @@ function displayBlock(zmTest) {
     week.style.display = (week.style.display == "block") ? "none" : "block";
 
      if (zmTest === 'feb_25-26'){
-        (aWeek1.classList.contains("active--week")) ? aWeek1.classList.remove("active--week") : aWeek1.classList.add("active--week"); 
-    } else if (zmTest === 'feb_27-28'){
-        (aWeek2.classList.contains("active--week")) ? aWeek2.classList.remove("active--week") : aWeek2.classList.add("active--week");
+        (m1w1.classList.contains("active--week")) ? m1w1.classList.remove("active--week") : m1w1.classList.add("active--week"); 
+    } else if (zmTest === 'mar_04-05'){
+        (m2w1.classList.contains("active--week")) ? m2w1.classList.remove("active--week") : m2w1.classList.add("active--week");
     }  
     
 }
