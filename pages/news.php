@@ -25,6 +25,24 @@
     <div class="news--container">
       <div class="news--box">
         <article>
+          <a href="news/news010.php">Klip tygodnia</br> 22 kolejka PKO BP Ekstraklasy</a>
+          <div class="article--image">
+            <img src="../images/pages/news-logo/news010.png" alt="Kowalczyk-karny-pośredni" class="article--image--file" />
+          </div>
+          <div class="dataAuthor">
+            Data dodania - autor: 02.03.2023r. - Bercik
+          </div>
+        </article>
+        <article>
+          <a href="news/news009.php">Obsada</br> 04-05 marzec 2023r.</a>
+          <div class="article--image">
+            <img src="../images/pages/news-logo/news009.png" alt="Ania-Kasia-Angelika" class="article--image--file" />
+          </div>
+          <div class="dataAuthor">
+            Data dodania - autor: 02.03.2023r. - Bercik
+          </div>
+        </article>
+        <article>
           <a href="news/news008.php">Klip tygodnia</br> 21 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
             <img src="../images/pages/news-logo/news008.png" alt="Ishak-ręka" class="article--image--file" />
@@ -42,25 +60,6 @@
             Data dodania - autor: 24.02.2023r. - Bercik
           </div>
         </article>
-        <article>
-          <a href="news/news006.php">Klip tygodnia<br> 18,19,20 PKO BP Ekstraklasy</a>
-          <div class="article--image">
-            <img src="../images/pages/news-logo/news006.png" alt="widzew-pogoń-grosicki" class="article--image--file" />
-          </div>
-          <div class="dataAuthor">
-            Data dodania - autor: 19.02.2023r. - Bercik
-          </div>
-        </article>
-        <article>
-          <a href="news/news005.php">Nasze dziewczyny w rozgrywkach kobiecych - podsumowanie rundy</a>
-          <div class="article--image">
-            <img src="../images/pages/news-logo/news005.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
-          </div>
-          <div class="dataAuthor">
-            Data dodania - autor: 30.12.2022r. - Bercik
-          </div>
-        </article>
-
       </div>
       <div class="buttons--box">
         <div class="buttons--box--container">
@@ -70,10 +69,10 @@
           <button class="buttons--box--container--buttons">
             <a href="news/news--page--002.php">2</a>
           </button>
-          <!--         <button class="news--buttons">
-          <a href="news/news--page--003.php">3</a>
-        </button>
-        <button class="news--buttons">...</button> -->
+          <button class="buttons--box--container--buttons">
+            <a href="news/news--page--003.php">3</a>
+          </button>
+          <!--           <button class="news--buttons">...</button> -->
         </div>
       </div>
     </div>

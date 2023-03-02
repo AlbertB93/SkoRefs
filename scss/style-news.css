@@ -566,9 +566,9 @@ nav .nav--box a#news {
     width: 60vw;
   }
   .news--container .news--box article {
-    min-height: 40vh;
+    min-height: 60vh;
     margin-top: 20px;
-    width: 40vw;
+    width: 60vw;
   }
   .news--container .news--box article .article--image {
     max-height: 90%;

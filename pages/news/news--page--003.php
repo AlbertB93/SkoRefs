@@ -26,36 +26,18 @@
     <div class="news--container">
       <div class="news--box">
         <article>
-          <a href="news/news006.php">Klip tygodnia<br> 18,19,20 PKO BP Ekstraklasy</a>
+          <a href="news002.php">ZAPISZ SIĘ NA KURS!</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news006.png" alt="widzew-pogoń-grosicki" class="article--image--file" />
-          </div>
-          <div class="dataAuthor">
-            Data dodania - autor: 19.02.2023r. - Bercik
-          </div>
-        </article>
-        <article>
-          <a href="news/news005.php">Nasze dziewczyny w rozgrywkach kobiecych - podsumowanie rundy</a>
-          <div class="article--image">
-            <img src="../../images/pages/news-logo/news005.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news002.jpg" alt="plakat-kurs-sedziowski" class="article--image--file" />
           </div>
           <div class="dataAuthor">
             Data dodania - autor: 30.12.2022r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news/news004.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</a>
+          <a href="news001.php">Witamy na stronie !</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news004.jpg" alt="wyjście-sędziów-z-drużynami" class="article--image--file" />
-          </div>
-          <div class="dataAuthor">
-            Data dodania - autor: 30.12.2022r. - Bercik
-          </div>
-        </article>
-        <article>
-          <a href="news003.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</a>
-          <div class="article--image">
-            <img src="../../images/pages/news-logo/news003.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news001.png" alt="ręka" class="article--image--file" />
           </div>
           <div class="dataAuthor">
             Data dodania - autor: 30.12.2022r. - Bercik
@@ -67,10 +49,10 @@
           <button class="buttons--box--container--buttons">
             <a href="../news.php">1</a>
           </button>
-          <button class="buttons--box--container--buttons--active">
+          <button class="buttons--box--container--buttons">
             <a href="news--page--002.php">2</a>
           </button>
-          <button class="buttons--box--container--buttons">
+          <button class="buttons--box--container--buttons--active">
             <a href="news--page--003.php">3</a>
           </button>
         </div>

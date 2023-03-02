@@ -559,6 +559,10 @@ main {
   padding-top: 30px;
 }
 
+.news--simple--container--box007 .table--container {
+  padding-bottom: 20px;
+}
+
 .news--simple--container--box007 .table--container .awarded {
   color: bisque;
 }
@@ -1101,9 +1105,6 @@ main {
   .news--simple--container--box002--image:hover {
     transform: scale(1);
   }
-  .news--simple--container--box007 {
-    width: 80vw;
-  }
   .news--simple--container--long {
     height: auto;
     width: 86vw;
@@ -1248,6 +1249,9 @@ main {
   .news--simple--container--box006, .news--simple--container--box008 {
     height: auto;
     margin: 0 auto;
+    width: 80vw;
+  }
+  .news--simple--container--box006 h4, .news--simple--container--box008 h4 {
     width: 80vw;
   }
   .news--simple--container--long {
@@ -1425,11 +1429,15 @@ main {
   .news--simple--container--box002--image:hover {
     transform: scale(1);
   }
+  .news--simple--container--box007 {
+    width: 80vw;
+  }
   .news--simple--container--box007 p {
     font-size: 1rem;
   }
   .news--simple--container--box007 .table--container {
     overflow: scroll;
+    width: 80vw;
   }
   .news--simple--container--box007 .table--container table,
   .news--simple--container--box007 .table--container table * {
@@ -1439,7 +1447,7 @@ main {
     font-size: 0.7rem;
     margin: 10px auto;
     padding: 3px;
-    width: 60vw;
+    width: 80vw;
   }
   .news--simple--container--box007 .table--container table th,
   .news--simple--container--box007 .table--container table * th {

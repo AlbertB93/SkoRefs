@@ -384,7 +384,7 @@ nav .nav--box a#cast {
   color: #ffa600;
   font-size: 0.8rem;
   padding: 4px 30px;
-  width: 10vw;
+  width: auto;
 }
 
 .cast--container--month .table--title {
@@ -398,6 +398,7 @@ nav .nav--box a#cast {
 }
 
 .cast--container--month .table--container {
+  margin-bottom: 20px;
   overflow: auto;
 }
 
@@ -408,7 +409,7 @@ nav .nav--box a#cast {
   color: orange;
   cursor: pointer;
   font-size: 1rem;
-  margin: 10px auto;
+  margin: 20px auto;
   padding: 3px;
   width: 78vw;
 }
@@ -428,12 +429,7 @@ nav .nav--box a#cast {
 .cast--container .active {
   background: linear-gradient(to top, #fcb022, #d29422);
   border: solid 2px black;
-  border-radius: 12px;
   color: black;
-  font-size: 1.2rem;
-  margin: 10px auto;
-  padding: 8px 0;
-  width: 20vw;
 }
 
 .cast--container .active--week {
@@ -441,17 +437,6 @@ nav .nav--box a#cast {
   border: solid 2px black;
   border-radius: 12px;
   color: black;
-}
-
-@media (max-width: 1200px) {
-  .container--title .title {
-    left: 30vw;
-    width: 40vw;
-  }
-  .container--title .btn--index {
-    left: 44vw;
-    width: 9vw;
-  }
 }
 
 @media (max-width: 1000px) {
@@ -478,66 +463,57 @@ nav .nav--box a#cast {
     left: 0;
   }
   .cast--container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-    cursor: pointer;
-    font-size: 1.5rem;
-    text-align: center;
     width: 92vw;
   }
   .cast--container--month {
     width: 92vw;
   }
-  .cast--container--month--week {
+  .cast--container--month .table--container {
+    overflow: auto;
+  }
+  .cast--container--month .table--container table,
+  .cast--container--month .table--container table * {
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    border: solid 1px orange;
+    color: orange;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin: 6px auto;
+    padding: 3px;
     width: 90vw;
-    margin: 10px 0;
   }
-  .cast--container #august,
-  .cast--container #september {
-    display: none;
-    padding: 20px;
-    margin: 0 auto;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-  }
-  .cast--container #august_06_07,
-  .cast--container #august_13_14,
-  .cast--container #sept_13_14 {
+}
+
+@media (max-width: 800px) {
+  .cast--container {
     width: 92vw;
   }
-  .cast--container #august_06_07 .table--title,
-  .cast--container #august_13_14 .table--title,
-  .cast--container #sept_13_14 .table--title {
+  .cast--container--month--title {
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    border: solid 1px orange;
+    border-radius: 12px;
+    color: orange;
+    font-size: 1rem;
+    margin: 10px auto;
+    padding: 8px 0;
+    width: 20vw;
+  }
+  .cast--container--month .table--container {
+    overflow: auto;
+  }
+  .cast--container--month .table--container table,
+  .cast--container--month .table--container table * {
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    border: solid 1px orange;
     color: orange;
     cursor: pointer;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 30px;
-    letter-spacing: 1px;
+    font-size: 0.9rem;
+    margin: 6px auto;
+    padding: 3px;
+    width: 90vw;
   }
-  .cast--container #august_06_07 table,
-  .cast--container #august_06_07 table *,
-  .cast--container #august_13_14 table,
-  .cast--container #august_13_14 table *,
-  .cast--container #sept_13_14 table,
-  .cast--container #sept_13_14 table * {
-    border: solid 1px black;
-    color: orange;
-    cursor: pointer;
-    padding: 5px;
-    margin: 20px auto;
-    font-size: 0.7rem;
-  }
-  .cast--container #august_06_07 table th,
-  .cast--container #august_13_14 table th,
-  .cast--container #sept_13_14 table th {
-    text-align: center;
-    font-weight: 100;
+  .cast--container .active {
+    font-size: 1rem;
   }
 }
 
@@ -563,5 +539,35 @@ nav .nav--box a#cast {
     font-size: 1rem;
     width: 80vw;
     left: 0;
+  }
+  .cast--container {
+    width: 92vw;
+  }
+  .cast--container--month--title {
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    border: solid 1px orange;
+    border-radius: 12px;
+    color: orange;
+    font-size: 1rem;
+    margin: 10px auto;
+    padding: 8px;
+    width: auto;
+  }
+  .cast--container--month .table--container {
+    overflow: auto;
+  }
+  .cast--container--month .table--container table,
+  .cast--container--month .table--container table * {
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    border: solid 1px orange;
+    color: orange;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin: 6px auto;
+    padding: 3px;
+    width: 90vw;
+  }
+  .cast--container .active {
+    font-size: 1rem;
   }
 }
