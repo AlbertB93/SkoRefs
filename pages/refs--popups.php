@@ -917,6 +917,96 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
+        <img src="../images/persons/TBlazej-pop.PNG " alt="zdjęcie Błażej Turski" class="popup--photo">
+        <div class="popup--photo--text">
+            <p> Rok urodzenia: 2002</p>
+            <p> Sędzia od: 2020r. </p>
+            <p> Obecnie: Sędzia klasy "B"</p>
+        </div>
+    </div>
+    <div class="popup--container">
+        <div class="popup--name">
+            Błażej Turski
+            <button class="popup--btn" onclick="closePopup(10)">X</button>
+        </div>
+        <div class="popup--description">
+            <p>
+                Błażej jest naszym najmłodszym sędzią. Skończył kurs w 2020r. Miniona runda była jego pierwszą jako sędzia "B" klasy.
+                Do tej pory prowadził 3 mecze "B" klasy jako sędzia główny.
+            </p>
+            <p>
+                Pomimo małego stażu Błażej poprowadził już ponad 70 meczów jako sędzia główny lub sędzia asystent w rozgrywkach młodzieżowych.
+            </p>
+            Ciekawostki:
+            <li> Najwyższa liga jako sędzia główny: "B" klasa.</li>
+            <li> Najwyższa liga jako sędzia asystent: Klasa "O".</li>
+            <li> Zawodnik IV ligowego Orlicza Suchedniów. </li>
+
+        </div>
+    </div>
+    <div class="popup--static">
+        <div class="static--title">Liczba meczów</div>
+        <div class="static--table">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="dark">
+                        <td>2 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>3 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>4 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "O"</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Kl. "A"</td>
+                        <td>0</td>
+                        <td>7</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "B"</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Młodzież</td>
+                        <td>32</td>
+                        <td>39</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="popup--main">
+    <div class="popup--photo--field">
         <img src="../images/persons/DAdrian-pop.PNG" alt="zdjęcie Adrian Dzięcioł" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 2000</p>
@@ -927,7 +1017,7 @@
     <div class="popup--container">
         <div class="popup--name">
             Adrian Dzięcioł
-            <button class="popup--btn" onclick="closePopup(10)">X</button>
+            <button class="popup--btn" onclick="closePopup(11)">X</button>
         </div>
         <div class="popup--description">
             <p>
@@ -1008,30 +1098,113 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/TBlazej-pop.PNG " alt="zdjęcie Błażej Turski" class="popup--photo">
+        <img src="../images/persons/face.png" alt="zdjęcie uśmiech" class="popup--photo">
         <div class="popup--photo--text">
-            <p> Rok urodzenia: 2002</p>
-            <p> Sędzia od: 2020r. </p>
+            <p> Rok urodzenia: 1997</p>
+            <p> Sędzia od: 2017r. </p>
             <p> Obecnie: Sędzia klasy "B"</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
-            Błażej Turski
-            <button class="popup--btn" onclick="closePopup(11)">X</button>
+            Emil Czubak
+            <button class="popup--btn" onclick="closePopup(12)">X</button>
         </div>
         <div class="popup--description">
             <p>
-                Błażej jest naszym najmłodszym sędzią. Skończył kurs w 2020r. Miniona runda była jego pierwszą jako sędzia "B" klasy.
-                Do tej pory prowadził 3 mecze "B" klasy jako sędzia główny.
+                Emil ukońcyzł kurs wiosną 2017r.
             </p>
-            <p>
-                Pomimo małego stażu Błażej poprowadził już ponad 70 meczów jako sędzia główny lub sędzia asystent w rozgrywkach młodzieżowych.
-            </p>
-            Ciekawostki:
+            <br>Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: "B" klasa.</li>
+            <li> Najwyższa liga jako sędzia asystent: IV Liga.</li>
+
+        </div>
+    </div>
+    <div class="popup--static">
+        <div class="static--title">Liczba meczów</div>
+        <div class="static--table">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="dark">
+                        <td>2 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>3 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>4 liga</td>
+                        <td>0</td>
+                        <td>12*</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "O"</td>
+                        <td>0</td>
+                        <td>7*</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Kl. "A"</td>
+                        <td>0</td>
+                        <td>20*</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "B"</td>
+                        <td>10*</td>
+                        <td>11*</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Młodzież</td>
+                        <td>30*</td>
+                        <td>34*</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p> * dane wg strony kieleckapilka.pl</p>
+        </div>
+    </div>
+</div>
+
+<div class="popup--main">
+    <div class="popup--photo--field">
+        <img src="../images/persons/BMaks-pop.PNG" alt="zdjęcie Maks Bator" class="popup--photo">
+        <div class="popup--photo--text">
+            <p> Rok urodzenia: 2003</p>
+            <p> Sędzia od: 2020r. </p>
+            <p> Obecnie: Sędzia asystent</p>
+        </div>
+    </div>
+    <div class="popup--container">
+        <div class="popup--name">
+            Maksymilian Bator
+            <button class="popup--btn" onclick="closePopup(13)">X</button>
+        </div>
+        <div class="popup--description">
+            <p>
+                Maks ukończył kurs sędziego w 2020r. Miał półroczną przerwę podczas rudny jesiennej sezonu 2022/ 2023.
+                Maks łączy przygodę sędziowską z graniem w piłkę, obecnie na 4 ligowych boiskach.
+            </p>
+
+            <br>Ciekawostki:
+            <li> Zawodnik IV ligowego Granatu Skarżysko.</li>
             <li> Najwyższa liga jako sędzia asystent: Klasa "O".</li>
-            <li> Zawodnik IV ligowego Orlicza Suchedniów. </li>
 
         </div>
     </div>
@@ -1069,29 +1242,358 @@
                     <tr>
                         <td>Kl. "O"</td>
                         <td>0</td>
-                        <td>3</td>
+                        <td>0</td>
+                        <td>2*</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Kl. "A"</td>
+                        <td>0</td>
+                        <td>3*</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "B"</td>
+                        <td>0</td>
+                        <td>3*</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Młodzież</td>
+                        <td>8*</td>
+                        <td>9*</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p> * dane wg strony kieleckapilka.pl</p>
+        </div>
+    </div>
+</div>
+
+<div class="popup--main">
+    <div class="popup--photo--field">
+        <img src="../images/persons/face.png" alt="zdjęcie uśmiech" class="popup--photo">
+        <div class="popup--photo--text">
+            <p> Rok urodzenia: 2000</p>
+            <p> Sędzia od: 2021r. </p>
+            <p> Obecnie: Sędzia klasy "B"</p>
+        </div>
+    </div>
+    <div class="popup--container">
+        <div class="popup--name">
+            Jakub Janus
+            <button class="popup--btn" onclick="closePopup(14)">X</button>
+        </div>
+        <div class="popup--description">
+            <p>
+                Jakub ukończył kurs sędziego wiosną 2023r.
+            </p>
+        </div>
+    </div>
+    <div class="popup--static">
+        <div class="static--title">Liczba meczów</div>
+        <div class="static--table">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="dark">
+                        <td>2 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>3 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>4 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "O"</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
                         <td>0</td>
-                        <td>7</td>
+                        <td>0</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>3</td>
-                        <td>3</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>32</td>
-                        <td>39</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane wg strony kieleckapilka.pl</p>
+        </div>
+    </div>
+</div>
+
+<div class="popup--main">
+    <div class="popup--photo--field">
+        <img src="../images/persons/face.png" alt="zdjęcie uśmiech" class="popup--photo">
+        <div class="popup--photo--text">
+            <p> Rok urodzenia: </p>
+            <p> Sędzia od: 2023r. </p>
+            <p> Obecnie: Sędzia asystent</p>
+        </div>
+    </div>
+    <div class="popup--container">
+        <div class="popup--name">
+            Brajan Sykluski
+            <button class="popup--btn" onclick="closePopup(15)">X</button>
+        </div>
+        <div class="popup--description">
+            <p>
+                Brajan ukończył kurs sędziego wiosną 2023r.
+            </p>
+        </div>
+    </div>
+    <div class="popup--static">
+        <div class="static--title">Liczba meczów</div>
+        <div class="static--table">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="dark">
+                        <td>2 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>3 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>4 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "O"</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Kl. "A"</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "B"</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Młodzież</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p> * dane wg strony kieleckapilka.pl</p>
+        </div>
+    </div>
+</div>
+
+<div class="popup--main">
+    <div class="popup--photo--field">
+        <img src="../images/persons/MKrzysztof-pop.PNG" alt="zdjęcie Krzysztof Myśliwy" class="popup--photo">
+        <div class="popup--photo--text">
+            <p> Rok urodzenia: </p>
+            <p> Sędzia od: 2023r. </p>
+            <p> Obecnie: Sędzia asystent</p>
+        </div>
+    </div>
+    <div class="popup--container">
+        <div class="popup--name">
+            Krzysztof Myśliwy
+            <button class="popup--btn" onclick="closePopup(16)">X</button>
+        </div>
+        <div class="popup--description">
+            <p>
+                Krzysztof ukończył kurs sędziego wiosną 2023r.
+            </p>
+        </div>
+    </div>
+    <div class="popup--static">
+        <div class="static--title">Liczba meczów</div>
+        <div class="static--table">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="dark">
+                        <td>2 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>3 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>4 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "O"</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Kl. "A"</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "B"</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Młodzież</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p> * dane wg strony kieleckapilka.pl</p>
+        </div>
+    </div>
+</div>
+
+<div class="popup--main">
+    <div class="popup--photo--field">
+        <img src="../images/persons/face.png" alt="zdjęcie uśmiech" class="popup--photo">
+        <div class="popup--photo--text">
+            <p> Rok urodzenia: 2001</p>
+            <p> Sędzia od: 2023r. </p>
+            <p> Obecnie: Sędzia asystent</p>
+        </div>
+    </div>
+    <div class="popup--container">
+        <div class="popup--name">
+            Michał Szemberg
+            <button class="popup--btn" onclick="closePopup(17)">X</button>
+        </div>
+        <div class="popup--description">
+            <p>
+                Michał ukończył kurs sędziego wiosną 2023r.
+            </p>
+        </div>
+    </div>
+    <div class="popup--static">
+        <div class="static--title">Liczba meczów</div>
+        <div class="static--table">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
+                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="dark">
+                        <td>2 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>3 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>4 liga</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "O"</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Kl. "A"</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "B"</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
+                        <td>Młodzież</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p> * dane wg strony kieleckapilka.pl</p>
         </div>
     </div>
 </div>

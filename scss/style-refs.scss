@@ -32,8 +32,8 @@ nav {
 
     display: grid;
     grid-template-columns: 10vw 16vw 2vw 16w 2vw 16vw 2vw 16vw 10vw;
-    grid-template-rows: 5vh 44vh 4vh 44vh 4vh 44vh 5vh;
-    height: 150vh;
+    grid-template-rows: 5vh 44vh 4vh 44vh 4vh 44vh 4vh 44vh 5vh 44vh 5vh;
+    height: auto;
     margin: 0px auto;
     width: 90vw;
 
@@ -167,14 +167,44 @@ nav {
             grid-row: 6/7;
         }
 
-        &#DA {
+        &#TB {
             grid-column: 6/7;
             grid-row: 6/7;
         }
 
-        &#TB {
+        &#DA {
             grid-column: 8/9;
             grid-row: 6/7;
+        }
+
+        &#CE {
+            grid-column: 2/3;
+            grid-row: 8/9;
+        }
+
+        &#BM {
+            grid-column: 4/5;
+            grid-row: 8/9;
+        }
+
+        &#JJ {
+            grid-column: 6/7;
+            grid-row: 8/9;
+        }
+
+        &#SB {
+            grid-column: 8/9;
+            grid-row: 8/9;
+        }
+
+        &#MK {
+            grid-column: 2/3;
+            grid-row: 10/11;
+        }
+
+        &#SM {
+            grid-column: 4/5;
+            grid-row: 10/11;
         }
 
     }

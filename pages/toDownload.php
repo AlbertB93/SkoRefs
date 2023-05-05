@@ -85,9 +85,11 @@
                             Wydanie 4 / 2022
                         </a>
                     </div>
-                    <!--                     <div class="toDownload--container--singleBox--list--option">
-                        Wydanie 4 / 2022
-                    </div> -->
+                    <div class="toDownload--container--singleBox--list--option">
+                        <a href="https://pzpn.pl/public/system/files/publikacje/142/5201-S%C4%99dzia%201%202023.pdf" target="_blank">
+                            Wydanie 1 / 2023
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

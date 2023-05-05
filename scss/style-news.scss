@@ -67,6 +67,95 @@ nav {
         }
     }
 
+    .news--list {
+        border: solid 1px red;
+        margin: 20px auto;
+
+        .table--listNews {
+            background: $bg-color-black;
+            color: orange;
+            width: 80vw;
+
+            .title--news {
+                border: solid 1px white;
+                width: 56vw;
+            }
+
+            .title--data {
+                border: solid 1px green;
+                width: 20vw;
+            }
+
+            .name--news {
+                padding: 4px;
+                text-align: center;
+                width: 56vw;
+            }
+
+            .data--news {
+                padding: 4px;
+                text-align: center;
+                width: 20vw;
+            }
+
+            th {
+                border-bottom: solid 1px orange;
+                font-size: 1.2rem;
+                font-weight: normal;
+                letter-spacing: 1px;
+                padding: 4px;
+            }
+        }
+    }
+
+    @include buttons-box;
+}
+
+.news--container--003 {
+    align-items: center;
+    background: $bg-color-black-orange-bottom;
+    border: solid 2px black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 80vw;
+
+    .news--list {
+            margin: 20px auto;
+    
+            &--row {
+                background: $bg-color-black;
+                border: solid 1px orange;
+                border-radius: 12px;
+                color: orange;
+                display: flex;
+                justify-content: space-around;
+                margin: 12px;
+                padding: 12px;
+                width:60vw;
+    
+                &--title {
+                    width: 30vw;
+                }
+    
+                &--data {
+                    text-align: center;
+                    width: 20vw;
+                }
+    
+                a {
+                    color: orange;
+                    text-decoration: none;
+                }
+            }
+    
+    
+        }
+
     @include buttons-box;
 }
 

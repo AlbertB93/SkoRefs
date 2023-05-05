@@ -44,13 +44,20 @@
         </p>
         <p class="pTextIndent">
         <h4>Wyjaśnienie sytuacji:</h4>
-        <p class="pTextIndent"> 87 minuta zawodów w Poznaniu. Stawiamy pytanie: czy napastnik Lecha nr 9 dotknął piłkę ręką przed zdobyciem bramki? Dyskutowała o tym cała piłkarska Polska. W mediach prezentowano rożne ujęcia. Jedne skłaniały do opinii, że napastnik zagrał piłkę barkiem. Inne, że dotknął jej ramieniem. Żadne z nich nie jest decydujące. Dla jednych jest ręka, dla innych jej nie ma.
+        <p class="pTextIndent">
+          Wbrew niektórym opiniom, nie istnieje w tym wypadku żaden przepis, który różnicuje rozmyślne (nawet w oczywisty sposób) zagranie piłki ręką od pozostałych nieprzepisowych kontaktów, które skutkują pokazaniem żółtej kartki. Rozmyślne zagranie piłki ręką nie oznacza automatycznie niesportowego zachowania. To byłaby błędna interpretacja „Przepisów Gry”.
+        </p>
+        <p class="pTextIndent">
+          W omawianej sytuacji sędzia nie miał podstaw, aby ukarać zawodnika żółtą kartką. Nie ma tu mowy o przerwaniu korzystnej akcji (strefa boiska, kontekst całej akcji) ani o drugim z wymienionych przypadków.
+        </p>
+        <p class="pTextIndent">
+          Trudno też szukać na siłę „innego paragrafu”: próby oszukania sędziego, zachowania prowokacyjnego wobec przeciwnika czy ostentacyjnego okazywania braku szacunku dla zawodów. Przecież nie o to chodzi! Dobrze, że sędzia nie uległ takiej pokusie.
         </p>
         </p>
         <h3>#21 kolejka. Lech Poznań - Zagłębie Lubin
         </h3>
         <p class="pTextIndent">
-          82 minuta spotkania. W środkowej strefie boiska do górnej piłki wyskakuje zawodnik Legii nr 99. Rozmyślnie, wysoko wyciągniętą ręką dotyka on piłki. W efekcie futbolówka zmienia tor lotu i nie trafia do zawodnika Piasta nr 6. Sędzia przerywa grę i dyktuje rzut wolny bezpośredni. Nie stosuje on w tym przypadku kary indywidualnej, czyli żółtej kartki. Co bardzo istotne, zawodnik Legii miał już na swoim koncie napomnienie. Pokazanie żółtej kartki oznaczałoby dla niego karę wykluczenia (ostatecznie drugie napomnienie otrzymał w późniejszej fazie meczu). Czy sędzia postąpił słusznie?
+          87 minuta zawodów w Poznaniu. Stawiamy pytanie: czy napastnik Lecha nr 9 dotknął piłkę ręką przed zdobyciem bramki? Dyskutowała o tym cała piłkarska Polska. W mediach prezentowano rożne ujęcia. Jedne skłaniały do opinii, że napastnik zagrał piłkę barkiem. Inne, że dotknął jej ramieniem. Żadne z nich nie jest decydujące. Dla jednych jest ręka, dla innych jej nie ma.
         </p>
         <div class="img--box">
           <img src="../../images/pages/news/news008-Ishak-1.PNG" class="img--box--file">

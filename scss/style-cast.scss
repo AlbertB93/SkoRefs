@@ -31,109 +31,131 @@ nav {
 
     &--month {
 
-        background: $bg-color-black;
-        border: solid 1px orange;
-        border-radius: 12px;
-        color: orange;
-        font-size: 1.2rem;
-        margin: 10px auto;
-        padding: 8px 0;
-        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80vw;
 
-        &--week {
-            background: $bg-color-black;
-            border: solid 1px black;
-            border-radius: 10px;
-            color: rgb(255, 166, 0);
-            font-size: 0.8rem;
-            padding: 4px 30px;
+        #february,
+        #march,
+        #april,
+        #may,
+        #feb_25-26,
+        #mar_04-05,
+        #mar_11-12,
+        #mar_18-19,
+        #mar_24-26,
+        #apr_01-02,
+        #apr_05-08,
+        #apr_11-13,
+        #apr_14-16,
+        #apr_19-23,
+        #apr_26-27,
+        #apr_28-30,
+        #may_03,
+        #may_06-07 {
+            display: none;
         }
-    }
 
-    &--month-reverse {
-
-        background: $bg-color-orange-dark;
-        border: solid 2px black;
-        border-radius: 12px;
-        color: black;
-        font-size: 1.2rem;
-        margin: 10px auto;
-        padding: 8px 0;
-        width: 20vw;
-
-        &--week-reverse {
+        &--title {
             background: $bg-color-black;
-            border: solid 1px black;
-            border-radius: 10px;
-            color: rgb(255, 166, 0);
-            font-size: 0.8rem;
-            padding: 4px 30px;
+            border: solid 1px orange;
+            border-radius: 12px;
+            color: orange;
+            font-size: 1.2rem;
+            margin: 10px auto;
+            padding: 8px 0;
+            width: 20vw;
         }
-    }
 
+        &--boxWeeks {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
 
-    #august,
-    #september {
-        display: none;
-        justify-content: space-between;
-        margin: 0 auto;
-        padding: 20px;
-        width: 80%;
-    }
+            &--week {
+                background: $bg-color-black;
+                border: solid 1px orange;
+                border-radius: 10px;
+                color: rgb(255, 166, 0);
+                font-size: 0.8rem;
+                padding: 4px 30px;
+                width: auto;
+            }
 
-    #august_06_07,
-    #august_13_14,
-    #sept_13_14 {
-        background: $bg-color-black;
-        border-radius: 12px;
-        display: none;
-        margin: 20px;
-        width: 92vw;
+        }
 
         .table--title {
             color: orange;
             cursor: pointer;
-            font-size: 18px;
             font-weight: 400;
             letter-spacing: 1px;
             text-align: center;
-            padding-top: 30px;
-        }
-
-        table,
-        table * {
-            border: solid 1px black;
-            color: orange;
-            cursor: pointer;
+            background: $bg-color-black;
+            border: solid 1px orange;
             font-size: 1rem;
-            margin: 20px auto;
-            padding: 5px;
+            margin: 10px auto;
+            padding: 10px;
+            width: max-content;
         }
 
-        table th {
-            font-weight: 100;
-            text-align: center;
+        .table--container {
+            margin-bottom: 20px;
+            overflow: auto;
+
+            .awarded {
+                color: bisque;
+            }
+
+            .awarded--small {
+                color: bisque;
+                font-size: 0.8rem;
+            }
+
+            table,
+            table * {
+                background: $bg-color-black;
+                border: solid 1px orange;
+                color: orange;
+                cursor: pointer;
+                font-size: 1rem;
+                margin: 20px auto;
+                padding: 3px;
+                width: 78vw;
+
+                th {
+                    font-weight: 100;
+                    text-align: center;
+                }
+
+                tr {
+                    td {
+                        color: orange;
+                        padding: 5px;
+                        text-align: center;
+                    }
+                }
+            }
         }
+
+
+    }
+
+
+    .active {
+        background: $bg-color-orange-dark;
+        border: solid 2px black;
+        color: black;
+    }
+
+    .active--week {
+        background: $bg-color-orange-dark;
+        border: solid 2px black;
+        border-radius: 12px;
+        color: black;
     }
 }
 
-@include breakPoint(xlarge) {
-
-    .container--title {
-
-        .title {
-            left: 30vw;
-            width: 40vw;
-        }
-
-        .btn--index {
-            left: 44vw;
-            width: 9vw;
-        }
-
-    }
-
-}
 
 @include breakPoint(large) {
 
@@ -142,67 +164,96 @@ nav {
     }
 
     .cast--container {
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin: 0 auto;
-        cursor: pointer;
-        font-size: 1.5rem;
-        text-align: center;
         width: 92vw;
 
         &--month {
 
             width: 92vw;
 
-            &--week {
-                width: 90vw;
-                margin: 10px 0;
+
+            &--boxWeeks {
+
+                flex-wrap: wrap;
+
+                &--week {
+
+                    margin: 5px;
+                }
 
             }
-        }
 
-        #august,
-        #september {
-            display: none;
-            padding: 20px;
-            margin: 0 auto;
-            flex-direction: column;
-            align-items: center;
-            width: 80%;
-        }
+            .table--container {
+                overflow: auto;
 
-        #august_06_07,
-        #august_13_14,
-        #sept_13_14 {
-            width: 92vw;
+                table,
+                table * {
+                    background: $bg-color-black;
+                    border: solid 1px orange;
+                    color: orange;
+                    cursor: pointer;
+                    font-size: 0.9rem;
+                    margin: 6px auto;
+                    padding: 3px;
+                    width: 90vw;
+                }
+            }
+
+        }
+    }
+
+}
+
+@include breakPoint(medium) {
+    .cast--container {
+        width: 92vw;
+
+        &--month {
+            &--title {
+                background: $bg-color-black;
+                border: solid 1px orange;
+                border-radius: 12px;
+                color: orange;
+                font-size: 1rem;
+                margin: 10px auto;
+                padding: 8px 0;
+                width: 20vw;
+            }
 
             .table--title {
                 color: orange;
                 cursor: pointer;
                 font-size: 18px;
                 font-weight: 400;
-                text-align: center;
-                padding-top: 30px;
                 letter-spacing: 1px;
-            }
-
-            table,
-            table * {
-                border: solid 1px black;
-                color: orange;
-                cursor: pointer;
-                padding: 5px;
-                margin: 20px auto;
-                font-size: 0.7rem;
-            }
-
-            table th {
                 text-align: center;
-                font-weight: 100;
+                background: $bg-color-black;
+                border: solid 1px orange;
+                font-size: 0.8rem;
+                margin: 10px auto;
+                padding: 8px 0;
+                width: 50vw;
             }
 
+            .table--container {
+                overflow: auto;
+
+                table,
+                table * {
+                    background: $bg-color-black;
+                    border: solid 1px orange;
+                    color: orange;
+                    cursor: pointer;
+                    font-size: 0.9rem;
+                    margin: 6px auto;
+                    padding: 3px;
+                    width: 90vw;
+                }
+            }
+
+        }
+
+        .active {
+            font-size: 1rem;
         }
     }
 
@@ -212,4 +263,55 @@ nav {
     .container--title {
         @include title--small;
     }
+
+    .cast--container {
+        width: 92vw;
+
+        &--month {
+            &--title {
+                background: $bg-color-black;
+                border: solid 1px orange;
+                border-radius: 12px;
+                color: orange;
+                font-size: 1rem;
+                margin: 10px auto;
+                padding: 8px;
+                width: auto;
+            }
+
+            &--boxWeeks {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                &--week {
+                    margin: 4px;
+                }
+
+            }
+
+
+            .table--container {
+                overflow: auto;
+
+                table,
+                table * {
+                    background: $bg-color-black;
+                    border: solid 1px orange;
+                    color: orange;
+                    cursor: pointer;
+                    font-size: 0.8rem;
+                    margin: 6px auto;
+                    padding: 3px;
+                    width: 90vw;
+                }
+            }
+
+        }
+
+        .active {
+            font-size: 1rem;
+        }
+    }
+
 }

@@ -110,6 +110,14 @@ main {
             width: 40vw;
         }
 
+        h5 {
+
+            color: bisque;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            padding: 4px;
+        }
+
         p {
             color: orange;
             font-size: 1rem;
@@ -263,6 +271,183 @@ main {
             }
 
         }
+    }
+
+    &--simpleNews {
+
+
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        margin: 10px auto;
+        padding: 10px;
+        width: 60vw;
+
+        &--textBox {
+            height: auto;
+            padding: 20px;
+
+            p {
+                color: orange;
+                font-size: 1rem;
+                text-align: left;
+            }
+
+            .pTextIndent {
+                font-size: 1rem;
+                text-indent: 50px;
+            }
+        }
+
+        &--photoBox {
+
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: auto;
+            margin-top: 20px;
+            padding: 0px;
+
+            p {
+                color: orange;
+                font-size: 1rem;
+                text-align: left;
+            }
+
+            .pTextIndent {
+                font-size: 1rem;
+                text-indent: 50px;
+            }
+
+            .photo1 {
+
+                                            display: flex;
+                                                justify-content: flex-end;
+                height: 80%;
+                width: 65%;
+
+                .photoContainer {
+                    width: 90%;
+                    height: auto;
+                }
+            }
+
+            .photo2 {
+
+                        display: flex;
+                        justify-content: center;
+                height: auto;
+                width: 47%;
+
+                .photoContainer {
+                    width: 75%;
+                    height: 100&;
+                }
+
+                .textContainer {
+                    align-self: center;
+                    color: orange;
+                    font-size: 1rem;
+                    text-indent: 50px;
+                }
+
+
+            }
+        }
+
+        &--gallery {
+
+            .gallery--container {
+                background: $bg-color-orange-dark;
+                border-radius: 12px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin: 25px;
+                min-height: auto;
+                width: 55vw;
+
+                .gallery--photo--field {
+                    align-items: center;
+                    background: $bg-color-black;
+                    border-radius: 8px;
+                    box-shadow: 10px 10px 20px black;
+                    display: flex;
+                    justify-content: center;
+                    margin: 10px 10px;
+                    max-height: 22vh;
+                    max-width: 16vw;
+                    padding: 12px;
+
+                    .gallery--photo {
+                        border-radius: 8px;
+                        cursor: pointer;
+                        margin: 0 auto;
+                        max-width: 100%;
+                        max-height: 100%;
+                    }
+                }
+
+
+                @include buttons-box;
+
+
+            }
+
+            .popupGallery {
+                align-content: center;
+                background: rgba(0, 0, 0, 0.5);
+                backdrop-filter: blur(10px);
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                height: 100vh;
+                left: 0;
+                position: fixed;
+                top: 0;
+                width: 100vw;
+
+                &.hidden {
+                    display: none;
+                }
+
+                .popupCloseBtn {
+                    border: solid 3px orange;
+                    border-radius: 12px;
+                    background: $bg-color-black;
+                    color: orange;
+                    cursor: pointer;
+                    font-size: 1.5em;
+                    height: 6vh;
+                    position: absolute;
+                    right: 2vw;
+                    top: 2vh;
+                    width: 6vh;
+                }
+
+                .popupArrow--right {
+                    @include arrow;
+                    right: 5vw;
+                }
+
+                .popupArrow--left {
+                    @include arrow;
+                    left: 5vw;
+                }
+            }
+        }
+
+        h3 {
+            color: bisque;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            padding: 10px;
+        }
+
+
     }
 }
 
@@ -674,6 +859,23 @@ main {
             }
         }
 
+        &--simpleNews {
+            width: 80vw;
+
+            &--gallery {
+                display: flex;
+                justify-content: center;
+
+                .gallery--container {
+
+                    width: 70vw;
+                    @include buttons-box;
+
+
+                }
+            }
+        }
+
     }
 
     .news--simple--container--long {
@@ -692,11 +894,6 @@ main {
             .news--simple--container--btn--back {
                 align-self: flex-end;
             }
-        }
-
-
-        &--box003 {
-            //none to change;
         }
 
         &--box005 {
@@ -840,6 +1037,8 @@ main {
                 width: 80vw;
             }
         }
+
+
 
 
     }
@@ -1033,6 +1232,8 @@ main {
         &--box007 {
             width: 80vw;
 
+
+
             p {
                 font-size: 1rem;
             }
@@ -1050,14 +1251,14 @@ main {
                     margin: 10px auto;
                     padding: 3px;
                     width: 80vw;
+                }
 
-
-                    th {
-                        font-weight: 100;
-                        text-align: center;
-                    }
+                th {
+                    font-weight: 100;
+                    text-align: center;
 
                     tr {
+
                         td {
                             padding: 5px;
                             text-align: center;
@@ -1096,8 +1297,167 @@ main {
                 }
 
             }
+
         }
 
+        &--simpleNews {
+            width: 90vw;
+
+            &--textBox {
+                height: auto;
+                padding: 5px;
+                width: 86vw;
+
+                p {
+                    color: orange;
+                    font-size: 0.8rem;
+                    text-align: left;
+                }
+
+                .pTextIndent {
+                    font-size: 0.9rem;
+                    text-indent: 20px;
+                }
+            }
+
+            &--photoBox {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: auto;
+                margin-top: 20px;
+                padding: 0px;
+                width: 80vw;
+
+                p {
+                    color: orange;
+                    font-size: 1rem;
+                    text-align: left;
+                }
+
+                .pTextIndent {
+                    font-size: 1rem;
+                    text-indent: 50px;
+                }
+
+                .photo1 {
+                    display: flex;
+                    height: 80%;
+                    justify-content: center;
+                    margin: 10px 0;
+                    width: 90%;
+
+                    .photoContainer {
+                        width: 90%;
+                        height: auto;
+                    }
+                }
+
+                .photo2 {
+                    display: flex;
+                    height: auto;
+                    justify-content: center;
+                    width: 80%;
+
+                    .photoContainer {
+
+                        width: 75%;
+                        height: 100&;
+                    }
+
+                    .textContainer {
+                        align-self: center;
+                        color: orange;
+                        font-size: 1rem;
+                        text-indent: 50px;
+                    }
+
+
+                }
+            }
+
+            &--gallery {
+                .gallery--container {
+                    width: 96vw;
+                    min-height: 150vh;
+                    justify-content: space-around;
+                    width: 60vw;
+
+                    .gallery--photo--field {
+                        padding: 8px;
+                        max-width: 42vw;
+                        max-height: 42vw;
+                        margin: 5px 5px;
+
+                        .gallery--photo {
+                            cursor: pointer;
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                    }
+                }
+
+                .popupGallery {
+                    .popupGallery--img {
+                        height: auto;
+                        width: 55vw;
+                    }
+
+                    .popupCloseBtn {
+                        border: solid 2px orange;
+                        border-radius: 0px;
+                        background: $bg-color-black;
+                        color: orange;
+                        cursor: pointer;
+                        font-size: 0.7em;
+                        height: 30px;
+                        position: absolute;
+                        right: 2vw;
+                        top: 2vh;
+                        width: 30px;
+                    }
+
+                    .popupArrow--right {
+                        border: solid 1px orange;
+                        border-radius: 0px;
+                        font-size: 20px;
+                        height: 30px;
+                        right: 5vw;
+                        width: 30px;
+
+
+                        .text {
+                            bottom: 2px;
+                            right: 10px;
+                        }
+
+                    }
+
+                    .popupArrow--left {
+                        border: solid 1px orange;
+                        border-radius: 0px;
+                        font-size: 20px;
+                        height: 30px;
+                        left: 5vw;
+                        width: 30px;
+
+                        .text {
+                            bottom: 2px;
+                            right: 10px;
+                        }
+                    }
+                }
+            }
+
+            h3 {
+                color: bisque;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 0.8rem;
+                text-align: center;
+                padding: 10px;
+            }
+        }
 
     }
 
@@ -1323,6 +1683,24 @@ main {
         @include simple--container--small;
         height: auto;
 
+        &--header {
+            h1 {
+                font-size: 1rem;
+                letter-spacing: 1px;
+                height: 80px;
+                margin: 0 auto;
+                text-align: center;
+
+                p {
+                    color: orange;
+                    font-size: 0.6rem;
+                    font-weight: 100;
+                    text-align: right;
+
+                }
+            }
+        }
+
         &--box002 {
             color: orange;
             flex-direction: column;
@@ -1355,6 +1733,14 @@ main {
             }
         }
 
+        &--simpleNews {
+
+            &--photoBox {
+
+                margin-top: 0px;
+
+            }
+        }
     }
 
     .news--simple--container--long {

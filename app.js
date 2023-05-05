@@ -1,41 +1,4 @@
 
-/* FUNKCJA DO WYŚWIETLANIA OBSADY*/
-
-// dodać miesiące do zmiennych. 
-{
-    var august = document.querySelectorAll('#august');
-    var september = document.querySelector('#september');
-
-
-
-    function displayFlex(idDiv) {
-        var oDiv = document.getElementById(idDiv);
-        oDiv.style.display = (oDiv.style.display == "flex") ? "none" : "flex";
-    }
-
-    function displayBlock(idDiv) {
-        var oDiv = document.getElementById(idDiv);
-        let testDiv = document.getElementsByClassName("august--week")[0];
-        oDiv.style.display = (oDiv.style.display == "block") ? "none" : "block";
-        testDiv.style.backgroundColor = (testDiv.style.backgroundColor == "red") ? "black" : "red";
-
-    }
-
-    function displayNone() {
-
-        var august = document.querySelectorAll('#august');
-        var september = document.querySelector('#september');
-
-        august[0].style.display = "none";
-        september[0].style.display = "none";
-
-    }
-
-
-}
-
-
-
 /*  FUNKCJE DO REFS.HTML */
 
 {

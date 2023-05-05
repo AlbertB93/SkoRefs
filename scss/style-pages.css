@@ -462,6 +462,13 @@ main {
   width: 40vw;
 }
 
+.news--simple--container--box006 h5, .news--simple--container--box008 h5 {
+  color: bisque;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 4px;
+}
+
 .news--simple--container--box006 p, .news--simple--container--box008 p {
   color: orange;
   font-size: 1rem;
@@ -616,6 +623,266 @@ main {
   border-radius: 15px;
   max-height: 90%;
   max-width: 90%;
+}
+
+.news--simple--container--simpleNews {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 10px;
+  width: 60vw;
+}
+
+.news--simple--container--simpleNews--textBox {
+  height: auto;
+  padding: 20px;
+}
+
+.news--simple--container--simpleNews--textBox p {
+  color: orange;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.news--simple--container--simpleNews--textBox .pTextIndent {
+  font-size: 1rem;
+  text-indent: 50px;
+}
+
+.news--simple--container--simpleNews--photoBox {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.news--simple--container--simpleNews--photoBox p {
+  color: orange;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.news--simple--container--simpleNews--photoBox .pTextIndent {
+  font-size: 1rem;
+  text-indent: 50px;
+}
+
+.news--simple--container--simpleNews--photoBox .photo1 {
+  display: flex;
+  justify-content: flex-end;
+  height: 80%;
+  width: 65%;
+}
+
+.news--simple--container--simpleNews--photoBox .photo1 .photoContainer {
+  width: 90%;
+  height: auto;
+}
+
+.news--simple--container--simpleNews--photoBox .photo2 {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 47%;
+}
+
+.news--simple--container--simpleNews--photoBox .photo2 .photoContainer {
+  width: 75%;
+  height: 100 .news--simple--container--simpleNews--photoBox .photo2 .photoContainer;
+}
+
+.news--simple--container--simpleNews--photoBox .photo2 .textContainer {
+  align-self: center;
+  color: orange;
+  font-size: 1rem;
+  text-indent: 50px;
+}
+
+.news--simple--container--simpleNews--gallery .gallery--container {
+  background: linear-gradient(to top, #fcb022, #d29422);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 25px;
+  min-height: auto;
+  width: 55vw;
+}
+
+.news--simple--container--simpleNews--gallery .gallery--container .gallery--photo--field {
+  align-items: center;
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px black;
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+  max-height: 22vh;
+  max-width: 16vw;
+  padding: 12px;
+}
+
+.news--simple--container--simpleNews--gallery .gallery--container .gallery--photo--field .gallery--photo {
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.news--simple--container--simpleNews--gallery .gallery--container .buttons--box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 160px;
+  width: 92vw;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.news--simple--container--simpleNews--gallery .gallery--container .buttons--box--container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 90vw;
+}
+
+.news--simple--container--simpleNews--gallery .gallery--container .buttons--box--container--buttons {
+  font-size: 1.2rem;
+  border-radius: 0px;
+  border: solid 2px black;
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  color: orange;
+  cursor: pointer;
+  margin: 10px;
+  height: 40px;
+  padding: 4px;
+  width: 40px;
+}
+
+.news--simple--container--simpleNews--gallery .gallery--container .buttons--box--container--buttons a {
+  color: orange;
+  text-decoration: none;
+}
+
+.news--simple--container--simpleNews--gallery .gallery--container .buttons--box--container--buttons--active {
+  font-size: 20px;
+  border-radius: 0px;
+  border: solid 2px black;
+  background: orange;
+  color: black;
+  cursor: pointer;
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  padding: 4px;
+}
+
+.news--simple--container--simpleNews--gallery .gallery--container .buttons--box--container--buttons--active a {
+  color: black;
+  text-decoration: none;
+}
+
+.news--simple--container--simpleNews--gallery .gallery--container .buttons--box--sources {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  width: 140px;
+}
+
+.news--simple--container--simpleNews--gallery .gallery--container .buttons--box--sources--btn {
+  border: solid 2px black;
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  color: orange;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 40px;
+  width: 120px;
+}
+
+.news--simple--container--simpleNews--gallery .popupGallery {
+  align-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.news--simple--container--simpleNews--gallery .popupGallery.hidden {
+  display: none;
+}
+
+.news--simple--container--simpleNews--gallery .popupGallery .popupCloseBtn {
+  border: solid 3px orange;
+  border-radius: 12px;
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  color: orange;
+  cursor: pointer;
+  font-size: 1.5em;
+  height: 6vh;
+  position: absolute;
+  right: 2vw;
+  top: 2vh;
+  width: 6vh;
+}
+
+.news--simple--container--simpleNews--gallery .popupGallery .popupArrow--right {
+  border: solid 3px orange;
+  border-radius: 12px;
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  color: orange;
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+  height: 50px;
+  width: 50px;
+  right: 5vw;
+}
+
+.news--simple--container--simpleNews--gallery .popupGallery .popupArrow--right .text {
+  position: absolute;
+  bottom: -6px;
+  right: 12px;
+}
+
+.news--simple--container--simpleNews--gallery .popupGallery .popupArrow--left {
+  border: solid 3px orange;
+  border-radius: 12px;
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  color: orange;
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+  height: 50px;
+  width: 50px;
+  left: 5vw;
+}
+
+.news--simple--container--simpleNews--gallery .popupGallery .popupArrow--left .text {
+  position: absolute;
+  bottom: -6px;
+  right: 12px;
+}
+
+.news--simple--container--simpleNews h3 {
+  color: bisque;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 10px;
 }
 
 .news--simple--container--long {
@@ -1105,6 +1372,80 @@ main {
   .news--simple--container--box002--image:hover {
     transform: scale(1);
   }
+  .news--simple--container--simpleNews {
+    width: 80vw;
+  }
+  .news--simple--container--simpleNews--gallery {
+    display: flex;
+    justify-content: center;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container {
+    width: 70vw;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container .buttons--box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 160px;
+    width: 92vw;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container .buttons--box--container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 90vw;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container .buttons--box--container--buttons {
+    font-size: 1.2rem;
+    border-radius: 0px;
+    border: solid 2px black;
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    color: orange;
+    cursor: pointer;
+    margin: 10px;
+    height: 40px;
+    padding: 4px;
+    width: 40px;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container .buttons--box--container--buttons a {
+    color: orange;
+    text-decoration: none;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container .buttons--box--container--buttons--active {
+    font-size: 20px;
+    border-radius: 0px;
+    border: solid 2px black;
+    background: orange;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container .buttons--box--container--buttons--active a {
+    color: black;
+    text-decoration: none;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container .buttons--box--sources {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    width: 140px;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container .buttons--box--sources--btn {
+    border: solid 2px black;
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    color: orange;
+    cursor: pointer;
+    font-size: 1rem;
+    height: 40px;
+    width: 120px;
+  }
   .news--simple--container--long {
     height: auto;
     width: 86vw;
@@ -1449,13 +1790,11 @@ main {
     padding: 3px;
     width: 80vw;
   }
-  .news--simple--container--box007 .table--container table th,
-  .news--simple--container--box007 .table--container table * th {
+  .news--simple--container--box007 .table--container th {
     font-weight: 100;
     text-align: center;
   }
-  .news--simple--container--box007 .table--container table tr td,
-  .news--simple--container--box007 .table--container table * tr td {
+  .news--simple--container--box007 .table--container th tr td {
     padding: 5px;
     text-align: center;
   }
@@ -1484,6 +1823,134 @@ main {
     border-radius: 15px;
     max-height: 90%;
     max-width: 90%;
+  }
+  .news--simple--container--simpleNews {
+    width: 90vw;
+  }
+  .news--simple--container--simpleNews--textBox {
+    height: auto;
+    padding: 5px;
+    width: 86vw;
+  }
+  .news--simple--container--simpleNews--textBox p {
+    color: orange;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  .news--simple--container--simpleNews--textBox .pTextIndent {
+    font-size: 0.9rem;
+    text-indent: 20px;
+  }
+  .news--simple--container--simpleNews--photoBox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    margin-top: 20px;
+    padding: 0px;
+    width: 80vw;
+  }
+  .news--simple--container--simpleNews--photoBox p {
+    color: orange;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .news--simple--container--simpleNews--photoBox .pTextIndent {
+    font-size: 1rem;
+    text-indent: 50px;
+  }
+  .news--simple--container--simpleNews--photoBox .photo1 {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    margin: 10px 0;
+    width: 90%;
+  }
+  .news--simple--container--simpleNews--photoBox .photo1 .photoContainer {
+    width: 90%;
+    height: auto;
+  }
+  .news--simple--container--simpleNews--photoBox .photo2 {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    width: 80%;
+  }
+  .news--simple--container--simpleNews--photoBox .photo2 .photoContainer {
+    width: 75%;
+    height: 100 .news--simple--container--simpleNews--photoBox .photo2 .photoContainer;
+  }
+  .news--simple--container--simpleNews--photoBox .photo2 .textContainer {
+    align-self: center;
+    color: orange;
+    font-size: 1rem;
+    text-indent: 50px;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container {
+    width: 96vw;
+    min-height: 150vh;
+    justify-content: space-around;
+    width: 60vw;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container .gallery--photo--field {
+    padding: 8px;
+    max-width: 42vw;
+    max-height: 42vw;
+    margin: 5px 5px;
+  }
+  .news--simple--container--simpleNews--gallery .gallery--container .gallery--photo--field .gallery--photo {
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .news--simple--container--simpleNews--gallery .popupGallery .popupGallery--img {
+    height: auto;
+    width: 55vw;
+  }
+  .news--simple--container--simpleNews--gallery .popupGallery .popupCloseBtn {
+    border: solid 2px orange;
+    border-radius: 0px;
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    color: orange;
+    cursor: pointer;
+    font-size: 0.7em;
+    height: 30px;
+    position: absolute;
+    right: 2vw;
+    top: 2vh;
+    width: 30px;
+  }
+  .news--simple--container--simpleNews--gallery .popupGallery .popupArrow--right {
+    border: solid 1px orange;
+    border-radius: 0px;
+    font-size: 20px;
+    height: 30px;
+    right: 5vw;
+    width: 30px;
+  }
+  .news--simple--container--simpleNews--gallery .popupGallery .popupArrow--right .text {
+    bottom: 2px;
+    right: 10px;
+  }
+  .news--simple--container--simpleNews--gallery .popupGallery .popupArrow--left {
+    border: solid 1px orange;
+    border-radius: 0px;
+    font-size: 20px;
+    height: 30px;
+    left: 5vw;
+    width: 30px;
+  }
+  .news--simple--container--simpleNews--gallery .popupGallery .popupArrow--left .text {
+    bottom: 2px;
+    right: 10px;
+  }
+  .news--simple--container--simpleNews h3 {
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px;
   }
   .news--simple--container--long {
     height: auto;
@@ -1684,6 +2151,19 @@ main {
     font-weight: 100;
     text-align: right;
   }
+  .news--simple--container--header h1 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .news--simple--container--header h1 p {
+    color: orange;
+    font-size: 0.6rem;
+    font-weight: 100;
+    text-align: right;
+  }
   .news--simple--container--box002 {
     color: orange;
     flex-direction: column;
@@ -1710,6 +2190,9 @@ main {
   }
   .news--simple--container--box002--image:hover {
     transform: scale(1);
+  }
+  .news--simple--container--simpleNews--photoBox {
+    margin-top: 0px;
   }
   .news--simple--container--long {
     height: auto;

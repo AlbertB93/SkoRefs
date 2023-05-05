@@ -23,26 +23,91 @@
         Archiwum wiadomości
       </div>
     </div>
-    <div class="news--container">
-      <div class="news--box">
-        <article>
-          <a href="news002.php">ZAPISZ SIĘ NA KURS!</a>
-          <div class="article--image">
-            <img src="../../images/pages/news-logo/news002.jpg" alt="plakat-kurs-sedziowski" class="article--image--file" />
+    <div class="news--container--003">
+      <div class="news--list">
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news011.php">Obsada 11-12 marzec 2023r.</a>
           </div>
-          <div class="dataAuthor">
-            Data dodania - autor: 30.12.2022r. - Bercik
+          <div class="news--list--row--data">
+            Data dodania: 10.03.2023r.</div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news010.php">Klip tygodnia 22 kolejka PKO BP Ekstraklasy</a>
           </div>
-        </article>
-        <article>
-          <a href="news001.php">Witamy na stronie !</a>
-          <div class="article--image">
-            <img src="../../images/pages/news-logo/news001.png" alt="ręka" class="article--image--file" />
+          <div class="news--list--row--data">
+            Data dodania: 02.03.2023r.</div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news009.php">Obsada 04-05 marzec 2023r.</a>
           </div>
-          <div class="dataAuthor">
-            Data dodania - autor: 30.12.2022r. - Bercik
+          <div class="news--list--row--data">
+            Data dodania: 02.03.2023r.</div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news008.php">Klip tygodnia 21 kolejka PKO BP Ekstraklasy</a>
           </div>
-        </article>
+          <div class="news--list--row--data">
+            Data dodania: 27.02.2023r.</div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news007.php">Startujemy z rundą wiosenną !</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 24.02.2023r.</div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news006.php">Klip tygodnia: 18,19,20 PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 19.02.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news005.php">Nasze dziewczyny w rozgrywkach kobiecych - podsumowanie rundy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 30.12.2022r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news004.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 30.12.2022r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news003.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 30.12.2022r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news002.php">ZAPISZ SIĘ NA KURS!</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 30.12.2022r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news001.php">Witamy na stronie !</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 30.12.2022r.
+          </div>
+        </div>
       </div>
       <div class="buttons--box">
         <div class="buttons--box--container">
@@ -53,7 +118,7 @@
             <a href="news--page--002.php">2</a>
           </button>
           <button class="buttons--box--container--buttons--active">
-            <a href="news--page--003.php">3</a>
+            <a href="news--page--003.php">...</a>
           </button>
         </div>
       </div>

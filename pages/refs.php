@@ -17,7 +17,6 @@
 <body>
     <?php include("../php/header--pages.php"); ?>
     <?php include("../php/nav--pages.php"); ?>
-
     <main>
         <section class="popups">
             <?php include("refs--popups.php"); ?>
@@ -132,8 +131,18 @@
                     </div>
                 </div>
             </div>
-            <div class="refs--container--person" id="DA">
+            <div class="refs--container--person" id="TB">
                 <div class="refs--container--person--logo" onClick="openPopup(10)">
+                    <img src="../images/persons/TBlazej.PNG" alt="zdjęcie Błażej Turski" class="refs--container--person--logo--image">
+                    <p class="refs--container--person--logo--name">Błażej Turski</p>
+                    <p> Sędzia klasy "A"</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(11)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
+                </div>
+            </div>
+            <div class="refs--container--person" id="DA">
+                <div class="refs--container--person--logo" onClick="openPopup(11)">
                     <img src="../images/persons/DAdrian.PNG" alt="zdjęcie Adrian Dzięcioł" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Adrian Dzięcioł</p>
                     <p> Sędzia klasy "B"</p>
@@ -142,11 +151,61 @@
                     </div>
                 </div>
             </div>
-            <div class="refs--container--person" id="TB">
-                <div class="refs--container--person--logo" onClick="openPopup(11)">
-                    <img src="../images/persons/TBlazej.PNG" alt="zdjęcie Błażej Turski" class="refs--container--person--logo--image">
-                    <p class="refs--container--person--logo--name">Błażej Turski</p>
+            <div class="refs--container--person" id="CE">
+                <div class="refs--container--person--logo" onClick="openPopup(12)">
+                    <img src="../images/persons/face.png" alt="zdjęcie uśmiech" class="refs--container--person--logo--image">
+                    <p class="refs--container--person--logo--name">Emil Czubak</p>
                     <p> Sędzia klasy "B"</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(11)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
+                </div>
+            </div>
+            <div class="refs--container--person" id="BM">
+                <div class="refs--container--person--logo" onClick="openPopup(13)">
+                    <img src="../images/persons/BMaks.PNG" alt="zdjęcie Maks Bator" class="refs--container--person--logo--image">
+                    <p class="refs--container--person--logo--name">Maksymilian Bator</p>
+                    <p> Sędzia asystent</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(11)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
+                </div>
+            </div>
+            <div class="refs--container--person" id="JJ">
+                <div class="refs--container--person--logo" onClick="openPopup(14)">
+                    <img src="../images/persons/face.png" alt="zdjęcie uśmiech" class="refs--container--person--logo--image">
+                    <p class="refs--container--person--logo--name">Jakub Janus</p>
+                    <p> Sędzia asystent</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(11)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
+                </div>
+            </div>
+            <div class="refs--container--person" id="SB">
+                <div class="refs--container--person--logo" onClick="openPopup(15)">
+                    <img src="../images/persons/face.png" alt="zdjęcie uśmiech" class="refs--container--person--logo--image">
+                    <p class="refs--container--person--logo--name">Brajan Sykulski</p>
+                    <p> Sędzia asystent</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(11)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
+                </div>
+            </div>
+            <div class="refs--container--person" id="MK">
+                <div class="refs--container--person--logo" onClick="openPopup(16)">
+                    <img src="../images/persons/MKrzysztof.PNG" alt="zdjęcie Krzysztof Myśliwy" class="refs--container--person--logo--image">
+                    <p class="refs--container--person--logo--name">Krzysztof Myśliwy</p>
+                    <p> Sędzia asystent</p>
+                    <div class="refs--container--person--logo--btnBox">
+                        <button onClick="openPopup(11)" class="refs--container--person--logo--btnBox--btn">więcej</button>
+                    </div>
+                </div>
+            </div>
+            <div class="refs--container--person" id="SM">
+                <div class="refs--container--person--logo" onClick="openPopup(17)">
+                    <img src="../images/persons/face.png" alt="zdjęcie uśmiech" class="refs--container--person--logo--image">
+                    <p class="refs--container--person--logo--name">Michał Szemberg</p>
+                    <p> Sędzia asystent</p>
                     <div class="refs--container--person--logo--btnBox">
                         <button onClick="openPopup(11)" class="refs--container--person--logo--btnBox--btn">więcej</button>
                     </div>

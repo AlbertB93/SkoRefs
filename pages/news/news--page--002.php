@@ -26,39 +26,39 @@
     <div class="news--container">
       <div class="news--box">
         <article>
-          <a href="news/news006.php">Klip tygodnia<br> 18,19,20 PKO BP Ekstraklasy</a>
+          <a href="news/news015.php">Klip tygodnia</br> 26 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news006.png" alt="widzew-pogoń-grosicki" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news015.png" alt="gol-Paweł-Wszołek" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 19.02.2023r. - Bercik
+            Data dodania - autor: 07.04.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news/news005.php">Nasze dziewczyny w rozgrywkach kobiecych - podsumowanie rundy</a>
+          <a href="news014.php">Klip tygodnia</br> 25 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news005.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news014.png" alt="piłkarze-Rakowa-oraz-Cracovii" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 30.12.2022r. - Bercik
+            Data dodania - autor: 27.03.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news/news004.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 Centrala</a>
+          <a href="news013.php">Klip tygodnia</br> 23 kolejka Fortuna 1. ligi</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news004.jpg" alt="wyjście-sędziów-z-drużynami" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news013.jpg" alt="piłkarze-Stali-oraz-ŁKS" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 30.12.2022r. - Bercik
+            Data dodania - autor: 16.03.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news003.php">Podsumowanie rundy jesiennej sezonu 2022 / 2023 ŚZPN</a>
+          <a href="news012.php">Klip tygodnia</br> 23 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news003.jpg" alt="przywitanie-sędziów-z-kapitanami" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news012.jpg" alt="piłkarz-Górnika-Mvondo" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 30.12.2022r. - Bercik
+            Data dodania - autor: 16.03.2023r. - Bercik
           </div>
         </article>
       </div>
@@ -71,7 +71,7 @@
             <a href="news--page--002.php">2</a>
           </button>
           <button class="buttons--box--container--buttons">
-            <a href="news--page--003.php">3</a>
+            <a href="news--page--003.php">...</a>
           </button>
         </div>
       </div>
