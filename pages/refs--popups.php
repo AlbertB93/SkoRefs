@@ -1098,10 +1098,10 @@
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/face.png" alt="zdjęcie uśmiech" class="popup--photo">
+        <img src="../images/persons/CEmil-pop.png" alt="zdjęcie Emil Czubak" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1997</p>
-            <p> Sędzia od: 2017r. </p>
+            <p> Sędzia od: 2016r. </p>
             <p> Obecnie: Sędzia klasy "B"</p>
         </div>
     </div>
@@ -1112,7 +1112,7 @@
         </div>
         <div class="popup--description">
             <p>
-                Emil ukońcyzł kurs wiosną 2017r.
+                Emil w "B" klasie zaczął sędziować od sezonu 2018 / 2019. 
             </p>
             <br>Ciekawostki:
             <li> Najwyższa liga jako sędzia główny: "B" klasa.</li>

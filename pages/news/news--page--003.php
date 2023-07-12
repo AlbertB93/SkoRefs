@@ -27,6 +27,46 @@
       <div class="news--list">
         <div class="news--list--row">
           <div class="news--list--row--title">
+            <a href="news016.php">Klip tygodnia 27 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 15.04.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news015.php">Klip tygodnia 26 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 07.04.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news014.php">Klip tygodnia 25 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 27.03.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news013.php">Klip tygodnia 23 kolejka Fortuna 1. ligi</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 16.03.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news012.php">Klip tygodnia 23 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 16.03.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
             <a href="news011.php">Obsada 11-12 marzec 2023r.</a>
           </div>
           <div class="news--list--row--data">

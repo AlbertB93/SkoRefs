@@ -153,7 +153,7 @@
             </div>
             <div class="refs--container--person" id="CE">
                 <div class="refs--container--person--logo" onClick="openPopup(12)">
-                    <img src="../images/persons/face.png" alt="zdjęcie uśmiech" class="refs--container--person--logo--image">
+                    <img src="../images/persons/CEmil.png" alt="zdjęcie Emil Czubak" class="refs--container--person--logo--image">
                     <p class="refs--container--person--logo--name">Emil Czubak</p>
                     <p> Sędzia klasy "B"</p>
                     <div class="refs--container--person--logo--btnBox">

@@ -28,7 +28,6 @@
         <button class="popup--sourcesPhotos--title--closeBtn" onclick="closePopupSourcesPhotos()">X</button>
       </div>
       <div class="popup--sourcesPhotos--description">
-
         <li> kieleckapilka.pl</li>
         <li> https://www.facebook.com/Pogon1945</li>
         <li> Słoka Photography: https://www.facebook.com/sloka.foto</li>

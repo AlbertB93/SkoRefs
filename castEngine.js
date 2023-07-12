@@ -2,6 +2,7 @@ let month1 = document.getElementById("month-1");
 let month2 = document.getElementById("month-2");
 let month3 = document.getElementById("month-3");
 let month4 = document.getElementById("month-4");
+let month5 = document.getElementById("month-5");
 let m1w1 = document.getElementById("m1-w1");
 let m1w1Table = document.getElementById("feb_25-26");
 let m2w1 = document.getElementById("m2-w1");
@@ -28,8 +29,22 @@ let m3w6Table = document.getElementById("apr_26-27");
 let m3w7Table = document.getElementById("apr_28-30");
 let m4w1 = document.getElementById("m4-w1");
 let m4w2 = document.getElementById("m4-w2");
+let m4w3 = document.getElementById("m4-w3");
+let m4w4 = document.getElementById("m4-w4");
+let m4w5 = document.getElementById("m4-w5");
 let m4w1Table = document.getElementById("may_03");
 let m4w2Table = document.getElementById("may_06-07");
+let m4w3Table = document.getElementById("may_13-15");
+let m4w4Table = document.getElementById("may_20-21");
+let m4w5Table = document.getElementById("may_27-31");
+let m5w1 = document.getElementById("m5-w1");
+let m5w2 = document.getElementById("m5-w2");
+let m5w3 = document.getElementById("m5-w3");
+let m5w4 = document.getElementById("m5-w4");
+let m5w1Table = document.getElementById("june_03-04");
+let m5w2Table = document.getElementById("june_06-08");
+let m5w3Table = document.getElementById("june_09-13");
+let m5w4Table = document.getElementById("june_15-19");
 
 function displayFlex(przekazanaZmienna) {
   var week = document.getElementById(przekazanaZmienna);
@@ -51,6 +66,13 @@ function displayFlex(przekazanaZmienna) {
     m3w7.classList.remove("active--week");
     m4w1.classList.remove("active--week");
     m4w2.classList.remove("active--week");
+    m4w3.classList.remove("active--week");
+    m4w4.classList.remove("active--week");
+    m4w5.classList.remove("active--week");
+    m5w1.classList.remove("active--week");
+    m5w2.classList.remove("active--week");
+    m5w3.classList.remove("active--week");
+    m5w4.classList.remove("active--week");
     m1w1Table.style.display = "none";
     m2w1Table.style.display = "none";
     m2w2Table.style.display = "none";
@@ -65,6 +87,13 @@ function displayFlex(przekazanaZmienna) {
     m3w7Table.style.display = "none";
     m4w1Table.style.display = "none";
     m4w2Table.style.display = "none";
+    m4w3Table.style.display = "none";
+    m4w4Table.style.display = "none";
+    m4w5Table.style.display = "none";
+    m5w1Table.style.display = "none";
+    m5w2Table.style.display = "none";
+    m5w3Table.style.display = "none";
+    m5w4Table.style.display = "none";
   } else {
     week.style.display = "flex";
   }
@@ -85,6 +114,10 @@ function displayFlex(przekazanaZmienna) {
     month4.classList.contains("active")
       ? month4.classList.remove("active")
       : month4.classList.add("active");
+  } else if (przekazanaZmienna === "june") {
+    month5.classList.contains("active")
+      ? month5.classList.remove("active")
+      : month5.classList.add("active");
   }
 }
 
@@ -148,5 +181,33 @@ function displayBlock(zmTest) {
     m4w2.classList.contains("active--week")
       ? m4w2.classList.remove("active--week")
       : m4w2.classList.add("active--week");
+  } else if (zmTest === "may_13-15") {
+    m4w3.classList.contains("active--week")
+      ? m4w3.classList.remove("active--week")
+      : m4w3.classList.add("active--week");
+  } else if (zmTest === "may_20-21") {
+    m4w4.classList.contains("active--week")
+      ? m4w4.classList.remove("active--week")
+      : m4w4.classList.add("active--week");
+  } else if (zmTest === "may_27-31") {
+    m4w5.classList.contains("active--week")
+      ? m4w5.classList.remove("active--week")
+      : m4w5.classList.add("active--week");
+  } else if (zmTest === "june_03-04") {
+    m5w1.classList.contains("active--week")
+      ? m5w1.classList.remove("active--week")
+      : m5w1.classList.add("active--week");
+  } else if (zmTest === "june_06-08") {
+    m5w2.classList.contains("active--week")
+      ? m5w2.classList.remove("active--week")
+      : m5w2.classList.add("active--week");
+  } else if (zmTest === "june_09-13") {
+    m5w3.classList.contains("active--week")
+      ? m5w3.classList.remove("active--week")
+      : m5w3.classList.add("active--week");
+  } else if (zmTest === "june_15-19") {
+    m5w4.classList.contains("active--week")
+      ? m5w4.classList.remove("active--week")
+      : m5w4.classList.add("active--week");
   }
 }

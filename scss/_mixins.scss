@@ -10,7 +10,6 @@
     }
 }
 
-
 $breakPoins: (
     "small": 550px,
     "medium": 800px,
@@ -141,6 +140,7 @@ $breakPoins: (
                 height: 40px;
                 width: 40px;
                 padding: 4px;
+
                 & a {
                     color: black;
                     text-decoration: none;

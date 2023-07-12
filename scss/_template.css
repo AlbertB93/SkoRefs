@@ -21,18 +21,6 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
   }
 }
 
-/* body::-webkit-scrollbar {
-    width: 20px;
-}
-
-body::-webkit-scrollbar-track {
-    background-color: orange;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: black;
-
-} */
 * {
   box-sizing: border-box;
   font-family: 'Barlow Semi Condensed', sans-serif;

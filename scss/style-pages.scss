@@ -284,9 +284,21 @@ main {
         padding: 10px;
         width: 60vw;
 
+        h3 {
+            color: bisque;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            padding: 10px;
+        }
+
         &--textBox {
             height: auto;
             padding: 20px;
+
+            h3 {
+                color: orange;
+                text-align: center;
+            }
 
             p {
                 color: orange;
@@ -297,6 +309,15 @@ main {
             .pTextIndent {
                 font-size: 1rem;
                 text-indent: 50px;
+            }
+
+            .center {
+                text-align: center;
+            }
+
+
+            & a {
+                color: orange;
             }
         }
 
@@ -323,8 +344,8 @@ main {
 
             .photo1 {
 
-                                            display: flex;
-                                                justify-content: flex-end;
+                display: flex;
+                justify-content: flex-end;
                 height: 80%;
                 width: 65%;
 
@@ -336,8 +357,8 @@ main {
 
             .photo2 {
 
-                        display: flex;
-                        justify-content: center;
+                display: flex;
+                justify-content: center;
                 height: auto;
                 width: 47%;
 
@@ -354,6 +375,10 @@ main {
                 }
 
 
+            }
+
+            .photoCenter {
+                margin: 0 auto;
             }
         }
 
@@ -440,13 +465,62 @@ main {
             }
         }
 
-        h3 {
-            color: bisque;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            text-align: center;
-            padding: 10px;
-        }
+        &--slider {
 
+            &__box {
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                #arrow--left {
+                    border-top: 10px solid transparent;
+                    border-right: 25px solid orange;
+                    border-bottom: 10px solid transparent;
+                    cursor: pointer;
+                    height: 0;
+                    margin-right: 20px;
+                    width: 0;
+                }
+
+                #arrow--right {
+                    border-top: 10px solid transparent;
+                    border-left: 25px solid orange;
+                    border-bottom: 10px solid transparent;
+                    cursor: pointer;
+                    height: 0;
+                    margin-left: 20px;
+                    width: 0;
+                }
+
+                .photoBox {
+                    display: none;
+                    max-height: auto;
+                    max-width: 600px;
+                }
+
+                .active {
+                    display: block;
+                }
+
+            }
+
+            &__dots {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 10px;
+
+                .dot {
+                    border-radius: 10px;
+                    background: orange;
+                    cursor: pointer;
+                    height: 15px;
+                    margin: 5px;
+                    width: 15px;
+                }
+            }
+        }
 
     }
 }
@@ -1456,6 +1530,52 @@ main {
                 font-size: 0.8rem;
                 text-align: center;
                 padding: 10px;
+            }
+
+            &--slider {
+
+                &__box {
+
+                    #arrow--left {
+                        border-top: 8px solid transparent;
+                        border-right: 15px solid orange;
+                        border-bottom: 8px solid transparent;
+                        height: 0;
+                        margin-right: 10px;
+                        width: 0;
+                    }
+
+                    #arrow--right {
+                        border-top: 8px solid transparent;
+                        border-left: 15px solid orange;
+                        border-bottom: 8px solid transparent;
+                        height: 0;
+                        margin-left: 10px;
+                        width: 0;
+                    }
+
+                    .photoBox {
+                        display: none;
+                        max-height: auto;
+                        max-width: 60vw;
+                    }
+
+                    .active {
+                        display: block;
+                    }
+
+                }
+
+                &__dots {
+
+                    .dot {
+                        border-radius: 10px;
+                        background: orange;
+                        height: 10px;
+                        margin: 5px;
+                        width: 10px;
+                    }
+                }
             }
         }
 

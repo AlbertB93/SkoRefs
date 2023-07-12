@@ -96,3 +96,17 @@ document.addEventListener("keydown", (e) => {
     }
   }
 });
+
+
+// news023
+
+let arrowLeft = docuemnt.querySelector('#arrow--left');
+let arrowRight = docuemnt.querySelector('#arrow--right');
+
+console.log(arrowLeft)
+
+function test(){
+  console.log("działa")
+}
+
+arrowLeft.addEventListener('click', test);

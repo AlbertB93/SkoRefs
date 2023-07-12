@@ -26,39 +26,39 @@
     <div class="news--container">
       <div class="news--box">
         <article>
-          <a href="news/news015.php">Klip tygodnia</br> 26 kolejka PKO BP Ekstraklasy</a>
+          <a href="news/news020-clipOfTheWeekE31.php">Klip tygodnia</br> 31 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news015.png" alt="gol-Paweł-Wszołek" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news020.png" alt="piłkarze-Korona-Raków" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 07.04.2023r. - Bercik
+            Data dodania - autor: 11.05.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news014.php">Klip tygodnia</br> 25 kolejka PKO BP Ekstraklasy</a>
+          <a href="news019-clipOfTheWeekE29.php">Klip tygodnia</br> 29 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news014.png" alt="piłkarze-Rakowa-oraz-Cracovii" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news019.png" alt="Piotr-Wlazło" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 27.03.2023r. - Bercik
+            Data dodania - autor: 29.04.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news013.php">Klip tygodnia</br> 23 kolejka Fortuna 1. ligi</a>
+          <a href="news018-clipOfTheWeekE28.php">Klip tygodnia</br> 28 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news013.jpg" alt="piłkarze-Stali-oraz-ŁKS" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news018.jpg" alt="bramkarz-Cracovia-Karol-Niemczycki" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 16.03.2023r. - Bercik
+            Data dodania - autor: 21.04.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news012.php">Klip tygodnia</br> 23 kolejka PKO BP Ekstraklasy</a>
+          <a href="news017.php">Ania i Kasia na arenie międzynarodowej!</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news012.jpg" alt="piłkarz-Górnika-Mvondo" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news017.jpg" alt=" Ania-i-Kasia" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 16.03.2023r. - Bercik
+            Data dodania - autor: 15.04.2023r. - Bercik
           </div>
         </article>
       </div>

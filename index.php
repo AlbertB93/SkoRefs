@@ -19,50 +19,51 @@
   <main style="height: auto">
     <div class="index--container">
       <article id="article--5">
-        <a href="pages/news/news019-clipOfTheWeekE29.php">Klip tygodnia</br> 29 kolejka PKO BP Ekstraklasy</a>
+        <a href="pages/news/news024-Sedzia-2-2023.php">Gazetka "Sędzia" 2/2023</a>
         <div class="article--image">
-          <img src="images/pages/news-logo/news019.png" alt="Piotr-Wlazło" class="article--image--file" />
+          <img src="../images/pages/news-logo/news024.png" alt="okładka-gazetka-sędzia-2-2023" class="article--image--file" />
         </div>
         <div class="dataAuthor">
-          Data dodania - autor: 29.04.2023r. - Bercik
+          Data dodania - autor: 12.07.2023r. - Bercik
         </div>
       </article>
       <article id="article--4">
-        <a href="pages/news/news018-clipOfTheWeekE28.php">Klip tygodnia</br> 28 kolejka PKO BP Ekstraklasy</a>
+        <a href="pages/news/news023-Core-Kuba.php">Kuba Chrzanowski w programie <br> CORE POLSKA !</a>
         <div class="article--image">
-          <img src="images/pages/news-logo/news018.jpg" alt="bramkarz-Cracovia-Karol-Niemczycki" class="article--image--file" />
+          <img src="../images/pages/news-logo/news023.PNG" alt="Kuba-Chrzanowski" class="article--image--file" />
         </div>
         <div class="dataAuthor">
-          Data dodania - autor: 21.04.2023r. - Bercik
+          Data dodania - autor: 10.06.2023r. - Bercik
         </div>
       </article>
       <article id="article--3">
-        <a href="pages/news/news017.php">Ania i Kasia na arenie międzynarodowej!</a>
+        <a href="pages/news/news022-clipOfTheWeek-F1L32.php">Klip tygodnia</br> 32 kolejka Fortuna 1 liga</a>
         <div class="article--image">
-          <img src="images/pages/news-logo/news017.jpg" alt="Ania-i-Kasia" class="article--image--file" />
+          <img src="../images/pages/news-logo/news022.PNG" alt="bramkarz-Ruchu-Chorzów" class="article--image--file" />
         </div>
         <div class="dataAuthor">
-          Data dodania - autor: 15.04.2023r. - Bercik
+          Data dodania - autor: 09.06.2023r. - Bercik
         </div>
       </article>
       <article id="article--2">
-        <a href="pages/news/news016.php">Klip tygodnia</br> 27 kolejka PKO BP Ekstraklasy</a>
+        <a href="pages/news/news021-clipOfTheWeekE32.php">Klip tygodnia</br> 32 kolejka PKO BP Ekstraklasy</a>
         <div class="article--image">
-          <img src="images/pages/news-logo/news016.png" alt="piłkarz-Henriquez-Josue" class="article--image--file" />
+          <img src="images/pages/news-logo/news021.png" alt="piłkarze-Wisły-Płock-sędzia-Frankowski" class="article--image--file" />
         </div>
         <div class="dataAuthor">
-          Data dodania - autor: 15.04.2023r. - Bercik
+          Data dodania - autor: 19.05.2023r. - Bercik
         </div>
       </article>
       <article id="article--1">
-        <a href="pages/news/news015.php">Klip tygodnia</br> 26 kolejka PKO BP Ekstraklasy</a>
+        <a href="pages/news/news020-clipOfTheWeekE30.php">Klip tygodnia</br> 30 kolejka PKO BP Ekstraklasy</a>
         <div class="article--image">
-          <img src="images/pages/news-logo/news015.png" alt="gol-Paweł-Wszołek" class="article--image--file" />
+          <img src="images/pages/news-logo/news020.png" alt="piłkarze-Korona-Raków" class="article--image--file" />
         </div>
         <div class="dataAuthor">
-          Data dodania - autor: 07.04.2023r. - Bercik
+          Data dodania - autor: 11.05.2023r. - Bercik
         </div>
       </article>
+
     </div>
   </main>
   <?php include("php/footer.php"); ?>

@@ -69,15 +69,13 @@
                 </div>
                 <div class="toDownload--container--singleBox--list">
                     <div class="toDownload--container--singleBox--list--option">
-                        <a href="https://pzpn.pl/public/system/files/publikacje/128/4529-S%C4%99dzia%201%202022.pdf" target="_blank"> Wydanie 1 / 2022
+                        <a href="https://pzpn.pl/public/system/files/publikacje/147/5394-S%C4%99dzia%202%202023.pdf" target="_blank">
+                            Wydanie 2 / 2023
                         </a>
                     </div>
                     <div class="toDownload--container--singleBox--list--option">
-                        <a href="https://pzpn.pl/public/system/files/publikacje/132/4731-S%C4%99dzia%202%202022.pdf" target="_blank"> Wydanie 2 / 2022
-                        </a>
-                    </div>
-                    <div class="toDownload--container--singleBox--list--option">
-                        <a href="https://pzpn.pl/public/system/files/publikacje/136/4959-S%C4%99dzia%203%202022.pdf" target="_blank"> Wydanie 3 / 2022
+                        <a href="https://pzpn.pl/public/system/files/publikacje/142/5201-S%C4%99dzia%201%202023.pdf" target="_blank">
+                            Wydanie 1 / 2023
                         </a>
                     </div>
                     <div class="toDownload--container--singleBox--list--option">
@@ -86,8 +84,15 @@
                         </a>
                     </div>
                     <div class="toDownload--container--singleBox--list--option">
-                        <a href="https://pzpn.pl/public/system/files/publikacje/142/5201-S%C4%99dzia%201%202023.pdf" target="_blank">
-                            Wydanie 1 / 2023
+                        <a href="https://pzpn.pl/public/system/files/publikacje/136/4959-S%C4%99dzia%203%202022.pdf" target="_blank"> Wydanie 3 / 2022
+                        </a>
+                    </div>
+                    <div class="toDownload--container--singleBox--list--option">
+                        <a href="https://pzpn.pl/public/system/files/publikacje/132/4731-S%C4%99dzia%202%202022.pdf" target="_blank"> Wydanie 2 / 2022
+                        </a>
+                    </div>
+                    <div class="toDownload--container--singleBox--list--option">
+                        <a href="https://pzpn.pl/public/system/files/publikacje/128/4529-S%C4%99dzia%201%202022.pdf" target="_blank"> Wydanie 1 / 2022
                         </a>
                     </div>
                 </div>

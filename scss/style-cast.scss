@@ -40,6 +40,7 @@ nav {
         #march,
         #april,
         #may,
+        #june,
         #feb_25-26,
         #mar_04-05,
         #mar_11-12,
@@ -53,7 +54,14 @@ nav {
         #apr_26-27,
         #apr_28-30,
         #may_03,
-        #may_06-07 {
+        #may_06-07,
+        #may_13-15,
+        #may_20-21,
+        #may_27-31,
+        #june_03-04,
+        #june_06-08,
+        #june_09-13,
+        #june_15-19 {
             display: none;
         }
 
@@ -72,6 +80,7 @@ nav {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+            margin-bottom: 20px;
 
             &--week {
                 background: $bg-color-black;
