@@ -15,3 +15,11 @@
 <summary>Click here to see general information about <b>Project</b>!</summary>
 This page is about the referees from Skarżysko - Kamienna.
 </details>
+
+
+## Technologies
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>SCSS</li>
+</ul>
