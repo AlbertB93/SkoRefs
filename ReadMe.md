@@ -1,6 +1,6 @@
 # The page about referees from Skarżysko - Kamienna <br> 
 ## www.skarzyskiegwizdki.pl 
-![a screenshot presenting the front page of the project website](./README/images/home.png)
+![a screenshot presenting the front page of the project website](./images/README/home.png)
 
 # Content of project
 * [General info](#general-info)
@@ -28,7 +28,7 @@ This page is about the referees from Skarżysko - Kamienna.
 ## Applicartion-view
 
 ### news page
-![a screenshot presenting the front page of the project website](./README/images/news.png)
+![a screenshot presenting the front page of the project website](./images/README/news.png)
 
 ### referees page
-![a screenshot presenting the front page of the project website](./README/images/refs.png)
+![a screenshot presenting the front page of the project website](./images/README/refs.png)
