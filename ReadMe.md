@@ -3,7 +3,7 @@
 ![a screenshot presenting the front page of the project website](./images/home.png)
 
 # Content of project
-* [General info])(#general-info)
+* [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [More detailed information about modules](#more-detailed-information-about-modules)
