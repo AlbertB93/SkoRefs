@@ -32,3 +32,6 @@ This page is about the referees from Skarżysko - Kamienna.
 
 ### referees page
 ![a screenshot presenting the front page of the project website](./images/README/refs.png)
+
+### referees page
+![a screenshot presenting the front page of the project website](./images/README/refsCopy.png)
