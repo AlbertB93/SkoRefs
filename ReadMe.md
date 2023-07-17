@@ -27,7 +27,7 @@ This page is about the referees from Skarżysko - Kamienna.
 
 ## Applicartion-view
 
-### * news page
+* news page
 ![a screenshot presenting the front page of the project website](./images/README/news.png)
 
 ### * referees page
