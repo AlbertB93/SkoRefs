@@ -1945,6 +1945,15 @@ main {
     font-size: 1rem;
     text-indent: 50px;
   }
+  .news--simple--container--simpleNews--photoBox .photoCenter {
+    height: auto;
+    margin: 0 auto;
+    max-width: 80vw;
+  }
+  .news--simple--container--simpleNews--photoBox .photoCenter .photoPaper {
+    max-height: 90vw;
+    max-width: auto;
+  }
   .news--simple--container--simpleNews--gallery .gallery--container {
     width: 96vw;
     min-height: 150vh;

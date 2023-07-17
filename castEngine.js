@@ -46,12 +46,12 @@ let m5w2Table = document.getElementById("june_06-08");
 let m5w3Table = document.getElementById("june_09-13");
 let m5w4Table = document.getElementById("june_15-19");
 
-function displayFlex(przekazanaZmienna) {
-  var week = document.getElementById(przekazanaZmienna);
-  console.log(week);
+function displayFlex(nameOfMonth) {
+  var month = document.getElementById(nameOfMonth);
+  console.log(month);
 
-  if (week.style.display === "flex") {
-    week.style.display = "none";
+  if (month.style.display === "flex") {
+    month.style.display = "none";
     m1w1.classList.remove("active--week");
     m2w1.classList.remove("active--week");
     m2w2.classList.remove("active--week");
@@ -95,117 +95,117 @@ function displayFlex(przekazanaZmienna) {
     m5w3Table.style.display = "none";
     m5w4Table.style.display = "none";
   } else {
-    week.style.display = "flex";
+    month.style.display = "flex";
   }
 
-  if (przekazanaZmienna === "february") {
+  if (nameOfMonth === "february") {
     month1.classList.contains("active")
       ? month1.classList.remove("active")
       : month1.classList.add("active");
-  } else if (przekazanaZmienna === "march") {
+  } else if (nameOfMonth === "march") {
     month2.classList.contains("active")
       ? month2.classList.remove("active")
       : month2.classList.add("active");
-  } else if (przekazanaZmienna === "april") {
+  } else if (nameOfMonth === "april") {
     month3.classList.contains("active")
       ? month3.classList.remove("active")
       : month3.classList.add("active");
-  } else if (przekazanaZmienna === "may") {
+  } else if (nameOfMonth === "may") {
     month4.classList.contains("active")
       ? month4.classList.remove("active")
       : month4.classList.add("active");
-  } else if (przekazanaZmienna === "june") {
+  } else if (nameOfMonth === "june") {
     month5.classList.contains("active")
       ? month5.classList.remove("active")
       : month5.classList.add("active");
   }
 }
 
-function displayBlock(zmTest) {
-  var week = document.getElementById(zmTest);
+function displayBlock(idOfWeek) {
+  var week = document.getElementById(idOfWeek);
   week.style.display = week.style.display == "block" ? "none" : "block";
 
-  if (zmTest === "feb_25-26") {
+  if (idOfWeek === "feb_25-26") {
     m1w1.classList.contains("active--week")
       ? m1w1.classList.remove("active--week")
       : m1w1.classList.add("active--week");
-  } else if (zmTest === "mar_04-05") {
+  } else if (idOfWeek === "mar_04-05") {
     m2w1.classList.contains("active--week")
       ? m2w1.classList.remove("active--week")
       : m2w1.classList.add("active--week");
-  } else if (zmTest === "mar_11-12") {
+  } else if (idOfWeek === "mar_11-12") {
     m2w2.classList.contains("active--week")
       ? m2w2.classList.remove("active--week")
       : m2w2.classList.add("active--week");
-  } else if (zmTest === "mar_18-19") {
+  } else if (idOfWeek === "mar_18-19") {
     m2w3.classList.contains("active--week")
       ? m2w3.classList.remove("active--week")
       : m2w3.classList.add("active--week");
-  } else if (zmTest === "mar_24-26") {
+  } else if (idOfWeek === "mar_24-26") {
     m2w4.classList.contains("active--week")
       ? m2w4.classList.remove("active--week")
       : m2w4.classList.add("active--week");
-  } else if (zmTest === "apr_01-02") {
+  } else if (idOfWeek === "apr_01-02") {
     m3w1.classList.contains("active--week")
       ? m3w1.classList.remove("active--week")
       : m3w1.classList.add("active--week");
-  } else if (zmTest === "apr_05-08") {
+  } else if (idOfWeek === "apr_05-08") {
     m3w2.classList.contains("active--week")
       ? m3w2.classList.remove("active--week")
       : m3w2.classList.add("active--week");
-  } else if (zmTest === "apr_11-13") {
+  } else if (idOfWeek === "apr_11-13") {
     m3w3.classList.contains("active--week")
       ? m3w3.classList.remove("active--week")
       : m3w3.classList.add("active--week");
-  } else if (zmTest === "apr_14-16") {
+  } else if (idOfWeek === "apr_14-16") {
     m3w4.classList.contains("active--week")
       ? m3w4.classList.remove("active--week")
       : m3w4.classList.add("active--week");
-  } else if (zmTest === "apr_19-23") {
+  } else if (idOfWeek === "apr_19-23") {
     m3w5.classList.contains("active--week")
       ? m3w5.classList.remove("active--week")
       : m3w5.classList.add("active--week");
-  } else if (zmTest === "apr_26-27") {
+  } else if (idOfWeek === "apr_26-27") {
     m3w6.classList.contains("active--week")
       ? m3w6.classList.remove("active--week")
       : m3w6.classList.add("active--week");
-  } else if (zmTest === "apr_28-30") {
+  } else if (idOfWeek === "apr_28-30") {
     m3w7.classList.contains("active--week")
       ? m3w7.classList.remove("active--week")
       : m3w7.classList.add("active--week");
-  } else if (zmTest === "may_03") {
+  } else if (idOfWeek === "may_03") {
     m4w1.classList.contains("active--week")
       ? m4w1.classList.remove("active--week")
       : m4w1.classList.add("active--week");
-  } else if (zmTest === "may_06-07") {
+  } else if (idOfWeek === "may_06-07") {
     m4w2.classList.contains("active--week")
       ? m4w2.classList.remove("active--week")
       : m4w2.classList.add("active--week");
-  } else if (zmTest === "may_13-15") {
+  } else if (idOfWeek === "may_13-15") {
     m4w3.classList.contains("active--week")
       ? m4w3.classList.remove("active--week")
       : m4w3.classList.add("active--week");
-  } else if (zmTest === "may_20-21") {
+  } else if (idOfWeek === "may_20-21") {
     m4w4.classList.contains("active--week")
       ? m4w4.classList.remove("active--week")
       : m4w4.classList.add("active--week");
-  } else if (zmTest === "may_27-31") {
+  } else if (idOfWeek === "may_27-31") {
     m4w5.classList.contains("active--week")
       ? m4w5.classList.remove("active--week")
       : m4w5.classList.add("active--week");
-  } else if (zmTest === "june_03-04") {
+  } else if (idOfWeek === "june_03-04") {
     m5w1.classList.contains("active--week")
       ? m5w1.classList.remove("active--week")
       : m5w1.classList.add("active--week");
-  } else if (zmTest === "june_06-08") {
+  } else if (idOfWeek === "june_06-08") {
     m5w2.classList.contains("active--week")
       ? m5w2.classList.remove("active--week")
       : m5w2.classList.add("active--week");
-  } else if (zmTest === "june_09-13") {
+  } else if (idOfWeek === "june_09-13") {
     m5w3.classList.contains("active--week")
       ? m5w3.classList.remove("active--week")
       : m5w3.classList.add("active--week");
-  } else if (zmTest === "june_15-19") {
+  } else if (idOfWeek === "june_15-19") {
     m5w4.classList.contains("active--week")
       ? m5w4.classList.remove("active--week")
       : m5w4.classList.add("active--week");

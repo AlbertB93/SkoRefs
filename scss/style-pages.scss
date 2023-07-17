@@ -1446,8 +1446,16 @@ main {
                         font-size: 1rem;
                         text-indent: 50px;
                     }
+                }
 
-
+                .photoCenter {
+                    height: auto;
+                    margin: 0 auto;
+                    max-width: 80vw;
+                    .photoPaper{
+                        max-height: 90vw;
+                        max-width: auto;
+                    }
                 }
             }
 

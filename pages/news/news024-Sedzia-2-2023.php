@@ -37,7 +37,7 @@
         </div>
         <div class="news--simple--container--simpleNews--photoBox">
           <div class="photoCenter">
-            <img src="../../images/pages/news-logo/news024.PNG" alt="">
+            <img src="../../images/pages/news-logo/news024.PNG" alt="okładka-gazetka-sędzia-2-2023" class="photoPaper">
           </div>
         </div>
       </div>

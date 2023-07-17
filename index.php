@@ -21,7 +21,7 @@
       <article id="article--5">
         <a href="pages/news/news024-Sedzia-2-2023.php">Gazetka "Sędzia" 2/2023</a>
         <div class="article--image">
-          <img src="../images/pages/news-logo/news024.png" alt="okładka-gazetka-sędzia-2-2023" class="article--image--file" />
+          <img src="../images/pages/news-logo/news024.PNG" alt="okładka-gazetka-sędzia-2-2023" class="article--image--file" />
         </div>
         <div class="dataAuthor">
           Data dodania - autor: 12.07.2023r. - Bercik

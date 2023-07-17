@@ -341,32 +341,8 @@ nav .nav--box a#cast {
   width: 80vw;
 }
 
-.cast--container--month #february,
-.cast--container--month #march,
-.cast--container--month #april,
-.cast--container--month #may,
-.cast--container--month #june,
-.cast--container--month #feb_25-26,
-.cast--container--month #mar_04-05,
-.cast--container--month #mar_11-12,
-.cast--container--month #mar_18-19,
-.cast--container--month #mar_24-26,
-.cast--container--month #apr_01-02,
-.cast--container--month #apr_05-08,
-.cast--container--month #apr_11-13,
-.cast--container--month #apr_14-16,
-.cast--container--month #apr_19-23,
-.cast--container--month #apr_26-27,
-.cast--container--month #apr_28-30,
-.cast--container--month #may_03,
-.cast--container--month #may_06-07,
-.cast--container--month #may_13-15,
-.cast--container--month #may_20-21,
-.cast--container--month #may_27-31,
-.cast--container--month #june_03-04,
-.cast--container--month #june_06-08,
-.cast--container--month #june_09-13,
-.cast--container--month #june_15-19 {
+.cast--container--month .cast--container--month--boxWeeks,
+.cast--container--month .table--container {
   display: none;
 }
 

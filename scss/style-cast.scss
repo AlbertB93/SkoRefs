@@ -11,12 +11,10 @@ nav {
     }
 }
 
-
 .container--title {
     @include title;
     cursor: pointer;
 }
-
 
 .cast--container {
     align-items: center;
@@ -30,38 +28,13 @@ nav {
     width: 92vw;
 
     &--month {
-
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 80vw;
 
-        #february,
-        #march,
-        #april,
-        #may,
-        #june,
-        #feb_25-26,
-        #mar_04-05,
-        #mar_11-12,
-        #mar_18-19,
-        #mar_24-26,
-        #apr_01-02,
-        #apr_05-08,
-        #apr_11-13,
-        #apr_14-16,
-        #apr_19-23,
-        #apr_26-27,
-        #apr_28-30,
-        #may_03,
-        #may_06-07,
-        #may_13-15,
-        #may_20-21,
-        #may_27-31,
-        #june_03-04,
-        #june_06-08,
-        #june_09-13,
-        #june_15-19 {
+        .cast--container--month--boxWeeks,
+        .table--container {
             display: none;
         }
 
@@ -91,7 +64,6 @@ nav {
                 padding: 4px 30px;
                 width: auto;
             }
-
         }
 
         .table--title {
@@ -149,7 +121,6 @@ nav {
 
 
     }
-
 
     .active {
         background: $bg-color-orange-dark;
