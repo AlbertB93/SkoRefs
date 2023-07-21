@@ -31,14 +31,16 @@ You have just click: www.skarzyskiegwizdki.pl
 
 <details>
 <summary> <b>home</b> </summary>
-This image shows home page. This page contains header, menu and five articles, which are newest on this page.  
+</details>
+</br> This image shows home page. This page contains header, menu and five articles, which are newest on this page. </br>
 <img src="./images/README/news.png">
 </details>
  
 <details>
 <summary> <b>referees page </b> </summary>
-This images shows all active refeeres in our referee section. 
+</br> This images shows all active refeeres in our referee section. </br>
 <img src="./images/README/refs.png">
-If you click on photo, you will be able to see more information about every of us.
+</br>
+</br>If you click on photo, you will be able to see more information about every of us. </br>
 <img src="./images/README/refs-pop.png">
 </details>
