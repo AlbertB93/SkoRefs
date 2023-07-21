@@ -16,7 +16,8 @@
 ## General info
 <details>
 <summary>Click here to see general information about <b>Project</b>!</summary>
-This page is about the referees from Skarżysko - Kamienna.
+This page is about the referees from Skarżysko - Kamienna. In this page you can find more information about refeeres from Skarżysko.
+<b> subpage: Sędziowie </b>. You can find out, where people of our section will be "whistle" on the week.(<b> subpage: Obsada </b>)
 </details>
 
 
