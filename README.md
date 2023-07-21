@@ -42,5 +42,5 @@ You have just click: www.skarzyskiegwizdki.pl
 <img src="./images/README/refs.png">
 </br>
 </br>If you click on photo, you will be able to see more information about every of us. </br>
-<img src="./images/README/refs-pop.png">
+<img src="./images/README/refs-pop.PNG">
 </details>
