@@ -34,7 +34,7 @@ You have just click: www.skarzyskiegwizdki.pl
 This image shows home page. This page contains header, menu and five articles, which are newest on this page.  
 <img src="./images/README/news.png">
 </details>
-
+ 
 <details>
 <summary> <b>referees page </b> </summary>
 This images shows all active refeeres in our referee section. 
