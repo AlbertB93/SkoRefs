@@ -5,8 +5,13 @@
 # Content of project
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Installation](#installation)
 * [Application view](#application-view)
-
+* [History about project](#history-about-project)
+* [To update](#to-update)
+* [Tutorials](#tutorials)
+* [Summary of the project](#summary-of-the-project)
+* [Contact](#contact)
 
 ## General info
 <details>
@@ -27,7 +32,7 @@ This page is about the referees from Skarżysko - Kamienna.
 ## Installation
 You have just click: www.skarzyskiegwizdki.pl
 
-## Application-view
+## Application view
 
 <details>
 <summary> <b>home</b> </summary>
@@ -43,3 +48,13 @@ You have just click: www.skarzyskiegwizdki.pl
 </br>If you click on photo, you will be able to see more information about every of us. </br>
 <img src="./images/README/refs-pop.PNG">
 </details>
+
+## History about project
+
+## To update
+
+## Tutorials
+
+## Summary of the project
+
+## Contact
