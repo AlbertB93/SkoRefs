@@ -35,14 +35,8 @@ You have just click: www.skarzyskiegwizdki.pl
 
 <details>
 <summary> <b>referees page </b> </summary>
-#### This images shows all active refeeres in our referee section. 
-![a screenshot presenting the front page of the project website](./images/README/refs.png)
-#### If you click on photo, you will be able to see more information about every of us.
+This images shows all active refeeres in our referee section. 
 <img src="./images/README/refs.png">
+If you click on photo, you will be able to see more information about every of us.
+<img src="./images/README/refs-pop.png">
 </details>
-
-### referees page
-#### This images shows all active refeeres in our referee section. 
-![a screenshot presenting the front page of the project website](./images/README/refs.png)
-#### If you click on photo, you will be able to see more information about every of us.
-![a screenshot presenting the front page of the project website](./images/README/refs-pop.png)
