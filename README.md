@@ -31,7 +31,6 @@ You have just click: www.skarzyskiegwizdki.pl
 
 <details>
 <summary> <b>home</b> </summary>
-</details>
 </br> This image shows home page. This page contains header, menu and five articles, which are newest on this page. </br>
 <img src="./images/README/news.png">
 </details>
