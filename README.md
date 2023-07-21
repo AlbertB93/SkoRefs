@@ -29,7 +29,7 @@ This page is about the referees from Skarżysko - Kamienna.
 You have just click: www.skarzyskiegwizdki.pl
 
 ## Application-view
-### home
+* home
 #### This images shows home page. This page contains header, menu and five articles, which are newest on this page.  
 ![a screenshot presenting the front page of the project website](./images/README/news.png)
 
