@@ -5,7 +5,6 @@
 # Content of project
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [More detailed information about modules](#more-detailed-information-about-modules)
 * [Application view](#application-view)
 
 
@@ -30,11 +29,20 @@ You have just click: www.skarzyskiegwizdki.pl
 
 ## Application-view
 * home
-#### This images shows home page. This page contains header, menu and five articles, which are newest on this page.  
+#### This image shows home page. This page contains header, menu and five articles, which are newest on this page.  
 ![a screenshot presenting the front page of the project website](./images/README/news.png)
 
-### referees page
+
+<details>
+<summary> <b>referees page </b> </summary>
+#### This images shows all active refeeres in our referee section. 
 ![a screenshot presenting the front page of the project website](./images/README/refs.png)
+#### If you click on photo, you will be able to see more information about every of us.
+![a screenshot presenting the front page of the project website](./images/README/refs-pop.png)
+</details>
 
 ### referees page
-![a screenshot presenting the front page of the project website](./images/README/refsCopy.png)
+#### This images shows all active refeeres in our referee section. 
+![a screenshot presenting the front page of the project website](./images/README/refs.png)
+#### If you click on photo, you will be able to see more information about every of us.
+![a screenshot presenting the front page of the project website](./images/README/refs-pop.png)
