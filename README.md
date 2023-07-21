@@ -38,7 +38,7 @@ You have just click: www.skarzyskiegwizdki.pl
 #### This images shows all active refeeres in our referee section. 
 ![a screenshot presenting the front page of the project website](./images/README/refs.png)
 #### If you click on photo, you will be able to see more information about every of us.
-![a screenshot presenting the front page of the project website](./images/README/refs-pop.png)
+<img src="./images/README/refs.png">
 </details>
 
 ### referees page
