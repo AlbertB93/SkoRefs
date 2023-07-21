@@ -18,16 +18,19 @@ This page is about the referees from Skarżysko - Kamienna.
 
 ## Technologies
 <ul>
+<li>PHP</li>
 <li>HTML</li>
+<li>JAVASCRIPT</li>
 <li>CSS</li>
 <li>SCSS</li>
 </ul>
 
-## more-detailed-information-about-modules
+## Installation
+You have just click: www.skarzyskiegwizdki.pl
 
 ## Application-view
-
-### news page
+### home
+#### This images shows home page. This page contains header, menu and five articles, which are newest on this page.  
 ![a screenshot presenting the front page of the project website](./images/README/news.png)
 
 ### referees page
