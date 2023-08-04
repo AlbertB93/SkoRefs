@@ -27,6 +27,22 @@
       <div class="news--list">
         <div class="news--list--row">
           <div class="news--list--row--title">
+            <a href="news018-clipOfTheWeekE28.php">Klip tygodnia 28 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 21.04.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news017.php">Ania i Kasia na arenie międzynarodowej!</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 15.04.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
             <a href="news016.php">Klip tygodnia 27 kolejka PKO BP Ekstraklasy</a>
           </div>
           <div class="news--list--row--data">
