@@ -61,5 +61,7 @@ You have just click: www.skarzyskiegwizdki.pl
 
 ## Contact
 
-My github: https://github.com/AlbertB93
-E-mail to me:  bercik93@interia.eu
+<ul>
+<li> My github: https://github.com/AlbertB93 </li>
+<li>E-mail to me:  bercik93@interia.eu </li>
+</ul>
