@@ -17,8 +17,9 @@
 
 This page is about the referees from Skarżysko - Kamienna. In this page you can find more information about refeeres from Skarżysko
 ( <b> subpage: Sędziowie </b>). You can find out, where people of our section will be "whistle" on the week (<b> subpage: Obsada </b>).
-You can see referres in action on the pitch (<b> subpage: Galeria </b>). Necessary documents for the match, regulations and magazine "Sędzia"
- you can find out in the  <b> subapage: "Do pobrania". </b> If you want get more information, you should click in the <b> subapage: "Kontakty".
+You can see referres in action on the pitch (<b> subpage: Galeria </b>).  Oldest news you can find in the <b> subapage: "Aktualności". </b>  Necessary documents for the match, regulations and magazine "Sędzia"
+ you can find out in the  <b> subapage: "Do pobrania". </b> If you want get more information, you should click in the <b> subapage: "Kontakty". </b>
+
 
 
 ## Technologies
@@ -59,3 +60,6 @@ You have just click: www.skarzyskiegwizdki.pl
 ## Summary of the project
 
 ## Contact
+
+My github: https://github.com/AlbertB93
+E-mail to me:  bercik93@interia.eu
