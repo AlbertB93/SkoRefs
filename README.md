@@ -97,6 +97,19 @@ You have just click: www.skarzyskiegwizdki.pl
 
 ## Tutorials
 
+To create this page I used a dozen tutorials. A few from of them are below:
+
+<ul>
+<li>https://www.youtube.com/watch?v=n-cW9HzpnRk&t=3449s</li>
+<li>https://www.youtube.com/watch?v=YpB1I3wgDgQ</li>
+<li>https://www.youtube.com/watch?v=L19WO4jfzMM&t=1020s</li>
+<li>https://www.youtube.com/watch?v=HaDYXVqbJcw&t=2s</li>
+<li>https://www.youtube.com/watch?v=q0KJEmMlG20&t=236s</li>
+<li>https://www.youtube.com/watch?v=o_GnXwio5Hs</li>
+</ul>
+
+
+
 ## Summary of the project
 
 ## Contact
