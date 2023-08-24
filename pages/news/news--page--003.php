@@ -27,6 +27,22 @@
       <div class="news--list">
         <div class="news--list--row">
           <div class="news--list--row--title">
+            <a href="news020-clipOfTheWeekE31.php">Klip tygodnia 31 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 11.05.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news019-clipOfTheWeekE29.php">Klip tygodnia 29 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 29.04.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
             <a href="news018-clipOfTheWeekE28.php">Klip tygodnia 28 kolejka PKO BP Ekstraklasy</a>
           </div>
           <div class="news--list--row--data">

@@ -39,7 +39,7 @@ You have just click: www.skarzyskiegwizdki.pl
 <details>
 <summary> <b>home</b> </summary>
 </br> This image shows home page. This page contains header, menu and five articles, which are newest on this page. </br>
-<img src="./images/README/news.png">
+<img src="./images/README/index.PNG">
 </details>
  
 <details>
@@ -50,6 +50,21 @@ You have just click: www.skarzyskiegwizdki.pl
 </br>If you click on photo, you will be able to see more information about every of us. </br>
 <img src="./images/README/refs-pop.PNG">
 </details>
+
+<details>
+<summary> <b>news</b> </summary>
+</br> This image shows the news page. On this page you can read all the news since the creation of the site.</br>
+<img src="./images/README/news.png">
+<img src="./images/README/news-2.PNG">
+</details>
+
+
+<details>
+<summary> <b>cast</b> </summary>
+</br> This page contains the cast on the actually round of season. </br>
+<img src="./images/README/cast.png">
+</details>
+
 
 ## History about project
 
