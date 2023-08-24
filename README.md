@@ -54,16 +54,41 @@ You have just click: www.skarzyskiegwizdki.pl
 <details>
 <summary> <b>news</b> </summary>
 </br> This image shows the news page. On this page you can read all the news since the creation of the site.</br>
-<img src="./images/README/news.png">
+<img src="./images/README/news.png"></br>
 <img src="./images/README/news-2.PNG">
 </details>
 
-
 <details>
 <summary> <b>cast</b> </summary>
-</br> This page contains the cast on the actually round of season. </br>
+</br> This page contains the cast on the actually round of season. </br></br>
 <img src="./images/README/cast.png">
 </details>
+
+<details>
+<summary> <b>gallery</b> </summary>
+</br> On this page you can see our photos from matches </br></br>
+<img src="./images/README/gallery.png">
+</details>
+
+<details>
+<summary> <b>to Download</b> </summary>
+</br> This subpage conatins important files for the refeeres.</br></br>
+<img src="./images/README/toDownload.png">
+</details>
+
+<details>
+<summary> <b>contact</b> </summary>
+</br> This subpage shows contact to us.</br></br>
+<img src="./images/README/contact.png">
+</details>
+
+<details>
+<summary> <b>Simple news</b> </summary>
+</br> This photo shows view from some news in the page.</br></br>
+<img src="./images/README/someNews.png">
+</details>
+
+
 
 
 ## History about project
