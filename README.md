@@ -1,28 +1,29 @@
-# The page about referees from Skarżysko - Kamienna <br> 
-## www.skarzyskiegwizdki.pl 
+# The page about referees from Skarżysko - Kamienna <br>
+
+## www.skarzyskiegwizdki.pl
+
 ![a screenshot presenting the front page of the project website](./images/README/home.png)
 
 # Content of project
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Installation](#installation)
-* [Application view](#application-view)
-* [History about project](#history-about-project)
-* [To update](#to-update)
-* [Tutorials](#tutorials)
-* [Summary of the project](#summary-of-the-project)
-* [Contact](#contact)
+
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Application view](#application-view)
+- [To update](#to-update)
+- [Tutorials](#tutorials)
+- [Summary of the project](#summary-of-the-project)
+- [Contact](#contact)
 
 ## General info
 
 This page is about the referees from Skarżysko - Kamienna. In this page you can find more information about refeeres from Skarżysko
 ( <b> subpage: Sędziowie </b>). You can find out, where people of our section will be "whistle" on the week (<b> subpage: Obsada </b>).
-You can see referres in action on the pitch (<b> subpage: Galeria </b>).  Oldest news you can find in the <b> subapage: "Aktualności". </b>  Necessary documents for the match, regulations and magazine "Sędzia"
- you can find out in the  <b> subapage: "Do pobrania". </b> If you want get more information, you should click in the <b> subapage: "Kontakty". </b>
-
-
+You can see referres in action on the pitch (<b> subpage: Galeria </b>). Oldest news you can find in the <b> subapage: "Aktualności". </b> Necessary documents for the match, regulations and magazine "Sędzia"
+you can find out in the <b> subapage: "Do pobrania". </b> If you want get more information, you should click in the <b> subapage: "Kontakty". </b>
 
 ## Technologies
+
 <ul>
 <li>PHP</li>
 <li>HTML</li>
@@ -32,6 +33,7 @@ You can see referres in action on the pitch (<b> subpage: Galeria </b>).  Oldest
 </ul>
 
 ## Installation
+
 You have just click: www.skarzyskiegwizdki.pl
 
 ## Application view
@@ -88,12 +90,11 @@ You have just click: www.skarzyskiegwizdki.pl
 <img src="./images/README/someNews.png">
 </details>
 
-
-
-
-## History about project
-
 ## To update
+
+In the future I want to add subpage about history of the our referees section. This is my first page so I know that code isn't pure.
+I have to do code review once again. Some function in file for "cast" should be fixed. The code in this file is repeat, what is wrong practice.
+I think that counter of vistit on the page doesn't work 100 percent right.
 
 ## Tutorials
 
@@ -108,9 +109,11 @@ To create this page I used a dozen tutorials. A few from of them are below:
 <li>https://www.youtube.com/watch?v=o_GnXwio5Hs</li>
 </ul>
 
-
-
 ## Summary of the project
+
+This is my first page. This page is for everyone not only for referees. This page was created from white window to version, which you can see now.
+This is my another hobby so I create it only when I was free time. Except my professional work, I'm referee so this hobby takes me a lot of time also.
+I want to develop my skills in practice so I thought it will be great combination of developing my skills and my hobby.
 
 ## Contact
 
