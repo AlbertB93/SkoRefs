@@ -26,39 +26,39 @@
     <div class="news--container">
       <div class="news--box">
         <article>
-          <a href="news024-Sedzia-2-2023.php">Gazetka "Sędzia" 2/2023</a>
+          <a href="news028-clipOfTheWeek-S2324E4.php">Kilp tygodnia <br> 4 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news024.PNG" alt="okładka-gazetka-sędzia-2-2023" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news028.PNG" alt="piłkarz-Lecha-Andersson-piłkarz-Zagłębia-Chodyna" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 12.07.2023r. - Bercik
+            Data dodania - autor: 19.08.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news023-Core-Kuba.php">Kuba Chrzanowski w programie <br> CORE POLSKA !</a>
+          <a href="news027-clipOfTheWeek-S2324E3.php">Kilp tygodnia <br> 3 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news023.PNG" alt="Kuba-Chrzanowski" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news027.PNG" alt="piłkarz-Lecha-Andersson-piłkarz-Zagłębia-Chodyna" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 10.06.2023r. - Bercik
+            Data dodania - autor: 10.08.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news022-clipOfTheWeek-F1L32.php">Klip tygodnia</br> 32 kolejka Fortuna 1 liga</a>
+          <a href="news026-clipOfTheWeek-S2324E2F1L2.php">Kilp tygodnia <br> 2 kolejka PKO BP Ekstraklasy </br> 2 kolejka Fortuna 1 Ligi</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news022.PNG" alt="bramkarz-Ruchu-Chorzów" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news026.PNG" alt="bramkarze-Kuchta-Alvaro" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 09.06.2023r. - Bercik
+            Data dodania - autor: 04.08.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news021-clipOfTheWeekE32.php">Klip tygodnia</br> 32 kolejka PKO BP Ekstraklasy</a>
+          <a href="news025-clipOfTheWeek-S2324E1.php">Kilp tygodnia <br> 1 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../../images/pages/news-logo/news021.png" alt="piłkarze-Wisły-Płock-sędzia-Frankowski" class="article--image--file" />
+            <img src="../../images/pages/news-logo/news025.PNG" alt="piłkarz-Piasta-Ameyaw" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 19.05.2023r. - Bercik
+            Data dodania - autor: 04.08.2023r. - Bercik
           </div>
         </article>
       </div>

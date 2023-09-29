@@ -27,6 +27,38 @@
       <div class="news--list">
         <div class="news--list--row">
           <div class="news--list--row--title">
+            <a href="news024-Sedzia-2-2023.php">Gazetka "Sędzia" 2/2023</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 12.07.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news023-Core-Kuba.php">Kuba Chrzanowski w programie CORE POLSKA !</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 10.06.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news022-clipOfTheWeek-F1L32.php">Klip tygodnia 32 kolejka Fortuna 1 liga</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 09.06.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news021-clipOfTheWeekE32.php">Klip tygodnia 32 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 19.05.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
             <a href="news020-clipOfTheWeekE31.php">Klip tygodnia 31 kolejka PKO BP Ekstraklasy</a>
           </div>
           <div class="news--list--row--data">

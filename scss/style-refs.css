@@ -21,18 +21,6 @@ $bg-color-black-orange: linear-gradient(to bottom, rgb(253, 167, 6), rgb(43, 42,
   }
 }
 
-/* body::-webkit-scrollbar {
-    width: 20px;
-}
-
-body::-webkit-scrollbar-track {
-    background-color: orange;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: black;
-
-} */
 * {
   box-sizing: border-box;
   font-family: 'Barlow Semi Condensed', sans-serif;
@@ -342,6 +330,29 @@ nav .nav--box a#refs {
   padding-top: 5px;
 }
 
+/* 
+.container--subtitle {
+    align-items: center;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80vw;
+
+    .subtitleButtons {
+        border: solid 1px orange;
+        background: $bg-color-black;
+        border-radius: 8px;
+        text-align: center;
+        color: $main-text-color;
+        margin: 10px;
+        width: 10vw;
+        padding: 4px;
+    }
+
+} */
 .refs--container {
   display: grid;
   grid-template-columns: 10vw 16vw 2vw 16w 2vw 16vw 2vw 16vw 10vw;
@@ -368,6 +379,10 @@ nav .nav--box a#refs {
   transform: scale(1);
   transition: transform 0.3s;
   width: 18vw;
+  /*         &#SM {
+            grid-column: 4/5;
+            grid-row: 10/11;
+        } */
 }
 
 .refs--container--person--logo {
@@ -481,38 +496,33 @@ nav .nav--box a#refs {
   grid-row: 6/7;
 }
 
-.refs--container--person#DA {
+.refs--container--person#FR {
   grid-column: 8/9;
   grid-row: 6/7;
 }
 
-.refs--container--person#CE {
-  grid-column: 2/3;
-  grid-row: 8/9;
-}
-
 .refs--container--person#BM {
-  grid-column: 4/5;
+  grid-column: 2/3;
   grid-row: 8/9;
 }
 
 .refs--container--person#JJ {
-  grid-column: 6/7;
+  grid-column: 4/5;
   grid-row: 8/9;
 }
 
 .refs--container--person#SB {
+  grid-column: 6/7;
+  grid-row: 8/9;
+}
+
+.refs--container--person#MT {
   grid-column: 8/9;
   grid-row: 8/9;
 }
 
-.refs--container--person#MK {
+.refs--container--person#DK {
   grid-column: 2/3;
-  grid-row: 10/11;
-}
-
-.refs--container--person#SM {
-  grid-column: 4/5;
   grid-row: 10/11;
 }
 
@@ -1102,7 +1112,7 @@ nav .nav--box a#refs {
     left: 0;
   }
   .refs--container {
-    height: 600vh;
+    height: auto;
   }
   .refs--container--person {
     height: 54vh;

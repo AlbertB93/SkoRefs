@@ -26,6 +26,29 @@ nav {
 .container--title {
     @include title;
 }
+/* 
+.container--subtitle {
+    align-items: center;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80vw;
+
+    .subtitleButtons {
+        border: solid 1px orange;
+        background: $bg-color-black;
+        border-radius: 8px;
+        text-align: center;
+        color: $main-text-color;
+        margin: 10px;
+        width: 10vw;
+        padding: 4px;
+    }
+
+} */
 
 
 .refs--container {
@@ -172,40 +195,40 @@ nav {
             grid-row: 6/7;
         }
 
-        &#DA {
+        &#FR {
             grid-column: 8/9;
             grid-row: 6/7;
         }
 
-        &#CE {
-            grid-column: 2/3;
-            grid-row: 8/9;
-        }
-
         &#BM {
-            grid-column: 4/5;
+            grid-column: 2/3;
             grid-row: 8/9;
         }
 
         &#JJ {
-            grid-column: 6/7;
+            grid-column: 4/5;
             grid-row: 8/9;
         }
 
         &#SB {
+            grid-column: 6/7;
+            grid-row: 8/9;
+        }
+
+        &#MT {
             grid-column: 8/9;
             grid-row: 8/9;
         }
 
-        &#MK {
+        &#DK {
             grid-column: 2/3;
             grid-row: 10/11;
         }
 
-        &#SM {
+        /*         &#SM {
             grid-column: 4/5;
             grid-row: 10/11;
-        }
+        } */
 
     }
 
@@ -856,7 +879,7 @@ nav {
     }
 
     .refs--container {
-        height: 600vh;
+        height: auto;
 
         &--person {
             height: 54vh;

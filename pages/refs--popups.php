@@ -54,18 +54,18 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>10</td>
+                        <td>12</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
-                        <td>31</td>
+                        <td>37</td>
                         <td>0</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>68*</td>
-                        <td>6*</td>
+                        <td>72*</td>
+                        <td>7*</td>
                         <td>0</td>
                     </tr>
                     <tr>
@@ -83,18 +83,18 @@
                     <tr>
                         <td>Kl. "B"</td>
                         <td>11*</td>
-                        <td>12*</td>
+                        <td>14*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>106*</td>
-                        <td>32*</td>
+                        <td>107*</td>
+                        <td>35*</td>
                         <td>5</td>
                     </tr>
                 </tbody>
             </table>
-            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011</p>
+            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011 do lipca 2023</p>
         </div>
     </div>
 </div>
@@ -105,7 +105,7 @@
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
             <p> Sędzia od: 2012r. </p>
-            <p> Obecnie: Sędzia 4 ligi</p>
+            <p> Obecnie: Sędzia 3 ligi</p>
         </div>
     </div>
     <div class="popup--container">
@@ -159,39 +159,42 @@
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>92</td>
-                        <td>5</td>
+                        <td>102</td>
+                        <td>6</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>28</td>
-                        <td>22</td>
-                        <td>0</td>
-                    </tr>
-                    <tr class="dark">
-                        <td>Kl. "A"</td>
-                        <td>31</td>
-                        <td>45</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>Kl. "B"</td>
-                        <td>14</td>
+                        <td>29</td>
                         <td>26</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
+                        <td>Kl. "A"</td>
+                        <td>32</td>
+                        <td>46</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Kl. "B"</td>
+                        <td>15</td>
+                        <td>27</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="dark">
                         <td>Młodzież</td>
+                        <td>118</td>
                         <td>112</td>
-                        <td>104</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane na dzień 31.06.2023r.</p>
         </div>
     </div>
 </div>
+
+
 
 <div class="popup--main">
     <div class="popup--photo--field">
@@ -246,41 +249,42 @@
                     <tr>
                         <td>3 liga</td>
                         <td>0</td>
-                        <td>0</td>
                         <td>45</td>
+                        <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>38</td>
-                        <td>24</td>
+                        <td>47</td>
+                        <td>25</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
                         <td>28</td>
-                        <td>20</td>
+                        <td>23</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>18</td>
-                        <td>24</td>
+                        <td>19</td>
+                        <td>27</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
                         <td>17</td>
-                        <td>30</td>
+                        <td>31</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>85</td>
-                        <td>51</td>
+                        <td>86</td>
+                        <td>52</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane na dzień 31.06.2023r.</p>
         </div>
     </div>
 </div>
@@ -332,7 +336,7 @@
                         <td>2 liga</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2</td>
+                        <td>0</td>
                     </tr>
                     <tr>
                         <td>3 liga</td>
@@ -342,39 +346,44 @@
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>68</td>
-                        <td>16</td>
+                        <td>76</td>
+                        <td>20</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
                         <td>30</td>
-                        <td>29</td>
+                        <td>35</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
                         <td>25</td>
-                        <td>33</td>
+                        <td>35</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl."B"</td>
-                        <td>8</td>
-                        <td>26</td>
+                        <td>9</td>
+                        <td>28</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>52</td>
-                        <td>58</td>
+                        <td>55</td>
+                        <td>65</td>
                         <td>0</td>
                     </tr>
+
                 </tbody>
+
             </table>
         </div>
+        <p> * dane na dzień 31.06.2023r.</p>
     </div>
 </div>
+
+
 
 <div class="popup--main">
     <div class="popup--photo--field">
@@ -430,42 +439,42 @@
                     <tr>
                         <td>3 liga</td>
                         <td>0</td>
-                        <td>48*</td>
+                        <td>54*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
                         <td>0</td>
-                        <td>45*</td>
+                        <td>54*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>14*</td>
-                        <td>24*</td>
+                        <td>17*</td>
+                        <td>25*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
                         <td>16*</td>
-                        <td>44*</td>
+                        <td>47*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
                         <td>4*</td>
-                        <td>26*</td>
+                        <td>27*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>35*</td>
-                        <td>103*</td>
+                        <td>43*</td>
+                        <td>110*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
-            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011</p>
+            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011 do lipca 2023</p>
         </div>
     </div>
 </div>
@@ -494,7 +503,7 @@
             </p>
             </br>
             Ciekawostki:
-            <li> Najwyższa liga jako sędzia główny: Klasa "O".</li>
+            <li> Najwyższa liga jako sędzia główny: 4 Liga.</li>
             <li> Najwyższa liga jako sędzia asystent: 3 Liga.</li>
             <li> Uczestnik programu mentorskiego ŚZPN </li>
         </div>
@@ -526,20 +535,20 @@
                     </tr>
                     <tr class="dark">
                         <td>4 liga</td>
-                        <td>0</td>
-                        <td>31</td>
+                        <td>1</td>
+                        <td>18</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>4*</td>
-                        <td>10*</td>
+                        <td>9*</td>
+                        <td>11*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
                         <td>15*</td>
-                        <td>20*</td>
+                        <td>21*</td>
                         <td>0</td>
                     </tr>
                     <tr>
@@ -550,13 +559,13 @@
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>40*</td>
-                        <td>66*</td>
+                        <td>45*</td>
+                        <td>70*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
-            <p> * dane wg strony kieleckapilka.pl</p>
+            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011 do lipca 2023</p>
         </div>
     </div>
 </div>
@@ -617,38 +626,42 @@
                     <tr class="dark">
                         <td>4 liga</td>
                         <td>0</td>
-                        <td>32</td>
+                        <td>40</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>3</td>
+                        <td>9</td>
                         <td>11</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
                         <td>9</td>
-                        <td>19</td>
+                        <td>21</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
                         <td>11</td>
-                        <td>8</td>
+                        <td>9</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>44</td>
-                        <td>31</td>
+                        <td>50</td>
+                        <td>34</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane na dzień 31.06.2023r.</p>
         </div>
     </div>
 </div>
+
+
+
 
 <div class="popup--main">
     <div class="popup--photo--field">
@@ -656,7 +669,7 @@
         <div class="popup--photo--text">
             <p> Rok urodzenia: 1993</p>
             <p> Sędzia od: 2015r. </p>
-            <p> Obecnie: Sędzia klasy "O"</p>
+            <p> Obecnie: Sędzia klasy "A"</p>
         </div>
     </div>
     <div class="popup--container">
@@ -706,19 +719,19 @@
                     <tr class="dark">
                         <td>4 liga</td>
                         <td>0</td>
-                        <td>35*</td>
+                        <td>46*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
-                        <td>16*</td>
-                        <td>12*</td>
+                        <td>18*</td>
+                        <td>14*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
                         <td>16*</td>
-                        <td>31*</td>
+                        <td>32*</td>
                         <td>0</td>
                     </tr>
                     <tr>
@@ -729,13 +742,13 @@
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>44*</td>
-                        <td>64*</td>
+                        <td>51*</td>
+                        <td>73*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
-            <p> * dane wg strony kieleckapilka.pl</p>
+            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011 do lipca 2023</p>
         </div>
     </div>
 </div>
@@ -792,36 +805,36 @@
                     <tr class="dark">
                         <td>4 liga</td>
                         <td>1*</td>
-                        <td>96*</td>
+                        <td>106*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
                         <td>48*</td>
-                        <td>30*</td>
+                        <td>34*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>74*</td>
-                        <td>36*</td>
+                        <td>79*</td>
+                        <td>38*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>28*</td>
-                        <td>28*</td>
+                        <td>30*</td>
+                        <td>29*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>54-</td>
-                        <td>79*</td>
+                        <td>57*</td>
+                        <td>85*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
-            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011</p>
+            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011 do lipca 2023</p>
         </div>
     </div>
 </div>
@@ -881,36 +894,36 @@
                     <tr class="dark">
                         <td>4 liga</td>
                         <td>1</td>
-                        <td>89*</td>
+                        <td>98*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "O"</td>
                         <td>13*</td>
-                        <td>54*</td>
+                        <td>60*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>38*</td>
-                        <td>48*</td>
+                        <td>42*</td>
+                        <td>51*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
                         <td>57*</td>
-                        <td>27*</td>
+                        <td>28*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>23*</td>
-                        <td>79*</td>
+                        <td>27*</td>
+                        <td>85*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
-            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011</p>
+            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011 do lipca 2023</p>
         </div>
     </div>
 </div>
@@ -921,7 +934,7 @@
         <div class="popup--photo--text">
             <p> Rok urodzenia: 2002</p>
             <p> Sędzia od: 2020r. </p>
-            <p> Obecnie: Sędzia klasy "B"</p>
+            <p> Obecnie: Sędzia klasy "A"</p>
         </div>
     </div>
     <div class="popup--container">
@@ -931,16 +944,15 @@
         </div>
         <div class="popup--description">
             <p>
-                Błażej jest naszym najmłodszym sędzią. Skończył kurs w 2020r. Miniona runda była jego pierwszą jako sędzia "B" klasy.
-                Do tej pory prowadził 3 mecze "B" klasy jako sędzia główny.
+                Błażej jest naszym najmłodszym sędzią. Skończył kurs w 2020r. Miniona runda była jego pierwszą jako sędzia "A" klasy.
+                Do tej pory prowadził 3 mecze "A" klasy jako sędzia główny.
             </p>
             <p>
                 Pomimo małego stażu Błażej poprowadził już ponad 70 meczów jako sędzia główny lub sędzia asystent w rozgrywkach młodzieżowych.
             </p>
             Ciekawostki:
-            <li> Najwyższa liga jako sędzia główny: "B" klasa.</li>
-            <li> Najwyższa liga jako sędzia asystent: Klasa "O".</li>
-            <li> Zawodnik IV ligowego Orlicza Suchedniów. </li>
+            <li> Najwyższa liga jako sędzia główny: "A" klasa.</li>
+            <li> Najwyższa liga jako sędzia asystent: IV Liga.</li>
 
         </div>
     </div>
@@ -978,66 +990,67 @@
                     <tr>
                         <td>Kl. "O"</td>
                         <td>0</td>
-                        <td>3</td>
+                        <td>7</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
-                        <td>0</td>
+                        <td>3</td>
                         <td>7</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
-                        <td>3</td>
+                        <td>6</td>
                         <td>3</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>32</td>
-                        <td>39</td>
+                        <td>36</td>
+                        <td>48</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
+            <p> * dane na dzień 31.06.2023r.</p>
         </div>
     </div>
 </div>
 
+
+
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/DAdrian-pop.PNG" alt="zdjęcie Adrian Dzięcioł" class="popup--photo">
+        <img src="../images/persons/face.png" alt="zdjęcie Robert Frączkiewicz" class="popup--photo">
         <div class="popup--photo--text">
-            <p> Rok urodzenia: 2000</p>
-            <p> Sędzia od: 2021r. </p>
-            <p> Obecnie: Sędzia klasy "B"</p>
+            <p> Rok urodzenia: </p>
+            <p> Sędzia od: </p>
+            <p> Obecnie: Sędzia klasy "A"</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
-            Adrian Dzięcioł
+            Robert Frączkiewicz
             <button class="popup--btn" onclick="closePopup(11)">X</button>
         </div>
         <div class="popup--description">
             <p>
-                Adrian jest "najnowszym nabytkiem" naszej sekcji. Skończył kurs w 2021r.<br>
-                Od początku tego sezonu tj. 2022/2023 jest sędzią prowadzącym mecze jako sędzia główny w klasie "B".
-                Do tej pory prowadził 2 mecze "B" klasy jako sędzia główny.
+                Więcej informacji wkrótce.
             </p>
             <p>
-                Adrian zaliczył udany debiut jako sędzia asystent w 4 lidze w drugim sezonie swojej sędziowskiej przygody.
+                <!--              Adrian zaliczył udany debiut jako sędzia asystent w 4 lidze w drugim sezonie swojej sędziowskiej przygody. -->
             </p>
             <br>Ciekawostki:
-            <li> Najwyższa liga jako sędzia główny: "B" klasa.</li>
+            <!--             <li> Najwyższa liga jako sędzia główny: "B" klasa.</li>
             <li> Najwyższa liga jako sędzia asystent: IV Liga.</li>
-
+ -->
         </div>
     </div>
     <div class="popup--static">
         <div class="static--title">Liczba meczów</div>
         <div class="static--table">
-            <table>
+<!--             <table>
                 <thead>
                     <tr>
                         <th scope="col"></th>
@@ -1091,96 +1104,13 @@
                     </tr>
                 </tbody>
             </table>
-            <p> * dane wg strony kieleckapilka.pl</p>
+            <p> * dane na dzień 31.06.2023r.</p> -->
         </div>
     </div>
 </div>
 
-<div class="popup--main">
-    <div class="popup--photo--field">
-        <img src="../images/persons/CEmil-pop.png" alt="zdjęcie Emil Czubak" class="popup--photo">
-        <div class="popup--photo--text">
-            <p> Rok urodzenia: 1997</p>
-            <p> Sędzia od: 2016r. </p>
-            <p> Obecnie: Sędzia klasy "B"</p>
-        </div>
-    </div>
-    <div class="popup--container">
-        <div class="popup--name">
-            Emil Czubak
-            <button class="popup--btn" onclick="closePopup(12)">X</button>
-        </div>
-        <div class="popup--description">
-            <p>
-                Emil w "B" klasie zaczął sędziować od sezonu 2018 / 2019. 
-            </p>
-            <br>Ciekawostki:
-            <li> Najwyższa liga jako sędzia główny: "B" klasa.</li>
-            <li> Najwyższa liga jako sędzia asystent: IV Liga.</li>
 
-        </div>
-    </div>
-    <div class="popup--static">
-        <div class="static--title">Liczba meczów</div>
-        <div class="static--table">
-            <table>
-                <thead>
-                    <tr>
-                        <th scope="col"></th>
-                        <th scope="col"><img src="../images/pages/news/table-whistle.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/pages/news/table-flag.png" alt="WHISTLE" class="table--image"></th>
-                        <th scope="col"><img src="../images/pages/news/table-table.PNG" alt="WHISTLE" class="table--image"></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="dark">
-                        <td>2 liga</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>3 liga</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr class="dark">
-                        <td>4 liga</td>
-                        <td>0</td>
-                        <td>12*</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>Kl. "O"</td>
-                        <td>0</td>
-                        <td>7*</td>
-                        <td>0</td>
-                    </tr>
-                    <tr class="dark">
-                        <td>Kl. "A"</td>
-                        <td>0</td>
-                        <td>20*</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>Kl. "B"</td>
-                        <td>10*</td>
-                        <td>11*</td>
-                        <td>0</td>
-                    </tr>
-                    <tr class="dark">
-                        <td>Młodzież</td>
-                        <td>30*</td>
-                        <td>34*</td>
-                        <td>0</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p> * dane wg strony kieleckapilka.pl</p>
-        </div>
-    </div>
-</div>
+
 
 <div class="popup--main">
     <div class="popup--photo--field">
@@ -1188,18 +1118,18 @@
         <div class="popup--photo--text">
             <p> Rok urodzenia: 2003</p>
             <p> Sędzia od: 2020r. </p>
-            <p> Obecnie: Sędzia asystent</p>
+            <p> Obecnie: Sędzia klasy "B"</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
             Maksymilian Bator
-            <button class="popup--btn" onclick="closePopup(13)">X</button>
+            <button class="popup--btn" onclick="closePopup(12)">X</button>
         </div>
         <div class="popup--description">
             <p>
                 Maks ukończył kurs sędziego w 2020r. Miał półroczną przerwę podczas rudny jesiennej sezonu 2022/ 2023.
-                Maks łączy przygodę sędziowską z graniem w piłkę, obecnie na 4 ligowych boiskach.
+                Maks łączy przygodę sędziowską z graniem w piłkę, obecnie na 4 ligowych boiskach. Od sezonu 2023 / 2024 sędzia klasy "B".
             </p>
 
             <br>Ciekawostki:
@@ -1243,32 +1173,33 @@
                         <td>Kl. "O"</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>2*</td>
+                        <td>3*</td>
                     </tr>
                     <tr class="dark">
                         <td>Kl. "A"</td>
                         <td>0</td>
-                        <td>3*</td>
+                        <td>4*</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
                         <td>0</td>
-                        <td>3*</td>
+                        <td>6*</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>8*</td>
-                        <td>9*</td>
+                        <td>12*</td>
+                        <td>12*</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
-            <p> * dane wg strony kieleckapilka.pl</p>
+            <p> * dane wg strony kieleckapilka.pl</br>od sezonu 2010 / 2011 do lipca 2023</p>
         </div>
     </div>
 </div>
+
 
 <div class="popup--main">
     <div class="popup--photo--field">
@@ -1276,13 +1207,13 @@
         <div class="popup--photo--text">
             <p> Rok urodzenia: 2000</p>
             <p> Sędzia od: 2021r. </p>
-            <p> Obecnie: Sędzia klasy "B"</p>
+            <p> Obecnie: Sędzia asystent</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
             Jakub Janus
-            <button class="popup--btn" onclick="closePopup(14)">X</button>
+            <button class="popup--btn" onclick="closePopup(13)">X</button>
         </div>
         <div class="popup--description">
             <p>
@@ -1330,24 +1261,24 @@
                     <tr class="dark">
                         <td>Kl. "A"</td>
                         <td>0</td>
-                        <td>0</td>
+                        <td>3</td>
                         <td>0</td>
                     </tr>
                     <tr>
                         <td>Kl. "B"</td>
                         <td>0</td>
-                        <td>0</td>
+                        <td>2</td>
                         <td>0</td>
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>16</td>
+                        <td>13</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
-            <p> * dane wg strony kieleckapilka.pl</p>
+            <p> * dane na dzień 31.06.2023r.</p>
         </div>
     </div>
 </div>
@@ -1364,7 +1295,7 @@
     <div class="popup--container">
         <div class="popup--name">
             Brajan Sykluski
-            <button class="popup--btn" onclick="closePopup(15)">X</button>
+            <button class="popup--btn" onclick="closePopup(14)">X</button>
         </div>
         <div class="popup--description">
             <p>
@@ -1412,7 +1343,7 @@
                     <tr class="dark">
                         <td>Kl. "A"</td>
                         <td>0</td>
-                        <td>0</td>
+                        <td>3</td>
                         <td>0</td>
                     </tr>
                     <tr>
@@ -1423,34 +1354,34 @@
                     </tr>
                     <tr class="dark">
                         <td>Młodzież</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>3</td>
+                        <td>7</td>
                         <td>0</td>
                     </tr>
                 </tbody>
             </table>
-            <p> * dane wg strony kieleckapilka.pl</p>
+            <p> * dane na dzień 31.06.2023r.</p>
         </div>
     </div>
 </div>
 
 <div class="popup--main">
     <div class="popup--photo--field">
-        <img src="../images/persons/MKrzysztof-pop.PNG" alt="zdjęcie Krzysztof Myśliwy" class="popup--photo">
+        <img src="../images/persons/face.png" alt="zdjęcie buźka" class="popup--photo">
         <div class="popup--photo--text">
             <p> Rok urodzenia: </p>
-            <p> Sędzia od: 2023r. </p>
+            <p> Sędzia od: 1998r. </p>
             <p> Obecnie: Sędzia asystent</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
-            Krzysztof Myśliwy
-            <button class="popup--btn" onclick="closePopup(16)">X</button>
+            Tomasz Mazur
+            <button class="popup--btn" onclick="closePopup(15)">X</button>
         </div>
         <div class="popup--description">
             <p>
-                Krzysztof ukończył kurs sędziego wiosną 2023r.
+                Tomek ukończył kurs sędziego latem 2023r.
             </p>
         </div>
     </div>
@@ -1520,19 +1451,19 @@
     <div class="popup--photo--field">
         <img src="../images/persons/face.png" alt="zdjęcie uśmiech" class="popup--photo">
         <div class="popup--photo--text">
-            <p> Rok urodzenia: 2001</p>
+            <p> Rok urodzenia: 2006r.</p>
             <p> Sędzia od: 2023r. </p>
             <p> Obecnie: Sędzia asystent</p>
         </div>
     </div>
     <div class="popup--container">
         <div class="popup--name">
-            Michał Szemberg
-            <button class="popup--btn" onclick="closePopup(17)">X</button>
+            Kacper Drzazga
+            <button class="popup--btn" onclick="closePopup(16)">X</button>
         </div>
         <div class="popup--description">
             <p>
-                Michał ukończył kurs sędziego wiosną 2023r.
+                Kacper ukończył kurs sędziego latem 2023r.
             </p>
         </div>
     </div>

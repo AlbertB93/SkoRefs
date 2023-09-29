@@ -25,41 +25,42 @@
     <div class="news--container">
       <div class="news--box">
         <article>
-          <a href="news/news028-clipOfTheWeek-S2324E4.php">Kilp tygodnia <br> 4 kolejka PKO BP Ekstraklasy</a>
+          <a href="news/news032-clipOfTheWeek-S2324E8.php">Kilp tygodnia <br> 8 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../images/pages/news-logo/news028.PNG" alt="piłkarz-Lecha-Andersson-piłkarz-Zagłębia-Chodyna" class="article--image--file" />
+            <img src="../images/pages/news-logo/news032.PNG" alt="piłkarz-Cracovi-Rapa" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 19.08.2023r. - Bercik
+            Data dodania - autor: 29.09.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news/news027-clipOfTheWeek-S2324E3.php">Kilp tygodnia <br> 3 kolejka PKO BP Ekstraklasy</a>
+          <a href="news/news031-clipOfTheWeek-S2324E7.php">Kilp tygodnia <br> 7 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../images/pages/news-logo/news027.PNG" alt="piłkarz-Lecha-Andersson-piłkarz-Zagłębia-Chodyna" class="article--image--file" />
+            <img src="../images/pages/news-logo/news031.PNG" alt="piłkarz-Jegielloni-oraz-Górnika" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 10.08.2023r. - Bercik
+            Data dodania - autor: 16.09.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news/news026-clipOfTheWeek-S2324E2F1L2.php">Kilp tygodnia <br> 2 kolejka PKO BP Ekstraklasy </br> 2 kolejka Fortuna 1 Ligi</a>
+          <a href="news/news030-clipOfTheWeek-S2324E6.php">Kilp tygodnia <br> 6 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../images/pages/news-logo/news026.PNG" alt="bramkarze-Kuchta-Alvaro" class="article--image--file" />
+            <img src="../images/pages/news-logo/news030.PNG" alt="piłkarz-Legii-oraz-Widzewa" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 04.08.2023r. - Bercik
+            Data dodania - autor: 16.09.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news/news025-clipOfTheWeek-S2324E1.php">Kilp tygodnia <br> 1 kolejka PKO BP Ekstraklasy</a>
+          <a href="news/news029-clipOfTheWeek-S2324E5.php">Kilp tygodnia <br> 5 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../images/pages/news-logo/news025.PNG" alt="piłkarz-Piasta-Ameyaw" class="article--image--file" />
+            <img src="../images/pages/news-logo/news029.jpg" alt="piłkarz-Radomiaka-uderzający-z-główki" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 04.08.2023r. - Bercik
+            Data dodania - autor: 04.09.2023r. - Bercik
           </div>
         </article>
+
       </div>
       <div class="buttons--box">
         <div class="buttons--box--container">
