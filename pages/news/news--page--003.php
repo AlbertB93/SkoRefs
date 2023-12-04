@@ -25,6 +25,105 @@
     </div>
     <div class="news--container--003">
       <div class="news--list">
+      <div class="news--list--row">
+          <div class="news--list--row--title">
+          <a href="news036-clipOfTheWeek-S2324E11.php">Kilp tygodnia 11 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 13.10.2023rr.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news035-clipOfTheWeek-S2324E06-overdue.php">Kilp tygodnia 6 kolejka PKO BP Ekstraklasy zaległy mecz</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 13.10.2023rr.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news034-clipOfTheWeek-S2324E10.php">Kilp tygodnia 10 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 13.10.2023rr.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news033-clipOfTheWeek-S2324E9.php">Kilp tygodnia 9 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 13.10.2023rr.
+          </div>
+        </div>
+
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news032-clipOfTheWeek-S2324E8.php">Kilp tygodnia 8 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 29.09.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news031-clipOfTheWeek-S2324E7.php">Kilp tygodnia 7 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 16.09.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news030-clipOfTheWeek-S2324E6.php">Kilp tygodnia 6 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 16.09.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news029-clipOfTheWeek-S2324E5.php">Kilp tygodnia 5 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 04.09.2023r.
+          </div>
+        </div>
+
+
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news028-clipOfTheWeek-S2324E4.php">Kilp tygodnia 4 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 19.08.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news027-clipOfTheWeek-S2324E3.php">Kilp tygodnia 3 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 10.08.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news026-clipOfTheWeek-S2324E2F1L2.php">Kilp tygodnia 2 kolejka PKO BP Ekstraklasy 2 kolejka Fortuna 1 Ligi</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 04.08.2023r.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news025-clipOfTheWeek-S2324E1.php">Kilp tygodnia 1 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 04.08.2023r.
+          </div>
+        </div>
         <div class="news--list--row">
           <div class="news--list--row--title">
             <a href="news024-Sedzia-2-2023.php">Gazetka "Sędzia" 2/2023</a>

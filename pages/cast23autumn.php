@@ -30,6 +30,12 @@
         <div class="cast--container--month--title" id="month-2" onclick="displayFlex('september')">
           Wrzesień 2023r.
         </div>
+        <div class="cast--container--month--title" id="month-3" onclick="displayFlex('october')">
+          Październik 2023r.
+        </div>
+        <div class="cast--container--month--title" id="month-4" onclick="displayFlex('november')">
+          Listopad 2023r.
+        </div>
         <div class="cast--container--month--boxWeeks" id="august">
           <div class="cast--container--month--boxWeeks--week" id="m1-w1" onclick="displayBlock('aug_05-06')">
             05-06.08.2023r.
@@ -71,6 +77,34 @@
           </div>
           <div class="cast--container--month--boxWeeks--week" id="m2-w8" onclick="displayBlock('sep_26-01')">
             26.09 - 01.10.2023r.
+          </div>
+        </div>
+        <div class="cast--container--month--boxWeeks" id="october">
+          <div class="cast--container--month--boxWeeks--week" id="m3-w1" onclick="displayBlock('oct_04-05')">
+            04-05.10.2023r.
+          </div>
+          <div class="cast--container--month--boxWeeks--week" id="m3-w2" onclick="displayBlock('oct_06-08')">
+            06-08.10.2023r.
+          </div>
+          <div class="cast--container--month--boxWeeks--week" id="m3-w3" onclick="displayBlock('oct_12-15')">
+            12-14.10.2023r.
+          </div>
+          <div class="cast--container--month--boxWeeks--week" id="m3-w4" onclick="displayBlock('oct_18-22')">
+            18-22.10.2023r.
+          </div>
+          <div class="cast--container--month--boxWeeks--week" id="m3-w5" onclick="displayBlock('oct_25-31')">
+            25-31.10.2023r.
+          </div>
+        </div>
+        <div class="cast--container--month--boxWeeks" id="november">
+          <div class="cast--container--month--boxWeeks--week" id="m4-w1" onclick="displayBlock('nov_03-05')">
+            03-05.11.2023r.
+          </div>
+          <div class="cast--container--month--boxWeeks--week" id="m4-w2" onclick="displayBlock('nov_10-12')">
+            10-12.11.2023r.
+          </div>
+          <div class="cast--container--month--boxWeeks--week" id="m4-w3" onclick="displayBlock('nov_18-29')">
+            18-29.11.2023r.
           </div>
         </div>
         <div class="table--container" id="aug_05-06">
@@ -2223,6 +2257,1410 @@
                 <td> - </td>
                 <td> - </td>
               </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table--container" id="oct_04-05">
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Środa 04.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th class="awarded" colspan="9">
+                  Okręgowy Puchar Polski
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 27%;">Gospodarz</th>
+                <th scope="col" style="width: 27%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <tr>
+                <td>GKS Rudki</td>
+                <td>Korona SA III Kielce</td>
+                <td>15:30</td>
+                <td>E. Kiliszek</td>
+                <td>D. Frydryk</td>
+                <td>R. Sokołowski</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Naprzód Jędrzejów</td>
+                <td>Wierna Małogoszcz</td>
+                <td>15:30</td>
+                <td>J. Moskal</td>
+                <td>K. Chrzanowska</td>
+                <td>R. Frączkiewicz</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Czwartek 05.10.2023r.
+                </th>
+              </tr>
+              <thead>
+                <thead>
+                  <tr>
+                    <th class="awarded--small" colspan="9">
+                      Świętokrzyska Młodzik Starszy
+                    </th>
+                  </tr>
+                </thead>
+              <tbody>
+                <tr>
+                  <td>UKS AP CHAMPIONS Końskie</td>
+                  <td>MKS Czarni Połaniec</td>
+                  <td>16:00</td>
+                  <td>J. Janus</td>
+                  <td>R. Frączkiewicz</td>
+                  <td> - </td>
+                </tr>
+              </tbody>
+              <thead>
+                <thead>
+                  <tr>
+                    <th class="awarded--small" colspan="9">
+                      Młodzik Młodszy gr. 5
+                    </th>
+                  </tr>
+                </thead>
+              <tbody>
+                <tr>
+                  <td>UKS AP CHAMPIONS Stąporków</td>
+                  <td>UKS AP CHAMPIONS Końskie</td>
+                  <td>16:30</td>
+                  <td>J. Chrzanowska</td>
+                  <td> - </td>
+                  <td> - </td>
+                </tr>
+              </tbody>
+          </table>
+        </div>
+        <div class="table--container" id="oct_06-08">
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Piątek 06.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th class="awarded" colspan="9">
+                  III Liga
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 27%;">Gospodarz</th>
+                <th scope="col" style="width: 27%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Broń Radom</td>
+                <td>Unia Skierniewice</td>
+                <td>19:00</td>
+                <td>A. Adamska</td>
+                <td>K. Chrzanowska</td>
+                <td>A. Nowak</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Sobota 07.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th class="awarded" colspan="9">
+                  Klasa "O"
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 27%;">Gospodarz</th>
+                <th scope="col" style="width: 27%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Partyzant Radoszyce</td>
+                <td>KS Victoria 2015 Skalmbierz</td>
+                <td>15:00</td>
+                <td>P. Kocia</td>
+                <td>R. Frączkiewicz</td>
+                <td>R. Sokołowski</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th class="awarded--small" colspan="9">
+                  Świętokrzyska Junior Starszy
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Spartakus Daleszyce</td>
+                <td>KKP Korona Kielce</td>
+                <td>09:30</td>
+                <td>J. Moskal</td>
+                <td>A. Adamska</td>
+                <td>J. Janus</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th class="awarded--small" colspan="9">
+                  Świętokrzyska Młodzik Starszy
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>PAS Skarżysko - Kamienna</td>
+                <td>Orlęta I Kielce</td>
+                <td>09:30</td>
+                <td>B. Turski</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th class="awarded--small" colspan="9">
+                  Młodzik Starszy gr. 5
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>PAS II Skarżysko - Kamienna</td>
+                <td>Spartakus Daleszyce</td>
+                <td>09:30</td>
+                <td>B. Turski</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th class="awarded--small" colspan="9">
+                  Świętokrzyska Młodzik Młodszy
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>PAS I Skarżysko - Kamienna</td>
+                <td>KS Baszta Rytwiany</td>
+                <td>09:30</td>
+                <td>B. Turski</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Niedziela 08.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th class="awarded" colspan="9">
+                  IV Liga
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 27%;">Gospodarz</th>
+                <th scope="col" style="width: 27%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Spartakus Daleszyce</td>
+                <td>Klimontowianka Klimontów</td>
+                <td>15:00</td>
+                <td>J. Chrzanowski</td>
+                <td>D. Frydryk</td>
+                <td>P. Kocia</td>
+              </tr>
+              <tr>
+                <td>MKS Olimpia Pogoń Staszów</td>
+                <td>Korona SA II Kielce</td>
+                <td>15:00</td>
+                <td>A. Adamska</td>
+                <td>K. Chrzanowska</td>
+                <td>B. Turski</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th class="awarded" colspan="9">
+                  Klasa "A" gr. 1
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Skała Tumlin </td>
+                <td>Astra Piekoszów</td>
+                <td>12:00</td>
+                <td>R. Frączkiewicz</td>
+                <td>E. Kiliszek</td>
+                <td>K. Purtak</td>
+              </tr>
+              <tr>
+                <td>MSS Masłów</td>
+                <td>Radiators Stąporów</td>
+                <td>11:00</td>
+                <td>D. Frydryk</td>
+                <td>P. Kocia</td>
+                <td>J. Chrzanowski</td>
+              </tr>
+            </tbody>
+
+            <thead>
+              <tr>
+                <th class="awarded--small" colspan="9">
+                  Okręgowa Junior Starszy gr. 1
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>GKS Rudki</td>
+                <td>Granat Borki</td>
+                <td>2:30</td>
+                <td>R. Sokołowski</td>
+                <td>J. Janus </td>
+                <td>T. Witkowski </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table--container" id="oct_12-15">
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Czwartek 12.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mł. Mł. gr. 5</td>
+                <td>UKS AP CHAMPIONS Stąporków</td>
+                <td>UKS AP CHAMPIONS Końskie</td>
+                <td>16:00</td>
+                <td>J. Janus</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Sobota 14.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ekstraliga Kobiet </td>
+                <td>Medyk Konin</td>
+                <td>GÓRNIK Łęczna</td>
+                <td>15:00</td>
+                <td>A. Adamska</td>
+                <td>K. Chrzanowska</td>
+                <td>A. Nowak</td>
+              <tr>
+              <tr>
+                <td>Klasa "A" gr.1 </td>
+                <td>Moravia II Morawica</td>
+                <td>Skała Tumlin</td>
+                <td>15:00</td>
+                <td>B. Turski</td>
+                <td>J. Moskal</td>
+                <td>J. Chrzanowski</td>
+              <tr>
+                <td>Św. Jun. St.</td>
+                <td>Neptun Końskie</td>
+                <td>Spartakus Daleszyce</td>
+                <td>10:00</td>
+                <td>K. Purtak</td>
+                <td>R. Frączkiewicz</td>
+                <td>D. Frydryk</td>
+              </tr>
+              <tr>
+                <td>Tr. St. gr. 1</td>
+                <td>Orlicz Suchedniów</td>
+                <td>DAP I Kielce</td>
+                <td>10:00</td>
+                <td>B. Turski</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Św. Tr. Mł.</td>
+                <td>UKS Celsium Skarżysko</td>
+                <td>Piaskowianka Piaski</td>
+                <td>10:00</td>
+                <td>P. Kocia</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Św. Mł. Mł.</td>
+                <td>PAS I Skarżysko</td>
+                <td>GALACTICOS II Ostrowiec Św.</td>
+                <td>09:00</td>
+                <td>J. Chrzanowski</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Mł. Mł. gr. 2</td>
+                <td>KS Sokół Skarżysko</td>
+                <td>Wicher Miedziana Góra</td>
+                <td>10:00</td>
+                <td>J. Chrzanowski</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Mł. Mł. gr. 5</td>
+                <td>NEPTUN Końskie</td>
+                <td>Granat Borki</td>
+                <td>12:00</td>
+                <td>R. Frączkiewicz</td>
+                <td>D. Frydryk</td>
+                <td>K. Purtak</td>
+              </tr>
+              <tr>
+                <td>Mł. Mł. gr. 5</td>
+                <td>UKS CHAMPIONS Stąporków</td>
+                <td>PAS II Skarżysko</td>
+                <td>12:00</td>
+                <td>P. Kocia</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Niedziela 15.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IV Liga</td>
+                <td>Neptun Końskie</td>
+                <td>GKS Rudki</td>
+                <td>15:00</td>
+                <td>J. Moskal</td>
+                <td>P. Kocia</td>
+                <td>R. Sokołowski</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Klasa "O"</td>
+                <td>Piaskowianka Piaski</td>
+                <td>TS 1946 NIDA Pińczów</td>
+                <td>15:00</td>
+                <td>E. Kiliszek</td>
+                <td>J. Chrzanowski</td>
+                <td>B. Turski</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Klasa "O"</td>
+                <td>Orlicz Suchedniów</td>
+                <td>Sparta Kazimierza Wielska</td>
+                <td>15:00</td>
+                <td>K. Chrzanowska</td>
+                <td>A. Adamska</td>
+                <td>D. Frydryk</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Mł. Mł. gr. 2</td>
+                <td>Orlicz Suchedniów</td>
+                <td>Spartakus Daleszyce</td>
+                <td>10:00</td>
+                <td>B. Sykulski</td>
+                <td>K. Drzazga</td>
+                <td> - </td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Mł. Mł. gr. 5</td>
+                <td>KS Smyków</td>
+                <td>UKS CHAMPIONS Końskie</td>
+                <td>10:00</td>
+                <td>J. Janus</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="table--container" id="oct_18-22">
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Środa 18.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mł. Mł. gr. 5</td>
+                <td>PAS II Skarżysko</td>
+                <td>KS Smyków</td>
+                <td>16:00</td>
+                <td>R. Frączkiewicz</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Piatek 20.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>III Liga</td>
+                <td>Chełmianka Chełm</td>
+                <td>Sokół Sieniawa</td>
+                <td>14:30</td>
+                <td>A. Bińkowski</td>
+                <td>J. Moskal</td>
+                <td>E. Kiliszek</td>
+              </tr>
+              <tr>
+                <td>Tr. Mł. gr. 1</td>
+                <td>MKS Neptun Końskie</td>
+                <td>Zryw Łopuszno</td>
+                <td>19:30</td>
+                <td>J. Janus</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Sobota 21.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Klasa "B" gr. 1</td>
+                <td>Kamienna Wola</td>
+                <td>Samson Samsonów</td>
+                <td>15:00</td>
+                <td>P. Kocia</td>
+                <td>R. Sokołowski</td>
+                <td>K. Purtak</td>
+              <tr>
+              <tr>
+                <td>Tr. Mł. gr. 1</td>
+                <td>Partyzant Radoszyce</td>
+                <td>Bucovia Bukowa</td>
+                <td>09:30</td>
+                <td>J. Janus</td>
+                <td>R. Sokołowski </td>
+                <td>B. Turski</td>
+              </tr>
+              <tr>
+                <td>Św. Mł. St.</td>
+                <td>UKS AP CHAMPIONS Końskie</td>
+                <td>Korona I Kielce</td>
+                <td>10:00</td>
+                <td>D. Frydryk</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Mł. St. gr. 5</td>
+                <td>PAS II Skarżysko</td>
+                <td>Star II Starachowice</td>
+                <td>12:00</td>
+                <td>R. Frączkiewicz</td>
+                <td> - </td>
+                <td> - </td>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Niedziela 22.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>III Liga</td>
+                <td>Pelikan Łowicz</td>
+                <td>Victoria Sulejówek</td>
+                <td>12:00</td>
+                <td>A.Adamska</td>
+                <td>K. Chrzanowska</td>
+                <td>A. Nowak</td>
+              </tr>
+              <tr>
+                <td>Klasa "O"</td>
+                <td>Świt Ćmielów</td>
+                <td>Gród Ćmińsk</td>
+                <td>14:00</td>
+                <td>B. Turski</td>
+                <td>E. Kiliszek</td>
+                <td>J. Chrzanowski</td>
+              </tr>
+              <tr>
+                <td>Klasa "A" gr. 1</td>
+                <td>Astra Piekoszów</td>
+                <td>Moravia II Morawica</td>
+                <td>14:00</td>
+                <td>D. Frydryk</td>
+                <td>J. Moskal</td>
+                <td>R. Sokołowski</td>
+              </tr>
+              <tr>
+                <td>Klasa "B" gr. 1</td>
+                <td>Płomień Wólka Kłucka</td>
+                <td>ULKS Łączna</td>
+                <td>11:00</td>
+                <td>K. Purtak</td>
+                <td>R. Frączkiewicz</td>
+                <td>J. Janus</td>
+              </tr>
+              <tr>
+                <td>Klasa "B" gr. 1</td>
+                <td>TOP SPIN Promnik</td>
+                <td>Czarnovia Kielce</td>
+                <td>11:00</td>
+                <td>R. Sokołowski</td>
+                <td>D. Frydryk</td>
+                <td>J. Moskal</td>
+              </tr>
+              <tr>
+                <td>Mł. St. gr. 2</td>
+                <td>Radiators Stąporków</td>
+                <td>Astra Piekoszów</td>
+                <td>15:30</td>
+                <td>K. Drzazga</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table--container" id="oct_25-31">
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Środa 25.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mł. St. gr. 2</td>
+                <td>Tęcza Gowarczów</td>
+                <td>Radiators Stąporków</td>
+                <td>16:00</td>
+                <td>J. Janus</td>
+                <td>K. Chrzanowska</td>
+                <td>K. Purtak</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Sobota 28.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Tr. St. gr. 1</td>
+                <td>Orlicz Suchedniów</td>
+                <td>Spartakus Daleszyce</td>
+                <td>14:00</td>
+                <td>E. Kiliszek</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Tr. Mł. gr. 1</td>
+                <td>Partyzant Radoszyce</td>
+                <td>KS Hetman II Włoszczowa</td>
+                <td>09:30</td>
+                <td>J. Chrzanowski</td>
+                <td>J. Moskal </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Mł. St. gr. 5</td>
+                <td>PAS II Skarżysko</td>
+                <td>UKS Baćkowice</td>
+                <td>10:30</td>
+                <td>K. Purtak</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Św. Mł. Mł.</td>
+                <td>PAS Skarżysko</td>
+                <td>KS DAP II Kielce</td>
+                <td>09:00</td>
+                <td>A. Bińkowski</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Mł. Mł. Gr. 2</td>
+                <td>Orlicz Suchedniów</td>
+                <td>Sokół Skarżysko </td>
+                <td>09:00</td>
+                <td>B. Turski</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Mł. Mł. Gr. 5</td>
+                <td>UKS AP CHAMPIONS Końskie</td>
+                <td>GRANAT Borki</td>
+                <td>15:00</td>
+                <td>J. Janus</td>
+                <td>R. Frączkiewicz</td>
+                <td>K. Chrzanowska</td>
+              </tr>
+              <tr>
+                <td>Św. Mł. Mł.</td>
+                <td>Neptun Końskie</td>
+                <td>PAS II Skarżysko</td>
+                <td>09:00</td>
+                <td>K. Chrzanowska</td>
+                <td>J. Janus</td>
+                <td>R. Frączkiewicz</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Niedziela 29.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IV Liga</td>
+                <td>Arka Pawłów</td>
+                <td>Pogoń Staszów</td>
+                <td>13:30</td>
+                <td>A. Bińkowski</td>
+                <td>D. Frydryk</td>
+                <td>B. Turski</td>
+              </tr>
+              <tr>
+                <td>IV Liga</td>
+                <td>Łysica Bodzentyn</td>
+                <td>GKS Rudki</td>
+                <td>13:00</td>
+                <td>A. Adamska</td>
+                <td>K. Chrzanowska</td>
+                <td>K. Purtak</td>
+              </tr>
+              <tr>
+                <td> Klasa "O"</td>
+                <td>ORLICZ Suchedniów</td>
+                <td>GKS Górno</td>
+                <td>13:30</td>
+                <td>E. Kiliszek</td>
+                <td>R. Frączkiewicz</td>
+                <td>R. Sokołowski</td>
+              </tr>
+              <tr>
+                <td>Klasa "A" gr. 1</td>
+                <td>Radiators Stąporków</td>
+                <td>Skała Tumlin</td>
+                <td>13:00</td>
+                <td>J. Moskal</td>
+                <td>J. Chrzanowski</td>
+                <td>J. Janus</td>
+              </tr>
+              <tr>
+                <td>Klasa "B" gr. 1</td>
+                <td>ULKS Łączna</td>
+                <td>Czarnovia Kielce</td>
+                <td>11:00</td>
+                <td>R. Sokołowski</td>
+                <td>E. Kiliszek</td>
+                <td>R. Frączkiewicz</td>
+              </tr>
+              <tr>
+                <td>Św. Jun. St.</td>
+                <td>Neptun Końskie</td>
+                <td>KKP Korona Kielce</td>
+                <td>10:00</td>
+                <td>J. Chrzanowski</td>
+                <td>J. Janus</td>
+                <td>J. Moskal</td>
+              </tr>
+              <tr>
+                <td>Św. Tr. Mł.</td>
+                <td>Celsium Skarżysko</td>
+                <td>AKS Busko Zdrój</td>
+                <td>11:00</td>
+                <td>K. Drzazga</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Wtorek 31.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Św. Tr. Mł.</td>
+                <td>Łysica Bodzentyn</td>
+                <td>Celsium Skarżysko</td>
+                <td>14:30</td>
+                <td>J. Janus</td>
+                <td>K. Chrzanowska</td>
+                <td>R. Sokołowski</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table--container" id="nov_03-05">
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Piątek 03.11.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>III Liga</td>
+                <td>KS Wiązownica</td>
+                <td>Chełmianka Chełm</td>
+                <td>17:00</td>
+                <td>A. Adamska</td>
+                <td>K. Chrzanowska</td>
+                <td>A. Nowak</td>
+              </tr>
+              <tr>
+                <td>Tr. Mł. gr. 1</td>
+                <td>MKS Neptun Końskie</td>
+                <td>Partyzant Radoszyce</td>
+                <td>19:15</td>
+                <td>B. Turski</td>
+                <td>K. Purtak</td>
+                <td>R. Frączkiewicz</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Sobota 04.11.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>III Liga</td>
+                <td>Orlęta Radzyń Podlaski</td>
+                <td>Wiślanie Jaśkowice</td>
+                <td>13:00</td>
+                <td>A. Bińkowski</td>
+                <td>J. Moskal</td>
+                <td>E. Kiliszek</td>
+              <tr>
+              <tr>
+                <td>Klasa "A" gr.1 </td>
+                <td>MSS Masłów</td>
+                <td>Sokół Rykoszyn</td>
+                <td>14:00</td>
+                <td>D. Frydryk</td>
+                <td>J. Chrzanowski</td>
+                <td>J. Janus</td>
+              <tr>
+                <td>Św. Tr. St.</td>
+                <td>Neptun Końskie</td>
+                <td>Korona II Kielce</td>
+                <td>10:00</td>
+                <td>K. Purtak</td>
+                <td>R. Frączkiewicz</td>
+                <td>D. Frydryk</td>
+              </tr>
+              <tr>
+                <td>Św. Mł. St.</td>
+                <td>PAS I Skarżysko</td>
+                <td>GKS Zio-Max Nowiny</td>
+                <td>10:00</td>
+                <td>J. Janus</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Św. Mł. St.</td>
+                <td>AP CHAMPIONS Końskie</td>
+                <td>Korona SA Kielce</td>
+                <td>10:00</td>
+                <td>B. Turski</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Mł. St. gr. 2</td>
+                <td>Radators Stąporków</td>
+                <td>SAR Przyjmo</td>
+                <td>09:30</td>
+                <td>P. Kocia</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Mł. St. gr. 2</td>
+                <td>Tęcza Gowarczów</td>
+                <td>Góral Górno</td>
+                <td>11:00</td>
+                <td>P. Kocia</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Mł. Mł. gr. 2</td>
+                <td>KS Sokół Skarżysko</td>
+                <td>Gród Ćmińsk</td>
+                <td>12:00</td>
+                <td>A. Adamska</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Mł. Mł. gr. 5</td>
+                <td>UKS CHAMPIONS Stąporków</td>
+                <td>Neptun Końskie</td>
+                <td>13:00</td>
+                <td>P. Kocia</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Niedziela 15.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IV Liga</td>
+                <td>Spartakus Daleszyce</td>
+                <td>GKS Zio-Max Nowiny</td>
+                <td>13:00</td>
+                <td>A. Adamska</td>
+                <td>P. Kocia</td>
+                <td>B. Turski</td>
+              </tr>
+              <tr>
+                <td>Klasa "O"</td>
+                <td>Unia Sędziszów</td>
+                <td>Wicher Miedziana Góra </td>
+                <td>13:00</td>
+                <td>K. Purtak</td>
+                <td>K. Chrzanowska</td>
+                <td>D. Frydryk</td>
+              </tr>
+              <tr>
+                <td>Klasa "O"</td>
+                <td>Naprzód Jędrzejów</td>
+                <td>KS Victoria 2015 Skalmbierz</td>
+                <td>13:00</td>
+                <td>E. Kiliszek</td>
+                <td>J. Moskal</td>
+                <td>A. Bińkowski</td>
+              </tr>
+              <tr>
+                <td>Klasa "A" gr. 1</td>
+                <td>Skała Tumlin</td>
+                <td>Victoria Mniów</td>
+                <td>14:00</td>
+                <td>R. Sokołowski</td>
+                <td>J. Chrzanowski</td>
+                <td>R. Frączkiewicz</td>
+              </tr>
+              <tr>
+                <td>Klasa "B" gr. 1</td>
+                <td>Tęcza Gowarczów</td>
+                <td>ULKS Łączna</td>
+                <td>11:00</td>
+                <td>R. Frączkiewicz</td>
+                <td>R. Sokołowski</td>
+                <td>J. Chrzanowski</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="table--container" id="nov_10-12">
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Piątek 10.11.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mł. Mł. gr. 5</td>
+                <td>Neptun Końskie</td>
+                <td>KS Smyków</td>
+                <td>19:00</td>
+                <td>K. Chrzanowska</td>
+                <td>K. Purtak </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Sobota 11.11.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IV Liga</td>
+                <td>Orlęta Kielce</td>
+                <td>Alit Ożarów</td>
+                <td>13:00</td>
+                <td>E. Kiliszek</td>
+                <td>J. Chrzanowski</td>
+                <td>A. Adamska</td>
+              <tr>
+                <td>Jun. Mł. gr. 1</td>
+                <td>Granat Skarżysko </td>
+                <td>Sport CK</td>
+                <td>10:00</td>
+                <td>K. Purtak</td>
+                <td>P. Kocia</td>
+                <td>A. Bińkowski</td>
+              </tr>
+              <tr>
+                <td>Mł. Mł. gr. 5</td>
+                <td>PAS II Skarżysko</td>
+                <td>UKS AP CHAMPIONS Końskie</td>
+                <td>10:00</td>
+                <td>B. Turski</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Niedziela 12.10.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 10%;">Sędzia główny</th>
+                <th scope="col" style="width: 10%;">Sędzia AS1</th>
+                <th scope="col" style="width: 10%;">Sędzia AS2</th>
+                <th scope="col" style="width: 9%;">Sędzia techniczny</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ekstraliga Kobiet</td>
+                <td>Pogoń Tczew</td>
+                <td>Pogoń Szczecin </td>
+                <td>11:00</td>
+                <td>A. Adamska</td>
+                <td>A. Nowak</td>
+                <td>K. Chrzanowska</td>
+                <td>E. Augustyn</td>
+              </tr>
+              <tr>
+                <td>IV Liga</td>
+                <td>KS Moravia Morawica</td>
+                <td>GKS Rudki </td>
+                <td>13:00</td>
+                <td>A. Bińkowski</td>
+                <td>R. Frączkiewicz</td>
+                <td>D. Frydryk</td>
+              </tr>
+              <tr>
+                <td>Klasa "O"</td>
+                <td>Orlicz Suchedniów</td>
+                <td>GKS Gród Ćmińsk</td>
+                <td>13:00</td>
+                <td>P. Kocia</td>
+                <td>J. Moskal</td>
+                <td>R. Sokołowski</td>
+              </tr>
+              <tr>
+                <td>Klasa "A" gr. 3</td>
+                <td>Star II Starachowice</td>
+                <td>GKS Iwaniska</td>
+                <td>13:00</td>
+                <td>B. Turski</td>
+                <td>E. Kiliszek</td>
+                <td>C. Ksel</td>
+              </tr>
+              <tr>
+                <td>Mł. St. Gr. 2</td>
+                <td>Radiators Stąporków</td>
+                <td>Sokół Rykoszyn </td>
+                <td>09:30</td>
+                <td>E. Kiliszek</td>
+                <td>B. Turski</td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>Św. Mł. Mł.</td>
+                <td>Pas I Skarżysko</td>
+                <td>KS DAP II Kielce</td>
+                <td>10:00</td>
+                <td>R. Sokołowski</td>
+                <td> - </td>
+                <td> - </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table--container" id="nov_18-29">
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Sobota 18.11.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>III Liga</td>
+                <td>Wisłoka Dębica</td>
+                <td>Karpaty Krosno</td>
+                <td>13:00</td>
+                <td>A. Bińkowski</td>
+                <td>J. Moskal </td>
+                <td>E. Kiliszek</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Klasa "O"</td>
+                <td>Gród Ćmińsk</td>
+                <td>Kamienna Brody</td>
+                <td>13:00</td>
+                <td>K. Chrzanowska</td>
+                <td>K. Purtak </td>
+                <td>P. Kocia</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Klasa "O"</td>
+                <td>Świt Ćmielów</td>
+                <td>Partyzant Wodzisław</td>
+                <td>13:00</td>
+                <td>B. Turski</td>
+                <td>D. Frydyrk </td>
+                <td>R. Frączkiewicz</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Niedziela 19.11.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ekstralia Kobiet</td>
+                <td>Stomilianki Olsztyn</td>
+                <td>APLG Gdańsk</td>
+                <td>12:00</td>
+                <td>K. Bojar-Stefańska</td>
+                <td>P. Erbel</td>
+                <td class="awarded">K. Chrzanowska</td>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="9" class="awarded">
+                  Środa 29.11.2023r.
+                </th>
+              </tr>
+              <tr>
+                <th scope="col" style="width: 14%;">Liga</th>
+                <th scope="col" style="width: 20%;">Gospodarz</th>
+                <th scope="col" style="width: 20%;">Gość</th>
+                <th scope="col" style="width: 7%;">Godzina</th>
+                <th scope="col" style="width: 13%;">Sędzia główny</th>
+                <th scope="col" style="width: 13%;">Sędzia AS1</th>
+                <th scope="col" style="width: 13%;">Sędzia AS2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CLJ U-19</td>
+                <td>Wisła Kraków</td>
+                <td>Raków Częstochowa</td>
+                <td>13:00</td>
+                <td>A. Bińkowski</td>
+                <td>J. Moskal</td>
+                <td>E. Kiliszek</td>
             </tbody>
           </table>
         </div>

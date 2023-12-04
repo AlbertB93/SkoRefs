@@ -463,6 +463,11 @@ main {
   padding: 8px;
 }
 
+.news--simple--container--box006 .listForClipOfTheWeek li, .news--simple--container--box008 .listForClipOfTheWeek li {
+  color: orange;
+  list-style: none;
+}
+
 .news--simple--container--box006 .center, .news--simple--container--box008 .center {
   color: bisque;
   text-align: center;
@@ -635,6 +640,11 @@ main {
   padding: 20px;
 }
 
+.news--simple--container--simpleNews--textBox .text--center p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
 .news--simple--container--simpleNews--textBox h3 {
   color: orange;
   text-align: center;
@@ -712,7 +722,13 @@ main {
 }
 
 .news--simple--container--simpleNews--photoBox .photoCenter {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.news--simple--container--simpleNews--photoBox .photoCenter .photoFit {
+  width: 50%;
+  height: auto;
 }
 
 .news--simple--container--simpleNews--gallery .gallery--container {
@@ -941,6 +957,36 @@ main {
   height: 15px;
   margin: 5px;
   width: 15px;
+}
+
+.news--simple--container--simpleNews .table--container {
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.news--simple--container--simpleNews .table--container table,
+.news--simple--container--simpleNews .table--container table * {
+  background: linear-gradient(to left bottom, #171717, #2b2a2a);
+  border: solid 1px orange;
+  color: orange;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 20px auto;
+  padding: 3px;
+  width: 50vw;
+}
+
+.news--simple--container--simpleNews .table--container table th,
+.news--simple--container--simpleNews .table--container table * th {
+  font-weight: 100;
+  text-align: center;
+}
+
+.news--simple--container--simpleNews .table--container table tr td,
+.news--simple--container--simpleNews .table--container table * tr td {
+  color: orange;
+  padding: 5px;
+  text-align: center;
 }
 
 .news--simple--container--long {
@@ -1899,6 +1945,10 @@ main {
     font-size: 0.9rem;
     text-indent: 20px;
   }
+  .news--simple--container--simpleNews--textBox .text--center p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
   .news--simple--container--simpleNews--photoBox {
     align-items: center;
     display: flex;
@@ -2049,6 +2099,20 @@ main {
     height: 10px;
     margin: 5px;
     width: 10px;
+  }
+  .news--simple--container--simpleNews .table--container {
+    overflow: auto;
+  }
+  .news--simple--container--simpleNews .table--container table,
+  .news--simple--container--simpleNews .table--container table * {
+    background: linear-gradient(to left bottom, #171717, #2b2a2a);
+    border: solid 1px orange;
+    color: orange;
+    cursor: pointer;
+    font-size: 0.7rem;
+    margin: 6px auto;
+    padding: 3px;
+    width: 80vw;
   }
   .news--simple--container--long {
     height: auto;

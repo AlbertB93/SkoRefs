@@ -124,6 +124,14 @@ main {
             padding: 8px;
         }
 
+        .listForClipOfTheWeek {
+            li {
+                color: orange;
+                list-style: none;
+            }
+        }
+
+
         .center {
 
             color: bisque;
@@ -295,6 +303,13 @@ main {
             height: auto;
             padding: 20px;
 
+            .text--center {
+                p {
+                    font-size: 1.1rem;
+                    text-align: center;
+                }
+            }
+
             h3 {
                 color: orange;
                 text-align: center;
@@ -378,8 +393,16 @@ main {
             }
 
             .photoCenter {
-                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+
+                .photoFit {
+                    width: 50%;
+                    height: auto;
+                }
             }
+
+
         }
 
         &--gallery {
@@ -522,7 +545,38 @@ main {
             }
         }
 
+        .table--container {
+            margin-bottom: 20px;
+            overflow: auto;
+
+            table,
+            table * {
+                background: $bg-color-black;
+                border: solid 1px orange;
+                color: orange;
+                cursor: pointer;
+                font-size: 1rem;
+                margin: 20px auto;
+                padding: 3px;
+                width: 50vw;
+
+                th {
+                    font-weight: 100;
+                    text-align: center;
+                }
+
+                tr {
+                    td {
+                        color: orange;
+                        padding: 5px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
     }
+
 }
 
 
@@ -1392,6 +1446,13 @@ main {
                     font-size: 0.9rem;
                     text-indent: 20px;
                 }
+
+                .text--center {
+                    p {
+                        font-size: 0.8rem;
+                        text-align: center;
+                    }
+                }
             }
 
             &--photoBox {
@@ -1452,7 +1513,8 @@ main {
                     height: auto;
                     margin: 0 auto;
                     max-width: 80vw;
-                    .photoPaper{
+
+                    .photoPaper {
                         max-height: 90vw;
                         max-width: auto;
                     }
@@ -1583,6 +1645,22 @@ main {
                         margin: 5px;
                         width: 10px;
                     }
+                }
+            }
+
+            .table--container {
+                overflow: auto;
+
+                table,
+                table * {
+                    background: $bg-color-black;
+                    border: solid 1px orange;
+                    color: orange;
+                    cursor: pointer;
+                    font-size: 0.7rem;
+                    margin: 6px auto;
+                    padding: 3px;
+                    width: 80vw;
                 }
             }
         }

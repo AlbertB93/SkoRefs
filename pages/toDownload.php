@@ -69,6 +69,11 @@
                 </div>
                 <div class="toDownload--container--singleBox--list">
                     <div class="toDownload--container--singleBox--list--option">
+                        <a href="https://pzpn.pl/public/system/files/publikacje/152/5711-S%C4%99dzia%203%202023.pdf" target="_blank">
+                            Wydanie 3 / 2023
+                        </a>
+                    </div>
+                    <div class="toDownload--container--singleBox--list--option">
                         <a href="https://pzpn.pl/public/system/files/publikacje/147/5394-S%C4%99dzia%202%202023.pdf" target="_blank">
                             Wydanie 2 / 2023
                         </a>
@@ -81,18 +86,6 @@
                     <div class="toDownload--container--singleBox--list--option">
                         <a href="https://cdn.laczynaspilka.pl/cms2/prod/sites/default/files/2022-12/sedzia_04_2022.pdf?fbclid=IwAR2WJRS6F27FaygWoWdlACGj1d6s_ujF5zc4ZDT2kD5ZLusdiqQpU_Ef5ow" target="_blank">
                             Wydanie 4 / 2022
-                        </a>
-                    </div>
-                    <div class="toDownload--container--singleBox--list--option">
-                        <a href="https://pzpn.pl/public/system/files/publikacje/136/4959-S%C4%99dzia%203%202022.pdf" target="_blank"> Wydanie 3 / 2022
-                        </a>
-                    </div>
-                    <div class="toDownload--container--singleBox--list--option">
-                        <a href="https://pzpn.pl/public/system/files/publikacje/132/4731-S%C4%99dzia%202%202022.pdf" target="_blank"> Wydanie 2 / 2022
-                        </a>
-                    </div>
-                    <div class="toDownload--container--singleBox--list--option">
-                        <a href="https://pzpn.pl/public/system/files/publikacje/128/4529-S%C4%99dzia%201%202022.pdf" target="_blank"> Wydanie 1 / 2022
                         </a>
                     </div>
                 </div>

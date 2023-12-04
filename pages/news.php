@@ -24,43 +24,42 @@
     </div>
     <div class="news--container">
       <div class="news--box">
-        <article>
-          <a href="news/news032-clipOfTheWeek-S2324E8.php">Kilp tygodnia <br> 8 kolejka PKO BP Ekstraklasy</a>
+      <article>
+          <a href="news/news044-clipOfTheWeek-S2324E16.php">Kilp tygodnia <br> 16 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../images/pages/news-logo/news032.PNG" alt="piłkarz-Cracovi-Rapa" class="article--image--file" />
+            <img src="../images/pages/news-logo/news044.PNG" alt="Mosór-i-Pululu" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 29.09.2023r. - Bercik
+            Data dodania - autor: 04.12.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news/news031-clipOfTheWeek-S2324E7.php">Kilp tygodnia <br> 7 kolejka PKO BP Ekstraklasy</a>
+          <a href="news/news043-clipOfTheWeek-S2324E15.php">Kilp tygodnia <br> 15 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../images/pages/news-logo/news031.PNG" alt="piłkarz-Jegielloni-oraz-Górnika" class="article--image--file" />
+            <img src="../images/pages/news-logo/news043.PNG" alt="Murawski-Ślisz" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 16.09.2023r. - Bercik
+            Data dodania - autor: 23.11.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news/news030-clipOfTheWeek-S2324E6.php">Kilp tygodnia <br> 6 kolejka PKO BP Ekstraklasy</a>
+          <a href="news/news042-Ania-Kasia-tvp-sport.php">Ania i Kasia sędziami meczu na <br> TVP SPORT!</a>
           <div class="article--image">
-            <img src="../images/pages/news-logo/news030.PNG" alt="piłkarz-Legii-oraz-Widzewa" class="article--image--file" />
+            <img src="../images/pages/news-logo/news042.jpg" alt="Ania-Kasia-Angelika" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 16.09.2023r. - Bercik
+            Data dodania - autor: 11.11.2023r. - Bercik
           </div>
         </article>
         <article>
-          <a href="news/news029-clipOfTheWeek-S2324E5.php">Kilp tygodnia <br> 5 kolejka PKO BP Ekstraklasy</a>
+          <a href="news/news041-clipOfTheWeek-S2324E14.php">Kilp tygodnia <br> 14 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
-            <img src="../images/pages/news-logo/news029.jpg" alt="piłkarz-Radomiaka-uderzający-z-główki" class="article--image--file" />
+            <img src="../images/pages/news-logo/news041.PNG" alt="piłkarz-Rakowa-Yeboah" class="article--image--file" />
           </div>
           <div class="dataAuthor">
-            Data dodania - autor: 04.09.2023r. - Bercik
+            Data dodania - autor: 11.11.2023r. - Bercik
           </div>
         </article>
-
       </div>
       <div class="buttons--box">
         <div class="buttons--box--container">
