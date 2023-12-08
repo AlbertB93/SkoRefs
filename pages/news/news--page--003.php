@@ -25,9 +25,17 @@
     </div>
     <div class="news--container--003">
       <div class="news--list">
-      <div class="news--list--row">
+        <div class="news--list--row">
           <div class="news--list--row--title">
-          <a href="news036-clipOfTheWeek-S2324E11.php">Kilp tygodnia 11 kolejka PKO BP Ekstraklasy</a>
+            <a href="news/news037-clipOfTheWeek-S2324E12.php">Kilp tygodnia 12 kolejka PKO BP Ekstraklasy</a>
+          </div>
+          <div class="news--list--row--data">
+            Data dodania: 31.10.2023rr.
+          </div>
+        </div>
+        <div class="news--list--row">
+          <div class="news--list--row--title">
+            <a href="news036-clipOfTheWeek-S2324E11.php">Kilp tygodnia 11 kolejka PKO BP Ekstraklasy</a>
           </div>
           <div class="news--list--row--data">
             Data dodania: 13.10.2023rr.

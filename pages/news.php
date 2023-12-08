@@ -24,7 +24,16 @@
     </div>
     <div class="news--container">
       <div class="news--box">
-      <article>
+        <article>
+          <a href="news/news045-clipOfTheWeek-S2324E17.php">Kilp tygodnia <br> 17 kolejka PKO BP Ekstraklasy</a>
+          <div class="article--image">
+            <img src="../images/pages/news-logo/news045.PNG" alt="piłkarz-Cracovii" class="article--image--file" />
+          </div>
+          <div class="dataAuthor">
+            Data dodania - autor: 08.12.2023r. - Bercik
+          </div>
+        </article>
+        <article>
           <a href="news/news044-clipOfTheWeek-S2324E16.php">Kilp tygodnia <br> 16 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
             <img src="../images/pages/news-logo/news044.PNG" alt="Mosór-i-Pululu" class="article--image--file" />
@@ -46,15 +55,6 @@
           <a href="news/news042-Ania-Kasia-tvp-sport.php">Ania i Kasia sędziami meczu na <br> TVP SPORT!</a>
           <div class="article--image">
             <img src="../images/pages/news-logo/news042.jpg" alt="Ania-Kasia-Angelika" class="article--image--file" />
-          </div>
-          <div class="dataAuthor">
-            Data dodania - autor: 11.11.2023r. - Bercik
-          </div>
-        </article>
-        <article>
-          <a href="news/news041-clipOfTheWeek-S2324E14.php">Kilp tygodnia <br> 14 kolejka PKO BP Ekstraklasy</a>
-          <div class="article--image">
-            <img src="../images/pages/news-logo/news041.PNG" alt="piłkarz-Rakowa-Yeboah" class="article--image--file" />
           </div>
           <div class="dataAuthor">
             Data dodania - autor: 11.11.2023r. - Bercik

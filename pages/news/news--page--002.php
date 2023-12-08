@@ -25,7 +25,16 @@
     </div>
     <div class="news--container">
       <div class="news--box">
-      <article>
+        <article>
+          <a href="news/news041-clipOfTheWeek-S2324E14.php">Kilp tygodnia <br> 14 kolejka PKO BP Ekstraklasy</a>
+          <div class="article--image">
+            <img src="../../images/pages/news-logo/news041.PNG" alt="piłkarz-Rakowa-Yeboah" class="article--image--file" />
+          </div>
+          <div class="dataAuthor">
+            Data dodania - autor: 11.11.2023r. - Bercik
+          </div>
+        </article>
+        <article>
           <a href="news/news040-clipOfTheWeek-S2324E13.php">Kilp tygodnia <br> 13 kolejka PKO BP Ekstraklasy</a>
           <div class="article--image">
             <img src="../../images/pages/news-logo/news040.PNG" alt="Daniel-Szczepan" class="article--image--file" />
@@ -47,15 +56,6 @@
           <a href="news/news038-Sedzia-3-2023.php">Nowy numer czasopisma "Sędzia" !</a>
           <div class="article--image">
             <img src="../../images/pages/news-logo/news038.PNG" alt="okładka-sędzia-3-2023" class="article--image--file" />
-          </div>
-          <div class="dataAuthor">
-            Data dodania - autor: 31.10.2023r. - Bercik
-          </div>
-        </article>
-        <article>
-          <a href="news/news037-clipOfTheWeek-S2324E12.php">Kilp tygodnia <br> 12 kolejka PKO BP Ekstraklasy</a>
-          <div class="article--image">
-            <img src="../../images/pages/news-logo/news037.PNG" alt="Jarosław-Kubicki" class="article--image--file" />
           </div>
           <div class="dataAuthor">
             Data dodania - autor: 31.10.2023r. - Bercik
